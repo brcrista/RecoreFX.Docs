@@ -1,0 +1,1096 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Result&lt;TValue, TError&gt;
+   | RecoreFX </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Result&lt;TValue, TError&gt;
+   | RecoreFX ">
+    <meta name="generator" content="docfx 2.44.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Recore.Result`2">
+  
+  
+  <h1 id="Recore_Result_2" data-uid="Recore.Result`2" class="text-break">Class Result&lt;TValue, TError&gt;
+  </h1>
+  <div class="markdown level0 summary"><p>Represents the result of an operation that can be successful or failed.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">Result&lt;TValue, TError&gt;</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Recore.Result-2.html">Result</a>&lt;TValue, TError&gt;&gt;</div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Recore.html">Recore</a></h6>
+  <h6><strong>Assembly</strong>: Recore.dll</h6>
+  <h5 id="Recore_Result_2_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class Result&lt;TValue, TError&gt; : IEquatable&lt;Result&lt;TValue, TError&gt;&gt;</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TValue</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TError</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/brcrista/RecoreFX/new/master/apiSpec/new?filename=Recore_Result_2__ctor__0_.md&amp;value=---%0Auid%3A%20Recore.Result%602.%23ctor(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/brcrista/RecoreFX/blob/master/src/Recore/Result.cs/#L22">View Source</a>
+  </span>
+  <a id="Recore_Result_2__ctor_" data-uid="Recore.Result`2.#ctor*"></a>
+  <h4 id="Recore_Result_2__ctor__0_" data-uid="Recore.Result`2.#ctor(`0)">Result(TValue)</h4>
+  <div class="markdown level1 summary"><p>Constructs an instance of the type from a value of <code data-dev-comment-type="typeparamref" class="typeparamref">TValue</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Result(TValue value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TValue</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/brcrista/RecoreFX/new/master/apiSpec/new?filename=Recore_Result_2__ctor__1_.md&amp;value=---%0Auid%3A%20Recore.Result%602.%23ctor(%601)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/brcrista/RecoreFX/blob/master/src/Recore/Result.cs/#L35">View Source</a>
+  </span>
+  <a id="Recore_Result_2__ctor_" data-uid="Recore.Result`2.#ctor*"></a>
+  <h4 id="Recore_Result_2__ctor__1_" data-uid="Recore.Result`2.#ctor(`1)">Result(TError)</h4>
+  <div class="markdown level1 summary"><p>Constructs an instance of the type from a value of <code data-dev-comment-type="typeparamref" class="typeparamref">TError</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Result(TError error)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TError</span></td>
+        <td><span class="parametername">error</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/brcrista/RecoreFX/new/master/apiSpec/new?filename=Recore_Result_2_IsSuccessful.md&amp;value=---%0Auid%3A%20Recore.Result%602.IsSuccessful%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/brcrista/RecoreFX/blob/master/src/Recore/Result.cs/#L17">View Source</a>
+  </span>
+  <a id="Recore_Result_2_IsSuccessful_" data-uid="Recore.Result`2.IsSuccessful*"></a>
+  <h4 id="Recore_Result_2_IsSuccessful" data-uid="Recore.Result`2.IsSuccessful">IsSuccessful</h4>
+  <div class="markdown level1 summary"><p>Indicates whether the result is successful.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsSuccessful { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/brcrista/RecoreFX/new/master/apiSpec/new?filename=Recore_Result_2_Equals_Recore_Result__0__1__.md&amp;value=---%0Auid%3A%20Recore.Result%602.Equals(Recore.Result%7B%600%2C%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/brcrista/RecoreFX/blob/master/src/Recore/Result.cs/#L138">View Source</a>
+  </span>
+  <a id="Recore_Result_2_Equals_" data-uid="Recore.Result`2.Equals*"></a>
+  <h4 id="Recore_Result_2_Equals_Recore_Result__0__1__" data-uid="Recore.Result`2.Equals(Recore.Result{`0,`1})">Equals(Result&lt;TValue, TError&gt;)</h4>
+  <div class="markdown level1 summary"><p>Compares two instances of <code>Result&lt;TValue, TError&gt;</code>
+for equality.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(Result&lt;TValue, TError&gt; other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Recore.Result-2.html">Result</a>&lt;TValue, TError&gt;</td>
+        <td><span class="parametername">other</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Recore_Result_2_Equals_Recore_Result__0__1___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Equality is defined as both objects' underlying values or errors being equal.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/brcrista/RecoreFX/new/master/apiSpec/new?filename=Recore_Result_2_Equals_System_Object_.md&amp;value=---%0Auid%3A%20Recore.Result%602.Equals(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/brcrista/RecoreFX/blob/master/src/Recore/Result.cs/#L127">View Source</a>
+  </span>
+  <a id="Recore_Result_2_Equals_" data-uid="Recore.Result`2.Equals*"></a>
+  <h4 id="Recore_Result_2_Equals_System_Object_" data-uid="Recore.Result`2.Equals(System.Object)">Equals(Object)</h4>
+  <div class="markdown level1 summary"><p>Compares this <code>Result&lt;TValue, TError&gt;</code>
+to another object for equality.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></td>
+        <td><span class="parametername">obj</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a></div>
+  <h5 id="Recore_Result_2_Equals_System_Object__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Two <code>Result</code>s are equal only if they have the same type parameters in the same order.
+For example, an <code>Result&lt;int, string&gt;</code> and an <code>Result&lt;string, int&gt;</code>
+will always be nonequal.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/brcrista/RecoreFX/new/master/apiSpec/new?filename=Recore_Result_2_GetError.md&amp;value=---%0Auid%3A%20Recore.Result%602.GetError%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/brcrista/RecoreFX/blob/master/src/Recore/Result.cs/#L68">View Source</a>
+  </span>
+  <a id="Recore_Result_2_GetError_" data-uid="Recore.Result`2.GetError*"></a>
+  <h4 id="Recore_Result_2_GetError" data-uid="Recore.Result`2.GetError">GetError()</h4>
+  <div class="markdown level1 summary"><p>Converts <code>Result&lt;TValue, TError&gt;</code>
+to <code>Optional&lt;TError&gt;</code></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Optional&lt;TError&gt; GetError()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Recore.Optional-1.html">Optional</a>&lt;TError&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/brcrista/RecoreFX/new/master/apiSpec/new?filename=Recore_Result_2_GetHashCode.md&amp;value=---%0Auid%3A%20Recore.Result%602.GetHashCode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/brcrista/RecoreFX/blob/master/src/Recore/Result.cs/#L145">View Source</a>
+  </span>
+  <a id="Recore_Result_2_GetHashCode_" data-uid="Recore.Result`2.GetHashCode*"></a>
+  <h4 id="Recore_Result_2_GetHashCode" data-uid="Recore.Result`2.GetHashCode">GetHashCode()</h4>
+  <div class="markdown level1 summary"><p>Returns the hash code of the underlying value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.int32">Int32</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/brcrista/RecoreFX/new/master/apiSpec/new?filename=Recore_Result_2_GetValue.md&amp;value=---%0Auid%3A%20Recore.Result%602.GetValue%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/brcrista/RecoreFX/blob/master/src/Recore/Result.cs/#L61">View Source</a>
+  </span>
+  <a id="Recore_Result_2_GetValue_" data-uid="Recore.Result`2.GetValue*"></a>
+  <h4 id="Recore_Result_2_GetValue" data-uid="Recore.Result`2.GetValue">GetValue()</h4>
+  <div class="markdown level1 summary"><p>Converts <code>Result&lt;TValue, TError&gt;</code>
+to <code>Optional&lt;TValue&gt;</code></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Optional&lt;TValue&gt; GetValue()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Recore.Optional-1.html">Optional</a>&lt;TValue&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/brcrista/RecoreFX/new/master/apiSpec/new?filename=Recore_Result_2_IfError_System_Action__1__.md&amp;value=---%0Auid%3A%20Recore.Result%602.IfError(System.Action%7B%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/brcrista/RecoreFX/blob/master/src/Recore/Result.cs/#L96">View Source</a>
+  </span>
+  <a id="Recore_Result_2_IfError_" data-uid="Recore.Result`2.IfError*"></a>
+  <h4 id="Recore_Result_2_IfError_System_Action__1__" data-uid="Recore.Result`2.IfError(System.Action{`1})">IfError(Action&lt;TError&gt;)</h4>
+  <div class="markdown level1 summary"><p>Takes an action only if the the result is failed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void IfError(Action&lt;TError&gt; onError)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;TError&gt;</td>
+        <td><span class="parametername">onError</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/brcrista/RecoreFX/new/master/apiSpec/new?filename=Recore_Result_2_IfValue_System_Action__0__.md&amp;value=---%0Auid%3A%20Recore.Result%602.IfValue(System.Action%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/brcrista/RecoreFX/blob/master/src/Recore/Result.cs/#L90">View Source</a>
+  </span>
+  <a id="Recore_Result_2_IfValue_" data-uid="Recore.Result`2.IfValue*"></a>
+  <h4 id="Recore_Result_2_IfValue_System_Action__0__" data-uid="Recore.Result`2.IfValue(System.Action{`0})">IfValue(Action&lt;TValue&gt;)</h4>
+  <div class="markdown level1 summary"><p>Takes an action only if the result is successful.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void IfValue(Action&lt;TValue&gt; onValue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;TValue&gt;</td>
+        <td><span class="parametername">onValue</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/brcrista/RecoreFX/new/master/apiSpec/new?filename=Recore_Result_2_OnError__1_System_Func__1___0__.md&amp;value=---%0Auid%3A%20Recore.Result%602.OnError%60%601(System.Func%7B%601%2C%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/brcrista/RecoreFX/blob/master/src/Recore/Result.cs/#L82">View Source</a>
+  </span>
+  <a id="Recore_Result_2_OnError_" data-uid="Recore.Result`2.OnError*"></a>
+  <h4 id="Recore_Result_2_OnError__1_System_Func__1___0__" data-uid="Recore.Result`2.OnError``1(System.Func{`1,``0})">OnError&lt;TResult&gt;(Func&lt;TError, TResult&gt;)</h4>
+  <div class="markdown level1 summary"><p>Maps a function over the <code>Result</code> only if the result is failed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Result&lt;TValue, TResult&gt; OnError&lt;TResult&gt;(Func&lt;TError, TResult&gt; onError)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TError, TResult&gt;</td>
+        <td><span class="parametername">onError</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Recore.Result-2.html">Result</a>&lt;TValue, TResult&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/brcrista/RecoreFX/new/master/apiSpec/new?filename=Recore_Result_2_OnValue__1_System_Func__0___0__.md&amp;value=---%0Auid%3A%20Recore.Result%602.OnValue%60%601(System.Func%7B%600%2C%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/brcrista/RecoreFX/blob/master/src/Recore/Result.cs/#L74">View Source</a>
+  </span>
+  <a id="Recore_Result_2_OnValue_" data-uid="Recore.Result`2.OnValue*"></a>
+  <h4 id="Recore_Result_2_OnValue__1_System_Func__0___0__" data-uid="Recore.Result`2.OnValue``1(System.Func{`0,``0})">OnValue&lt;TResult&gt;(Func&lt;TValue, TResult&gt;)</h4>
+  <div class="markdown level1 summary"><p>Maps a function over the <code>Result</code> only if the result is successful.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Result&lt;TResult, TError&gt; OnValue&lt;TResult&gt;(Func&lt;TValue, TResult&gt; onValue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TValue, TResult&gt;</td>
+        <td><span class="parametername">onValue</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Recore.Result-2.html">Result</a>&lt;TResult, TError&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/brcrista/RecoreFX/new/master/apiSpec/new?filename=Recore_Result_2_Switch_System_Action__0__System_Action__1__.md&amp;value=---%0Auid%3A%20Recore.Result%602.Switch(System.Action%7B%600%7D%2CSystem.Action%7B%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/brcrista/RecoreFX/blob/master/src/Recore/Result.cs/#L54">View Source</a>
+  </span>
+  <a id="Recore_Result_2_Switch_" data-uid="Recore.Result`2.Switch*"></a>
+  <h4 id="Recore_Result_2_Switch_System_Action__0__System_Action__1__" data-uid="Recore.Result`2.Switch(System.Action{`0},System.Action{`1})">Switch(Action&lt;TValue&gt;, Action&lt;TError&gt;)</h4>
+  <div class="markdown level1 summary"><p>Takes one of two actions depending on whether the result is successful.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Switch(Action&lt;TValue&gt; onValue, Action&lt;TError&gt; onError)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;TValue&gt;</td>
+        <td><span class="parametername">onValue</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;TError&gt;</td>
+        <td><span class="parametername">onError</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/brcrista/RecoreFX/new/master/apiSpec/new?filename=Recore_Result_2_Switch__1_System_Func__0___0__System_Func__1___0__.md&amp;value=---%0Auid%3A%20Recore.Result%602.Switch%60%601(System.Func%7B%600%2C%60%600%7D%2CSystem.Func%7B%601%2C%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/brcrista/RecoreFX/blob/master/src/Recore/Result.cs/#L48">View Source</a>
+  </span>
+  <a id="Recore_Result_2_Switch_" data-uid="Recore.Result`2.Switch*"></a>
+  <h4 id="Recore_Result_2_Switch__1_System_Func__0___0__System_Func__1___0__" data-uid="Recore.Result`2.Switch``1(System.Func{`0,``0},System.Func{`1,``0})">Switch&lt;T&gt;(Func&lt;TValue, T&gt;, Func&lt;TError, T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Calls one of two functions depending on whether the result is successful.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T Switch&lt;T&gt;(Func&lt;TValue, T&gt; onValue, Func&lt;TError, T&gt; onError)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TValue, T&gt;</td>
+        <td><span class="parametername">onValue</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TError, T&gt;</td>
+        <td><span class="parametername">onError</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/brcrista/RecoreFX/new/master/apiSpec/new?filename=Recore_Result_2_Then__1_System_Func__0_Recore_Result___0__1___.md&amp;value=---%0Auid%3A%20Recore.Result%602.Then%60%601(System.Func%7B%600%2CRecore.Result%7B%60%600%2C%601%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/brcrista/RecoreFX/blob/master/src/Recore/Result.cs/#L107">View Source</a>
+  </span>
+  <a id="Recore_Result_2_Then_" data-uid="Recore.Result`2.Then*"></a>
+  <h4 id="Recore_Result_2_Then__1_System_Func__0_Recore_Result___0__1___" data-uid="Recore.Result`2.Then``1(System.Func{`0,Recore.Result{``0,`1}})">Then&lt;TResult&gt;(Func&lt;TValue, Result&lt;TResult, TError&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Chains another <code>Result</code>-producing operation from another.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Result&lt;TResult, TError&gt; Then&lt;TResult&gt;(Func&lt;TValue, Result&lt;TResult, TError&gt;&gt; f)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TValue, <a class="xref" href="Recore.Result-2.html">Result</a>&lt;TResult, TError&gt;&gt;</td>
+        <td><span class="parametername">f</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Recore.Result-2.html">Result</a>&lt;TResult, TError&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Recore_Result_2_Then__1_System_Func__0_Recore_Result___0__1____remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This is a monad bind operation.
+Conceptually, it is the same as passing <code data-dev-comment-type="paramref" class="paramref">f</code> to <code>OnValue</code>
+and then &quot;flattening&quot; the result.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/brcrista/RecoreFX/new/master/apiSpec/new?filename=Recore_Result_2_ToString.md&amp;value=---%0Auid%3A%20Recore.Result%602.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/brcrista/RecoreFX/blob/master/src/Recore/Result.cs/#L115">View Source</a>
+  </span>
+  <a id="Recore_Result_2_ToString_" data-uid="Recore.Result`2.ToString*"></a>
+  <h4 id="Recore_Result_2_ToString" data-uid="Recore.Result`2.ToString">ToString()</h4>
+  <div class="markdown level1 summary"><p>Returns the string representation of the underlying value or error.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a></div>
+  <h3 id="operators">Operators
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/brcrista/RecoreFX/new/master/apiSpec/new?filename=Recore_Result_2_op_Equality_Recore_Result__0__1__Recore_Result__0__1__.md&amp;value=---%0Auid%3A%20Recore.Result%602.op_Equality(Recore.Result%7B%600%2C%601%7D%2CRecore.Result%7B%600%2C%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/brcrista/RecoreFX/blob/master/src/Recore/Result.cs/#L152">View Source</a>
+  </span>
+  <a id="Recore_Result_2_op_Equality_" data-uid="Recore.Result`2.op_Equality*"></a>
+  <h4 id="Recore_Result_2_op_Equality_Recore_Result__0__1__Recore_Result__0__1__" data-uid="Recore.Result`2.op_Equality(Recore.Result{`0,`1},Recore.Result{`0,`1})">Equality(Result&lt;TValue, TError&gt;, Result&lt;TValue, TError&gt;)</h4>
+  <div class="markdown level1 summary"><p>Determines whether two instances of <code>Result&lt;TValue, TError&gt;</code>
+have the same value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator ==(Result&lt;TValue, TError&gt; lhs, Result&lt;TValue, TError&gt; rhs)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Recore.Result-2.html">Result</a>&lt;TValue, TError&gt;</td>
+        <td><span class="parametername">lhs</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Recore.Result-2.html">Result</a>&lt;TValue, TError&gt;</td>
+        <td><span class="parametername">rhs</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/brcrista/RecoreFX/new/master/apiSpec/new?filename=Recore_Result_2_op_Implicit__0__Recore_Result__0__1_.md&amp;value=---%0Auid%3A%20Recore.Result%602.op_Implicit(%600)~Recore.Result%7B%600%2C%601%7D%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/brcrista/RecoreFX/blob/master/src/Recore/Result.cs/#L163">View Source</a>
+  </span>
+  <a id="Recore_Result_2_op_Implicit_" data-uid="Recore.Result`2.op_Implicit*"></a>
+  <h4 id="Recore_Result_2_op_Implicit__0__Recore_Result__0__1_" data-uid="Recore.Result`2.op_Implicit(`0)~Recore.Result{`0,`1}">Implicit(TValue to Result&lt;TValue, TError&gt;)</h4>
+  <div class="markdown level1 summary"><p>Converts an instance of a type to an <code>Result&lt;TValue, TError&gt;</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator Result&lt;TValue, TError&gt;(TValue value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TValue</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Recore.Result-2.html">Result</a>&lt;TValue, TError&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/brcrista/RecoreFX/new/master/apiSpec/new?filename=Recore_Result_2_op_Implicit__1__Recore_Result__0__1_.md&amp;value=---%0Auid%3A%20Recore.Result%602.op_Implicit(%601)~Recore.Result%7B%600%2C%601%7D%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/brcrista/RecoreFX/blob/master/src/Recore/Result.cs/#L168">View Source</a>
+  </span>
+  <a id="Recore_Result_2_op_Implicit_" data-uid="Recore.Result`2.op_Implicit*"></a>
+  <h4 id="Recore_Result_2_op_Implicit__1__Recore_Result__0__1_" data-uid="Recore.Result`2.op_Implicit(`1)~Recore.Result{`0,`1}">Implicit(TError to Result&lt;TValue, TError&gt;)</h4>
+  <div class="markdown level1 summary"><p>Converts an instance of a type to an <code>Result&lt;TValue, TError&gt;</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static implicit operator Result&lt;TValue, TError&gt;(TError error)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TError</span></td>
+        <td><span class="parametername">error</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Recore.Result-2.html">Result</a>&lt;TValue, TError&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/brcrista/RecoreFX/new/master/apiSpec/new?filename=Recore_Result_2_op_Inequality_Recore_Result__0__1__Recore_Result__0__1__.md&amp;value=---%0Auid%3A%20Recore.Result%602.op_Inequality(Recore.Result%7B%600%2C%601%7D%2CRecore.Result%7B%600%2C%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/brcrista/RecoreFX/blob/master/src/Recore/Result.cs/#L158">View Source</a>
+  </span>
+  <a id="Recore_Result_2_op_Inequality_" data-uid="Recore.Result`2.op_Inequality*"></a>
+  <h4 id="Recore_Result_2_op_Inequality_Recore_Result__0__1__Recore_Result__0__1__" data-uid="Recore.Result`2.op_Inequality(Recore.Result{`0,`1},Recore.Result{`0,`1})">Inequality(Result&lt;TValue, TError&gt;, Result&lt;TValue, TError&gt;)</h4>
+  <div class="markdown level1 summary"><p>Determines whether two instances of <code>Result&lt;TValue, TError&gt;</code>
+have the same value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator !=(Result&lt;TValue, TError&gt; lhs, Result&lt;TValue, TError&gt; rhs)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Recore.Result-2.html">Result</a>&lt;TValue, TError&gt;</td>
+        <td><span class="parametername">lhs</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Recore.Result-2.html">Result</a>&lt;TValue, TError&gt;</td>
+        <td><span class="parametername">rhs</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iequatable-1">System.IEquatable&lt;T&gt;</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/brcrista/RecoreFX/new/master/apiSpec/new?filename=Recore_Result_2.md&amp;value=---%0Auid%3A%20Recore.Result%602%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/brcrista/RecoreFX/blob/master/src/Recore/Result.cs/#L10" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
