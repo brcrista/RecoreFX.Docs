@@ -570,7 +570,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Functional.Composer-1.html",
-          "hash": "SqbcLxhFjNbULsQ7lWmX/A=="
+          "hash": "EkJ5K+d2HQRCI3okrQom0A=="
         }
       },
       "is_incremental": false,
@@ -582,7 +582,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Functional.Composer-2.html",
-          "hash": "ZJlrhTf2PuAws7S3z0oIWQ=="
+          "hash": "9TwnZDb+ISZrIAEyNnNbIA=="
         }
       },
       "is_incremental": false,
@@ -594,7 +594,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Functional.Composer.html",
-          "hash": "/9zLEW8Nz8/O1vijSpi12Q=="
+          "hash": "DROsMxuWgnlMQvfAscyQrQ=="
         }
       },
       "is_incremental": false,
@@ -630,7 +630,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Functional.html",
-          "hash": "C7rKf7omgEEOJoAHG2ihdQ=="
+          "hash": "pEbuRa1I2jthi2dL2NdUaA=="
         }
       },
       "is_incremental": false,
@@ -928,12 +928,10 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot build incrementally because last build info is missing.",
+        "can_incremental": true,
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0,
-        "full_build_reason_code": "NoAvailableBuildCache"
+        "skipped_file_count": 0
       },
       "processors": {
         "TocDocumentProcessor": {
@@ -944,16 +942,16 @@
           "skipped_file_count": 0
         },
         "ConceptualDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 1,
-          "skipped_file_count": 0
+          "skipped_file_count": 1
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 73,
-          "skipped_file_count": 0
+          "skipped_file_count": 70
         }
       }
     },
