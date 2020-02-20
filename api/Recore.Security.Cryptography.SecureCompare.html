@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class SecureCompare
    | RecoreFX ">
-    <meta name="generator" content="docfx 2.44.0.0">
+    <meta name="generator" content="docfx 2.49.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -125,10 +125,10 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/brcrista/RecoreFX/new/master/apiSpec/new?filename=Recore_Security_Cryptography_SecureCompare_TimeInvariantEquals_System_Byte___System_Byte___.md&amp;value=---%0Auid%3A%20Recore.Security.Cryptography.SecureCompare.TimeInvariantEquals(System.Byte%5B%5D%2CSystem.Byte%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/recorefx/RecoreFX/new/master/apiSpec/new?filename=Recore_Security_Cryptography_SecureCompare_TimeInvariantEquals_System_Byte___System_Byte___.md&amp;value=---%0Auid%3A%20Recore.Security.Cryptography.SecureCompare.TimeInvariantEquals(System.Byte%5B%5D%2CSystem.Byte%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/brcrista/RecoreFX/blob/master/src/Recore.Security.Cryptography/SecureCompare.cs/#L33">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/master/src/Recore.Security.Cryptography/SecureCompare.cs/#L33">View Source</a>
   </span>
   <a id="Recore_Security_Cryptography_SecureCompare_TimeInvariantEquals_" data-uid="Recore.Security.Cryptography.SecureCompare.TimeInvariantEquals*"></a>
   <h4 id="Recore_Security_Cryptography_SecureCompare_TimeInvariantEquals_System_Byte___System_Byte___" data-uid="Recore.Security.Cryptography.SecureCompare.TimeInvariantEquals(System.Byte[],System.Byte[])">TimeInvariantEquals(Byte[], Byte[])</h4>
@@ -180,7 +180,7 @@
   <div class="markdown level1 remarks"><p>This method is used to guard against <strong>timing attacks</strong>.</p>
 <p>When checking untrusted input against a secret,
 using a regular element-by-element equality method
-such as <code>String.Equals</code> is insecure.
+such as <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string.equals#System_String_Equals_System_String_">Equals(String)</a> is insecure.
 For example, suppose you are checking whether an incoming request's signature
 matches what you expect.
 In this case, you hash the request payload with your own private key
@@ -202,10 +202,10 @@ as it will leak that information in a timing attack.</p>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/brcrista/RecoreFX/new/master/apiSpec/new?filename=Recore_Security_Cryptography_SecureCompare.md&amp;value=---%0Auid%3A%20Recore.Security.Cryptography.SecureCompare%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/recorefx/RecoreFX/new/master/apiSpec/new?filename=Recore_Security_Cryptography_SecureCompare.md&amp;value=---%0Auid%3A%20Recore.Security.Cryptography.SecureCompare%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/brcrista/RecoreFX/blob/master/src/Recore.Security.Cryptography/SecureCompare.cs/#L8" class="contribution-link">View Source</a>
+                    <a href="https://github.com/recorefx/RecoreFX/blob/master/src/Recore.Security.Cryptography/SecureCompare.cs/#L8" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

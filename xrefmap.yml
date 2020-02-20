@@ -44,6 +44,328 @@ references:
   isSpec: "True"
   fullName: Recore.AbsoluteUri.AbsoluteUri
   nameWithType: AbsoluteUri.AbsoluteUri
+- uid: Recore.AbsoluteUri.Combine(Recore.RelativeUri)
+  name: Combine(RelativeUri)
+  href: api/Recore.AbsoluteUri.html#Recore_AbsoluteUri_Combine_Recore_RelativeUri_
+  commentId: M:Recore.AbsoluteUri.Combine(Recore.RelativeUri)
+  fullName: Recore.AbsoluteUri.Combine(Recore.RelativeUri)
+  nameWithType: AbsoluteUri.Combine(RelativeUri)
+- uid: Recore.AbsoluteUri.Combine(System.String)
+  name: Combine(String)
+  href: api/Recore.AbsoluteUri.html#Recore_AbsoluteUri_Combine_System_String_
+  commentId: M:Recore.AbsoluteUri.Combine(System.String)
+  fullName: Recore.AbsoluteUri.Combine(System.String)
+  nameWithType: AbsoluteUri.Combine(String)
+- uid: Recore.AbsoluteUri.Combine*
+  name: Combine
+  href: api/Recore.AbsoluteUri.html#Recore_AbsoluteUri_Combine_
+  commentId: Overload:Recore.AbsoluteUri.Combine
+  isSpec: "True"
+  fullName: Recore.AbsoluteUri.Combine
+  nameWithType: AbsoluteUri.Combine
+- uid: Recore.AsyncAction
+  name: AsyncAction
+  href: api/Recore.AsyncAction.html
+  commentId: T:Recore.AsyncAction
+  fullName: Recore.AsyncAction
+  nameWithType: AsyncAction
+- uid: Recore.AsyncAction`1
+  name: AsyncAction<T>
+  href: api/Recore.AsyncAction-1.html
+  commentId: T:Recore.AsyncAction`1
+  name.vb: AsyncAction(Of T)
+  fullName: Recore.AsyncAction<T>
+  fullName.vb: Recore.AsyncAction(Of T)
+  nameWithType: AsyncAction<T>
+  nameWithType.vb: AsyncAction(Of T)
+- uid: Recore.AsyncAction`10
+  name: AsyncAction<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>
+  href: api/Recore.AsyncAction-10.html
+  commentId: T:Recore.AsyncAction`10
+  name.vb: AsyncAction(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10)
+  fullName: Recore.AsyncAction<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>
+  fullName.vb: Recore.AsyncAction(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10)
+  nameWithType: AsyncAction<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10>
+  nameWithType.vb: AsyncAction(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10)
+- uid: Recore.AsyncAction`11
+  name: AsyncAction<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11>
+  href: api/Recore.AsyncAction-11.html
+  commentId: T:Recore.AsyncAction`11
+  name.vb: AsyncAction(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11)
+  fullName: Recore.AsyncAction<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11>
+  fullName.vb: Recore.AsyncAction(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11)
+  nameWithType: AsyncAction<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11>
+  nameWithType.vb: AsyncAction(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11)
+- uid: Recore.AsyncAction`12
+  name: AsyncAction<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12>
+  href: api/Recore.AsyncAction-12.html
+  commentId: T:Recore.AsyncAction`12
+  name.vb: AsyncAction(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12)
+  fullName: Recore.AsyncAction<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12>
+  fullName.vb: Recore.AsyncAction(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12)
+  nameWithType: AsyncAction<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12>
+  nameWithType.vb: AsyncAction(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12)
+- uid: Recore.AsyncAction`13
+  name: AsyncAction<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13>
+  href: api/Recore.AsyncAction-13.html
+  commentId: T:Recore.AsyncAction`13
+  name.vb: AsyncAction(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13)
+  fullName: Recore.AsyncAction<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13>
+  fullName.vb: Recore.AsyncAction(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13)
+  nameWithType: AsyncAction<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13>
+  nameWithType.vb: AsyncAction(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13)
+- uid: Recore.AsyncAction`14
+  name: AsyncAction<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14>
+  href: api/Recore.AsyncAction-14.html
+  commentId: T:Recore.AsyncAction`14
+  name.vb: AsyncAction(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14)
+  fullName: Recore.AsyncAction<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14>
+  fullName.vb: Recore.AsyncAction(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14)
+  nameWithType: AsyncAction<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14>
+  nameWithType.vb: AsyncAction(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14)
+- uid: Recore.AsyncAction`15
+  name: AsyncAction<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15>
+  href: api/Recore.AsyncAction-15.html
+  commentId: T:Recore.AsyncAction`15
+  name.vb: AsyncAction(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15)
+  fullName: Recore.AsyncAction<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15>
+  fullName.vb: Recore.AsyncAction(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15)
+  nameWithType: AsyncAction<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15>
+  nameWithType.vb: AsyncAction(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15)
+- uid: Recore.AsyncAction`16
+  name: AsyncAction<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16>
+  href: api/Recore.AsyncAction-16.html
+  commentId: T:Recore.AsyncAction`16
+  name.vb: AsyncAction(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16)
+  fullName: Recore.AsyncAction<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16>
+  fullName.vb: Recore.AsyncAction(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16)
+  nameWithType: AsyncAction<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16>
+  nameWithType.vb: AsyncAction(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16)
+- uid: Recore.AsyncAction`2
+  name: AsyncAction<T1, T2>
+  href: api/Recore.AsyncAction-2.html
+  commentId: T:Recore.AsyncAction`2
+  name.vb: AsyncAction(Of T1, T2)
+  fullName: Recore.AsyncAction<T1, T2>
+  fullName.vb: Recore.AsyncAction(Of T1, T2)
+  nameWithType: AsyncAction<T1, T2>
+  nameWithType.vb: AsyncAction(Of T1, T2)
+- uid: Recore.AsyncAction`3
+  name: AsyncAction<T1, T2, T3>
+  href: api/Recore.AsyncAction-3.html
+  commentId: T:Recore.AsyncAction`3
+  name.vb: AsyncAction(Of T1, T2, T3)
+  fullName: Recore.AsyncAction<T1, T2, T3>
+  fullName.vb: Recore.AsyncAction(Of T1, T2, T3)
+  nameWithType: AsyncAction<T1, T2, T3>
+  nameWithType.vb: AsyncAction(Of T1, T2, T3)
+- uid: Recore.AsyncAction`4
+  name: AsyncAction<T1, T2, T3, T4>
+  href: api/Recore.AsyncAction-4.html
+  commentId: T:Recore.AsyncAction`4
+  name.vb: AsyncAction(Of T1, T2, T3, T4)
+  fullName: Recore.AsyncAction<T1, T2, T3, T4>
+  fullName.vb: Recore.AsyncAction(Of T1, T2, T3, T4)
+  nameWithType: AsyncAction<T1, T2, T3, T4>
+  nameWithType.vb: AsyncAction(Of T1, T2, T3, T4)
+- uid: Recore.AsyncAction`5
+  name: AsyncAction<T1, T2, T3, T4, T5>
+  href: api/Recore.AsyncAction-5.html
+  commentId: T:Recore.AsyncAction`5
+  name.vb: AsyncAction(Of T1, T2, T3, T4, T5)
+  fullName: Recore.AsyncAction<T1, T2, T3, T4, T5>
+  fullName.vb: Recore.AsyncAction(Of T1, T2, T3, T4, T5)
+  nameWithType: AsyncAction<T1, T2, T3, T4, T5>
+  nameWithType.vb: AsyncAction(Of T1, T2, T3, T4, T5)
+- uid: Recore.AsyncAction`6
+  name: AsyncAction<T1, T2, T3, T4, T5, T6>
+  href: api/Recore.AsyncAction-6.html
+  commentId: T:Recore.AsyncAction`6
+  name.vb: AsyncAction(Of T1, T2, T3, T4, T5, T6)
+  fullName: Recore.AsyncAction<T1, T2, T3, T4, T5, T6>
+  fullName.vb: Recore.AsyncAction(Of T1, T2, T3, T4, T5, T6)
+  nameWithType: AsyncAction<T1, T2, T3, T4, T5, T6>
+  nameWithType.vb: AsyncAction(Of T1, T2, T3, T4, T5, T6)
+- uid: Recore.AsyncAction`7
+  name: AsyncAction<T1, T2, T3, T4, T5, T6, T7>
+  href: api/Recore.AsyncAction-7.html
+  commentId: T:Recore.AsyncAction`7
+  name.vb: AsyncAction(Of T1, T2, T3, T4, T5, T6, T7)
+  fullName: Recore.AsyncAction<T1, T2, T3, T4, T5, T6, T7>
+  fullName.vb: Recore.AsyncAction(Of T1, T2, T3, T4, T5, T6, T7)
+  nameWithType: AsyncAction<T1, T2, T3, T4, T5, T6, T7>
+  nameWithType.vb: AsyncAction(Of T1, T2, T3, T4, T5, T6, T7)
+- uid: Recore.AsyncAction`8
+  name: AsyncAction<T1, T2, T3, T4, T5, T6, T7, T8>
+  href: api/Recore.AsyncAction-8.html
+  commentId: T:Recore.AsyncAction`8
+  name.vb: AsyncAction(Of T1, T2, T3, T4, T5, T6, T7, T8)
+  fullName: Recore.AsyncAction<T1, T2, T3, T4, T5, T6, T7, T8>
+  fullName.vb: Recore.AsyncAction(Of T1, T2, T3, T4, T5, T6, T7, T8)
+  nameWithType: AsyncAction<T1, T2, T3, T4, T5, T6, T7, T8>
+  nameWithType.vb: AsyncAction(Of T1, T2, T3, T4, T5, T6, T7, T8)
+- uid: Recore.AsyncAction`9
+  name: AsyncAction<T1, T2, T3, T4, T5, T6, T7, T8, T9>
+  href: api/Recore.AsyncAction-9.html
+  commentId: T:Recore.AsyncAction`9
+  name.vb: AsyncAction(Of T1, T2, T3, T4, T5, T6, T7, T8, T9)
+  fullName: Recore.AsyncAction<T1, T2, T3, T4, T5, T6, T7, T8, T9>
+  fullName.vb: Recore.AsyncAction(Of T1, T2, T3, T4, T5, T6, T7, T8, T9)
+  nameWithType: AsyncAction<T1, T2, T3, T4, T5, T6, T7, T8, T9>
+  nameWithType.vb: AsyncAction(Of T1, T2, T3, T4, T5, T6, T7, T8, T9)
+- uid: Recore.AsyncFunc`1
+  name: AsyncFunc<TResult>
+  href: api/Recore.AsyncFunc-1.html
+  commentId: T:Recore.AsyncFunc`1
+  name.vb: AsyncFunc(Of TResult)
+  fullName: Recore.AsyncFunc<TResult>
+  fullName.vb: Recore.AsyncFunc(Of TResult)
+  nameWithType: AsyncFunc<TResult>
+  nameWithType.vb: AsyncFunc(Of TResult)
+- uid: Recore.AsyncFunc`10
+  name: AsyncFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, TResult>
+  href: api/Recore.AsyncFunc-10.html
+  commentId: T:Recore.AsyncFunc`10
+  name.vb: AsyncFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, TResult)
+  fullName: Recore.AsyncFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, TResult>
+  fullName.vb: Recore.AsyncFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, TResult)
+  nameWithType: AsyncFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, TResult>
+  nameWithType.vb: AsyncFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, TResult)
+- uid: Recore.AsyncFunc`11
+  name: AsyncFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, TResult>
+  href: api/Recore.AsyncFunc-11.html
+  commentId: T:Recore.AsyncFunc`11
+  name.vb: AsyncFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, TResult)
+  fullName: Recore.AsyncFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, TResult>
+  fullName.vb: Recore.AsyncFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, TResult)
+  nameWithType: AsyncFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, TResult>
+  nameWithType.vb: AsyncFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, TResult)
+- uid: Recore.AsyncFunc`12
+  name: AsyncFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, TResult>
+  href: api/Recore.AsyncFunc-12.html
+  commentId: T:Recore.AsyncFunc`12
+  name.vb: AsyncFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, TResult)
+  fullName: Recore.AsyncFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, TResult>
+  fullName.vb: Recore.AsyncFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, TResult)
+  nameWithType: AsyncFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, TResult>
+  nameWithType.vb: AsyncFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, TResult)
+- uid: Recore.AsyncFunc`13
+  name: AsyncFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, TResult>
+  href: api/Recore.AsyncFunc-13.html
+  commentId: T:Recore.AsyncFunc`13
+  name.vb: AsyncFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, TResult)
+  fullName: Recore.AsyncFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, TResult>
+  fullName.vb: Recore.AsyncFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, TResult)
+  nameWithType: AsyncFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, TResult>
+  nameWithType.vb: AsyncFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, TResult)
+- uid: Recore.AsyncFunc`14
+  name: AsyncFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, TResult>
+  href: api/Recore.AsyncFunc-14.html
+  commentId: T:Recore.AsyncFunc`14
+  name.vb: AsyncFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, TResult)
+  fullName: Recore.AsyncFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, TResult>
+  fullName.vb: Recore.AsyncFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, TResult)
+  nameWithType: AsyncFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, TResult>
+  nameWithType.vb: AsyncFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, TResult)
+- uid: Recore.AsyncFunc`15
+  name: AsyncFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, TResult>
+  href: api/Recore.AsyncFunc-15.html
+  commentId: T:Recore.AsyncFunc`15
+  name.vb: AsyncFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, TResult)
+  fullName: Recore.AsyncFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, TResult>
+  fullName.vb: Recore.AsyncFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, TResult)
+  nameWithType: AsyncFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, TResult>
+  nameWithType.vb: AsyncFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, TResult)
+- uid: Recore.AsyncFunc`16
+  name: AsyncFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, TResult>
+  href: api/Recore.AsyncFunc-16.html
+  commentId: T:Recore.AsyncFunc`16
+  name.vb: AsyncFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, TResult)
+  fullName: Recore.AsyncFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, TResult>
+  fullName.vb: Recore.AsyncFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, TResult)
+  nameWithType: AsyncFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, TResult>
+  nameWithType.vb: AsyncFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, TResult)
+- uid: Recore.AsyncFunc`17
+  name: AsyncFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, TResult>
+  href: api/Recore.AsyncFunc-17.html
+  commentId: T:Recore.AsyncFunc`17
+  name.vb: AsyncFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, TResult)
+  fullName: Recore.AsyncFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, TResult>
+  fullName.vb: Recore.AsyncFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, TResult)
+  nameWithType: AsyncFunc<T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, TResult>
+  nameWithType.vb: AsyncFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, TResult)
+- uid: Recore.AsyncFunc`2
+  name: AsyncFunc<T, TResult>
+  href: api/Recore.AsyncFunc-2.html
+  commentId: T:Recore.AsyncFunc`2
+  name.vb: AsyncFunc(Of T, TResult)
+  fullName: Recore.AsyncFunc<T, TResult>
+  fullName.vb: Recore.AsyncFunc(Of T, TResult)
+  nameWithType: AsyncFunc<T, TResult>
+  nameWithType.vb: AsyncFunc(Of T, TResult)
+- uid: Recore.AsyncFunc`3
+  name: AsyncFunc<T1, T2, TResult>
+  href: api/Recore.AsyncFunc-3.html
+  commentId: T:Recore.AsyncFunc`3
+  name.vb: AsyncFunc(Of T1, T2, TResult)
+  fullName: Recore.AsyncFunc<T1, T2, TResult>
+  fullName.vb: Recore.AsyncFunc(Of T1, T2, TResult)
+  nameWithType: AsyncFunc<T1, T2, TResult>
+  nameWithType.vb: AsyncFunc(Of T1, T2, TResult)
+- uid: Recore.AsyncFunc`4
+  name: AsyncFunc<T1, T2, T3, TResult>
+  href: api/Recore.AsyncFunc-4.html
+  commentId: T:Recore.AsyncFunc`4
+  name.vb: AsyncFunc(Of T1, T2, T3, TResult)
+  fullName: Recore.AsyncFunc<T1, T2, T3, TResult>
+  fullName.vb: Recore.AsyncFunc(Of T1, T2, T3, TResult)
+  nameWithType: AsyncFunc<T1, T2, T3, TResult>
+  nameWithType.vb: AsyncFunc(Of T1, T2, T3, TResult)
+- uid: Recore.AsyncFunc`5
+  name: AsyncFunc<T1, T2, T3, T4, TResult>
+  href: api/Recore.AsyncFunc-5.html
+  commentId: T:Recore.AsyncFunc`5
+  name.vb: AsyncFunc(Of T1, T2, T3, T4, TResult)
+  fullName: Recore.AsyncFunc<T1, T2, T3, T4, TResult>
+  fullName.vb: Recore.AsyncFunc(Of T1, T2, T3, T4, TResult)
+  nameWithType: AsyncFunc<T1, T2, T3, T4, TResult>
+  nameWithType.vb: AsyncFunc(Of T1, T2, T3, T4, TResult)
+- uid: Recore.AsyncFunc`6
+  name: AsyncFunc<T1, T2, T3, T4, T5, TResult>
+  href: api/Recore.AsyncFunc-6.html
+  commentId: T:Recore.AsyncFunc`6
+  name.vb: AsyncFunc(Of T1, T2, T3, T4, T5, TResult)
+  fullName: Recore.AsyncFunc<T1, T2, T3, T4, T5, TResult>
+  fullName.vb: Recore.AsyncFunc(Of T1, T2, T3, T4, T5, TResult)
+  nameWithType: AsyncFunc<T1, T2, T3, T4, T5, TResult>
+  nameWithType.vb: AsyncFunc(Of T1, T2, T3, T4, T5, TResult)
+- uid: Recore.AsyncFunc`7
+  name: AsyncFunc<T1, T2, T3, T4, T5, T6, TResult>
+  href: api/Recore.AsyncFunc-7.html
+  commentId: T:Recore.AsyncFunc`7
+  name.vb: AsyncFunc(Of T1, T2, T3, T4, T5, T6, TResult)
+  fullName: Recore.AsyncFunc<T1, T2, T3, T4, T5, T6, TResult>
+  fullName.vb: Recore.AsyncFunc(Of T1, T2, T3, T4, T5, T6, TResult)
+  nameWithType: AsyncFunc<T1, T2, T3, T4, T5, T6, TResult>
+  nameWithType.vb: AsyncFunc(Of T1, T2, T3, T4, T5, T6, TResult)
+- uid: Recore.AsyncFunc`8
+  name: AsyncFunc<T1, T2, T3, T4, T5, T6, T7, TResult>
+  href: api/Recore.AsyncFunc-8.html
+  commentId: T:Recore.AsyncFunc`8
+  name.vb: AsyncFunc(Of T1, T2, T3, T4, T5, T6, T7, TResult)
+  fullName: Recore.AsyncFunc<T1, T2, T3, T4, T5, T6, T7, TResult>
+  fullName.vb: Recore.AsyncFunc(Of T1, T2, T3, T4, T5, T6, T7, TResult)
+  nameWithType: AsyncFunc<T1, T2, T3, T4, T5, T6, T7, TResult>
+  nameWithType.vb: AsyncFunc(Of T1, T2, T3, T4, T5, T6, T7, TResult)
+- uid: Recore.AsyncFunc`9
+  name: AsyncFunc<T1, T2, T3, T4, T5, T6, T7, T8, TResult>
+  href: api/Recore.AsyncFunc-9.html
+  commentId: T:Recore.AsyncFunc`9
+  name.vb: AsyncFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, TResult)
+  fullName: Recore.AsyncFunc<T1, T2, T3, T4, T5, T6, T7, T8, TResult>
+  fullName.vb: Recore.AsyncFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, TResult)
+  nameWithType: AsyncFunc<T1, T2, T3, T4, T5, T6, T7, T8, TResult>
+  nameWithType.vb: AsyncFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, TResult)
 - uid: Recore.Collections.Generic
   name: Recore.Collections.Generic
   href: api/Recore.Collections.Generic.html
@@ -192,6 +514,38 @@ references:
   fullName.vb: Recore.Collections.Generic.ListExtensions.AppendRange(Of T)(System.Collections.Generic.List(Of T), System.Collections.Generic.IEnumerable(Of T))
   nameWithType: ListExtensions.AppendRange<T>(List<T>, IEnumerable<T>)
   nameWithType.vb: ListExtensions.AppendRange(Of T)(List(Of T), IEnumerable(Of T))
+- uid: Recore.Defer
+  name: Defer
+  href: api/Recore.Defer.html
+  commentId: T:Recore.Defer
+  fullName: Recore.Defer
+  nameWithType: Defer
+- uid: Recore.Defer.#ctor(System.Action)
+  name: Defer(Action)
+  href: api/Recore.Defer.html#Recore_Defer__ctor_System_Action_
+  commentId: M:Recore.Defer.#ctor(System.Action)
+  fullName: Recore.Defer.Defer(System.Action)
+  nameWithType: Defer.Defer(Action)
+- uid: Recore.Defer.#ctor*
+  name: Defer
+  href: api/Recore.Defer.html#Recore_Defer__ctor_
+  commentId: Overload:Recore.Defer.#ctor
+  isSpec: "True"
+  fullName: Recore.Defer.Defer
+  nameWithType: Defer.Defer
+- uid: Recore.Defer.Dispose
+  name: Dispose()
+  href: api/Recore.Defer.html#Recore_Defer_Dispose
+  commentId: M:Recore.Defer.Dispose
+  fullName: Recore.Defer.Dispose()
+  nameWithType: Defer.Dispose()
+- uid: Recore.Defer.Dispose*
+  name: Dispose
+  href: api/Recore.Defer.html#Recore_Defer_Dispose_
+  commentId: Overload:Recore.Defer.Dispose
+  isSpec: "True"
+  fullName: Recore.Defer.Dispose
+  nameWithType: Defer.Dispose
 - uid: Recore.Either
   name: Either
   href: api/Recore.Either.html
@@ -578,6 +932,22 @@ references:
   commentId: T:Recore.Func
   fullName: Recore.Func
   nameWithType: Func
+- uid: Recore.Func.Fluent*
+  name: Fluent
+  href: api/Recore.Func.html#Recore_Func_Fluent_
+  commentId: Overload:Recore.Func.Fluent
+  isSpec: "True"
+  fullName: Recore.Func.Fluent
+  nameWithType: Func.Fluent
+- uid: Recore.Func.Fluent``1(System.Action{``0})
+  name: Fluent<T>(Action<T>)
+  href: api/Recore.Func.html#Recore_Func_Fluent__1_System_Action___0__
+  commentId: M:Recore.Func.Fluent``1(System.Action{``0})
+  name.vb: Fluent(Of T)(Action(Of T))
+  fullName: Recore.Func.Fluent<T>(System.Action<T>)
+  fullName.vb: Recore.Func.Fluent(Of T)(System.Action(Of T))
+  nameWithType: Func.Fluent<T>(Action<T>)
+  nameWithType.vb: Func.Fluent(Of T)(Action(Of T))
 - uid: Recore.Func.Invoke*
   name: Invoke
   href: api/Recore.Func.html#Recore_Func_Invoke_
@@ -594,6 +964,422 @@ references:
   fullName.vb: Recore.Func.Invoke(Of T)(System.Func(Of T))
   nameWithType: Func.Invoke<T>(Func<T>)
   nameWithType.vb: Func.Invoke(Of T)(Func(Of T))
+- uid: Recore.Func.Memoize*
+  name: Memoize
+  href: api/Recore.Func.html#Recore_Func_Memoize_
+  commentId: Overload:Recore.Func.Memoize
+  isSpec: "True"
+  fullName: Recore.Func.Memoize
+  nameWithType: Func.Memoize
+- uid: Recore.Func.Memoize``2(System.Func{``0,``1})
+  name: Memoize<TSource, TResult>(Func<TSource, TResult>)
+  href: api/Recore.Func.html#Recore_Func_Memoize__2_System_Func___0___1__
+  commentId: M:Recore.Func.Memoize``2(System.Func{``0,``1})
+  name.vb: Memoize(Of TSource, TResult)(Func(Of TSource, TResult))
+  fullName: Recore.Func.Memoize<TSource, TResult>(System.Func<TSource, TResult>)
+  fullName.vb: Recore.Func.Memoize(Of TSource, TResult)(System.Func(Of TSource, TResult))
+  nameWithType: Func.Memoize<TSource, TResult>(Func<TSource, TResult>)
+  nameWithType.vb: Func.Memoize(Of TSource, TResult)(Func(Of TSource, TResult))
+- uid: Recore.Func.Memoize``2(System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``0})
+  name: Memoize<TSource, TResult>(Func<TSource, TResult>, IEqualityComparer<TSource>)
+  href: api/Recore.Func.html#Recore_Func_Memoize__2_System_Func___0___1__System_Collections_Generic_IEqualityComparer___0__
+  commentId: M:Recore.Func.Memoize``2(System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``0})
+  name.vb: Memoize(Of TSource, TResult)(Func(Of TSource, TResult), IEqualityComparer(Of TSource))
+  fullName: Recore.Func.Memoize<TSource, TResult>(System.Func<TSource, TResult>, System.Collections.Generic.IEqualityComparer<TSource>)
+  fullName.vb: Recore.Func.Memoize(Of TSource, TResult)(System.Func(Of TSource, TResult), System.Collections.Generic.IEqualityComparer(Of TSource))
+  nameWithType: Func.Memoize<TSource, TResult>(Func<TSource, TResult>, IEqualityComparer<TSource>)
+  nameWithType.vb: Func.Memoize(Of TSource, TResult)(Func(Of TSource, TResult), IEqualityComparer(Of TSource))
+- uid: Recore.Func.TupleArgs*
+  name: TupleArgs
+  href: api/Recore.Func.html#Recore_Func_TupleArgs_
+  commentId: Overload:Recore.Func.TupleArgs
+  isSpec: "True"
+  fullName: Recore.Func.TupleArgs
+  nameWithType: Func.TupleArgs
+- uid: Recore.Func.TupleArgs``3(System.Func{``0,``1,``2})
+  name: TupleArgs<T1, T2, TResult>(Func<T1, T2, TResult>)
+  href: api/Recore.Func.html#Recore_Func_TupleArgs__3_System_Func___0___1___2__
+  commentId: M:Recore.Func.TupleArgs``3(System.Func{``0,``1,``2})
+  name.vb: TupleArgs(Of T1, T2, TResult)(Func(Of T1, T2, TResult))
+  fullName: Recore.Func.TupleArgs<T1, T2, TResult>(System.Func<T1, T2, TResult>)
+  fullName.vb: Recore.Func.TupleArgs(Of T1, T2, TResult)(System.Func(Of T1, T2, TResult))
+  nameWithType: Func.TupleArgs<T1, T2, TResult>(Func<T1, T2, TResult>)
+  nameWithType.vb: Func.TupleArgs(Of T1, T2, TResult)(Func(Of T1, T2, TResult))
+- uid: Recore.Func.TupleArgs``4(System.Func{``0,``1,``2,``3})
+  name: TupleArgs<T1, T2, T3, TResult>(Func<T1, T2, T3, TResult>)
+  href: api/Recore.Func.html#Recore_Func_TupleArgs__4_System_Func___0___1___2___3__
+  commentId: M:Recore.Func.TupleArgs``4(System.Func{``0,``1,``2,``3})
+  name.vb: TupleArgs(Of T1, T2, T3, TResult)(Func(Of T1, T2, T3, TResult))
+  fullName: Recore.Func.TupleArgs<T1, T2, T3, TResult>(System.Func<T1, T2, T3, TResult>)
+  fullName.vb: Recore.Func.TupleArgs(Of T1, T2, T3, TResult)(System.Func(Of T1, T2, T3, TResult))
+  nameWithType: Func.TupleArgs<T1, T2, T3, TResult>(Func<T1, T2, T3, TResult>)
+  nameWithType.vb: Func.TupleArgs(Of T1, T2, T3, TResult)(Func(Of T1, T2, T3, TResult))
+- uid: Recore.Func.TupleArgs``5(System.Func{``0,``1,``2,``3,``4})
+  name: TupleArgs<T1, T2, T3, T4, TResult>(Func<T1, T2, T3, T4, TResult>)
+  href: api/Recore.Func.html#Recore_Func_TupleArgs__5_System_Func___0___1___2___3___4__
+  commentId: M:Recore.Func.TupleArgs``5(System.Func{``0,``1,``2,``3,``4})
+  name.vb: TupleArgs(Of T1, T2, T3, T4, TResult)(Func(Of T1, T2, T3, T4, TResult))
+  fullName: Recore.Func.TupleArgs<T1, T2, T3, T4, TResult>(System.Func<T1, T2, T3, T4, TResult>)
+  fullName.vb: Recore.Func.TupleArgs(Of T1, T2, T3, T4, TResult)(System.Func(Of T1, T2, T3, T4, TResult))
+  nameWithType: Func.TupleArgs<T1, T2, T3, T4, TResult>(Func<T1, T2, T3, T4, TResult>)
+  nameWithType.vb: Func.TupleArgs(Of T1, T2, T3, T4, TResult)(Func(Of T1, T2, T3, T4, TResult))
+- uid: Recore.Func.TupleArgs``6(System.Func{``0,``1,``2,``3,``4,``5})
+  name: TupleArgs<T1, T2, T3, T4, T5, TResult>(Func<T1, T2, T3, T4, T5, TResult>)
+  href: api/Recore.Func.html#Recore_Func_TupleArgs__6_System_Func___0___1___2___3___4___5__
+  commentId: M:Recore.Func.TupleArgs``6(System.Func{``0,``1,``2,``3,``4,``5})
+  name.vb: TupleArgs(Of T1, T2, T3, T4, T5, TResult)(Func(Of T1, T2, T3, T4, T5, TResult))
+  fullName: Recore.Func.TupleArgs<T1, T2, T3, T4, T5, TResult>(System.Func<T1, T2, T3, T4, T5, TResult>)
+  fullName.vb: Recore.Func.TupleArgs(Of T1, T2, T3, T4, T5, TResult)(System.Func(Of T1, T2, T3, T4, T5, TResult))
+  nameWithType: Func.TupleArgs<T1, T2, T3, T4, T5, TResult>(Func<T1, T2, T3, T4, T5, TResult>)
+  nameWithType.vb: Func.TupleArgs(Of T1, T2, T3, T4, T5, TResult)(Func(Of T1, T2, T3, T4, T5, TResult))
+- uid: Recore.Func.TupleArgs``7(System.Func{``0,``1,``2,``3,``4,``5,``6})
+  name: TupleArgs<T1, T2, T3, T4, T5, T6, TResult>(Func<T1, T2, T3, T4, T5, T6, TResult>)
+  href: api/Recore.Func.html#Recore_Func_TupleArgs__7_System_Func___0___1___2___3___4___5___6__
+  commentId: M:Recore.Func.TupleArgs``7(System.Func{``0,``1,``2,``3,``4,``5,``6})
+  name.vb: TupleArgs(Of T1, T2, T3, T4, T5, T6, TResult)(Func(Of T1, T2, T3, T4, T5, T6, TResult))
+  fullName: Recore.Func.TupleArgs<T1, T2, T3, T4, T5, T6, TResult>(System.Func<T1, T2, T3, T4, T5, T6, TResult>)
+  fullName.vb: Recore.Func.TupleArgs(Of T1, T2, T3, T4, T5, T6, TResult)(System.Func(Of T1, T2, T3, T4, T5, T6, TResult))
+  nameWithType: Func.TupleArgs<T1, T2, T3, T4, T5, T6, TResult>(Func<T1, T2, T3, T4, T5, T6, TResult>)
+  nameWithType.vb: Func.TupleArgs(Of T1, T2, T3, T4, T5, T6, TResult)(Func(Of T1, T2, T3, T4, T5, T6, TResult))
+- uid: Recore.Func.TupleArgs``8(System.Func{``0,``1,``2,``3,``4,``5,``6,``7})
+  name: TupleArgs<T1, T2, T3, T4, T5, T6, T7, TResult>(Func<T1, T2, T3, T4, T5, T6, T7, TResult>)
+  href: api/Recore.Func.html#Recore_Func_TupleArgs__8_System_Func___0___1___2___3___4___5___6___7__
+  commentId: M:Recore.Func.TupleArgs``8(System.Func{``0,``1,``2,``3,``4,``5,``6,``7})
+  name.vb: TupleArgs(Of T1, T2, T3, T4, T5, T6, T7, TResult)(Func(Of T1, T2, T3, T4, T5, T6, T7, TResult))
+  fullName: Recore.Func.TupleArgs<T1, T2, T3, T4, T5, T6, T7, TResult>(System.Func<T1, T2, T3, T4, T5, T6, T7, TResult>)
+  fullName.vb: Recore.Func.TupleArgs(Of T1, T2, T3, T4, T5, T6, T7, TResult)(System.Func(Of T1, T2, T3, T4, T5, T6, T7, TResult))
+  nameWithType: Func.TupleArgs<T1, T2, T3, T4, T5, T6, T7, TResult>(Func<T1, T2, T3, T4, T5, T6, T7, TResult>)
+  nameWithType.vb: Func.TupleArgs(Of T1, T2, T3, T4, T5, T6, T7, TResult)(Func(Of T1, T2, T3, T4, T5, T6, T7, TResult))
+- uid: Recore.Func.UntupleArgs*
+  name: UntupleArgs
+  href: api/Recore.Func.html#Recore_Func_UntupleArgs_
+  commentId: Overload:Recore.Func.UntupleArgs
+  isSpec: "True"
+  fullName: Recore.Func.UntupleArgs
+  nameWithType: Func.UntupleArgs
+- uid: Recore.Func.UntupleArgs``3(System.Func{System.Tuple{``0,``1},``2})
+  name: UntupleArgs<T1, T2, TResult>(Func<Tuple<T1, T2>, TResult>)
+  href: api/Recore.Func.html#Recore_Func_UntupleArgs__3_System_Func_System_Tuple___0___1____2__
+  commentId: M:Recore.Func.UntupleArgs``3(System.Func{System.Tuple{``0,``1},``2})
+  name.vb: UntupleArgs(Of T1, T2, TResult)(Func(Of Tuple(Of T1, T2), TResult))
+  fullName: Recore.Func.UntupleArgs<T1, T2, TResult>(System.Func<System.Tuple<T1, T2>, TResult>)
+  fullName.vb: Recore.Func.UntupleArgs(Of T1, T2, TResult)(System.Func(Of System.Tuple(Of T1, T2), TResult))
+  nameWithType: Func.UntupleArgs<T1, T2, TResult>(Func<Tuple<T1, T2>, TResult>)
+  nameWithType.vb: Func.UntupleArgs(Of T1, T2, TResult)(Func(Of Tuple(Of T1, T2), TResult))
+- uid: Recore.Func.UntupleArgs``4(System.Func{System.Tuple{``0,``1,``2},``3})
+  name: UntupleArgs<T1, T2, T3, TResult>(Func<Tuple<T1, T2, T3>, TResult>)
+  href: api/Recore.Func.html#Recore_Func_UntupleArgs__4_System_Func_System_Tuple___0___1___2____3__
+  commentId: M:Recore.Func.UntupleArgs``4(System.Func{System.Tuple{``0,``1,``2},``3})
+  name.vb: UntupleArgs(Of T1, T2, T3, TResult)(Func(Of Tuple(Of T1, T2, T3), TResult))
+  fullName: Recore.Func.UntupleArgs<T1, T2, T3, TResult>(System.Func<System.Tuple<T1, T2, T3>, TResult>)
+  fullName.vb: Recore.Func.UntupleArgs(Of T1, T2, T3, TResult)(System.Func(Of System.Tuple(Of T1, T2, T3), TResult))
+  nameWithType: Func.UntupleArgs<T1, T2, T3, TResult>(Func<Tuple<T1, T2, T3>, TResult>)
+  nameWithType.vb: Func.UntupleArgs(Of T1, T2, T3, TResult)(Func(Of Tuple(Of T1, T2, T3), TResult))
+- uid: Recore.Func.UntupleArgs``5(System.Func{System.Tuple{``0,``1,``2,``3},``4})
+  name: UntupleArgs<T1, T2, T3, T4, TResult>(Func<Tuple<T1, T2, T3, T4>, TResult>)
+  href: api/Recore.Func.html#Recore_Func_UntupleArgs__5_System_Func_System_Tuple___0___1___2___3____4__
+  commentId: M:Recore.Func.UntupleArgs``5(System.Func{System.Tuple{``0,``1,``2,``3},``4})
+  name.vb: UntupleArgs(Of T1, T2, T3, T4, TResult)(Func(Of Tuple(Of T1, T2, T3, T4), TResult))
+  fullName: Recore.Func.UntupleArgs<T1, T2, T3, T4, TResult>(System.Func<System.Tuple<T1, T2, T3, T4>, TResult>)
+  fullName.vb: Recore.Func.UntupleArgs(Of T1, T2, T3, T4, TResult)(System.Func(Of System.Tuple(Of T1, T2, T3, T4), TResult))
+  nameWithType: Func.UntupleArgs<T1, T2, T3, T4, TResult>(Func<Tuple<T1, T2, T3, T4>, TResult>)
+  nameWithType.vb: Func.UntupleArgs(Of T1, T2, T3, T4, TResult)(Func(Of Tuple(Of T1, T2, T3, T4), TResult))
+- uid: Recore.Func.UntupleArgs``6(System.Func{System.Tuple{``0,``1,``2,``3,``4},``5})
+  name: UntupleArgs<T1, T2, T3, T4, T5, TResult>(Func<Tuple<T1, T2, T3, T4, T5>, TResult>)
+  href: api/Recore.Func.html#Recore_Func_UntupleArgs__6_System_Func_System_Tuple___0___1___2___3___4____5__
+  commentId: M:Recore.Func.UntupleArgs``6(System.Func{System.Tuple{``0,``1,``2,``3,``4},``5})
+  name.vb: UntupleArgs(Of T1, T2, T3, T4, T5, TResult)(Func(Of Tuple(Of T1, T2, T3, T4, T5), TResult))
+  fullName: Recore.Func.UntupleArgs<T1, T2, T3, T4, T5, TResult>(System.Func<System.Tuple<T1, T2, T3, T4, T5>, TResult>)
+  fullName.vb: Recore.Func.UntupleArgs(Of T1, T2, T3, T4, T5, TResult)(System.Func(Of System.Tuple(Of T1, T2, T3, T4, T5), TResult))
+  nameWithType: Func.UntupleArgs<T1, T2, T3, T4, T5, TResult>(Func<Tuple<T1, T2, T3, T4, T5>, TResult>)
+  nameWithType.vb: Func.UntupleArgs(Of T1, T2, T3, T4, T5, TResult)(Func(Of Tuple(Of T1, T2, T3, T4, T5), TResult))
+- uid: Recore.Func.UntupleArgs``7(System.Func{System.Tuple{``0,``1,``2,``3,``4,``5},``6})
+  name: UntupleArgs<T1, T2, T3, T4, T5, T6, TResult>(Func<Tuple<T1, T2, T3, T4, T5, T6>, TResult>)
+  href: api/Recore.Func.html#Recore_Func_UntupleArgs__7_System_Func_System_Tuple___0___1___2___3___4___5____6__
+  commentId: M:Recore.Func.UntupleArgs``7(System.Func{System.Tuple{``0,``1,``2,``3,``4,``5},``6})
+  name.vb: UntupleArgs(Of T1, T2, T3, T4, T5, T6, TResult)(Func(Of Tuple(Of T1, T2, T3, T4, T5, T6), TResult))
+  fullName: Recore.Func.UntupleArgs<T1, T2, T3, T4, T5, T6, TResult>(System.Func<System.Tuple<T1, T2, T3, T4, T5, T6>, TResult>)
+  fullName.vb: Recore.Func.UntupleArgs(Of T1, T2, T3, T4, T5, T6, TResult)(System.Func(Of System.Tuple(Of T1, T2, T3, T4, T5, T6), TResult))
+  nameWithType: Func.UntupleArgs<T1, T2, T3, T4, T5, T6, TResult>(Func<Tuple<T1, T2, T3, T4, T5, T6>, TResult>)
+  nameWithType.vb: Func.UntupleArgs(Of T1, T2, T3, T4, T5, T6, TResult)(Func(Of Tuple(Of T1, T2, T3, T4, T5, T6), TResult))
+- uid: Recore.Func.UntupleArgs``8(System.Func{System.Tuple{``0,``1,``2,``3,``4,``5,``6},``7})
+  name: UntupleArgs<T1, T2, T3, T4, T5, T6, T7, TResult>(Func<Tuple<T1, T2, T3, T4, T5, T6, T7>, TResult>)
+  href: api/Recore.Func.html#Recore_Func_UntupleArgs__8_System_Func_System_Tuple___0___1___2___3___4___5___6____7__
+  commentId: M:Recore.Func.UntupleArgs``8(System.Func{System.Tuple{``0,``1,``2,``3,``4,``5,``6},``7})
+  name.vb: UntupleArgs(Of T1, T2, T3, T4, T5, T6, T7, TResult)(Func(Of Tuple(Of T1, T2, T3, T4, T5, T6, T7), TResult))
+  fullName: Recore.Func.UntupleArgs<T1, T2, T3, T4, T5, T6, T7, TResult>(System.Func<System.Tuple<T1, T2, T3, T4, T5, T6, T7>, TResult>)
+  fullName.vb: Recore.Func.UntupleArgs(Of T1, T2, T3, T4, T5, T6, T7, TResult)(System.Func(Of System.Tuple(Of T1, T2, T3, T4, T5, T6, T7), TResult))
+  nameWithType: Func.UntupleArgs<T1, T2, T3, T4, T5, T6, T7, TResult>(Func<Tuple<T1, T2, T3, T4, T5, T6, T7>, TResult>)
+  nameWithType.vb: Func.UntupleArgs(Of T1, T2, T3, T4, T5, T6, T7, TResult)(Func(Of Tuple(Of T1, T2, T3, T4, T5, T6, T7), TResult))
+- uid: Recore.Functional
+  name: Recore.Functional
+  href: api/Recore.Functional.html
+  commentId: N:Recore.Functional
+  fullName: Recore.Functional
+  nameWithType: Recore.Functional
+- uid: Recore.Functional.Composer
+  name: Composer
+  href: api/Recore.Functional.Composer.html
+  commentId: T:Recore.Functional.Composer
+  fullName: Recore.Functional.Composer
+  nameWithType: Composer
+- uid: Recore.Functional.Composer.Of*
+  name: Of
+  href: api/Recore.Functional.Composer.html#Recore_Functional_Composer_Of_
+  commentId: Overload:Recore.Functional.Composer.Of
+  isSpec: "True"
+  fullName: Recore.Functional.Composer.Of
+  nameWithType: Composer.Of
+- uid: Recore.Functional.Composer.Of``1(``0)
+  name: Of<T>(T)
+  href: api/Recore.Functional.Composer.html#Recore_Functional_Composer_Of__1___0_
+  commentId: M:Recore.Functional.Composer.Of``1(``0)
+  name.vb: Of(Of T)(T)
+  fullName: Recore.Functional.Composer.Of<T>(T)
+  fullName.vb: Recore.Functional.Composer.Of(Of T)(T)
+  nameWithType: Composer.Of<T>(T)
+  nameWithType.vb: Composer.Of(Of T)(T)
+- uid: Recore.Functional.Composer`1
+  name: Composer<T>
+  href: api/Recore.Functional.Composer-1.html
+  commentId: T:Recore.Functional.Composer`1
+  name.vb: Composer(Of T)
+  fullName: Recore.Functional.Composer<T>
+  fullName.vb: Recore.Functional.Composer(Of T)
+  nameWithType: Composer<T>
+  nameWithType.vb: Composer(Of T)
+- uid: Recore.Functional.Composer`1.#ctor(`0)
+  name: Composer(T)
+  href: api/Recore.Functional.Composer-1.html#Recore_Functional_Composer_1__ctor__0_
+  commentId: M:Recore.Functional.Composer`1.#ctor(`0)
+  fullName: Recore.Functional.Composer<T>.Composer(T)
+  fullName.vb: Recore.Functional.Composer(Of T).Composer(T)
+  nameWithType: Composer<T>.Composer(T)
+  nameWithType.vb: Composer(Of T).Composer(T)
+- uid: Recore.Functional.Composer`1.#ctor*
+  name: Composer
+  href: api/Recore.Functional.Composer-1.html#Recore_Functional_Composer_1__ctor_
+  commentId: Overload:Recore.Functional.Composer`1.#ctor
+  isSpec: "True"
+  fullName: Recore.Functional.Composer<T>.Composer
+  fullName.vb: Recore.Functional.Composer(Of T).Composer
+  nameWithType: Composer<T>.Composer
+  nameWithType.vb: Composer(Of T).Composer
+- uid: Recore.Functional.Composer`1.Result
+  name: Result
+  href: api/Recore.Functional.Composer-1.html#Recore_Functional_Composer_1_Result
+  commentId: P:Recore.Functional.Composer`1.Result
+  fullName: Recore.Functional.Composer<T>.Result
+  fullName.vb: Recore.Functional.Composer(Of T).Result
+  nameWithType: Composer<T>.Result
+  nameWithType.vb: Composer(Of T).Result
+- uid: Recore.Functional.Composer`1.Result*
+  name: Result
+  href: api/Recore.Functional.Composer-1.html#Recore_Functional_Composer_1_Result_
+  commentId: Overload:Recore.Functional.Composer`1.Result
+  isSpec: "True"
+  fullName: Recore.Functional.Composer<T>.Result
+  fullName.vb: Recore.Functional.Composer(Of T).Result
+  nameWithType: Composer<T>.Result
+  nameWithType.vb: Composer(Of T).Result
+- uid: Recore.Functional.Composer`1.Then(System.Action{`0})
+  name: Then(Action<T>)
+  href: api/Recore.Functional.Composer-1.html#Recore_Functional_Composer_1_Then_System_Action__0__
+  commentId: M:Recore.Functional.Composer`1.Then(System.Action{`0})
+  name.vb: Then(Action(Of T))
+  fullName: Recore.Functional.Composer<T>.Then(System.Action<T>)
+  fullName.vb: Recore.Functional.Composer(Of T).Then(System.Action(Of T))
+  nameWithType: Composer<T>.Then(Action<T>)
+  nameWithType.vb: Composer(Of T).Then(Action(Of T))
+- uid: Recore.Functional.Composer`1.Then*
+  name: Then
+  href: api/Recore.Functional.Composer-1.html#Recore_Functional_Composer_1_Then_
+  commentId: Overload:Recore.Functional.Composer`1.Then
+  isSpec: "True"
+  fullName: Recore.Functional.Composer<T>.Then
+  fullName.vb: Recore.Functional.Composer(Of T).Then
+  nameWithType: Composer<T>.Then
+  nameWithType.vb: Composer(Of T).Then
+- uid: Recore.Functional.Composer`1.Then``1(System.Func{`0,``0})
+  name: Then<U>(Func<T, U>)
+  href: api/Recore.Functional.Composer-1.html#Recore_Functional_Composer_1_Then__1_System_Func__0___0__
+  commentId: M:Recore.Functional.Composer`1.Then``1(System.Func{`0,``0})
+  name.vb: Then(Of U)(Func(Of T, U))
+  fullName: Recore.Functional.Composer<T>.Then<U>(System.Func<T, U>)
+  fullName.vb: Recore.Functional.Composer(Of T).Then(Of U)(System.Func(Of T, U))
+  nameWithType: Composer<T>.Then<U>(Func<T, U>)
+  nameWithType.vb: Composer(Of T).Then(Of U)(Func(Of T, U))
+- uid: Recore.Functional.Composer`2
+  name: Composer<TValue, TResult>
+  href: api/Recore.Functional.Composer-2.html
+  commentId: T:Recore.Functional.Composer`2
+  name.vb: Composer(Of TValue, TResult)
+  fullName: Recore.Functional.Composer<TValue, TResult>
+  fullName.vb: Recore.Functional.Composer(Of TValue, TResult)
+  nameWithType: Composer<TValue, TResult>
+  nameWithType.vb: Composer(Of TValue, TResult)
+- uid: Recore.Functional.Composer`2.#ctor(System.Func{`0,`1})
+  name: Composer(Func<TValue, TResult>)
+  href: api/Recore.Functional.Composer-2.html#Recore_Functional_Composer_2__ctor_System_Func__0__1__
+  commentId: M:Recore.Functional.Composer`2.#ctor(System.Func{`0,`1})
+  name.vb: Composer(Func(Of TValue, TResult))
+  fullName: Recore.Functional.Composer<TValue, TResult>.Composer(System.Func<TValue, TResult>)
+  fullName.vb: Recore.Functional.Composer(Of TValue, TResult).Composer(System.Func(Of TValue, TResult))
+  nameWithType: Composer<TValue, TResult>.Composer(Func<TValue, TResult>)
+  nameWithType.vb: Composer(Of TValue, TResult).Composer(Func(Of TValue, TResult))
+- uid: Recore.Functional.Composer`2.#ctor*
+  name: Composer
+  href: api/Recore.Functional.Composer-2.html#Recore_Functional_Composer_2__ctor_
+  commentId: Overload:Recore.Functional.Composer`2.#ctor
+  isSpec: "True"
+  fullName: Recore.Functional.Composer<TValue, TResult>.Composer
+  fullName.vb: Recore.Functional.Composer(Of TValue, TResult).Composer
+  nameWithType: Composer<TValue, TResult>.Composer
+  nameWithType.vb: Composer(Of TValue, TResult).Composer
+- uid: Recore.Functional.Composer`2.Func
+  name: Func
+  href: api/Recore.Functional.Composer-2.html#Recore_Functional_Composer_2_Func
+  commentId: P:Recore.Functional.Composer`2.Func
+  fullName: Recore.Functional.Composer<TValue, TResult>.Func
+  fullName.vb: Recore.Functional.Composer(Of TValue, TResult).Func
+  nameWithType: Composer<TValue, TResult>.Func
+  nameWithType.vb: Composer(Of TValue, TResult).Func
+- uid: Recore.Functional.Composer`2.Func*
+  name: Func
+  href: api/Recore.Functional.Composer-2.html#Recore_Functional_Composer_2_Func_
+  commentId: Overload:Recore.Functional.Composer`2.Func
+  isSpec: "True"
+  fullName: Recore.Functional.Composer<TValue, TResult>.Func
+  fullName.vb: Recore.Functional.Composer(Of TValue, TResult).Func
+  nameWithType: Composer<TValue, TResult>.Func
+  nameWithType.vb: Composer(Of TValue, TResult).Func
+- uid: Recore.Functional.Composer`2.Then(System.Action{`1})
+  name: Then(Action<TResult>)
+  href: api/Recore.Functional.Composer-2.html#Recore_Functional_Composer_2_Then_System_Action__1__
+  commentId: M:Recore.Functional.Composer`2.Then(System.Action{`1})
+  name.vb: Then(Action(Of TResult))
+  fullName: Recore.Functional.Composer<TValue, TResult>.Then(System.Action<TResult>)
+  fullName.vb: Recore.Functional.Composer(Of TValue, TResult).Then(System.Action(Of TResult))
+  nameWithType: Composer<TValue, TResult>.Then(Action<TResult>)
+  nameWithType.vb: Composer(Of TValue, TResult).Then(Action(Of TResult))
+- uid: Recore.Functional.Composer`2.Then*
+  name: Then
+  href: api/Recore.Functional.Composer-2.html#Recore_Functional_Composer_2_Then_
+  commentId: Overload:Recore.Functional.Composer`2.Then
+  isSpec: "True"
+  fullName: Recore.Functional.Composer<TValue, TResult>.Then
+  fullName.vb: Recore.Functional.Composer(Of TValue, TResult).Then
+  nameWithType: Composer<TValue, TResult>.Then
+  nameWithType.vb: Composer(Of TValue, TResult).Then
+- uid: Recore.Functional.Composer`2.Then``1(System.Func{`1,``0})
+  name: Then<TNextResult>(Func<TResult, TNextResult>)
+  href: api/Recore.Functional.Composer-2.html#Recore_Functional_Composer_2_Then__1_System_Func__1___0__
+  commentId: M:Recore.Functional.Composer`2.Then``1(System.Func{`1,``0})
+  name.vb: Then(Of TNextResult)(Func(Of TResult, TNextResult))
+  fullName: Recore.Functional.Composer<TValue, TResult>.Then<TNextResult>(System.Func<TResult, TNextResult>)
+  fullName.vb: Recore.Functional.Composer(Of TValue, TResult).Then(Of TNextResult)(System.Func(Of TResult, TNextResult))
+  nameWithType: Composer<TValue, TResult>.Then<TNextResult>(Func<TResult, TNextResult>)
+  nameWithType.vb: Composer(Of TValue, TResult).Then(Of TNextResult)(Func(Of TResult, TNextResult))
+- uid: Recore.Functional.Lift
+  name: Lift
+  href: api/Recore.Functional.Lift.html
+  commentId: T:Recore.Functional.Lift
+  fullName: Recore.Functional.Lift
+  nameWithType: Lift
+- uid: Recore.Functional.Lift.OnEither*
+  name: OnEither
+  href: api/Recore.Functional.Lift.html#Recore_Functional_Lift_OnEither_
+  commentId: Overload:Recore.Functional.Lift.OnEither
+  isSpec: "True"
+  fullName: Recore.Functional.Lift.OnEither
+  nameWithType: Lift.OnEither
+- uid: Recore.Functional.Lift.OnEither``2(System.Action{``0},System.Action{``1})
+  name: OnEither<TLeft, TRight>(Action<TLeft>, Action<TRight>)
+  href: api/Recore.Functional.Lift.html#Recore_Functional_Lift_OnEither__2_System_Action___0__System_Action___1__
+  commentId: M:Recore.Functional.Lift.OnEither``2(System.Action{``0},System.Action{``1})
+  name.vb: OnEither(Of TLeft, TRight)(Action(Of TLeft), Action(Of TRight))
+  fullName: Recore.Functional.Lift.OnEither<TLeft, TRight>(System.Action<TLeft>, System.Action<TRight>)
+  fullName.vb: Recore.Functional.Lift.OnEither(Of TLeft, TRight)(System.Action(Of TLeft), System.Action(Of TRight))
+  nameWithType: Lift.OnEither<TLeft, TRight>(Action<TLeft>, Action<TRight>)
+  nameWithType.vb: Lift.OnEither(Of TLeft, TRight)(Action(Of TLeft), Action(Of TRight))
+- uid: Recore.Functional.Lift.OnEither``3(System.Func{``0,``2},System.Func{``1,``2})
+  name: OnEither<TLeft, TRight, TResult>(Func<TLeft, TResult>, Func<TRight, TResult>)
+  href: api/Recore.Functional.Lift.html#Recore_Functional_Lift_OnEither__3_System_Func___0___2__System_Func___1___2__
+  commentId: M:Recore.Functional.Lift.OnEither``3(System.Func{``0,``2},System.Func{``1,``2})
+  name.vb: OnEither(Of TLeft, TRight, TResult)(Func(Of TLeft, TResult), Func(Of TRight, TResult))
+  fullName: Recore.Functional.Lift.OnEither<TLeft, TRight, TResult>(System.Func<TLeft, TResult>, System.Func<TRight, TResult>)
+  fullName.vb: Recore.Functional.Lift.OnEither(Of TLeft, TRight, TResult)(System.Func(Of TLeft, TResult), System.Func(Of TRight, TResult))
+  nameWithType: Lift.OnEither<TLeft, TRight, TResult>(Func<TLeft, TResult>, Func<TRight, TResult>)
+  nameWithType.vb: Lift.OnEither(Of TLeft, TRight, TResult)(Func(Of TLeft, TResult), Func(Of TRight, TResult))
+- uid: Recore.Functional.Lift.OnEnumerable*
+  name: OnEnumerable
+  href: api/Recore.Functional.Lift.html#Recore_Functional_Lift_OnEnumerable_
+  commentId: Overload:Recore.Functional.Lift.OnEnumerable
+  isSpec: "True"
+  fullName: Recore.Functional.Lift.OnEnumerable
+  nameWithType: Lift.OnEnumerable
+- uid: Recore.Functional.Lift.OnEnumerable``1(System.Action{``0})
+  name: OnEnumerable<T>(Action<T>)
+  href: api/Recore.Functional.Lift.html#Recore_Functional_Lift_OnEnumerable__1_System_Action___0__
+  commentId: M:Recore.Functional.Lift.OnEnumerable``1(System.Action{``0})
+  name.vb: OnEnumerable(Of T)(Action(Of T))
+  fullName: Recore.Functional.Lift.OnEnumerable<T>(System.Action<T>)
+  fullName.vb: Recore.Functional.Lift.OnEnumerable(Of T)(System.Action(Of T))
+  nameWithType: Lift.OnEnumerable<T>(Action<T>)
+  nameWithType.vb: Lift.OnEnumerable(Of T)(Action(Of T))
+- uid: Recore.Functional.Lift.OnEnumerable``2(System.Func{``0,``1})
+  name: OnEnumerable<T, TResult>(Func<T, TResult>)
+  href: api/Recore.Functional.Lift.html#Recore_Functional_Lift_OnEnumerable__2_System_Func___0___1__
+  commentId: M:Recore.Functional.Lift.OnEnumerable``2(System.Func{``0,``1})
+  name.vb: OnEnumerable(Of T, TResult)(Func(Of T, TResult))
+  fullName: Recore.Functional.Lift.OnEnumerable<T, TResult>(System.Func<T, TResult>)
+  fullName.vb: Recore.Functional.Lift.OnEnumerable(Of T, TResult)(System.Func(Of T, TResult))
+  nameWithType: Lift.OnEnumerable<T, TResult>(Func<T, TResult>)
+  nameWithType.vb: Lift.OnEnumerable(Of T, TResult)(Func(Of T, TResult))
+- uid: Recore.Functional.Lift.OnOptional*
+  name: OnOptional
+  href: api/Recore.Functional.Lift.html#Recore_Functional_Lift_OnOptional_
+  commentId: Overload:Recore.Functional.Lift.OnOptional
+  isSpec: "True"
+  fullName: Recore.Functional.Lift.OnOptional
+  nameWithType: Lift.OnOptional
+- uid: Recore.Functional.Lift.OnOptional``1(System.Action{``0})
+  name: OnOptional<T>(Action<T>)
+  href: api/Recore.Functional.Lift.html#Recore_Functional_Lift_OnOptional__1_System_Action___0__
+  commentId: M:Recore.Functional.Lift.OnOptional``1(System.Action{``0})
+  name.vb: OnOptional(Of T)(Action(Of T))
+  fullName: Recore.Functional.Lift.OnOptional<T>(System.Action<T>)
+  fullName.vb: Recore.Functional.Lift.OnOptional(Of T)(System.Action(Of T))
+  nameWithType: Lift.OnOptional<T>(Action<T>)
+  nameWithType.vb: Lift.OnOptional(Of T)(Action(Of T))
+- uid: Recore.Functional.Lift.OnOptional``2(System.Func{``0,``1})
+  name: OnOptional<T, TResult>(Func<T, TResult>)
+  href: api/Recore.Functional.Lift.html#Recore_Functional_Lift_OnOptional__2_System_Func___0___1__
+  commentId: M:Recore.Functional.Lift.OnOptional``2(System.Func{``0,``1})
+  name.vb: OnOptional(Of T, TResult)(Func(Of T, TResult))
+  fullName: Recore.Functional.Lift.OnOptional<T, TResult>(System.Func<T, TResult>)
+  fullName.vb: Recore.Functional.Lift.OnOptional(Of T, TResult)(System.Func(Of T, TResult))
+  nameWithType: Lift.OnOptional<T, TResult>(Func<T, TResult>)
+  nameWithType.vb: Lift.OnOptional(Of T, TResult)(Func(Of T, TResult))
+- uid: Recore.Functional.Operator
+  name: Operator
+  href: api/Recore.Functional.Operator.html
+  commentId: T:Recore.Functional.Operator
+  fullName: Recore.Functional.Operator
+  nameWithType: Operator
+- uid: Recore.Functional.Operator.Not(System.Boolean)
+  name: Not(Boolean)
+  href: api/Recore.Functional.Operator.html#Recore_Functional_Operator_Not_System_Boolean_
+  commentId: M:Recore.Functional.Operator.Not(System.Boolean)
+  fullName: Recore.Functional.Operator.Not(System.Boolean)
+  nameWithType: Operator.Not(Boolean)
+- uid: Recore.Functional.Operator.Not*
+  name: Not
+  href: api/Recore.Functional.Operator.html#Recore_Functional_Operator_Not_
+  commentId: Overload:Recore.Functional.Operator.Not
+  isSpec: "True"
+  fullName: Recore.Functional.Operator.Not
+  nameWithType: Operator.Not
 - uid: Recore.Hasher
   name: Hasher
   href: api/Recore.Hasher.html
@@ -733,6 +1519,38 @@ references:
   fullName.vb: Recore.Linq.Renumerable.NonNull(Of TSource)(System.Collections.Generic.IEnumerable(Of System.Nullable(Of TSource)))
   nameWithType: Renumerable.NonNull<TSource>(IEnumerable<Nullable<TSource>>)
   nameWithType.vb: Renumerable.NonNull(Of TSource)(IEnumerable(Of Nullable(Of TSource)))
+- uid: Recore.Linq.Renumerable.OnKeys*
+  name: OnKeys
+  href: api/Recore.Linq.Renumerable.html#Recore_Linq_Renumerable_OnKeys_
+  commentId: Overload:Recore.Linq.Renumerable.OnKeys
+  isSpec: "True"
+  fullName: Recore.Linq.Renumerable.OnKeys
+  nameWithType: Renumerable.OnKeys
+- uid: Recore.Linq.Renumerable.OnKeys``3(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{``0,``1}},System.Func{``0,``2})
+  name: OnKeys<TKey, TValue, TResult>(IEnumerable<KeyValuePair<TKey, TValue>>, Func<TKey, TResult>)
+  href: api/Recore.Linq.Renumerable.html#Recore_Linq_Renumerable_OnKeys__3_System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair___0___1___System_Func___0___2__
+  commentId: M:Recore.Linq.Renumerable.OnKeys``3(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{``0,``1}},System.Func{``0,``2})
+  name.vb: OnKeys(Of TKey, TValue, TResult)(IEnumerable(Of KeyValuePair(Of TKey, TValue)), Func(Of TKey, TResult))
+  fullName: Recore.Linq.Renumerable.OnKeys<TKey, TValue, TResult>(System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey, TValue>>, System.Func<TKey, TResult>)
+  fullName.vb: Recore.Linq.Renumerable.OnKeys(Of TKey, TValue, TResult)(System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of TKey, TValue)), System.Func(Of TKey, TResult))
+  nameWithType: Renumerable.OnKeys<TKey, TValue, TResult>(IEnumerable<KeyValuePair<TKey, TValue>>, Func<TKey, TResult>)
+  nameWithType.vb: Renumerable.OnKeys(Of TKey, TValue, TResult)(IEnumerable(Of KeyValuePair(Of TKey, TValue)), Func(Of TKey, TResult))
+- uid: Recore.Linq.Renumerable.OnValues*
+  name: OnValues
+  href: api/Recore.Linq.Renumerable.html#Recore_Linq_Renumerable_OnValues_
+  commentId: Overload:Recore.Linq.Renumerable.OnValues
+  isSpec: "True"
+  fullName: Recore.Linq.Renumerable.OnValues
+  nameWithType: Renumerable.OnValues
+- uid: Recore.Linq.Renumerable.OnValues``3(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{``0,``1}},System.Func{``1,``2})
+  name: OnValues<TKey, TValue, TResult>(IEnumerable<KeyValuePair<TKey, TValue>>, Func<TValue, TResult>)
+  href: api/Recore.Linq.Renumerable.html#Recore_Linq_Renumerable_OnValues__3_System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair___0___1___System_Func___1___2__
+  commentId: M:Recore.Linq.Renumerable.OnValues``3(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{``0,``1}},System.Func{``1,``2})
+  name.vb: OnValues(Of TKey, TValue, TResult)(IEnumerable(Of KeyValuePair(Of TKey, TValue)), Func(Of TValue, TResult))
+  fullName: Recore.Linq.Renumerable.OnValues<TKey, TValue, TResult>(System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey, TValue>>, System.Func<TValue, TResult>)
+  fullName.vb: Recore.Linq.Renumerable.OnValues(Of TKey, TValue, TResult)(System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of TKey, TValue)), System.Func(Of TValue, TResult))
+  nameWithType: Renumerable.OnValues<TKey, TValue, TResult>(IEnumerable<KeyValuePair<TKey, TValue>>, Func<TValue, TResult>)
+  nameWithType.vb: Renumerable.OnValues(Of TKey, TValue, TResult)(IEnumerable(Of KeyValuePair(Of TKey, TValue)), Func(Of TValue, TResult))
 - uid: Recore.Linq.Renumerable.Product*
   name: Product
   href: api/Recore.Linq.Renumerable.html#Recore_Linq_Renumerable_Product_
@@ -749,6 +1567,22 @@ references:
   fullName.vb: Recore.Linq.Renumerable.Product(Of TFirst, TSecond)(System.Collections.Generic.IEnumerable(Of TFirst), System.Collections.Generic.IEnumerable(Of TSecond))
   nameWithType: Renumerable.Product<TFirst, TSecond>(IEnumerable<TFirst>, IEnumerable<TSecond>)
   nameWithType.vb: Renumerable.Product(Of TFirst, TSecond)(IEnumerable(Of TFirst), IEnumerable(Of TSecond))
+- uid: Recore.Linq.Renumerable.ToDictionary*
+  name: ToDictionary
+  href: api/Recore.Linq.Renumerable.html#Recore_Linq_Renumerable_ToDictionary_
+  commentId: Overload:Recore.Linq.Renumerable.ToDictionary
+  isSpec: "True"
+  fullName: Recore.Linq.Renumerable.ToDictionary
+  nameWithType: Renumerable.ToDictionary
+- uid: Recore.Linq.Renumerable.ToDictionary``2(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{``0,``1}})
+  name: ToDictionary<TKey, TValue>(IEnumerable<KeyValuePair<TKey, TValue>>)
+  href: api/Recore.Linq.Renumerable.html#Recore_Linq_Renumerable_ToDictionary__2_System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair___0___1___
+  commentId: M:Recore.Linq.Renumerable.ToDictionary``2(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{``0,``1}})
+  name.vb: ToDictionary(Of TKey, TValue)(IEnumerable(Of KeyValuePair(Of TKey, TValue)))
+  fullName: Recore.Linq.Renumerable.ToDictionary<TKey, TValue>(System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<TKey, TValue>>)
+  fullName.vb: Recore.Linq.Renumerable.ToDictionary(Of TKey, TValue)(System.Collections.Generic.IEnumerable(Of System.Collections.Generic.KeyValuePair(Of TKey, TValue)))
+  nameWithType: Renumerable.ToDictionary<TKey, TValue>(IEnumerable<KeyValuePair<TKey, TValue>>)
+  nameWithType.vb: Renumerable.ToDictionary(Of TKey, TValue)(IEnumerable(Of KeyValuePair(Of TKey, TValue)))
 - uid: Recore.Linq.Renumerable.ToLinkedList*
   name: ToLinkedList
   href: api/Recore.Linq.Renumerable.html#Recore_Linq_Renumerable_ToLinkedList_
@@ -909,6 +1743,22 @@ references:
   commentId: T:Recore.Optional
   fullName: Recore.Optional
   nameWithType: Optional
+- uid: Recore.Optional.AwaitAsync*
+  name: AwaitAsync
+  href: api/Recore.Optional.html#Recore_Optional_AwaitAsync_
+  commentId: Overload:Recore.Optional.AwaitAsync
+  isSpec: "True"
+  fullName: Recore.Optional.AwaitAsync
+  nameWithType: Optional.AwaitAsync
+- uid: Recore.Optional.AwaitAsync``1(Recore.Optional{System.Threading.Tasks.Task{``0}})
+  name: AwaitAsync<T>(Optional<Task<T>>)
+  href: api/Recore.Optional.html#Recore_Optional_AwaitAsync__1_Recore_Optional_System_Threading_Tasks_Task___0___
+  commentId: M:Recore.Optional.AwaitAsync``1(Recore.Optional{System.Threading.Tasks.Task{``0}})
+  name.vb: AwaitAsync(Of T)(Optional(Of Task(Of T)))
+  fullName: Recore.Optional.AwaitAsync<T>(Recore.Optional<System.Threading.Tasks.Task<T>>)
+  fullName.vb: Recore.Optional.AwaitAsync(Of T)(Recore.Optional(Of System.Threading.Tasks.Task(Of T)))
+  nameWithType: Optional.AwaitAsync<T>(Optional<Task<T>>)
+  nameWithType.vb: Optional.AwaitAsync(Of T)(Optional(Of Task(Of T)))
 - uid: Recore.Optional.Flatten*
   name: Flatten
   href: api/Recore.Optional.html#Recore_Optional_Flatten_
@@ -1337,6 +2187,25 @@ references:
   isSpec: "True"
   fullName: Recore.RelativeUri.RelativeUri
   nameWithType: RelativeUri.RelativeUri
+- uid: Recore.RelativeUri.Combine(Recore.RelativeUri)
+  name: Combine(RelativeUri)
+  href: api/Recore.RelativeUri.html#Recore_RelativeUri_Combine_Recore_RelativeUri_
+  commentId: M:Recore.RelativeUri.Combine(Recore.RelativeUri)
+  fullName: Recore.RelativeUri.Combine(Recore.RelativeUri)
+  nameWithType: RelativeUri.Combine(RelativeUri)
+- uid: Recore.RelativeUri.Combine(System.String)
+  name: Combine(String)
+  href: api/Recore.RelativeUri.html#Recore_RelativeUri_Combine_System_String_
+  commentId: M:Recore.RelativeUri.Combine(System.String)
+  fullName: Recore.RelativeUri.Combine(System.String)
+  nameWithType: RelativeUri.Combine(String)
+- uid: Recore.RelativeUri.Combine*
+  name: Combine
+  href: api/Recore.RelativeUri.html#Recore_RelativeUri_Combine_
+  commentId: Overload:Recore.RelativeUri.Combine
+  isSpec: "True"
+  fullName: Recore.RelativeUri.Combine
+  nameWithType: RelativeUri.Combine
 - uid: Recore.Result
   name: Result
   href: api/Recore.Result.html
@@ -1854,6 +2723,37 @@ references:
   commentId: N:Recore.Text
   fullName: Recore.Text
   nameWithType: Recore.Text
+- uid: Recore.Text.StringUtil
+  name: StringUtil
+  href: api/Recore.Text.StringUtil.html
+  commentId: T:Recore.Text.StringUtil
+  fullName: Recore.Text.StringUtil
+  nameWithType: StringUtil
+- uid: Recore.Text.StringUtil.JoinLines(System.Collections.Generic.IEnumerable{System.String})
+  name: JoinLines(IEnumerable<String>)
+  href: api/Recore.Text.StringUtil.html#Recore_Text_StringUtil_JoinLines_System_Collections_Generic_IEnumerable_System_String__
+  commentId: M:Recore.Text.StringUtil.JoinLines(System.Collections.Generic.IEnumerable{System.String})
+  name.vb: JoinLines(IEnumerable(Of String))
+  fullName: Recore.Text.StringUtil.JoinLines(System.Collections.Generic.IEnumerable<System.String>)
+  fullName.vb: Recore.Text.StringUtil.JoinLines(System.Collections.Generic.IEnumerable(Of System.String))
+  nameWithType: StringUtil.JoinLines(IEnumerable<String>)
+  nameWithType.vb: StringUtil.JoinLines(IEnumerable(Of String))
+- uid: Recore.Text.StringUtil.JoinLines(System.String[])
+  name: JoinLines(String[])
+  href: api/Recore.Text.StringUtil.html#Recore_Text_StringUtil_JoinLines_System_String___
+  commentId: M:Recore.Text.StringUtil.JoinLines(System.String[])
+  name.vb: JoinLines(String())
+  fullName: Recore.Text.StringUtil.JoinLines(System.String[])
+  fullName.vb: Recore.Text.StringUtil.JoinLines(System.String())
+  nameWithType: StringUtil.JoinLines(String[])
+  nameWithType.vb: StringUtil.JoinLines(String())
+- uid: Recore.Text.StringUtil.JoinLines*
+  name: JoinLines
+  href: api/Recore.Text.StringUtil.html#Recore_Text_StringUtil_JoinLines_
+  commentId: Overload:Recore.Text.StringUtil.JoinLines
+  isSpec: "True"
+  fullName: Recore.Text.StringUtil.JoinLines
+  nameWithType: StringUtil.JoinLines
 - uid: Recore.Text.Wildcard
   name: Wildcard
   href: api/Recore.Text.Wildcard.html
@@ -2157,3 +3057,35 @@ references:
   isSpec: "True"
   fullName: Recore.Unit.ToString
   nameWithType: Unit.ToString
+- uid: Recore.Unit.Value
+  name: Value
+  href: api/Recore.Unit.html#Recore_Unit_Value
+  commentId: P:Recore.Unit.Value
+  fullName: Recore.Unit.Value
+  nameWithType: Unit.Value
+- uid: Recore.Unit.Value*
+  name: Value
+  href: api/Recore.Unit.html#Recore_Unit_Value_
+  commentId: Overload:Recore.Unit.Value
+  isSpec: "True"
+  fullName: Recore.Unit.Value
+  nameWithType: Unit.Value
+- uid: Recore.UriExtensions
+  name: UriExtensions
+  href: api/Recore.UriExtensions.html
+  commentId: T:Recore.UriExtensions
+  fullName: Recore.UriExtensions
+  nameWithType: UriExtensions
+- uid: Recore.UriExtensions.AsAbsoluteUri(System.Uri)
+  name: AsAbsoluteUri(Uri)
+  href: api/Recore.UriExtensions.html#Recore_UriExtensions_AsAbsoluteUri_System_Uri_
+  commentId: M:Recore.UriExtensions.AsAbsoluteUri(System.Uri)
+  fullName: Recore.UriExtensions.AsAbsoluteUri(System.Uri)
+  nameWithType: UriExtensions.AsAbsoluteUri(Uri)
+- uid: Recore.UriExtensions.AsAbsoluteUri*
+  name: AsAbsoluteUri
+  href: api/Recore.UriExtensions.html#Recore_UriExtensions_AsAbsoluteUri_
+  commentId: Overload:Recore.UriExtensions.AsAbsoluteUri
+  isSpec: "True"
+  fullName: Recore.UriExtensions.AsAbsoluteUri
+  nameWithType: UriExtensions.AsAbsoluteUri

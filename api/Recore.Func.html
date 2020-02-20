@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class Func
    | RecoreFX ">
-    <meta name="generator" content="docfx 2.44.0.0">
+    <meta name="generator" content="docfx 2.49.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -125,14 +125,77 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/brcrista/RecoreFX/new/master/apiSpec/new?filename=Recore_Func_Invoke__1_System_Func___0__.md&amp;value=---%0Auid%3A%20Recore.Func.Invoke%60%601(System.Func%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/recorefx/RecoreFX/new/master/apiSpec/new?filename=Recore_Func_Fluent__1_System_Action___0__.md&amp;value=---%0Auid%3A%20Recore.Func.Fluent%60%601(System.Action%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/brcrista/RecoreFX/blob/master/src/Recore/Func.cs/#L16">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/master/src/Recore/Func.cs/#L22">View Source</a>
+  </span>
+  <a id="Recore_Func_Fluent_" data-uid="Recore.Func.Fluent*"></a>
+  <h4 id="Recore_Func_Fluent__1_System_Action___0__" data-uid="Recore.Func.Fluent``1(System.Action{``0})">Fluent&lt;T&gt;(Action&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Passes through the argument passed to a void-returning routine.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Func&lt;T, T&gt; Fluent&lt;T&gt;(this Action&lt;T&gt; action)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;T&gt;</td>
+        <td><span class="parametername">action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/recorefx/RecoreFX/new/master/apiSpec/new?filename=Recore_Func_Invoke__1_System_Func___0__.md&amp;value=---%0Auid%3A%20Recore.Func.Invoke%60%601(System.Func%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/recorefx/RecoreFX/blob/master/src/Recore/Func.cs/#L17">View Source</a>
   </span>
   <a id="Recore_Func_Invoke_" data-uid="Recore.Func.Invoke*"></a>
   <h4 id="Recore_Func_Invoke__1_System_Func___0__" data-uid="Recore.Func.Invoke``1(System.Func{``0})">Invoke&lt;T&gt;(Func&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"><p>Call a function and return its result.</p>
+  <div class="markdown level1 summary"><p>Calls a function and return its result.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -189,6 +252,1132 @@
   <h5 id="Recore_Func_Invoke__1_System_Func___0___remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>This method is useful for making immediately-invoked function expressions in C#.</p>
 </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/recorefx/RecoreFX/new/master/apiSpec/new?filename=Recore_Func_Memoize__2_System_Func___0___1__.md&amp;value=---%0Auid%3A%20Recore.Func.Memoize%60%602(System.Func%7B%60%600%2C%60%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/recorefx/RecoreFX/blob/master/src/Recore/Func.cs/#L44">View Source</a>
+  </span>
+  <a id="Recore_Func_Memoize_" data-uid="Recore.Func.Memoize*"></a>
+  <h4 id="Recore_Func_Memoize__2_System_Func___0___1__" data-uid="Recore.Func.Memoize``2(System.Func{``0,``1})">Memoize&lt;TSource, TResult&gt;(Func&lt;TSource, TResult&gt;)</h4>
+  <div class="markdown level1 summary"><p>Creates a function that caches the results <code data-dev-comment-type="paramref" class="paramref">func</code> to avoid calling it more than once.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Func&lt;TSource, TResult&gt; Memoize&lt;TSource, TResult&gt;(Func&lt;TSource, TResult&gt; func)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TSource, TResult&gt;</td>
+        <td><span class="parametername">func</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TSource, TResult&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TSource</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Recore_Func_Memoize__2_System_Func___0___1___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>For the memoized function to be correct, <code data-dev-comment-type="paramref" class="paramref">func</code> should return the same result every time it is called with the same argument.
+The memoized function is not thread-safe.
+The memoized function is not meant to serve as a general-purpose cache.
+The lifetime of the memoized function should be bounded
+to prevent the memoized results from consuming too much memory.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/recorefx/RecoreFX/new/master/apiSpec/new?filename=Recore_Func_Memoize__2_System_Func___0___1__System_Collections_Generic_IEqualityComparer___0__.md&amp;value=---%0Auid%3A%20Recore.Func.Memoize%60%602(System.Func%7B%60%600%2C%60%601%7D%2CSystem.Collections.Generic.IEqualityComparer%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/recorefx/RecoreFX/blob/master/src/Recore/Func.cs/#L58">View Source</a>
+  </span>
+  <a id="Recore_Func_Memoize_" data-uid="Recore.Func.Memoize*"></a>
+  <h4 id="Recore_Func_Memoize__2_System_Func___0___1__System_Collections_Generic_IEqualityComparer___0__" data-uid="Recore.Func.Memoize``2(System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``0})">Memoize&lt;TSource, TResult&gt;(Func&lt;TSource, TResult&gt;, IEqualityComparer&lt;TSource&gt;)</h4>
+  <div class="markdown level1 summary"><p>Creates a function that caches the results <code data-dev-comment-type="paramref" class="paramref">func</code> to avoid calling it more than once,
+using <code data-dev-comment-type="paramref" class="paramref">comparer</code> to determine when two arguments should be considered the same.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Func&lt;TSource, TResult&gt; Memoize&lt;TSource, TResult&gt;(Func&lt;TSource, TResult&gt; func, IEqualityComparer&lt;TSource&gt; comparer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TSource, TResult&gt;</td>
+        <td><span class="parametername">func</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.iequalitycomparer-1">IEqualityComparer</a>&lt;TSource&gt;</td>
+        <td><span class="parametername">comparer</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TSource, TResult&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TSource</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Recore_Func_Memoize__2_System_Func___0___1__System_Collections_Generic_IEqualityComparer___0___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>For the memoized function to be correct, <code data-dev-comment-type="paramref" class="paramref">func</code> should return the same result every time it is called with the same argument.
+The memoized function is not thread-safe.
+The memoized function is not meant to serve as a general-purpose cache.
+The lifetime of the memoized function should be bounded
+to prevent the memoized results from consuming too much memory.</p>
+</div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/recorefx/RecoreFX/new/master/apiSpec/new?filename=Recore_Func_TupleArgs__3_System_Func___0___1___2__.md&amp;value=---%0Auid%3A%20Recore.Func.TupleArgs%60%603(System.Func%7B%60%600%2C%60%601%2C%60%602%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/recorefx/RecoreFX/blob/master/src/Recore/Func.cs/#L86">View Source</a>
+  </span>
+  <a id="Recore_Func_TupleArgs_" data-uid="Recore.Func.TupleArgs*"></a>
+  <h4 id="Recore_Func_TupleArgs__3_System_Func___0___1___2__" data-uid="Recore.Func.TupleArgs``3(System.Func{``0,``1,``2})">TupleArgs&lt;T1, T2, TResult&gt;(Func&lt;T1, T2, TResult&gt;)</h4>
+  <div class="markdown level1 summary"><p>Converts a function's arguments to a tuple.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Func&lt;Tuple&lt;T1, T2&gt;, TResult&gt; TupleArgs&lt;T1, T2, TResult&gt;(Func&lt;T1, T2, TResult&gt; func)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-3">Func</a>&lt;T1, T2, TResult&gt;</td>
+        <td><span class="parametername">func</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.tuple-2">Tuple</a>&lt;T1, T2&gt;, TResult&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/recorefx/RecoreFX/new/master/apiSpec/new?filename=Recore_Func_TupleArgs__4_System_Func___0___1___2___3__.md&amp;value=---%0Auid%3A%20Recore.Func.TupleArgs%60%604(System.Func%7B%60%600%2C%60%601%2C%60%602%2C%60%603%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/recorefx/RecoreFX/blob/master/src/Recore/Func.cs/#L97">View Source</a>
+  </span>
+  <a id="Recore_Func_TupleArgs_" data-uid="Recore.Func.TupleArgs*"></a>
+  <h4 id="Recore_Func_TupleArgs__4_System_Func___0___1___2___3__" data-uid="Recore.Func.TupleArgs``4(System.Func{``0,``1,``2,``3})">TupleArgs&lt;T1, T2, T3, TResult&gt;(Func&lt;T1, T2, T3, TResult&gt;)</h4>
+  <div class="markdown level1 summary"><p>Converts a function's arguments to a tuple.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Func&lt;Tuple&lt;T1, T2, T3&gt;, TResult&gt; TupleArgs&lt;T1, T2, T3, TResult&gt;(Func&lt;T1, T2, T3, TResult&gt; func)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-4">Func</a>&lt;T1, T2, T3, TResult&gt;</td>
+        <td><span class="parametername">func</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.tuple-3">Tuple</a>&lt;T1, T2, T3&gt;, TResult&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/recorefx/RecoreFX/new/master/apiSpec/new?filename=Recore_Func_TupleArgs__5_System_Func___0___1___2___3___4__.md&amp;value=---%0Auid%3A%20Recore.Func.TupleArgs%60%605(System.Func%7B%60%600%2C%60%601%2C%60%602%2C%60%603%2C%60%604%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/recorefx/RecoreFX/blob/master/src/Recore/Func.cs/#L108">View Source</a>
+  </span>
+  <a id="Recore_Func_TupleArgs_" data-uid="Recore.Func.TupleArgs*"></a>
+  <h4 id="Recore_Func_TupleArgs__5_System_Func___0___1___2___3___4__" data-uid="Recore.Func.TupleArgs``5(System.Func{``0,``1,``2,``3,``4})">TupleArgs&lt;T1, T2, T3, T4, TResult&gt;(Func&lt;T1, T2, T3, T4, TResult&gt;)</h4>
+  <div class="markdown level1 summary"><p>Converts a function's arguments to a tuple.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Func&lt;Tuple&lt;T1, T2, T3, T4&gt;, TResult&gt; TupleArgs&lt;T1, T2, T3, T4, TResult&gt;(Func&lt;T1, T2, T3, T4, TResult&gt; func)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-5">Func</a>&lt;T1, T2, T3, T4, TResult&gt;</td>
+        <td><span class="parametername">func</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.tuple-4">Tuple</a>&lt;T1, T2, T3, T4&gt;, TResult&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T4</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/recorefx/RecoreFX/new/master/apiSpec/new?filename=Recore_Func_TupleArgs__6_System_Func___0___1___2___3___4___5__.md&amp;value=---%0Auid%3A%20Recore.Func.TupleArgs%60%606(System.Func%7B%60%600%2C%60%601%2C%60%602%2C%60%603%2C%60%604%2C%60%605%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/recorefx/RecoreFX/blob/master/src/Recore/Func.cs/#L119">View Source</a>
+  </span>
+  <a id="Recore_Func_TupleArgs_" data-uid="Recore.Func.TupleArgs*"></a>
+  <h4 id="Recore_Func_TupleArgs__6_System_Func___0___1___2___3___4___5__" data-uid="Recore.Func.TupleArgs``6(System.Func{``0,``1,``2,``3,``4,``5})">TupleArgs&lt;T1, T2, T3, T4, T5, TResult&gt;(Func&lt;T1, T2, T3, T4, T5, TResult&gt;)</h4>
+  <div class="markdown level1 summary"><p>Converts a function's arguments to a tuple.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Func&lt;Tuple&lt;T1, T2, T3, T4, T5&gt;, TResult&gt; TupleArgs&lt;T1, T2, T3, T4, T5, TResult&gt;(Func&lt;T1, T2, T3, T4, T5, TResult&gt; func)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-6">Func</a>&lt;T1, T2, T3, T4, T5, TResult&gt;</td>
+        <td><span class="parametername">func</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.tuple-5">Tuple</a>&lt;T1, T2, T3, T4, T5&gt;, TResult&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T4</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T5</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/recorefx/RecoreFX/new/master/apiSpec/new?filename=Recore_Func_TupleArgs__7_System_Func___0___1___2___3___4___5___6__.md&amp;value=---%0Auid%3A%20Recore.Func.TupleArgs%60%607(System.Func%7B%60%600%2C%60%601%2C%60%602%2C%60%603%2C%60%604%2C%60%605%2C%60%606%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/recorefx/RecoreFX/blob/master/src/Recore/Func.cs/#L130">View Source</a>
+  </span>
+  <a id="Recore_Func_TupleArgs_" data-uid="Recore.Func.TupleArgs*"></a>
+  <h4 id="Recore_Func_TupleArgs__7_System_Func___0___1___2___3___4___5___6__" data-uid="Recore.Func.TupleArgs``7(System.Func{``0,``1,``2,``3,``4,``5,``6})">TupleArgs&lt;T1, T2, T3, T4, T5, T6, TResult&gt;(Func&lt;T1, T2, T3, T4, T5, T6, TResult&gt;)</h4>
+  <div class="markdown level1 summary"><p>Converts a function's arguments to a tuple.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Func&lt;Tuple&lt;T1, T2, T3, T4, T5, T6&gt;, TResult&gt; TupleArgs&lt;T1, T2, T3, T4, T5, T6, TResult&gt;(Func&lt;T1, T2, T3, T4, T5, T6, TResult&gt; func)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-7">Func</a>&lt;T1, T2, T3, T4, T5, T6, TResult&gt;</td>
+        <td><span class="parametername">func</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.tuple-6">Tuple</a>&lt;T1, T2, T3, T4, T5, T6&gt;, TResult&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T4</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T5</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T6</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/recorefx/RecoreFX/new/master/apiSpec/new?filename=Recore_Func_TupleArgs__8_System_Func___0___1___2___3___4___5___6___7__.md&amp;value=---%0Auid%3A%20Recore.Func.TupleArgs%60%608(System.Func%7B%60%600%2C%60%601%2C%60%602%2C%60%603%2C%60%604%2C%60%605%2C%60%606%2C%60%607%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/recorefx/RecoreFX/blob/master/src/Recore/Func.cs/#L141">View Source</a>
+  </span>
+  <a id="Recore_Func_TupleArgs_" data-uid="Recore.Func.TupleArgs*"></a>
+  <h4 id="Recore_Func_TupleArgs__8_System_Func___0___1___2___3___4___5___6___7__" data-uid="Recore.Func.TupleArgs``8(System.Func{``0,``1,``2,``3,``4,``5,``6,``7})">TupleArgs&lt;T1, T2, T3, T4, T5, T6, T7, TResult&gt;(Func&lt;T1, T2, T3, T4, T5, T6, T7, TResult&gt;)</h4>
+  <div class="markdown level1 summary"><p>Converts a function's arguments to a tuple.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Func&lt;Tuple&lt;T1, T2, T3, T4, T5, T6, T7&gt;, TResult&gt; TupleArgs&lt;T1, T2, T3, T4, T5, T6, T7, TResult&gt;(Func&lt;T1, T2, T3, T4, T5, T6, T7, TResult&gt; func)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-8">Func</a>&lt;T1, T2, T3, T4, T5, T6, T7, TResult&gt;</td>
+        <td><span class="parametername">func</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.tuple-7">Tuple</a>&lt;T1, T2, T3, T4, T5, T6, T7&gt;, TResult&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T4</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T5</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T6</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T7</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/recorefx/RecoreFX/new/master/apiSpec/new?filename=Recore_Func_UntupleArgs__3_System_Func_System_Tuple___0___1____2__.md&amp;value=---%0Auid%3A%20Recore.Func.UntupleArgs%60%603(System.Func%7BSystem.Tuple%7B%60%600%2C%60%601%7D%2C%60%602%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/recorefx/RecoreFX/blob/master/src/Recore/Func.cs/#L155">View Source</a>
+  </span>
+  <a id="Recore_Func_UntupleArgs_" data-uid="Recore.Func.UntupleArgs*"></a>
+  <h4 id="Recore_Func_UntupleArgs__3_System_Func_System_Tuple___0___1____2__" data-uid="Recore.Func.UntupleArgs``3(System.Func{System.Tuple{``0,``1},``2})">UntupleArgs&lt;T1, T2, TResult&gt;(Func&lt;Tuple&lt;T1, T2&gt;, TResult&gt;)</h4>
+  <div class="markdown level1 summary"><p>Spreads a unary function's tuple argument.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Func&lt;T1, T2, TResult&gt; UntupleArgs&lt;T1, T2, TResult&gt;(Func&lt;Tuple&lt;T1, T2&gt;, TResult&gt; func)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.tuple-2">Tuple</a>&lt;T1, T2&gt;, TResult&gt;</td>
+        <td><span class="parametername">func</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-3">Func</a>&lt;T1, T2, TResult&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/recorefx/RecoreFX/new/master/apiSpec/new?filename=Recore_Func_UntupleArgs__4_System_Func_System_Tuple___0___1___2____3__.md&amp;value=---%0Auid%3A%20Recore.Func.UntupleArgs%60%604(System.Func%7BSystem.Tuple%7B%60%600%2C%60%601%2C%60%602%7D%2C%60%603%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/recorefx/RecoreFX/blob/master/src/Recore/Func.cs/#L166">View Source</a>
+  </span>
+  <a id="Recore_Func_UntupleArgs_" data-uid="Recore.Func.UntupleArgs*"></a>
+  <h4 id="Recore_Func_UntupleArgs__4_System_Func_System_Tuple___0___1___2____3__" data-uid="Recore.Func.UntupleArgs``4(System.Func{System.Tuple{``0,``1,``2},``3})">UntupleArgs&lt;T1, T2, T3, TResult&gt;(Func&lt;Tuple&lt;T1, T2, T3&gt;, TResult&gt;)</h4>
+  <div class="markdown level1 summary"><p>Spreads a unary function's tuple argument.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Func&lt;T1, T2, T3, TResult&gt; UntupleArgs&lt;T1, T2, T3, TResult&gt;(Func&lt;Tuple&lt;T1, T2, T3&gt;, TResult&gt; func)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.tuple-3">Tuple</a>&lt;T1, T2, T3&gt;, TResult&gt;</td>
+        <td><span class="parametername">func</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-4">Func</a>&lt;T1, T2, T3, TResult&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/recorefx/RecoreFX/new/master/apiSpec/new?filename=Recore_Func_UntupleArgs__5_System_Func_System_Tuple___0___1___2___3____4__.md&amp;value=---%0Auid%3A%20Recore.Func.UntupleArgs%60%605(System.Func%7BSystem.Tuple%7B%60%600%2C%60%601%2C%60%602%2C%60%603%7D%2C%60%604%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/recorefx/RecoreFX/blob/master/src/Recore/Func.cs/#L177">View Source</a>
+  </span>
+  <a id="Recore_Func_UntupleArgs_" data-uid="Recore.Func.UntupleArgs*"></a>
+  <h4 id="Recore_Func_UntupleArgs__5_System_Func_System_Tuple___0___1___2___3____4__" data-uid="Recore.Func.UntupleArgs``5(System.Func{System.Tuple{``0,``1,``2,``3},``4})">UntupleArgs&lt;T1, T2, T3, T4, TResult&gt;(Func&lt;Tuple&lt;T1, T2, T3, T4&gt;, TResult&gt;)</h4>
+  <div class="markdown level1 summary"><p>Spreads a unary function's tuple argument.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Func&lt;T1, T2, T3, T4, TResult&gt; UntupleArgs&lt;T1, T2, T3, T4, TResult&gt;(Func&lt;Tuple&lt;T1, T2, T3, T4&gt;, TResult&gt; func)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.tuple-4">Tuple</a>&lt;T1, T2, T3, T4&gt;, TResult&gt;</td>
+        <td><span class="parametername">func</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-5">Func</a>&lt;T1, T2, T3, T4, TResult&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T4</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/recorefx/RecoreFX/new/master/apiSpec/new?filename=Recore_Func_UntupleArgs__6_System_Func_System_Tuple___0___1___2___3___4____5__.md&amp;value=---%0Auid%3A%20Recore.Func.UntupleArgs%60%606(System.Func%7BSystem.Tuple%7B%60%600%2C%60%601%2C%60%602%2C%60%603%2C%60%604%7D%2C%60%605%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/recorefx/RecoreFX/blob/master/src/Recore/Func.cs/#L188">View Source</a>
+  </span>
+  <a id="Recore_Func_UntupleArgs_" data-uid="Recore.Func.UntupleArgs*"></a>
+  <h4 id="Recore_Func_UntupleArgs__6_System_Func_System_Tuple___0___1___2___3___4____5__" data-uid="Recore.Func.UntupleArgs``6(System.Func{System.Tuple{``0,``1,``2,``3,``4},``5})">UntupleArgs&lt;T1, T2, T3, T4, T5, TResult&gt;(Func&lt;Tuple&lt;T1, T2, T3, T4, T5&gt;, TResult&gt;)</h4>
+  <div class="markdown level1 summary"><p>Spreads a unary function's tuple argument.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Func&lt;T1, T2, T3, T4, T5, TResult&gt; UntupleArgs&lt;T1, T2, T3, T4, T5, TResult&gt;(Func&lt;Tuple&lt;T1, T2, T3, T4, T5&gt;, TResult&gt; func)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.tuple-5">Tuple</a>&lt;T1, T2, T3, T4, T5&gt;, TResult&gt;</td>
+        <td><span class="parametername">func</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-6">Func</a>&lt;T1, T2, T3, T4, T5, TResult&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T4</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T5</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/recorefx/RecoreFX/new/master/apiSpec/new?filename=Recore_Func_UntupleArgs__7_System_Func_System_Tuple___0___1___2___3___4___5____6__.md&amp;value=---%0Auid%3A%20Recore.Func.UntupleArgs%60%607(System.Func%7BSystem.Tuple%7B%60%600%2C%60%601%2C%60%602%2C%60%603%2C%60%604%2C%60%605%7D%2C%60%606%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/recorefx/RecoreFX/blob/master/src/Recore/Func.cs/#L199">View Source</a>
+  </span>
+  <a id="Recore_Func_UntupleArgs_" data-uid="Recore.Func.UntupleArgs*"></a>
+  <h4 id="Recore_Func_UntupleArgs__7_System_Func_System_Tuple___0___1___2___3___4___5____6__" data-uid="Recore.Func.UntupleArgs``7(System.Func{System.Tuple{``0,``1,``2,``3,``4,``5},``6})">UntupleArgs&lt;T1, T2, T3, T4, T5, T6, TResult&gt;(Func&lt;Tuple&lt;T1, T2, T3, T4, T5, T6&gt;, TResult&gt;)</h4>
+  <div class="markdown level1 summary"><p>Spreads a unary function's tuple argument.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Func&lt;T1, T2, T3, T4, T5, T6, TResult&gt; UntupleArgs&lt;T1, T2, T3, T4, T5, T6, TResult&gt;(Func&lt;Tuple&lt;T1, T2, T3, T4, T5, T6&gt;, TResult&gt; func)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.tuple-6">Tuple</a>&lt;T1, T2, T3, T4, T5, T6&gt;, TResult&gt;</td>
+        <td><span class="parametername">func</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-7">Func</a>&lt;T1, T2, T3, T4, T5, T6, TResult&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T4</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T5</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T6</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/recorefx/RecoreFX/new/master/apiSpec/new?filename=Recore_Func_UntupleArgs__8_System_Func_System_Tuple___0___1___2___3___4___5___6____7__.md&amp;value=---%0Auid%3A%20Recore.Func.UntupleArgs%60%608(System.Func%7BSystem.Tuple%7B%60%600%2C%60%601%2C%60%602%2C%60%603%2C%60%604%2C%60%605%2C%60%606%7D%2C%60%607%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/recorefx/RecoreFX/blob/master/src/Recore/Func.cs/#L210">View Source</a>
+  </span>
+  <a id="Recore_Func_UntupleArgs_" data-uid="Recore.Func.UntupleArgs*"></a>
+  <h4 id="Recore_Func_UntupleArgs__8_System_Func_System_Tuple___0___1___2___3___4___5___6____7__" data-uid="Recore.Func.UntupleArgs``8(System.Func{System.Tuple{``0,``1,``2,``3,``4,``5,``6},``7})">UntupleArgs&lt;T1, T2, T3, T4, T5, T6, T7, TResult&gt;(Func&lt;Tuple&lt;T1, T2, T3, T4, T5, T6, T7&gt;, TResult&gt;)</h4>
+  <div class="markdown level1 summary"><p>Spreads a unary function's tuple argument.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Func&lt;T1, T2, T3, T4, T5, T6, T7, TResult&gt; UntupleArgs&lt;T1, T2, T3, T4, T5, T6, T7, TResult&gt;(Func&lt;Tuple&lt;T1, T2, T3, T4, T5, T6, T7&gt;, TResult&gt; func)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.tuple-7">Tuple</a>&lt;T1, T2, T3, T4, T5, T6, T7&gt;, TResult&gt;</td>
+        <td><span class="parametername">func</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-8">Func</a>&lt;T1, T2, T3, T4, T5, T6, T7, TResult&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T2</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T3</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T4</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T5</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T6</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">T7</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TResult</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </article>
           </div>
           
@@ -197,10 +1386,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/brcrista/RecoreFX/new/master/apiSpec/new?filename=Recore_Func.md&amp;value=---%0Auid%3A%20Recore.Func%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/recorefx/RecoreFX/new/master/apiSpec/new?filename=Recore_Func.md&amp;value=---%0Auid%3A%20Recore.Func%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/brcrista/RecoreFX/blob/master/src/Recore/Func.cs/#L8" class="contribution-link">View Source</a>
+                    <a href="https://github.com/recorefx/RecoreFX/blob/master/src/Recore/Func.cs/#L9" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

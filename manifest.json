@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "/Users/brian/Code/RecoreFx/docs/docfx",
+  "source_base_path": "C:/Users/Brian/code/GitHub/recorefx/RecoreFX/docs/docfx",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "q8jFL3i5ZXNfN7saxKj64A=="
+          "hash": "pE1i/1AJwywXB/T8A3J+tA=="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,415 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.AbsoluteUri.html",
-          "hash": "DoTaY7r5LhOVZWVjQIH3gA=="
+          "hash": "WnbQgl8Y3mipsgQ+6YpkaA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Recore.AsyncAction-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recore.AsyncAction-1.html",
+          "hash": "K7pISw3ptQWkhX3Xn8oG3g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Recore.AsyncAction-10.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recore.AsyncAction-10.html",
+          "hash": "vEQD/aNgZcSvgPE0lewTRA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Recore.AsyncAction-11.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recore.AsyncAction-11.html",
+          "hash": "0J5mf12DZxVlb5iHgtX8sA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Recore.AsyncAction-12.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recore.AsyncAction-12.html",
+          "hash": "Prmnojl2BNl7QNvllsIwyw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Recore.AsyncAction-13.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recore.AsyncAction-13.html",
+          "hash": "hPhLegC/Em4YQzyVMgQ0yg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Recore.AsyncAction-14.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recore.AsyncAction-14.html",
+          "hash": "Ri6Sja2jXFYNEqkM24Z66Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Recore.AsyncAction-15.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recore.AsyncAction-15.html",
+          "hash": "9YZvmSa4t8+bDO1kU3euXw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Recore.AsyncAction-16.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recore.AsyncAction-16.html",
+          "hash": "34i5gz8zH6Y+7O+SUJgn1g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Recore.AsyncAction-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recore.AsyncAction-2.html",
+          "hash": "kxyC9ONgUYpc90do/x/nKw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Recore.AsyncAction-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recore.AsyncAction-3.html",
+          "hash": "coDYE5f4Xam6RhLyq4pZzg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Recore.AsyncAction-4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recore.AsyncAction-4.html",
+          "hash": "QaPpkT3DYJ8xp8hBvndykw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Recore.AsyncAction-5.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recore.AsyncAction-5.html",
+          "hash": "29pR+LxztSx3SR3vwLqC0A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Recore.AsyncAction-6.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recore.AsyncAction-6.html",
+          "hash": "Gf06/Vf/AE64SpiFXrmDOw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Recore.AsyncAction-7.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recore.AsyncAction-7.html",
+          "hash": "ucFy00Ehfa9MK4aUzZsReA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Recore.AsyncAction-8.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recore.AsyncAction-8.html",
+          "hash": "a9Nyc9l/SdxFODBOgTVVHw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Recore.AsyncAction-9.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recore.AsyncAction-9.html",
+          "hash": "BioS9WhSraSY3L98H+KpSg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Recore.AsyncAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recore.AsyncAction.html",
+          "hash": "2dYOFWqsABi4n3MBfTnzzQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Recore.AsyncFunc-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recore.AsyncFunc-1.html",
+          "hash": "Nd/nY+80cq78eLkuanFmxA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Recore.AsyncFunc-10.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recore.AsyncFunc-10.html",
+          "hash": "H2bZPKntXluDKeGpKsxReQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Recore.AsyncFunc-11.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recore.AsyncFunc-11.html",
+          "hash": "satbkhToHPQ6ec512y3wag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Recore.AsyncFunc-12.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recore.AsyncFunc-12.html",
+          "hash": "K7eEynhho23dC9tsM336TQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Recore.AsyncFunc-13.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recore.AsyncFunc-13.html",
+          "hash": "d8nsfubBcQsIox9bWDz0uw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Recore.AsyncFunc-14.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recore.AsyncFunc-14.html",
+          "hash": "u6J7/yVxT2u0tXl1XP5K5Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Recore.AsyncFunc-15.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recore.AsyncFunc-15.html",
+          "hash": "voseQluEl9URmghs7E3wfQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Recore.AsyncFunc-16.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recore.AsyncFunc-16.html",
+          "hash": "0TC4SU491575YC61ltOqBQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Recore.AsyncFunc-17.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recore.AsyncFunc-17.html",
+          "hash": "FtIpci748rn5aELQg+S/iA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Recore.AsyncFunc-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recore.AsyncFunc-2.html",
+          "hash": "UMIC6JHnsiKVEXN8r4IgFg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Recore.AsyncFunc-3.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recore.AsyncFunc-3.html",
+          "hash": "DgyMVREva8pGRaBXGIXkow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Recore.AsyncFunc-4.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recore.AsyncFunc-4.html",
+          "hash": "JShHsGF5mPCrbtJF3+LMPg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Recore.AsyncFunc-5.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recore.AsyncFunc-5.html",
+          "hash": "gYG+eifNRJQiRHTaHRpMwg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Recore.AsyncFunc-6.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recore.AsyncFunc-6.html",
+          "hash": "vkSJCAMk5EkacqNJZxPEHw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Recore.AsyncFunc-7.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recore.AsyncFunc-7.html",
+          "hash": "kRnpaCkhmSJCOACTaBAnMw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Recore.AsyncFunc-8.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recore.AsyncFunc-8.html",
+          "hash": "KOopLjpfU5n36IHQdnLP8w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Recore.AsyncFunc-9.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recore.AsyncFunc-9.html",
+          "hash": "/CRgntL0FGTifa+C58/BEw=="
         }
       },
       "is_incremental": false,
@@ -42,7 +450,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Collections.Generic.ICollectionExtensions.html",
-          "hash": "m2bC6vvXkTA7fvdJO6v4aQ=="
+          "hash": "f8RVzN2Jozw6RfNQjMWARg=="
         }
       },
       "is_incremental": false,
@@ -54,7 +462,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Collections.Generic.IDictionaryExtensions.html",
-          "hash": "CFhmH//vfEdrmLw8xoo5ew=="
+          "hash": "z1I53U2cgM6bpmjAIJEzgA=="
         }
       },
       "is_incremental": false,
@@ -66,7 +474,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Collections.Generic.IReadOnlyDictionaryExtensions.html",
-          "hash": "Z8zigAduXOOHt/DD31kI+A=="
+          "hash": "z0B23HnMyw02ATOgGwFsMg=="
         }
       },
       "is_incremental": false,
@@ -78,7 +486,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Collections.Generic.LinkedListExtensions.html",
-          "hash": "md9ktWXV9bsYUUF7QwKabw=="
+          "hash": "lwugfijevbnDrZ+bs/DmVw=="
         }
       },
       "is_incremental": false,
@@ -90,7 +498,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Collections.Generic.ListExtensions.html",
-          "hash": "dVAkyhqXZ9wf/nlGYrFMGQ=="
+          "hash": "Az+2sdLFUp6vniuQE9jYMw=="
         }
       },
       "is_incremental": false,
@@ -102,7 +510,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Collections.Generic.html",
-          "hash": "n6dV+7YZtGautgKp3RezAw=="
+          "hash": "l9zthHSCXo7UCQIqeAvurQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Recore.Defer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recore.Defer.html",
+          "hash": "SsImrwvwUSpRaVL9tStB3Q=="
         }
       },
       "is_incremental": false,
@@ -114,7 +534,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Either-2.html",
-          "hash": "uuryIZDJEC3hwYsdSeqIaQ=="
+          "hash": "Ugc08igZY91ZKhQShxaC7g=="
         }
       },
       "is_incremental": false,
@@ -126,7 +546,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Either.html",
-          "hash": "tyv275pmJRhh7Nc/NgSwag=="
+          "hash": "d5SKn69X/YANgIxFu/E86w=="
         }
       },
       "is_incremental": false,
@@ -138,7 +558,79 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Func.html",
-          "hash": "pjXQ9QKjMltIZBbBL4xRhA=="
+          "hash": "G+LrFlIxvWYeiSpLql1X5Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Recore.Functional.Composer-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recore.Functional.Composer-1.html",
+          "hash": "SqbcLxhFjNbULsQ7lWmX/A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Recore.Functional.Composer-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recore.Functional.Composer-2.html",
+          "hash": "ZJlrhTf2PuAws7S3z0oIWQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Recore.Functional.Composer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recore.Functional.Composer.html",
+          "hash": "/9zLEW8Nz8/O1vijSpi12Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Recore.Functional.Lift.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recore.Functional.Lift.html",
+          "hash": "yr42XCwiLXzSla/1Ip/Z+w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Recore.Functional.Operator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recore.Functional.Operator.html",
+          "hash": "1bnHuzO5SkyOEzACdKLpZQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Recore.Functional.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recore.Functional.html",
+          "hash": "C7rKf7omgEEOJoAHG2ihdQ=="
         }
       },
       "is_incremental": false,
@@ -150,7 +642,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Hasher.html",
-          "hash": "H7r2CR3FP2YlhhPgRzWC9g=="
+          "hash": "Y89+wdicWEajl/EwMVjYmw=="
         }
       },
       "is_incremental": false,
@@ -162,7 +654,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Linq.Renumerable.html",
-          "hash": "Yx72dILVs/tFqQUHwOkqNQ=="
+          "hash": "VEBefb0BQu/ea5CBjbnOPw=="
         }
       },
       "is_incremental": false,
@@ -174,7 +666,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Linq.html",
-          "hash": "9ZGfWD4FZvCtFnBiQOFjkg=="
+          "hash": "qCimF/C6orSvlJNN1SGUrA=="
         }
       },
       "is_incremental": false,
@@ -186,7 +678,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Of-1.html",
-          "hash": "76oV/aO3B/qsU7wcCQvJbg=="
+          "hash": "S1iBlPCJidSbLZOdHxNPwA=="
         }
       },
       "is_incremental": false,
@@ -198,7 +690,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Optional-1.html",
-          "hash": "JsZ92w7QymRYD/UxHBdGqw=="
+          "hash": "BYdS1oy2XdgtnHRqpfzGkw=="
         }
       },
       "is_incremental": false,
@@ -210,7 +702,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Optional.html",
-          "hash": "9ia4FwnwmhNu5rTM9B4bcg=="
+          "hash": "kt1Ak15DhcFWCt2tk1n9OA=="
         }
       },
       "is_incremental": false,
@@ -222,7 +714,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.RelativeUri.html",
-          "hash": "FczzpBRzCXf0xgYAD1ZMNA=="
+          "hash": "W0IjGoxhuz0diJ47q27LpA=="
         }
       },
       "is_incremental": false,
@@ -234,7 +726,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Result-2.html",
-          "hash": "esSNShwpOhpob2Pk0PT4bw=="
+          "hash": "NGw/RYWkBRWeWlAABVZOkg=="
         }
       },
       "is_incremental": false,
@@ -246,7 +738,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Result.Catcher-1.html",
-          "hash": "sSnu1SPxj71eOFGSyX8K5w=="
+          "hash": "WMKRW7gRiU3keBrgJUyQ7Q=="
         }
       },
       "is_incremental": false,
@@ -258,7 +750,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Result.html",
-          "hash": "vpXtrcF4+vClbzBOFsdThg=="
+          "hash": "roxQ98DCWB3iJv+1eWnQuA=="
         }
       },
       "is_incremental": false,
@@ -270,7 +762,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Security.Cryptography.SecureCompare.html",
-          "hash": "1rqh78aiAqXZPZIS/keItA=="
+          "hash": "wOpmOy4QEZet33pMQ/oSZA=="
         }
       },
       "is_incremental": false,
@@ -282,7 +774,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Security.Cryptography.html",
-          "hash": "cFAPAx01Y7zuaFC8qudU5Q=="
+          "hash": "DAlxhr+EahNcyPPq88Vx4A=="
         }
       },
       "is_incremental": false,
@@ -294,7 +786,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.StringExtensions.html",
-          "hash": "MetsuNR+sBTEOlXkrsrSag=="
+          "hash": "qePeCfOlytqOv8j+kVPjbQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Recore.Text.StringUtil.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recore.Text.StringUtil.html",
+          "hash": "HE1Mwkb7YycIRz0V3c0I+A=="
         }
       },
       "is_incremental": false,
@@ -306,7 +810,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Text.Wildcard.html",
-          "hash": "8Wr6q8JpC9edVSSkfiZbAg=="
+          "hash": "0jA2QKT4l1Nujl0AHmUhYA=="
         }
       },
       "is_incremental": false,
@@ -318,7 +822,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Text.html",
-          "hash": "Io+sGw+YnAWdvFvOXYgC3Q=="
+          "hash": "gO0F/x2nK0fLZyGqM7HsEA=="
         }
       },
       "is_incremental": false,
@@ -330,7 +834,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Threading.Tasks.TaskExtensions.html",
-          "hash": "jZzgiON1plgCo1LbZF51yQ=="
+          "hash": "oQxfsgJIlSyCmT6gkpjnrA=="
         }
       },
       "is_incremental": false,
@@ -342,7 +846,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Threading.Tasks.html",
-          "hash": "EnIZxu6VT/cR0eQ+r7PkQA=="
+          "hash": "o1u+wNCfNquij/eAq8rA7g=="
         }
       },
       "is_incremental": false,
@@ -354,7 +858,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Token.html",
-          "hash": "QM4mvLH4P0xo5/kcxkR+0Q=="
+          "hash": "a3wrzp4ywkTI9gMXvZITrg=="
         }
       },
       "is_incremental": false,
@@ -366,7 +870,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Unit.html",
-          "hash": "j77ddN8OK/AA6IuvVFYgvw=="
+          "hash": "BDQeawwfQr9x9ux4QdHivA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Recore.UriExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recore.UriExtensions.html",
+          "hash": "P/KJa+VfhOjUI2S3gW/ZWQ=="
         }
       },
       "is_incremental": false,
@@ -378,7 +894,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.html",
-          "hash": "rWI3ode1kf7N6ARIO/CS+g=="
+          "hash": "ZNDxOYaXMJVWtdJ7BaNgzQ=="
         }
       },
       "is_incremental": false,
@@ -390,7 +906,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "L0uL8lHlIvaoMJymLhytrQ=="
+          "hash": "3+5CZuSJDQ3rm4g5cE2KGg=="
         }
       },
       "is_incremental": false,
@@ -402,7 +918,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "+Mt2lanwH5ZKPKYbE3wIZA=="
+          "hash": "A27k88yVWclX4pq3yXRwlQ=="
         }
       },
       "is_incremental": false,
@@ -420,10 +936,11 @@
         "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
-        "ManagedReferenceDocumentProcessor": {
+        "TocDocumentProcessor": {
           "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 30,
+          "total_file_count": 0,
           "skipped_file_count": 0
         },
         "ConceptualDocumentProcessor": {
@@ -432,11 +949,10 @@
           "total_file_count": 1,
           "skipped_file_count": 0
         },
-        "TocDocumentProcessor": {
+        "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 0,
+          "total_file_count": 73,
           "skipped_file_count": 0
         }
       }

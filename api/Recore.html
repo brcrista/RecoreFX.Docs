@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Namespace Recore
    | RecoreFX ">
-    <meta name="generator" content="docfx 2.44.0.0">
+    <meta name="generator" content="docfx 2.49.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -90,8 +90,11 @@
       <h4><a class="xref" href="Recore.AbsoluteUri.html">AbsoluteUri</a></h4>
       <section><p>Represents an absolute URI.</p>
 </section>
+      <h4><a class="xref" href="Recore.Defer.html">Defer</a></h4>
+      <section><p>Invokes an action when disposed.</p>
+</section>
       <h4><a class="xref" href="Recore.Either.html">Either</a></h4>
-      <section><p>Provides additional methods for <code>Either</code>.</p>
+      <section><p>Provides additional methods for <a class="xref" href="Recore.Either-2.html">Either&lt;TLeft, TRight&gt;</a>.</p>
 </section>
       <h4><a class="xref" href="Recore.Either-2.html">Either&lt;TLeft, TRight&gt;</a></h4>
       <section><p>Represents a value that can be one of two types.</p>
@@ -106,16 +109,16 @@
       <section><p>Abstract base class for defining types that alias an existing type.</p>
 </section>
       <h4><a class="xref" href="Recore.Optional.html">Optional</a></h4>
-      <section><p>Provides additional methods for <code>Optional&lt;T&gt;</code>.</p>
+      <section><p>Provides additional methods for <a class="xref" href="Recore.Optional-1.html">Optional&lt;T&gt;</a>.</p>
 </section>
       <h4><a class="xref" href="Recore.RelativeUri.html">RelativeUri</a></h4>
       <section><p>Represents a relative URI.</p>
 </section>
       <h4><a class="xref" href="Recore.Result.html">Result</a></h4>
-      <section><p>Provides additional methods for <code>Result</code>.</p>
+      <section><p>Provides additional methods for <a class="xref" href="Recore.Result-2.html">Result&lt;TValue, TError&gt;</a>.</p>
 </section>
       <h4><a class="xref" href="Recore.Result.Catcher-1.html">Result.Catcher&lt;TValue&gt;</a></h4>
-      <section><p>Wraps a function to be executed and converted to <code>Result</code>.</p>
+      <section><p>Wraps a function to be executed and converted to <a class="xref" href="Recore.Result-2.html">Result&lt;TValue, TError&gt;</a>.</p>
 </section>
       <h4><a class="xref" href="Recore.Result-2.html">Result&lt;TValue, TError&gt;</a></h4>
       <section><p>Represents the result of an operation that can be successful or failed.</p>
@@ -126,6 +129,9 @@
       <h4><a class="xref" href="Recore.Token.html">Token</a></h4>
       <section><p>Represents a non-null, non-empty string value where whitespace is not allowed.</p>
 </section>
+      <h4><a class="xref" href="Recore.UriExtensions.html">UriExtensions</a></h4>
+      <section><p>Extension methods for the <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uri">Uri</a> type.</p>
+</section>
     <h3 id="structs">Structs
   </h3>
       <h4><a class="xref" href="Recore.Optional-1.html">Optional&lt;T&gt;</a></h4>
@@ -133,6 +139,144 @@
 </section>
       <h4><a class="xref" href="Recore.Unit.html">Unit</a></h4>
       <section><p>A type with only one value.</p>
+</section>
+    <h3 id="delegates">Delegates
+  </h3>
+      <h4><a class="xref" href="Recore.AsyncAction.html">AsyncAction</a></h4>
+      <section><p>Encapsulates an asynchronous method that has no parameters and does not return a value.
+Equivalent to <code>Func&lt;Task&gt;</code>.</p>
+</section>
+      <h4><a class="xref" href="Recore.AsyncAction-1.html">AsyncAction&lt;T&gt;</a></h4>
+      <section><p>Encapsulates an asynchronous method that has one parameter and does not return a value.
+Equivalent to <code>Func&lt;T, Task&gt;</code>.</p>
+</section>
+      <h4><a class="xref" href="Recore.AsyncAction-10.html">AsyncAction&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, T10&gt;</a></h4>
+      <section><p>Encapsulates an asynchronous method that has 10 parameters and does not return a value.
+Equivalent to <code>Func&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, Task&gt;</code>.</p>
+</section>
+      <h4><a class="xref" href="Recore.AsyncAction-11.html">AsyncAction&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11&gt;</a></h4>
+      <section><p>Encapsulates an asynchronous method that has 11 parameters and does not return a value.
+Equivalent to <code>Func&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, Task&gt;</code>.</p>
+</section>
+      <h4><a class="xref" href="Recore.AsyncAction-12.html">AsyncAction&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12&gt;</a></h4>
+      <section><p>Encapsulates an asynchronous method that has 12 parameters and does not return a value.
+Equivalent to <code>Func&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, Task&gt;</code>.</p>
+</section>
+      <h4><a class="xref" href="Recore.AsyncAction-13.html">AsyncAction&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13&gt;</a></h4>
+      <section><p>Encapsulates an asynchronous method that has 13 parameters and does not return a value.
+Equivalent to <code>Func&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, Task&gt;</code>.</p>
+</section>
+      <h4><a class="xref" href="Recore.AsyncAction-14.html">AsyncAction&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14&gt;</a></h4>
+      <section><p>Encapsulates an asynchronous method that has 14 parameters and does not return a value.
+Equivalent to <code>Func&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, Task&gt;</code>.</p>
+</section>
+      <h4><a class="xref" href="Recore.AsyncAction-15.html">AsyncAction&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15&gt;</a></h4>
+      <section><p>Encapsulates an asynchronous method that has 15 parameters and does not return a value.
+Equivalent to <code>Func&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, Task&gt;</code>.</p>
+</section>
+      <h4><a class="xref" href="Recore.AsyncAction-16.html">AsyncAction&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16&gt;</a></h4>
+      <section><p>Encapsulates an asynchronous method that has 16 parameters and does not return a value.
+Equivalent to <code>Func&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, Task&gt;</code>.</p>
+</section>
+      <h4><a class="xref" href="Recore.AsyncAction-2.html">AsyncAction&lt;T1, T2&gt;</a></h4>
+      <section><p>Encapsulates an asynchronous method that has two parameters and does not return a value.
+Equivalent to <code>Func&lt;T1, T2, Task&gt;</code>.</p>
+</section>
+      <h4><a class="xref" href="Recore.AsyncAction-3.html">AsyncAction&lt;T1, T2, T3&gt;</a></h4>
+      <section><p>Encapsulates an asynchronous method that has three parameters and does not return a value.
+Equivalent to <code>Func&lt;T1, T2, T3, Task&gt;</code>.</p>
+</section>
+      <h4><a class="xref" href="Recore.AsyncAction-4.html">AsyncAction&lt;T1, T2, T3, T4&gt;</a></h4>
+      <section><p>Encapsulates an asynchronous method that has four parameters and does not return a value.
+Equivalent to <code>Func&lt;T1, T2, T3, T4, Task&gt;</code>.</p>
+</section>
+      <h4><a class="xref" href="Recore.AsyncAction-5.html">AsyncAction&lt;T1, T2, T3, T4, T5&gt;</a></h4>
+      <section><p>Encapsulates an asynchronous method that has five parameters and does not return a value.
+Equivalent to <code>Func&lt;T1, T2, T3, T4, T5, Task&gt;</code>.</p>
+</section>
+      <h4><a class="xref" href="Recore.AsyncAction-6.html">AsyncAction&lt;T1, T2, T3, T4, T5, T6&gt;</a></h4>
+      <section><p>Encapsulates an asynchronous method that has six parameters and does not return a value.
+Equivalent to <code>Func&lt;T1, T2, T3, T4, T5, T6, Task&gt;</code>.</p>
+</section>
+      <h4><a class="xref" href="Recore.AsyncAction-7.html">AsyncAction&lt;T1, T2, T3, T4, T5, T6, T7&gt;</a></h4>
+      <section><p>Encapsulates an asynchronous method that has seven parameters and does not return a value.
+Equivalent to <code>Func&lt;T1, T2, T3, T4, T5, T6, T7, Task&gt;</code>.</p>
+</section>
+      <h4><a class="xref" href="Recore.AsyncAction-8.html">AsyncAction&lt;T1, T2, T3, T4, T5, T6, T7, T8&gt;</a></h4>
+      <section><p>Encapsulates an asynchronous method that has eight parameters and does not return a value.
+Equivalent to <code>Func&lt;T1, T2, T3, T4, T5, T6, T7, T8, Task&gt;</code>.</p>
+</section>
+      <h4><a class="xref" href="Recore.AsyncAction-9.html">AsyncAction&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9&gt;</a></h4>
+      <section><p>Encapsulates an asynchronous method that has nine parameters and does not return a value.
+Equivalent to <code>Func&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, Task&gt;</code>.</p>
+</section>
+      <h4><a class="xref" href="Recore.AsyncFunc-1.html">AsyncFunc&lt;TResult&gt;</a></h4>
+      <section><p>Encapsulates an asynchronous method that has no parameters and returns a value of the type specified by the <code data-dev-comment-type="typeparamref" class="typeparamref">TResult</code> parameter.
+Equivalent to <code>Func&lt;Task&lt;TResult&gt;&gt;</code>.</p>
+</section>
+      <h4><a class="xref" href="Recore.AsyncFunc-10.html">AsyncFunc&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, TResult&gt;</a></h4>
+      <section><p>Encapsulates an asynchronous method that has nine parameters and returns a value of the type specified by the <code data-dev-comment-type="typeparamref" class="typeparamref">TResult</code> parameter.
+Equivalent to <code>Func&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, Task&lt;TResult&gt;&gt;</code>.</p>
+</section>
+      <h4><a class="xref" href="Recore.AsyncFunc-11.html">AsyncFunc&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, TResult&gt;</a></h4>
+      <section><p>Encapsulates an asynchronous method that has 10 parameters and returns a value of the type specified by the <code data-dev-comment-type="typeparamref" class="typeparamref">TResult</code> parameter.
+Equivalent to <code>Func&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, Task&lt;TResult&gt;&gt;</code>.</p>
+</section>
+      <h4><a class="xref" href="Recore.AsyncFunc-12.html">AsyncFunc&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, TResult&gt;</a></h4>
+      <section><p>Encapsulates an asynchronous method that has 11 parameters and returns a value of the type specified by the <code data-dev-comment-type="typeparamref" class="typeparamref">TResult</code> parameter.
+Equivalent to <code>Func&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, Task&lt;TResult&gt;&gt;</code>.</p>
+</section>
+      <h4><a class="xref" href="Recore.AsyncFunc-13.html">AsyncFunc&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, TResult&gt;</a></h4>
+      <section><p>Encapsulates an asynchronous method that has 12 parameters and returns a value of the type specified by the <code data-dev-comment-type="typeparamref" class="typeparamref">TResult</code> parameter.
+Equivalent to <code>Func&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, Task&lt;TResult&gt;&gt;</code>.</p>
+</section>
+      <h4><a class="xref" href="Recore.AsyncFunc-14.html">AsyncFunc&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, TResult&gt;</a></h4>
+      <section><p>Encapsulates an asynchronous method that has 13 parameters and returns a value of the type specified by the <code data-dev-comment-type="typeparamref" class="typeparamref">TResult</code> parameter.
+Equivalent to <code>Func&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, Task&lt;TResult&gt;&gt;</code>.</p>
+</section>
+      <h4><a class="xref" href="Recore.AsyncFunc-15.html">AsyncFunc&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, TResult&gt;</a></h4>
+      <section><p>Encapsulates an asynchronous method that has 14 parameters and returns a value of the type specified by the <code data-dev-comment-type="typeparamref" class="typeparamref">TResult</code> parameter.
+Equivalent to <code>Func&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, Task&lt;TResult&gt;&gt;</code>.</p>
+</section>
+      <h4><a class="xref" href="Recore.AsyncFunc-16.html">AsyncFunc&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, TResult&gt;</a></h4>
+      <section><p>Encapsulates an asynchronous method that has 15 parameters and returns a value of the type specified by the <code data-dev-comment-type="typeparamref" class="typeparamref">TResult</code> parameter.
+Equivalent to <code>Func&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, Task&lt;TResult&gt;&gt;</code>.</p>
+</section>
+      <h4><a class="xref" href="Recore.AsyncFunc-17.html">AsyncFunc&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, TResult&gt;</a></h4>
+      <section><p>Encapsulates an asynchronous method that has 16 parameters and returns a value of the type specified by the <code data-dev-comment-type="typeparamref" class="typeparamref">TResult</code> parameter.
+Equivalent to <code>Func&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, T13, T14, T15, T16, Task&lt;TResult&gt;&gt;</code>.</p>
+</section>
+      <h4><a class="xref" href="Recore.AsyncFunc-2.html">AsyncFunc&lt;T, TResult&gt;</a></h4>
+      <section><p>Encapsulates an asynchronous method that has one parameter and returns a value of the type specified by the <code data-dev-comment-type="typeparamref" class="typeparamref">TResult</code> parameter.
+Equivalent to <code>Func&lt;Task&lt;TResult&gt;&gt;</code>.</p>
+</section>
+      <h4><a class="xref" href="Recore.AsyncFunc-3.html">AsyncFunc&lt;T1, T2, TResult&gt;</a></h4>
+      <section><p>Encapsulates an asynchronous method that has two parameters and returns a value of the type specified by the <code data-dev-comment-type="typeparamref" class="typeparamref">TResult</code> parameter.
+Equivalent to <code>Func&lt;T1, T2, Task&lt;TResult&gt;&gt;</code>.</p>
+</section>
+      <h4><a class="xref" href="Recore.AsyncFunc-4.html">AsyncFunc&lt;T1, T2, T3, TResult&gt;</a></h4>
+      <section><p>Encapsulates an asynchronous method that has three parameters and returns a value of the type specified by the <code data-dev-comment-type="typeparamref" class="typeparamref">TResult</code> parameter.
+Equivalent to <code>Func&lt;T1, T2, T3, Task&lt;TResult&gt;&gt;</code>.</p>
+</section>
+      <h4><a class="xref" href="Recore.AsyncFunc-5.html">AsyncFunc&lt;T1, T2, T3, T4, TResult&gt;</a></h4>
+      <section><p>Encapsulates an asynchronous method that has four parameters and returns a value of the type specified by the <code data-dev-comment-type="typeparamref" class="typeparamref">TResult</code> parameter.
+Equivalent to <code>Func&lt;T1, T2, T3, T4, Task&lt;TResult&gt;&gt;</code>.</p>
+</section>
+      <h4><a class="xref" href="Recore.AsyncFunc-6.html">AsyncFunc&lt;T1, T2, T3, T4, T5, TResult&gt;</a></h4>
+      <section><p>Encapsulates an asynchronous method that has five parameters and returns a value of the type specified by the <code data-dev-comment-type="typeparamref" class="typeparamref">TResult</code> parameter.
+Equivalent to <code>Func&lt;T1, T2, T3, T4, T5, Task&lt;TResult&gt;&gt;</code>.</p>
+</section>
+      <h4><a class="xref" href="Recore.AsyncFunc-7.html">AsyncFunc&lt;T1, T2, T3, T4, T5, T6, TResult&gt;</a></h4>
+      <section><p>Encapsulates an asynchronous method that has six parameters and returns a value of the type specified by the <code data-dev-comment-type="typeparamref" class="typeparamref">TResult</code> parameter.
+Equivalent to <code>Func&lt;T1, T2, T3, T4, T5, T6, Task&lt;TResult&gt;&gt;</code>.</p>
+</section>
+      <h4><a class="xref" href="Recore.AsyncFunc-8.html">AsyncFunc&lt;T1, T2, T3, T4, T5, T6, T7, TResult&gt;</a></h4>
+      <section><p>Encapsulates an asynchronous method that has seven parameters and returns a value of the type specified by the <code data-dev-comment-type="typeparamref" class="typeparamref">TResult</code> parameter.
+Equivalent to <code>Func&lt;T1, T2, T3, T4, T5, T6, T7, Task&lt;TResult&gt;&gt;</code>.</p>
+</section>
+      <h4><a class="xref" href="Recore.AsyncFunc-9.html">AsyncFunc&lt;T1, T2, T3, T4, T5, T6, T7, T8, TResult&gt;</a></h4>
+      <section><p>Encapsulates an asynchronous method that has eight parameters and returns a value of the type specified by the <code data-dev-comment-type="typeparamref" class="typeparamref">TResult</code> parameter.
+Equivalent to <code>Func&lt;T1, T2, T3, T4, T5, T6, T7, T8, Task&lt;TResult&gt;&gt;</code>.</p>
 </section>
 </article>
           </div>
