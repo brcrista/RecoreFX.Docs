@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Struct Unit
    | RecoreFX ">
-    <meta name="generator" content="docfx 2.44.0.0">
+    <meta name="generator" content="docfx 2.49.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -109,25 +109,58 @@
     <pre><code class="lang-csharp hljs">public struct Unit : IEquatable&lt;Unit&gt;</code></pre>
   </div>
   <h5 id="Recore_Unit_remarks"><strong>Remarks</strong></h5>
-  <div class="markdown level0 remarks"><p>Whereas <code>void</code> is a type with no values,
-<code>Unit</code> is a type with one value.
+  <div class="markdown level0 remarks"><p>Whereas <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.void">Void</a>is a type with no values,
+<a class="xref" href="Recore.Unit.html">Unit</a> is a type with one value.
 It is useful when designing generic types or methods so that a non-generic version
 does not have to be provided.
 It is also useful for fluent interfaces (such as LINQ)
-so that a chain of method calls does not have to be broken by a <code>void</code>-returning call.</p>
+so that a chain of method calls does not have to be broken by a <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.void">Void</a>-returning call.</p>
 </div>
+  <h3 id="properties">Properties
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/recorefx/RecoreFX/new/master/apiSpec/new?filename=Recore_Unit_Value.md&amp;value=---%0Auid%3A%20Recore.Unit.Value%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/recorefx/RecoreFX/blob/master/src/Recore/Unit.cs/#L21">View Source</a>
+  </span>
+  <a id="Recore_Unit_Value_" data-uid="Recore.Unit.Value*"></a>
+  <h4 id="Recore_Unit_Value" data-uid="Recore.Unit.Value">Value</h4>
+  <div class="markdown level1 summary"><p>A singleton <a class="xref" href="Recore.Unit.html">Unit</a> value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Unit Value { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Recore.Unit.html">Unit</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/brcrista/RecoreFX/new/master/apiSpec/new?filename=Recore_Unit_Close_System_Action_.md&amp;value=---%0Auid%3A%20Recore.Unit.Close(System.Action)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/recorefx/RecoreFX/new/master/apiSpec/new?filename=Recore_Unit_Close_System_Action_.md&amp;value=---%0Auid%3A%20Recore.Unit.Close(System.Action)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/brcrista/RecoreFX/blob/master/src/Recore/Unit.cs/#L21">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/master/src/Recore/Unit.cs/#L26">View Source</a>
   </span>
   <a id="Recore_Unit_Close_" data-uid="Recore.Unit.Close*"></a>
   <h4 id="Recore_Unit_Close_System_Action_" data-uid="Recore.Unit.Close(System.Action)">Close(Action)</h4>
-  <div class="markdown level1 summary"><p>Converts a return type of <code>void</code> to a return type of <code>Unit</code>.</p>
+  <div class="markdown level1 summary"><p>Converts a return type of <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.void">Void</a> to a return type of <a class="xref" href="Recore.Unit.html">Unit</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -168,10 +201,10 @@ so that a chain of method calls does not have to be broken by a <code>void</code
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/brcrista/RecoreFX/new/master/apiSpec/new?filename=Recore_Unit_Equals_Recore_Unit_.md&amp;value=---%0Auid%3A%20Recore.Unit.Equals(Recore.Unit)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/recorefx/RecoreFX/new/master/apiSpec/new?filename=Recore_Unit_Equals_Recore_Unit_.md&amp;value=---%0Auid%3A%20Recore.Unit.Equals(Recore.Unit)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/brcrista/RecoreFX/blob/master/src/Recore/Unit.cs/#L35">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/master/src/Recore/Unit.cs/#L48">View Source</a>
   </span>
   <a id="Recore_Unit_Equals_" data-uid="Recore.Unit.Equals*"></a>
   <h4 id="Recore_Unit_Equals_Recore_Unit_" data-uid="Recore.Unit.Equals(Recore.Unit)">Equals(Unit)</h4>
@@ -216,10 +249,10 @@ so that a chain of method calls does not have to be broken by a <code>void</code
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/brcrista/RecoreFX/new/master/apiSpec/new?filename=Recore_Unit_Equals_System_Object_.md&amp;value=---%0Auid%3A%20Recore.Unit.Equals(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/recorefx/RecoreFX/new/master/apiSpec/new?filename=Recore_Unit_Equals_System_Object_.md&amp;value=---%0Auid%3A%20Recore.Unit.Equals(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/brcrista/RecoreFX/blob/master/src/Recore/Unit.cs/#L30">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/master/src/Recore/Unit.cs/#L43">View Source</a>
   </span>
   <a id="Recore_Unit_Equals_" data-uid="Recore.Unit.Equals*"></a>
   <h4 id="Recore_Unit_Equals_System_Object_" data-uid="Recore.Unit.Equals(System.Object)">Equals(Object)</h4>
@@ -266,10 +299,10 @@ so that a chain of method calls does not have to be broken by a <code>void</code
   <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.valuetype.equals#System_ValueType_Equals_System_Object_">ValueType.Equals(Object)</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/brcrista/RecoreFX/new/master/apiSpec/new?filename=Recore_Unit_GetHashCode.md&amp;value=---%0Auid%3A%20Recore.Unit.GetHashCode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/recorefx/RecoreFX/new/master/apiSpec/new?filename=Recore_Unit_GetHashCode.md&amp;value=---%0Auid%3A%20Recore.Unit.GetHashCode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/brcrista/RecoreFX/blob/master/src/Recore/Unit.cs/#L40">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/master/src/Recore/Unit.cs/#L53">View Source</a>
   </span>
   <a id="Recore_Unit_GetHashCode_" data-uid="Recore.Unit.GetHashCode*"></a>
   <h4 id="Recore_Unit_GetHashCode" data-uid="Recore.Unit.GetHashCode">GetHashCode()</h4>
@@ -299,10 +332,10 @@ so that a chain of method calls does not have to be broken by a <code>void</code
   <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.valuetype.gethashcode#System_ValueType_GetHashCode">ValueType.GetHashCode()</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/brcrista/RecoreFX/new/master/apiSpec/new?filename=Recore_Unit_ToString.md&amp;value=---%0Auid%3A%20Recore.Unit.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/recorefx/RecoreFX/new/master/apiSpec/new?filename=Recore_Unit_ToString.md&amp;value=---%0Auid%3A%20Recore.Unit.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/brcrista/RecoreFX/blob/master/src/Recore/Unit.cs/#L45">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/master/src/Recore/Unit.cs/#L58">View Source</a>
   </span>
   <a id="Recore_Unit_ToString_" data-uid="Recore.Unit.ToString*"></a>
   <h4 id="Recore_Unit_ToString" data-uid="Recore.Unit.ToString">ToString()</h4>
@@ -334,10 +367,10 @@ so that a chain of method calls does not have to be broken by a <code>void</code
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/brcrista/RecoreFX/new/master/apiSpec/new?filename=Recore_Unit_op_Equality_Recore_Unit_Recore_Unit_.md&amp;value=---%0Auid%3A%20Recore.Unit.op_Equality(Recore.Unit%2CRecore.Unit)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/recorefx/RecoreFX/new/master/apiSpec/new?filename=Recore_Unit_op_Equality_Recore_Unit_Recore_Unit_.md&amp;value=---%0Auid%3A%20Recore.Unit.op_Equality(Recore.Unit%2CRecore.Unit)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/brcrista/RecoreFX/blob/master/src/Recore/Unit.cs/#L50">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/master/src/Recore/Unit.cs/#L63">View Source</a>
   </span>
   <a id="Recore_Unit_op_Equality_" data-uid="Recore.Unit.op_Equality*"></a>
   <h4 id="Recore_Unit_op_Equality_Recore_Unit_Recore_Unit_" data-uid="Recore.Unit.op_Equality(Recore.Unit,Recore.Unit)">Equality(Unit, Unit)</h4>
@@ -387,10 +420,10 @@ so that a chain of method calls does not have to be broken by a <code>void</code
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/brcrista/RecoreFX/new/master/apiSpec/new?filename=Recore_Unit_op_Inequality_Recore_Unit_Recore_Unit_.md&amp;value=---%0Auid%3A%20Recore.Unit.op_Inequality(Recore.Unit%2CRecore.Unit)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/recorefx/RecoreFX/new/master/apiSpec/new?filename=Recore_Unit_op_Inequality_Recore_Unit_Recore_Unit_.md&amp;value=---%0Auid%3A%20Recore.Unit.op_Inequality(Recore.Unit%2CRecore.Unit)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/brcrista/RecoreFX/blob/master/src/Recore/Unit.cs/#L55">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/master/src/Recore/Unit.cs/#L68">View Source</a>
   </span>
   <a id="Recore_Unit_op_Inequality_" data-uid="Recore.Unit.op_Inequality*"></a>
   <h4 id="Recore_Unit_op_Inequality_Recore_Unit_Recore_Unit_" data-uid="Recore.Unit.op_Inequality(Recore.Unit,Recore.Unit)">Inequality(Unit, Unit)</h4>
@@ -450,10 +483,10 @@ so that a chain of method calls does not have to be broken by a <code>void</code
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/brcrista/RecoreFX/new/master/apiSpec/new?filename=Recore_Unit.md&amp;value=---%0Auid%3A%20Recore.Unit%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/recorefx/RecoreFX/new/master/apiSpec/new?filename=Recore_Unit.md&amp;value=---%0Auid%3A%20Recore.Unit%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/brcrista/RecoreFX/blob/master/src/Recore/Unit.cs/#L16" class="contribution-link">View Source</a>
+                    <a href="https://github.com/recorefx/RecoreFX/blob/master/src/Recore/Unit.cs/#L16" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

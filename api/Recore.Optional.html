@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class Optional
    | RecoreFX ">
-    <meta name="generator" content="docfx 2.44.0.0">
+    <meta name="generator" content="docfx 2.49.0.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -83,7 +83,7 @@
   
   <h1 id="Recore_Optional" data-uid="Recore.Optional" class="text-break">Class Optional
   </h1>
-  <div class="markdown level0 summary"><p>Provides additional methods for <code>Optional&lt;T&gt;</code>.</p>
+  <div class="markdown level0 summary"><p>Provides additional methods for <a class="xref" href="Recore.Optional-1.html">Optional&lt;T&gt;</a>.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -125,15 +125,79 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/brcrista/RecoreFX/new/master/apiSpec/new?filename=Recore_Optional_Flatten__1_Recore_Optional_Recore_Optional___0___.md&amp;value=---%0Auid%3A%20Recore.Optional.Flatten%60%601(Recore.Optional%7BRecore.Optional%7B%60%600%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/recorefx/RecoreFX/new/master/apiSpec/new?filename=Recore_Optional_AwaitAsync__1_Recore_Optional_System_Threading_Tasks_Task___0___.md&amp;value=---%0Auid%3A%20Recore.Optional.AwaitAsync%60%601(Recore.Optional%7BSystem.Threading.Tasks.Task%7B%60%600%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/brcrista/RecoreFX/blob/master/src/Recore/Optional.cs/#L301">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/master/src/Recore/Optional.cs/#L313">View Source</a>
+  </span>
+  <a id="Recore_Optional_AwaitAsync_" data-uid="Recore.Optional.AwaitAsync*"></a>
+  <h4 id="Recore_Optional_AwaitAsync__1_Recore_Optional_System_Threading_Tasks_Task___0___" data-uid="Recore.Optional.AwaitAsync``1(Recore.Optional{System.Threading.Tasks.Task{``0}})">AwaitAsync&lt;T&gt;(Optional&lt;Task&lt;T&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Converts an <code>Optional&lt;Task&lt;T&gt;&gt;</code>
+to a <code>Task&lt;Optional&lt;T&gt;&gt;</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;Optional&lt;T&gt;&gt; AwaitAsync&lt;T&gt;(this Optional&lt;Task&lt;T&gt;&gt; optionalTask)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Recore.Optional-1.html">Optional</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;T&gt;&gt;</td>
+        <td><span class="parametername">optionalTask</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task-1">Task</a>&lt;<a class="xref" href="Recore.Optional-1.html">Optional</a>&lt;T&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/recorefx/RecoreFX/new/master/apiSpec/new?filename=Recore_Optional_Flatten__1_Recore_Optional_Recore_Optional___0___.md&amp;value=---%0Auid%3A%20Recore.Optional.Flatten%60%601(Recore.Optional%7BRecore.Optional%7B%60%600%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/recorefx/RecoreFX/blob/master/src/Recore/Optional.cs/#L300">View Source</a>
   </span>
   <a id="Recore_Optional_Flatten_" data-uid="Recore.Optional.Flatten*"></a>
   <h4 id="Recore_Optional_Flatten__1_Recore_Optional_Recore_Optional___0___" data-uid="Recore.Optional.Flatten``1(Recore.Optional{Recore.Optional{``0}})">Flatten&lt;T&gt;(Optional&lt;Optional&lt;T&gt;&gt;)</h4>
   <div class="markdown level1 summary"><p>Converts an <code>Optional&lt;Optional&lt;T&gt;&gt;</code>
-to an <code>Optional&lt;T&gt;</code>.</p>
+to an <a class="xref" href="Recore.Optional-1.html">Optional&lt;T&gt;</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -189,10 +253,10 @@ to an <code>Optional&lt;T&gt;</code>.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/brcrista/RecoreFX/new/master/apiSpec/new?filename=Recore_Optional_If__1_System_Boolean___0_.md&amp;value=---%0Auid%3A%20Recore.Optional.If%60%601(System.Boolean%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/recorefx/RecoreFX/new/master/apiSpec/new?filename=Recore_Optional_If__1_System_Boolean___0_.md&amp;value=---%0Auid%3A%20Recore.Optional.If%60%601(System.Boolean%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/brcrista/RecoreFX/blob/master/src/Recore/Optional.cs/#L285">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/master/src/Recore/Optional.cs/#L284">View Source</a>
   </span>
   <a id="Recore_Optional_If_" data-uid="Recore.Optional.If*"></a>
   <h4 id="Recore_Optional_If__1_System_Boolean___0_" data-uid="Recore.Optional.If``1(System.Boolean,``0)">If&lt;T&gt;(Boolean, T)</h4>
@@ -256,14 +320,14 @@ to an <code>Optional&lt;T&gt;</code>.</p>
     </tbody>
   </table>
   <h5 id="Recore_Optional_If__1_System_Boolean___0__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>This method is useful for converting the TryParse pattern to an <code>Optional</code> result.</p>
+  <div class="markdown level1 remarks"><p>This method is useful for converting the <code>TryParse</code> pattern to an <a class="xref" href="Recore.Optional-1.html">Optional&lt;T&gt;</a> result.</p>
 </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/brcrista/RecoreFX/new/master/apiSpec/new?filename=Recore_Optional_NonEmpty__1_System_Collections_Generic_IEnumerable_Recore_Optional___0___.md&amp;value=---%0Auid%3A%20Recore.Optional.NonEmpty%60%601(System.Collections.Generic.IEnumerable%7BRecore.Optional%7B%60%600%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/recorefx/RecoreFX/new/master/apiSpec/new?filename=Recore_Optional_NonEmpty__1_System_Collections_Generic_IEnumerable_Recore_Optional___0___.md&amp;value=---%0Auid%3A%20Recore.Optional.NonEmpty%60%601(System.Collections.Generic.IEnumerable%7BRecore.Optional%7B%60%600%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/brcrista/RecoreFX/blob/master/src/Recore/Optional.cs/#L307">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/master/src/Recore/Optional.cs/#L306">View Source</a>
   </span>
   <a id="Recore_Optional_NonEmpty_" data-uid="Recore.Optional.NonEmpty*"></a>
   <h4 id="Recore_Optional_NonEmpty__1_System_Collections_Generic_IEnumerable_Recore_Optional___0___" data-uid="Recore.Optional.NonEmpty``1(System.Collections.Generic.IEnumerable{Recore.Optional{``0}})">NonEmpty&lt;T&gt;(IEnumerable&lt;Optional&lt;T&gt;&gt;)</h4>
@@ -323,10 +387,10 @@ to an <code>Optional&lt;T&gt;</code>.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/brcrista/RecoreFX/new/master/apiSpec/new?filename=Recore_Optional_Of__1___0_.md&amp;value=---%0Auid%3A%20Recore.Optional.Of%60%601(%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/recorefx/RecoreFX/new/master/apiSpec/new?filename=Recore_Optional_Of__1___0_.md&amp;value=---%0Auid%3A%20Recore.Optional.Of%60%601(%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/brcrista/RecoreFX/blob/master/src/Recore/Optional.cs/#L277">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/master/src/Recore/Optional.cs/#L276">View Source</a>
   </span>
   <a id="Recore_Optional_Of_" data-uid="Recore.Optional.Of*"></a>
   <h4 id="Recore_Optional_Of__1___0_" data-uid="Recore.Optional.Of``1(``0)">Of&lt;T&gt;(T)</h4>
@@ -386,7 +450,7 @@ to an <code>Optional&lt;T&gt;</code>.</p>
   </table>
   <h5 id="Recore_Optional_Of__1___0__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>This is useful for type inference in some cases where the implicit conversion
-can't be used, such as creating an <code>Optional&lt;T&gt;</code>
+can't be used, such as creating an <a class="xref" href="Recore.Optional-1.html">Optional&lt;T&gt;</a>
 and immediately invoking a method.
 It can also be passed as a delegate whereas the constructor can't be.</p>
 </div>
@@ -398,10 +462,10 @@ It can also be passed as a delegate whereas the constructor can't be.</p>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/brcrista/RecoreFX/new/master/apiSpec/new?filename=Recore_Optional.md&amp;value=---%0Auid%3A%20Recore.Optional%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/recorefx/RecoreFX/new/master/apiSpec/new?filename=Recore_Optional.md&amp;value=---%0Auid%3A%20Recore.Optional%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/brcrista/RecoreFX/blob/master/src/Recore/Optional.cs/#L266" class="contribution-link">View Source</a>
+                    <a href="https://github.com/recorefx/RecoreFX/blob/master/src/Recore/Optional.cs/#L265" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
