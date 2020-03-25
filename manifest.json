@@ -470,11 +470,35 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/Recore.Collections.Generic.IIterator-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recore.Collections.Generic.IIterator-1.html",
+          "hash": "c0wTR3JaUi5b5qAukrohOA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/Recore.Collections.Generic.IReadOnlyDictionaryExtensions.yml",
       "output": {
         ".html": {
           "relative_path": "api/Recore.Collections.Generic.IReadOnlyDictionaryExtensions.html",
           "hash": "z0B23HnMyw02ATOgGwFsMg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Recore.Collections.Generic.Iterator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recore.Collections.Generic.Iterator.html",
+          "hash": "FPKB9FkZN9rCcdgjZpXJbQ=="
         }
       },
       "is_incremental": false,
@@ -510,7 +534,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Collections.Generic.html",
-          "hash": "l9zthHSCXo7UCQIqeAvurQ=="
+          "hash": "E7BJh0W1q97By2RWdBDOCA=="
         }
       },
       "is_incremental": false,
@@ -570,7 +594,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Functional.Composer-1.html",
-          "hash": "dS8cnnUAx/+6+G7ggmIQ/g=="
+          "hash": "zPIJEzr4DnGC2kj2DesTUA=="
         }
       },
       "is_incremental": false,
@@ -582,7 +606,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Functional.Composer-2.html",
-          "hash": "9TwnZDb+ISZrIAEyNnNbIA=="
+          "hash": "wb+xbpYiCzIMBc1QuFW8Hg=="
         }
       },
       "is_incremental": false,
@@ -594,7 +618,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Functional.Composer.html",
-          "hash": "DROsMxuWgnlMQvfAscyQrQ=="
+          "hash": "M878wej0a9NpUgLIalohFg=="
         }
       },
       "is_incremental": false,
@@ -678,7 +702,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Of-1.html",
-          "hash": "S1iBlPCJidSbLZOdHxNPwA=="
+          "hash": "L8B8AF4JLY5wewolCxzIaQ=="
         }
       },
       "is_incremental": false,
@@ -690,7 +714,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Optional-1.html",
-          "hash": "BYdS1oy2XdgtnHRqpfzGkw=="
+          "hash": "lc0YLaD+8lpBAqSBwfd4Vw=="
         }
       },
       "is_incremental": false,
@@ -906,7 +930,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "3+5CZuSJDQ3rm4g5cE2KGg=="
+          "hash": "NIzxe9RJC9bFVMFTOZkx7Q=="
         }
       },
       "is_incremental": false,
@@ -941,17 +965,17 @@
           "total_file_count": 0,
           "skipped_file_count": 0
         },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 75,
+          "skipped_file_count": 7
+        },
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 1,
           "skipped_file_count": 1
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build",
-          "total_file_count": 73,
-          "skipped_file_count": 71
         }
       }
     },

@@ -432,6 +432,49 @@ references:
   fullName.vb: Recore.Collections.Generic.IDictionaryExtensions.ValueOrDefault(Of TKey, TValue)(System.Collections.Generic.IReadOnlyDictionary(Of TKey, TValue), TKey)
   nameWithType: IDictionaryExtensions.ValueOrDefault<TKey, TValue>(IReadOnlyDictionary<TKey, TValue>, TKey)
   nameWithType.vb: IDictionaryExtensions.ValueOrDefault(Of TKey, TValue)(IReadOnlyDictionary(Of TKey, TValue), TKey)
+- uid: Recore.Collections.Generic.IIterator`1
+  name: IIterator<T>
+  href: api/Recore.Collections.Generic.IIterator-1.html
+  commentId: T:Recore.Collections.Generic.IIterator`1
+  name.vb: IIterator(Of T)
+  fullName: Recore.Collections.Generic.IIterator<T>
+  fullName.vb: Recore.Collections.Generic.IIterator(Of T)
+  nameWithType: IIterator<T>
+  nameWithType.vb: IIterator(Of T)
+- uid: Recore.Collections.Generic.IIterator`1.HasNext
+  name: HasNext
+  href: api/Recore.Collections.Generic.IIterator-1.html#Recore_Collections_Generic_IIterator_1_HasNext
+  commentId: P:Recore.Collections.Generic.IIterator`1.HasNext
+  fullName: Recore.Collections.Generic.IIterator<T>.HasNext
+  fullName.vb: Recore.Collections.Generic.IIterator(Of T).HasNext
+  nameWithType: IIterator<T>.HasNext
+  nameWithType.vb: IIterator(Of T).HasNext
+- uid: Recore.Collections.Generic.IIterator`1.HasNext*
+  name: HasNext
+  href: api/Recore.Collections.Generic.IIterator-1.html#Recore_Collections_Generic_IIterator_1_HasNext_
+  commentId: Overload:Recore.Collections.Generic.IIterator`1.HasNext
+  isSpec: "True"
+  fullName: Recore.Collections.Generic.IIterator<T>.HasNext
+  fullName.vb: Recore.Collections.Generic.IIterator(Of T).HasNext
+  nameWithType: IIterator<T>.HasNext
+  nameWithType.vb: IIterator(Of T).HasNext
+- uid: Recore.Collections.Generic.IIterator`1.Next
+  name: Next()
+  href: api/Recore.Collections.Generic.IIterator-1.html#Recore_Collections_Generic_IIterator_1_Next
+  commentId: M:Recore.Collections.Generic.IIterator`1.Next
+  fullName: Recore.Collections.Generic.IIterator<T>.Next()
+  fullName.vb: Recore.Collections.Generic.IIterator(Of T).Next()
+  nameWithType: IIterator<T>.Next()
+  nameWithType.vb: IIterator(Of T).Next()
+- uid: Recore.Collections.Generic.IIterator`1.Next*
+  name: Next
+  href: api/Recore.Collections.Generic.IIterator-1.html#Recore_Collections_Generic_IIterator_1_Next_
+  commentId: Overload:Recore.Collections.Generic.IIterator`1.Next
+  isSpec: "True"
+  fullName: Recore.Collections.Generic.IIterator<T>.Next
+  fullName.vb: Recore.Collections.Generic.IIterator(Of T).Next
+  nameWithType: IIterator<T>.Next
+  nameWithType.vb: IIterator(Of T).Next
 - uid: Recore.Collections.Generic.IReadOnlyDictionaryExtensions
   name: IReadOnlyDictionaryExtensions
   href: api/Recore.Collections.Generic.IReadOnlyDictionaryExtensions.html
@@ -454,6 +497,44 @@ references:
   fullName.vb: Recore.Collections.Generic.IReadOnlyDictionaryExtensions.ValueOrDefault(Of TKey, TValue)(System.Collections.Generic.IReadOnlyDictionary(Of TKey, TValue), TKey)
   nameWithType: IReadOnlyDictionaryExtensions.ValueOrDefault<TKey, TValue>(IReadOnlyDictionary<TKey, TValue>, TKey)
   nameWithType.vb: IReadOnlyDictionaryExtensions.ValueOrDefault(Of TKey, TValue)(IReadOnlyDictionary(Of TKey, TValue), TKey)
+- uid: Recore.Collections.Generic.Iterator
+  name: Iterator
+  href: api/Recore.Collections.Generic.Iterator.html
+  commentId: T:Recore.Collections.Generic.Iterator
+  fullName: Recore.Collections.Generic.Iterator
+  nameWithType: Iterator
+- uid: Recore.Collections.Generic.Iterator.GetIterator*
+  name: GetIterator
+  href: api/Recore.Collections.Generic.Iterator.html#Recore_Collections_Generic_Iterator_GetIterator_
+  commentId: Overload:Recore.Collections.Generic.Iterator.GetIterator
+  isSpec: "True"
+  fullName: Recore.Collections.Generic.Iterator.GetIterator
+  nameWithType: Iterator.GetIterator
+- uid: Recore.Collections.Generic.Iterator.GetIterator``1(System.Collections.Generic.IEnumerable{``0})
+  name: GetIterator<T>(IEnumerable<T>)
+  href: api/Recore.Collections.Generic.Iterator.html#Recore_Collections_Generic_Iterator_GetIterator__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:Recore.Collections.Generic.Iterator.GetIterator``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: GetIterator(Of T)(IEnumerable(Of T))
+  fullName: Recore.Collections.Generic.Iterator.GetIterator<T>(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: Recore.Collections.Generic.Iterator.GetIterator(Of T)(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: Iterator.GetIterator<T>(IEnumerable<T>)
+  nameWithType.vb: Iterator.GetIterator(Of T)(IEnumerable(Of T))
+- uid: Recore.Collections.Generic.Iterator.ToIterator*
+  name: ToIterator
+  href: api/Recore.Collections.Generic.Iterator.html#Recore_Collections_Generic_Iterator_ToIterator_
+  commentId: Overload:Recore.Collections.Generic.Iterator.ToIterator
+  isSpec: "True"
+  fullName: Recore.Collections.Generic.Iterator.ToIterator
+  nameWithType: Iterator.ToIterator
+- uid: Recore.Collections.Generic.Iterator.ToIterator``1(System.Collections.Generic.IEnumerator{``0})
+  name: ToIterator<T>(IEnumerator<T>)
+  href: api/Recore.Collections.Generic.Iterator.html#Recore_Collections_Generic_Iterator_ToIterator__1_System_Collections_Generic_IEnumerator___0__
+  commentId: M:Recore.Collections.Generic.Iterator.ToIterator``1(System.Collections.Generic.IEnumerator{``0})
+  name.vb: ToIterator(Of T)(IEnumerator(Of T))
+  fullName: Recore.Collections.Generic.Iterator.ToIterator<T>(System.Collections.Generic.IEnumerator<T>)
+  fullName.vb: Recore.Collections.Generic.Iterator.ToIterator(Of T)(System.Collections.Generic.IEnumerator(Of T))
+  nameWithType: Iterator.ToIterator<T>(IEnumerator<T>)
+  nameWithType.vb: Iterator.ToIterator(Of T)(IEnumerator(Of T))
 - uid: Recore.Collections.Generic.LinkedListExtensions
   name: LinkedListExtensions
   href: api/Recore.Collections.Generic.LinkedListExtensions.html

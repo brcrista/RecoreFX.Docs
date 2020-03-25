@@ -141,13 +141,13 @@
     </tbody>
   </table>
   <h5 id="Recore_Functional_Composer_2_examples"><strong>Examples</strong></h5>
-  <p>// Without Composer
-var result = Baz(Bar(Foo(value)));</p>
-<p>// With Composer
-var result = new Composer&lt;string, int&gt;(Foo)
-.Then(Bar)
-.Then(Baz)
-.Func();</p>
+  <p>Without <a class="xref" href="Recore.Functional.Composer-1.html">Composer&lt;T&gt;</a>:</p>
+<pre><code>var result = Baz(Bar(Foo(value)));</code></pre>
+<p>With <a class="xref" href="Recore.Functional.Composer-1.html">Composer&lt;T&gt;</a>:</p>
+<pre><code>var result = new Composer&lt;string, int>(Foo)
+    .Then(Bar)
+    .Then(Baz)
+    .Func();</code></pre>
 
   <h3 id="constructors">Constructors
   </h3>
@@ -156,7 +156,7 @@ var result = new Composer&lt;string, int&gt;(Foo)
     <a href="https://github.com/recorefx/RecoreFX/new/master/apiSpec/new?filename=Recore_Functional_Composer_2__ctor_System_Func__0__1__.md&amp;value=---%0Auid%3A%20Recore.Functional.Composer%602.%23ctor(System.Func%7B%600%2C%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/recorefx/RecoreFX/blob/master/src/Recore.Functional/Composer.cs/#L76">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/master/src/Recore.Functional/Composer.cs/#L84">View Source</a>
   </span>
   <a id="Recore_Functional_Composer_2__ctor_" data-uid="Recore.Functional.Composer`2.#ctor*"></a>
   <h4 id="Recore_Functional_Composer_2__ctor_System_Func__0__1__" data-uid="Recore.Functional.Composer`2.#ctor(System.Func{`0,`1})">Composer(Func&lt;TValue, TResult&gt;)</h4>
@@ -191,7 +191,7 @@ var result = new Composer&lt;string, int&gt;(Foo)
     <a href="https://github.com/recorefx/RecoreFX/new/master/apiSpec/new?filename=Recore_Functional_Composer_2_Func.md&amp;value=---%0Auid%3A%20Recore.Functional.Composer%602.Func%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/recorefx/RecoreFX/blob/master/src/Recore.Functional/Composer.cs/#L71">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/master/src/Recore.Functional/Composer.cs/#L79">View Source</a>
   </span>
   <a id="Recore_Functional_Composer_2_Func_" data-uid="Recore.Functional.Composer`2.Func*"></a>
   <h4 id="Recore_Functional_Composer_2_Func" data-uid="Recore.Functional.Composer`2.Func">Func</h4>
@@ -224,7 +224,7 @@ var result = new Composer&lt;string, int&gt;(Foo)
     <a href="https://github.com/recorefx/RecoreFX/new/master/apiSpec/new?filename=Recore_Functional_Composer_2_Then_System_Action__1__.md&amp;value=---%0Auid%3A%20Recore.Functional.Composer%602.Then(System.Action%7B%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/recorefx/RecoreFX/blob/master/src/Recore.Functional/Composer.cs/#L97">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/master/src/Recore.Functional/Composer.cs/#L107">View Source</a>
   </span>
   <a id="Recore_Functional_Composer_2_Then_" data-uid="Recore.Functional.Composer`2.Then*"></a>
   <h4 id="Recore_Functional_Composer_2_Then_System_Action__1__" data-uid="Recore.Functional.Composer`2.Then(System.Action{`1})">Then(Action&lt;TResult&gt;)</h4>
@@ -276,7 +276,7 @@ It will not be called until the composed function is called.</p>
     <a href="https://github.com/recorefx/RecoreFX/new/master/apiSpec/new?filename=Recore_Functional_Composer_2_Then__1_System_Func__1___0__.md&amp;value=---%0Auid%3A%20Recore.Functional.Composer%602.Then%60%601(System.Func%7B%601%2C%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/recorefx/RecoreFX/blob/master/src/Recore.Functional/Composer.cs/#L87">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/master/src/Recore.Functional/Composer.cs/#L97">View Source</a>
   </span>
   <a id="Recore_Functional_Composer_2_Then_" data-uid="Recore.Functional.Composer`2.Then*"></a>
   <h4 id="Recore_Functional_Composer_2_Then__1_System_Func__1___0__" data-uid="Recore.Functional.Composer`2.Then``1(System.Func{`1,``0})">Then&lt;TNextResult&gt;(Func&lt;TResult, TNextResult&gt;)</h4>
@@ -345,7 +345,7 @@ It will not be called until the composed function is called.</p>
                     <a href="https://github.com/recorefx/RecoreFX/new/master/apiSpec/new?filename=Recore_Functional_Composer_2.md&amp;value=---%0Auid%3A%20Recore.Functional.Composer%602%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/recorefx/RecoreFX/blob/master/src/Recore.Functional/Composer.cs/#L66" class="contribution-link">View Source</a>
+                    <a href="https://github.com/recorefx/RecoreFX/blob/master/src/Recore.Functional/Composer.cs/#L74" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
