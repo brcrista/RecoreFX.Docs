@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class StringUtil
    | RecoreFX ">
-    <meta name="generator" content="docfx 2.49.0.0">
+    <meta name="generator" content="docfx 2.56.2.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -78,10 +78,10 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Recore.Text.StringUtil">
+            <article class="content wrap" id="_content" data-uid="Recore.StringUtil">
   
   
-  <h1 id="Recore_Text_StringUtil" data-uid="Recore.Text.StringUtil" class="text-break">Class StringUtil
+  <h1 id="Recore_StringUtil" data-uid="Recore.StringUtil" class="text-break">Class StringUtil
   </h1>
   <div class="markdown level0 summary"><p>Contains helper methods for working with strings.</p>
 </div>
@@ -91,49 +91,25 @@
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
     <div class="level1"><span class="xref">StringUtil</span></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
-    </div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Recore.Text.html">Recore.Text</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Recore.html">Recore</a></h6>
   <h6><strong>Assembly</strong>: Recore.dll</h6>
-  <h5 id="Recore_Text_StringUtil_syntax">Syntax</h5>
+  <h5 id="Recore_StringUtil_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class StringUtil</code></pre>
+    <pre><code class="lang-csharp hljs">public static class StringUtil : object</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/recorefx/RecoreFX/new/master/apiSpec/new?filename=Recore_Text_StringUtil_JoinLines_System_Collections_Generic_IEnumerable_System_String__.md&amp;value=---%0Auid%3A%20Recore.Text.StringUtil.JoinLines(System.Collections.Generic.IEnumerable%7BSystem.String%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_StringUtil_JoinLines_IEnumerable_System_String__.md&amp;value=---%0Auid%3A%20Recore.StringUtil.JoinLines(IEnumerable%7BSystem.String%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/recorefx/RecoreFX/blob/master/src/Recore.Text/StringUtil.cs/#L15">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/StringUtil.cs/#L15">View Source</a>
   </span>
-  <a id="Recore_Text_StringUtil_JoinLines_" data-uid="Recore.Text.StringUtil.JoinLines*"></a>
-  <h4 id="Recore_Text_StringUtil_JoinLines_System_Collections_Generic_IEnumerable_System_String__" data-uid="Recore.Text.StringUtil.JoinLines(System.Collections.Generic.IEnumerable{System.String})">JoinLines(IEnumerable&lt;String&gt;)</h4>
+  <a id="Recore_StringUtil_JoinLines_" data-uid="Recore.StringUtil.JoinLines*"></a>
+  <h4 id="Recore_StringUtil_JoinLines_IEnumerable_System_String__" data-uid="Recore.StringUtil.JoinLines(IEnumerable{System.String})">JoinLines(IEnumerable&lt;String&gt;)</h4>
   <div class="markdown level1 summary"><p>Concatenates a sequence of strings into a single string
-where each input string is separated by <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.environment.newline#System_Environment_NewLine">NewLine</a>.</p>
+where each input string is separated by <see cref="!:Environment.NewLine"></see>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -151,7 +127,7 @@ where each input string is separated by <a class="xref" href="https://docs.micro
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;</td>
         <td><span class="parametername">lines</span></td>
         <td></td>
       </tr>
@@ -174,15 +150,15 @@ where each input string is separated by <a class="xref" href="https://docs.micro
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/recorefx/RecoreFX/new/master/apiSpec/new?filename=Recore_Text_StringUtil_JoinLines_System_String___.md&amp;value=---%0Auid%3A%20Recore.Text.StringUtil.JoinLines(System.String%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_StringUtil_JoinLines_System_String___.md&amp;value=---%0Auid%3A%20Recore.StringUtil.JoinLines(System.String%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/recorefx/RecoreFX/blob/master/src/Recore.Text/StringUtil.cs/#L29">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/StringUtil.cs/#L29">View Source</a>
   </span>
-  <a id="Recore_Text_StringUtil_JoinLines_" data-uid="Recore.Text.StringUtil.JoinLines*"></a>
-  <h4 id="Recore_Text_StringUtil_JoinLines_System_String___" data-uid="Recore.Text.StringUtil.JoinLines(System.String[])">JoinLines(String[])</h4>
+  <a id="Recore_StringUtil_JoinLines_" data-uid="Recore.StringUtil.JoinLines*"></a>
+  <h4 id="Recore_StringUtil_JoinLines_System_String___" data-uid="Recore.StringUtil.JoinLines(System.String[])">JoinLines(String[])</h4>
   <div class="markdown level1 summary"><p>Concatenates a variable number of string arguments into a single string
-where each input string is separated by <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.environment.newline#System_Environment_NewLine">NewLine</a>.</p>
+where each input string is separated by <see cref="!:Environment.NewLine"></see>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -229,10 +205,10 @@ where each input string is separated by <a class="xref" href="https://docs.micro
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/recorefx/RecoreFX/new/master/apiSpec/new?filename=Recore_Text_StringUtil.md&amp;value=---%0Auid%3A%20Recore.Text.StringUtil%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_StringUtil.md&amp;value=---%0Auid%3A%20Recore.StringUtil%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/recorefx/RecoreFX/blob/master/src/Recore.Text/StringUtil.cs/#L9" class="contribution-link">View Source</a>
+                    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/StringUtil.cs/#L9" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

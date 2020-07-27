@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Interface IIterator&lt;T&gt;
    | RecoreFX ">
-    <meta name="generator" content="docfx 2.49.0.0">
+    <meta name="generator" content="docfx 2.56.2.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -83,7 +83,7 @@
   
   <h1 id="Recore_Collections_Generic_IIterator_1" data-uid="Recore.Collections.Generic.IIterator`1" class="text-break">Interface IIterator&lt;T&gt;
   </h1>
-  <div class="markdown level0 summary"><p>An alternative interface to <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1">IEnumerator&lt;T&gt;</a> that provides access to a sequence of elements.</p>
+  <div class="markdown level0 summary"><p>An alternative interface to <see cref="!:IEnumerator&lt;T>"></see> that provides access to a sequence of elements.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Recore.Collections.Generic.html">Recore.Collections.Generic</a></h6>
@@ -109,33 +109,33 @@
   </table>
   <h5 id="Recore_Collections_Generic_IIterator_1_remarks"><strong>Remarks</strong></h5>
   <div class="markdown level0 remarks"><p>This interface is meant to resemble Java's concept of an iterator.
-While using <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1">IEnumerator&lt;T&gt;</a> usually provides safer access to a collection than, say,
+While using <see cref="!:IEnumerator&lt;T>"></see> usually provides safer access to a collection than, say,
 manipulating indices directly in a list, there are times where it is clumsy to use.</p>
 </div>
   <h5 id="Recore_Collections_Generic_IIterator_1_examples"><strong>Examples</strong></h5>
   <p>A common case is calling an API that needs to tell its caller whether it should be called again.
-In order to do this with <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1">IEnumerator&lt;T&gt;</a>, the API must look ahead to the next element
-with <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.ienumerator.movenext#System_Collections_IEnumerator_MoveNext">MoveNext()</a> before returning and then maintain this state between calls.</p>
+In order to do this with <see cref="!:IEnumerator&lt;T>"></see>, the API must look ahead to the next element
+with <see cref="!:IEnumerator.MoveNext()"></see> before returning and then maintain this state between calls.</p>
 <p>For example, consider this type that gets status information on a customer's order from some external source:</p>
-<pre><code>class OrderStatusUpdater
+<pre><code>using System.Collections.Generic;
+
+class OrderStatusUpdater
 {
     private readonly IEnumerator&lt;string> statusEnumerator;
 
-    private string currentStatus;
-    private string nextStatus;
-    private bool isFinished;
+    private string currentStatus = null;
+
+    // We need to look ahead so we know when we&apos;ve returned the last element
+    private string nextStatus = null;
+    private bool isFinished = false;
 
     public OrderStatusUpdater(IEnumerable&lt;string> statuses)
     {
         statusEnumerator = statuses.GetEnumerator();
-        nextStatus = &quot;Not started&quot;;
-
-        // The assignment to currentStatus is redundant.
-        // It is just to appease the compiler when nullable references are enabled.
-        currentStatus = UpdateStatus();
+        UpdateStatus();
     }
 
-    private string UpdateStatus()
+    private void UpdateStatus()
     {
         currentStatus = nextStatus;
 
@@ -147,8 +147,6 @@ with <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collecti
         {
             isFinished = true;
         }
-
-        return currentStatus;
     }
 
     public OrderStatus GetStatusUpdate()
@@ -163,21 +161,27 @@ with <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collecti
     }
 }</code></pre>
 <p>Now consider the code with <a class="xref" href="Recore.Collections.Generic.IIterator-1.html">IIterator&lt;T&gt;</a>:</p>
-<pre><code>class OrderStatusUpdater
+<pre><code>using System.Collections.Generic;
+
+using Recore.Collections.Generic;
+
+class OrderStatusUpdater
 {
     private readonly IIterator&lt;string> statusIterator;
 
-    private string currentStatus;
+    private string currentStatus = null;
 
     public OrderStatusUpdater(IEnumerable&lt;string> statuses)
     {
-        statusIterator = statuses.GetIterator();
-        currentStatus = &quot;Not started&quot;;
+        statusIterator = Iterator.FromEnumerable(statuses);
     }
 
     public OrderStatus GetStatusUpdate()
     {
-        currentStatus = statusIterator.Next();
+        if (statusIterator.HasNext)
+        {
+            currentStatus = statusIterator.Next();
+        }
 
         return new OrderStatus
         {
@@ -191,10 +195,10 @@ with <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collecti
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/recorefx/RecoreFX/new/master/apiSpec/new?filename=Recore_Collections_Generic_IIterator_1_HasNext.md&amp;value=---%0Auid%3A%20Recore.Collections.Generic.IIterator%601.HasNext%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Collections_Generic_IIterator_1_HasNext.md&amp;value=---%0Auid%3A%20Recore.Collections.Generic.IIterator%601.HasNext%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/recorefx/RecoreFX/blob/master/src/Recore.Collections.Generic/IIterator.cs/#L106">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore.Collections.Generic/Iterator.cs/#L111">View Source</a>
   </span>
   <a id="Recore_Collections_Generic_IIterator_1_HasNext_" data-uid="Recore.Collections.Generic.IIterator`1.HasNext*"></a>
   <h4 id="Recore_Collections_Generic_IIterator_1_HasNext" data-uid="Recore.Collections.Generic.IIterator`1.HasNext">HasNext</h4>
@@ -224,10 +228,10 @@ with <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collecti
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/recorefx/RecoreFX/new/master/apiSpec/new?filename=Recore_Collections_Generic_IIterator_1_Next.md&amp;value=---%0Auid%3A%20Recore.Collections.Generic.IIterator%601.Next%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Collections_Generic_IIterator_1_Next.md&amp;value=---%0Auid%3A%20Recore.Collections.Generic.IIterator%601.Next%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/recorefx/RecoreFX/blob/master/src/Recore.Collections.Generic/IIterator.cs/#L101">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore.Collections.Generic/Iterator.cs/#L106">View Source</a>
   </span>
   <a id="Recore_Collections_Generic_IIterator_1_Next_" data-uid="Recore.Collections.Generic.IIterator`1.Next*"></a>
   <h4 id="Recore_Collections_Generic_IIterator_1_Next" data-uid="Recore.Collections.Generic.IIterator`1.Next">Next()</h4>
@@ -253,6 +257,10 @@ with <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collecti
       </tr>
     </tbody>
   </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Recore.ObjectExtensions.html#Recore_ObjectExtensions_StaticCast__1___0_">ObjectExtensions.StaticCast&lt;T&gt;(T)</a>
+  </div>
 </article>
           </div>
           
@@ -261,10 +269,10 @@ with <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collecti
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/recorefx/RecoreFX/new/master/apiSpec/new?filename=Recore_Collections_Generic_IIterator_1.md&amp;value=---%0Auid%3A%20Recore.Collections.Generic.IIterator%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Collections_Generic_IIterator_1.md&amp;value=---%0Auid%3A%20Recore.Collections.Generic.IIterator%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/recorefx/RecoreFX/blob/master/src/Recore.Collections.Generic/IIterator.cs/#L95" class="contribution-link">View Source</a>
+                    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore.Collections.Generic/Iterator.cs/#L100" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

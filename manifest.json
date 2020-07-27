@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/Users/Brian/code/GitHub/recorefx/RecoreFX/docs/docfx",
+  "source_base_path": "D:/a/1/s/docs/docfx",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "pE1i/1AJwywXB/T8A3J+tA=="
+          "hash": "Hlfxu91HRo72VbJ7/NEPcQ=="
         }
       },
       "is_incremental": false,
@@ -30,7 +30,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.AbsoluteUri.html",
-          "hash": "WnbQgl8Y3mipsgQ+6YpkaA=="
+          "hash": "3MuTWTaGSwhbJvwmPnMPwA=="
         }
       },
       "is_incremental": false,
@@ -42,7 +42,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.AsyncAction-1.html",
-          "hash": "K7pISw3ptQWkhX3Xn8oG3g=="
+          "hash": "KEAkrd9ThvRdasxp9ll4Jw=="
         }
       },
       "is_incremental": false,
@@ -54,7 +54,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.AsyncAction-10.html",
-          "hash": "vEQD/aNgZcSvgPE0lewTRA=="
+          "hash": "3JJHuFzUxyagowfmWQ1a+Q=="
         }
       },
       "is_incremental": false,
@@ -66,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.AsyncAction-11.html",
-          "hash": "0J5mf12DZxVlb5iHgtX8sA=="
+          "hash": "iOIs3r68UeLUoSKl5ZjSnA=="
         }
       },
       "is_incremental": false,
@@ -78,7 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.AsyncAction-12.html",
-          "hash": "Prmnojl2BNl7QNvllsIwyw=="
+          "hash": "2br0uCeQeR9EnJolgUbfLw=="
         }
       },
       "is_incremental": false,
@@ -90,7 +90,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.AsyncAction-13.html",
-          "hash": "hPhLegC/Em4YQzyVMgQ0yg=="
+          "hash": "+TqAUOOvBOZ/sVW7f8enmQ=="
         }
       },
       "is_incremental": false,
@@ -102,7 +102,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.AsyncAction-14.html",
-          "hash": "Ri6Sja2jXFYNEqkM24Z66Q=="
+          "hash": "XSIc3zInTSfeoUYNhhbidQ=="
         }
       },
       "is_incremental": false,
@@ -114,7 +114,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.AsyncAction-15.html",
-          "hash": "9YZvmSa4t8+bDO1kU3euXw=="
+          "hash": "GNXrFhjbjWb5npVqb+xPaw=="
         }
       },
       "is_incremental": false,
@@ -126,7 +126,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.AsyncAction-16.html",
-          "hash": "34i5gz8zH6Y+7O+SUJgn1g=="
+          "hash": "VBT8ywJglGfVvlhIk8eDaQ=="
         }
       },
       "is_incremental": false,
@@ -138,7 +138,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.AsyncAction-2.html",
-          "hash": "kxyC9ONgUYpc90do/x/nKw=="
+          "hash": "YnZ1RgIOerN6PoLuSSwG/w=="
         }
       },
       "is_incremental": false,
@@ -150,7 +150,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.AsyncAction-3.html",
-          "hash": "coDYE5f4Xam6RhLyq4pZzg=="
+          "hash": "qzaMsvD1trhdzWvHn7buLg=="
         }
       },
       "is_incremental": false,
@@ -162,7 +162,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.AsyncAction-4.html",
-          "hash": "QaPpkT3DYJ8xp8hBvndykw=="
+          "hash": "SlPvL9KHyT+8cRW3LemGHQ=="
         }
       },
       "is_incremental": false,
@@ -174,7 +174,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.AsyncAction-5.html",
-          "hash": "29pR+LxztSx3SR3vwLqC0A=="
+          "hash": "34qr2wqSP4/t1ei5xtfmXg=="
         }
       },
       "is_incremental": false,
@@ -186,7 +186,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.AsyncAction-6.html",
-          "hash": "Gf06/Vf/AE64SpiFXrmDOw=="
+          "hash": "cYBspQRaqeDoTip7lNDFPQ=="
         }
       },
       "is_incremental": false,
@@ -198,7 +198,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.AsyncAction-7.html",
-          "hash": "ucFy00Ehfa9MK4aUzZsReA=="
+          "hash": "oPGaeFesV1bvdJkBb3KLAQ=="
         }
       },
       "is_incremental": false,
@@ -210,7 +210,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.AsyncAction-8.html",
-          "hash": "a9Nyc9l/SdxFODBOgTVVHw=="
+          "hash": "802gqGeWCk/tMD1FJHIWKg=="
         }
       },
       "is_incremental": false,
@@ -222,7 +222,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.AsyncAction-9.html",
-          "hash": "BioS9WhSraSY3L98H+KpSg=="
+          "hash": "GP0/xBOQnTSZqm793rAkGA=="
         }
       },
       "is_incremental": false,
@@ -234,7 +234,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.AsyncAction.html",
-          "hash": "2dYOFWqsABi4n3MBfTnzzQ=="
+          "hash": "8XQjj/NUu0jhjWGt6xLbzA=="
         }
       },
       "is_incremental": false,
@@ -246,7 +246,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.AsyncFunc-1.html",
-          "hash": "Nd/nY+80cq78eLkuanFmxA=="
+          "hash": "4gvNwbmGUVzRkXazZnNR9g=="
         }
       },
       "is_incremental": false,
@@ -258,7 +258,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.AsyncFunc-10.html",
-          "hash": "H2bZPKntXluDKeGpKsxReQ=="
+          "hash": "zH24M83wOYkogpT3FR+NiA=="
         }
       },
       "is_incremental": false,
@@ -270,7 +270,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.AsyncFunc-11.html",
-          "hash": "satbkhToHPQ6ec512y3wag=="
+          "hash": "s0UFZ/RfbN/LDRlU/ceANA=="
         }
       },
       "is_incremental": false,
@@ -282,7 +282,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.AsyncFunc-12.html",
-          "hash": "K7eEynhho23dC9tsM336TQ=="
+          "hash": "ETqa/VOOcAT+RsY7VA3jEw=="
         }
       },
       "is_incremental": false,
@@ -294,7 +294,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.AsyncFunc-13.html",
-          "hash": "d8nsfubBcQsIox9bWDz0uw=="
+          "hash": "ehv6gM6o2cvCPtGYGhpM0g=="
         }
       },
       "is_incremental": false,
@@ -306,7 +306,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.AsyncFunc-14.html",
-          "hash": "u6J7/yVxT2u0tXl1XP5K5Q=="
+          "hash": "/mnHsnYV+705yuZnx4LqoQ=="
         }
       },
       "is_incremental": false,
@@ -318,7 +318,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.AsyncFunc-15.html",
-          "hash": "voseQluEl9URmghs7E3wfQ=="
+          "hash": "sC9iEBlwb52H5LeBzfu3/A=="
         }
       },
       "is_incremental": false,
@@ -330,7 +330,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.AsyncFunc-16.html",
-          "hash": "0TC4SU491575YC61ltOqBQ=="
+          "hash": "2MtAoDUnwF4qro41v+Dtkg=="
         }
       },
       "is_incremental": false,
@@ -342,7 +342,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.AsyncFunc-17.html",
-          "hash": "FtIpci748rn5aELQg+S/iA=="
+          "hash": "r0hb56SrbTiN6Y73YFi0Aw=="
         }
       },
       "is_incremental": false,
@@ -354,7 +354,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.AsyncFunc-2.html",
-          "hash": "UMIC6JHnsiKVEXN8r4IgFg=="
+          "hash": "C1q0TW/+AtOIkVDgbXlnoQ=="
         }
       },
       "is_incremental": false,
@@ -366,7 +366,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.AsyncFunc-3.html",
-          "hash": "DgyMVREva8pGRaBXGIXkow=="
+          "hash": "B/sZhhM6W/+0A6p80DiP9Q=="
         }
       },
       "is_incremental": false,
@@ -378,7 +378,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.AsyncFunc-4.html",
-          "hash": "JShHsGF5mPCrbtJF3+LMPg=="
+          "hash": "Q9hw8ptIpcr2zXkhcpraAg=="
         }
       },
       "is_incremental": false,
@@ -390,7 +390,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.AsyncFunc-5.html",
-          "hash": "gYG+eifNRJQiRHTaHRpMwg=="
+          "hash": "+x6UGqdHVXD+MVm/fwZ3hw=="
         }
       },
       "is_incremental": false,
@@ -402,7 +402,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.AsyncFunc-6.html",
-          "hash": "vkSJCAMk5EkacqNJZxPEHw=="
+          "hash": "uztnHVCcUsMIRUvwcUOS/w=="
         }
       },
       "is_incremental": false,
@@ -414,7 +414,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.AsyncFunc-7.html",
-          "hash": "kRnpaCkhmSJCOACTaBAnMw=="
+          "hash": "EA4wrbTRFbwUoSb7ax6czg=="
         }
       },
       "is_incremental": false,
@@ -426,7 +426,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.AsyncFunc-8.html",
-          "hash": "KOopLjpfU5n36IHQdnLP8w=="
+          "hash": "Jp8lZS6YJgPjGU5hb+LHjA=="
         }
       },
       "is_incremental": false,
@@ -438,7 +438,31 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.AsyncFunc-9.html",
-          "hash": "/CRgntL0FGTifa+C58/BEw=="
+          "hash": "td1dyqF1fxBNEff0C+yhfg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Recore.Collections.Generic.AnonymousComparer-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recore.Collections.Generic.AnonymousComparer-1.html",
+          "hash": "KpstJ0hBVMZOpQAAqRPOFw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Recore.Collections.Generic.AnonymousEqualityComparer-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recore.Collections.Generic.AnonymousEqualityComparer-1.html",
+          "hash": "LTQS2VklawdNfv9qHQSffw=="
         }
       },
       "is_incremental": false,
@@ -450,7 +474,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Collections.Generic.ICollectionExtensions.html",
-          "hash": "f8RVzN2Jozw6RfNQjMWARg=="
+          "hash": "EhpWY8vQjUDBdQscdczfug=="
         }
       },
       "is_incremental": false,
@@ -462,7 +486,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Collections.Generic.IDictionaryExtensions.html",
-          "hash": "z1I53U2cgM6bpmjAIJEzgA=="
+          "hash": "Ew9zVuC9tPrRt3Z2yLS1bw=="
         }
       },
       "is_incremental": false,
@@ -474,7 +498,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Collections.Generic.IIterator-1.html",
-          "hash": "c0wTR3JaUi5b5qAukrohOA=="
+          "hash": "jmsL6BwRnzVxzxozEHagOw=="
         }
       },
       "is_incremental": false,
@@ -486,7 +510,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Collections.Generic.IReadOnlyDictionaryExtensions.html",
-          "hash": "z0B23HnMyw02ATOgGwFsMg=="
+          "hash": "Y5YVsH9V8dH/e/racQwLpw=="
         }
       },
       "is_incremental": false,
@@ -498,7 +522,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Collections.Generic.Iterator.html",
-          "hash": "FPKB9FkZN9rCcdgjZpXJbQ=="
+          "hash": "F1NMUi/EhRKqxu9DzN251Q=="
         }
       },
       "is_incremental": false,
@@ -510,7 +534,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Collections.Generic.LinkedListExtensions.html",
-          "hash": "lwugfijevbnDrZ+bs/DmVw=="
+          "hash": "Wn6Z1Y0syEANeHqSgwuOcw=="
         }
       },
       "is_incremental": false,
@@ -522,7 +546,31 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Collections.Generic.ListExtensions.html",
-          "hash": "Az+2sdLFUp6vniuQE9jYMw=="
+          "hash": "XQXzi+zd6i07qWk7urbLTQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Recore.Collections.Generic.MappedComparer-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recore.Collections.Generic.MappedComparer-2.html",
+          "hash": "X74738bTUSED9tVh9RZwhQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Recore.Collections.Generic.MappedEqualityComparer-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recore.Collections.Generic.MappedEqualityComparer-2.html",
+          "hash": "6n/R/PCzGC0Fh+SVLTsnKQ=="
         }
       },
       "is_incremental": false,
@@ -534,7 +582,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Collections.Generic.html",
-          "hash": "E7BJh0W1q97By2RWdBDOCA=="
+          "hash": "KKJLX/HWclhMub/FbIgFbQ=="
         }
       },
       "is_incremental": false,
@@ -546,7 +594,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Defer.html",
-          "hash": "SsImrwvwUSpRaVL9tStB3Q=="
+          "hash": "TN0Yw0hJsmlNJS8brbBqsw=="
         }
       },
       "is_incremental": false,
@@ -558,7 +606,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Either-2.html",
-          "hash": "oonzvtYIoxcHci+oJB3yXw=="
+          "hash": "DQ56cJgNE3wJg6fxn3spvQ=="
         }
       },
       "is_incremental": false,
@@ -570,7 +618,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Either.html",
-          "hash": "d5SKn69X/YANgIxFu/E86w=="
+          "hash": "1Hm8qU/My4hpJpT7A32rRQ=="
         }
       },
       "is_incremental": false,
@@ -582,19 +630,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Func.html",
-          "hash": "G+LrFlIxvWYeiSpLql1X5Q=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Recore.Functional.Composer-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Recore.Functional.Composer-1.html",
-          "hash": "zPIJEzr4DnGC2kj2DesTUA=="
+          "hash": "b8RtEW3T6EtswOyk0+1+4Q=="
         }
       },
       "is_incremental": false,
@@ -606,19 +642,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Functional.Composer-2.html",
-          "hash": "wb+xbpYiCzIMBc1QuFW8Hg=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Recore.Functional.Composer.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Recore.Functional.Composer.html",
-          "hash": "M878wej0a9NpUgLIalohFg=="
+          "hash": "+1lVE6F1j9Rt4268MzmNcA=="
         }
       },
       "is_incremental": false,
@@ -630,7 +654,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Functional.Lift.html",
-          "hash": "yr42XCwiLXzSla/1Ip/Z+w=="
+          "hash": "J7xpj0wnPfGSZ0AKWQVSSA=="
         }
       },
       "is_incremental": false,
@@ -638,11 +662,23 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/Recore.Functional.Operator.yml",
+      "source_relative_path": "obj/Recore.Functional.Pipeline-1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Recore.Functional.Operator.html",
-          "hash": "1bnHuzO5SkyOEzACdKLpZQ=="
+          "relative_path": "api/Recore.Functional.Pipeline-1.html",
+          "hash": "0ZTQ9tlnD0OA5hTEO3PTYA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Recore.Functional.Pipeline.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recore.Functional.Pipeline.html",
+          "hash": "u7Ioek+jHvXfMAWTf1Km2g=="
         }
       },
       "is_incremental": false,
@@ -654,19 +690,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Functional.html",
-          "hash": "pEbuRa1I2jthi2dL2NdUaA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Recore.Hasher.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Recore.Hasher.html",
-          "hash": "Y89+wdicWEajl/EwMVjYmw=="
+          "hash": "hYAS6rnF18+NUJoGJYBB5g=="
         }
       },
       "is_incremental": false,
@@ -678,7 +702,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Linq.Renumerable.html",
-          "hash": "VEBefb0BQu/ea5CBjbnOPw=="
+          "hash": "/dqPd/b5oqklvxa6+0Ue3w=="
         }
       },
       "is_incremental": false,
@@ -690,7 +714,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Linq.html",
-          "hash": "qCimF/C6orSvlJNN1SGUrA=="
+          "hash": "GPAHeiYQ+Akwx6RbEQ0REg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Recore.ObjectExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recore.ObjectExtensions.html",
+          "hash": "455eAcNnRylaftw1lWW8cg=="
         }
       },
       "is_incremental": false,
@@ -702,7 +738,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Of-1.html",
-          "hash": "L8B8AF4JLY5wewolCxzIaQ=="
+          "hash": "M5YJ/SjCQYc7mn9UaRJnEA=="
         }
       },
       "is_incremental": false,
@@ -714,7 +750,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Optional-1.html",
-          "hash": "lc0YLaD+8lpBAqSBwfd4Vw=="
+          "hash": "itaMKhGOh03vffPTCQ4Q2A=="
         }
       },
       "is_incremental": false,
@@ -726,7 +762,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Optional.html",
-          "hash": "kt1Ak15DhcFWCt2tk1n9OA=="
+          "hash": "sY5S46LapagpP6/Z5Somdw=="
         }
       },
       "is_incremental": false,
@@ -738,7 +774,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.RelativeUri.html",
-          "hash": "W0IjGoxhuz0diJ47q27LpA=="
+          "hash": "HMnbVaq3NYjtolHmqCqR/w=="
         }
       },
       "is_incremental": false,
@@ -750,7 +786,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Result-2.html",
-          "hash": "NGw/RYWkBRWeWlAABVZOkg=="
+          "hash": "PnNRWwqV0G6LB+TDMffqeg=="
         }
       },
       "is_incremental": false,
@@ -762,7 +798,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Result.Catcher-1.html",
-          "hash": "WMKRW7gRiU3keBrgJUyQ7Q=="
+          "hash": "cLQtTLRbDlOruVHGwn37Pg=="
         }
       },
       "is_incremental": false,
@@ -774,7 +810,31 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Result.html",
-          "hash": "roxQ98DCWB3iJv+1eWnQuA=="
+          "hash": "eWa+gFu83Tds90cz4VrpnA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Recore.Security.Cryptography.Ciphertext-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recore.Security.Cryptography.Ciphertext-1.html",
+          "hash": "46stAWJgSJiqZcEMEHtJpw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Recore.Security.Cryptography.Ciphertext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recore.Security.Cryptography.Ciphertext.html",
+          "hash": "QyaEyF0A1IZpgDb/qr9FFw=="
         }
       },
       "is_incremental": false,
@@ -786,7 +846,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Security.Cryptography.SecureCompare.html",
-          "hash": "wOpmOy4QEZet33pMQ/oSZA=="
+          "hash": "DMr3BwPBdFNhs/vAjlXFGw=="
         }
       },
       "is_incremental": false,
@@ -798,7 +858,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Security.Cryptography.html",
-          "hash": "DAlxhr+EahNcyPPq88Vx4A=="
+          "hash": "L/sqv9XVJQxiXsVBNLULdA=="
         }
       },
       "is_incremental": false,
@@ -810,7 +870,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.StringExtensions.html",
-          "hash": "qePeCfOlytqOv8j+kVPjbQ=="
+          "hash": "VS+z1zfx2QPx4nGPzOGUGQ=="
         }
       },
       "is_incremental": false,
@@ -818,35 +878,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/Recore.Text.StringUtil.yml",
+      "source_relative_path": "obj/Recore.StringUtil.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Recore.Text.StringUtil.html",
-          "hash": "HE1Mwkb7YycIRz0V3c0I+A=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Recore.Text.Wildcard.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Recore.Text.Wildcard.html",
-          "hash": "0jA2QKT4l1Nujl0AHmUhYA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Recore.Text.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Recore.Text.html",
-          "hash": "gO0F/x2nK0fLZyGqM7HsEA=="
+          "relative_path": "api/Recore.StringUtil.html",
+          "hash": "8vIEXoNyS0haclJz1r8J/w=="
         }
       },
       "is_incremental": false,
@@ -858,7 +894,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Threading.Tasks.TaskExtensions.html",
-          "hash": "oQxfsgJIlSyCmT6gkpjnrA=="
+          "hash": "ZoCknUTiyTT1ujTEuj/17g=="
         }
       },
       "is_incremental": false,
@@ -870,7 +906,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Threading.Tasks.html",
-          "hash": "o1u+wNCfNquij/eAq8rA7g=="
+          "hash": "tygZ82BAY3DGLpFBe3UwwQ=="
         }
       },
       "is_incremental": false,
@@ -882,7 +918,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Token.html",
-          "hash": "a3wrzp4ywkTI9gMXvZITrg=="
+          "hash": "KqNSuSX15g7vFq37B+OKYg=="
         }
       },
       "is_incremental": false,
@@ -894,7 +930,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Unit.html",
-          "hash": "BDQeawwfQr9x9ux4QdHivA=="
+          "hash": "BQu1bJC6g2rmWqA+aLfH/g=="
         }
       },
       "is_incremental": false,
@@ -906,7 +942,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.UriExtensions.html",
-          "hash": "P/KJa+VfhOjUI2S3gW/ZWQ=="
+          "hash": "m+cuXsR0U8wAlui64pOv/w=="
         }
       },
       "is_incremental": false,
@@ -918,7 +954,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.html",
-          "hash": "ZNDxOYaXMJVWtdJ7BaNgzQ=="
+          "hash": "DorT8bpcQYCtvKsCcElhSg=="
         }
       },
       "is_incremental": false,
@@ -930,7 +966,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "NIzxe9RJC9bFVMFTOZkx7Q=="
+          "hash": "/Hk8vMRdrCLmk78AYhqhDA=="
         }
       },
       "is_incremental": false,
@@ -952,30 +988,32 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": true,
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 1,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 78,
+          "skipped_file_count": 0
+        },
         "TocDocumentProcessor": {
           "can_incremental": false,
           "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
           "total_file_count": 0,
           "skipped_file_count": 0
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build",
-          "total_file_count": 75,
-          "skipped_file_count": 7
-        },
-        "ConceptualDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build",
-          "total_file_count": 1,
-          "skipped_file_count": 1
         }
       }
     },

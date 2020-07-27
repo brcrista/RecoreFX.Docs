@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class SecureCompare
+    <title>Class ObjectExtensions
    | RecoreFX </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class SecureCompare
+    <meta name="title" content="Class ObjectExtensions
    | RecoreFX ">
     <meta name="generator" content="docfx 2.56.2.0">
     
@@ -78,42 +78,42 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Recore.Security.Cryptography.SecureCompare">
+            <article class="content wrap" id="_content" data-uid="Recore.ObjectExtensions">
   
   
-  <h1 id="Recore_Security_Cryptography_SecureCompare" data-uid="Recore.Security.Cryptography.SecureCompare" class="text-break">Class SecureCompare
+  <h1 id="Recore_ObjectExtensions" data-uid="Recore.ObjectExtensions" class="text-break">Class ObjectExtensions
   </h1>
-  <div class="markdown level0 summary"><p>Provides methods for securely comparing objects.</p>
+  <div class="markdown level0 summary"><p>Helper methods for working with any object in .NET.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">SecureCompare</span></div>
+    <div class="level1"><span class="xref">ObjectExtensions</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Recore.Security.Cryptography.html">Recore.Security.Cryptography</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Recore.html">Recore</a></h6>
   <h6><strong>Assembly</strong>: Recore.dll</h6>
-  <h5 id="Recore_Security_Cryptography_SecureCompare_syntax">Syntax</h5>
+  <h5 id="Recore_ObjectExtensions_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class SecureCompare : object</code></pre>
+    <pre><code class="lang-csharp hljs">public static class ObjectExtensions : object</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Security_Cryptography_SecureCompare_TimeInvariantEquals_System_Byte___System_Byte___.md&amp;value=---%0Auid%3A%20Recore.Security.Cryptography.SecureCompare.TimeInvariantEquals(System.Byte%5B%5D%2CSystem.Byte%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_ObjectExtensions_StaticCast__1___0_.md&amp;value=---%0Auid%3A%20Recore.ObjectExtensions.StaticCast%60%601(%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore.Security.Cryptography/SecureCompare.cs/#L33">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/ObjectExtensions.cs/#L18">View Source</a>
   </span>
-  <a id="Recore_Security_Cryptography_SecureCompare_TimeInvariantEquals_" data-uid="Recore.Security.Cryptography.SecureCompare.TimeInvariantEquals*"></a>
-  <h4 id="Recore_Security_Cryptography_SecureCompare_TimeInvariantEquals_System_Byte___System_Byte___" data-uid="Recore.Security.Cryptography.SecureCompare.TimeInvariantEquals(System.Byte[],System.Byte[])">TimeInvariantEquals(Byte[], Byte[])</h4>
-  <div class="markdown level1 summary"><p>Checks two byte arrays for equality without early termination.</p>
+  <a id="Recore_ObjectExtensions_StaticCast_" data-uid="Recore.ObjectExtensions.StaticCast*"></a>
+  <h4 id="Recore_ObjectExtensions_StaticCast__1___0_" data-uid="Recore.ObjectExtensions.StaticCast``1(``0)">StaticCast&lt;T&gt;(T)</h4>
+  <div class="markdown level1 summary"><p>Converts an object's type to <code data-dev-comment-type="typeparamref" class="typeparamref">T</code> at compile time.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool TimeInvariantEquals(byte[] lhs, byte[] rhs)</code></pre>
+    <pre><code class="lang-csharp hljs">public static T StaticCast&lt;T&gt;(this T obj)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -126,13 +126,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
-        <td><span class="parametername">lhs</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.byte">Byte</a>[]</td>
-        <td><span class="parametername">rhs</span></td>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">obj</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -147,28 +142,30 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="xref">T</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 id="Recore_Security_Cryptography_SecureCompare_TimeInvariantEquals_System_Byte___System_Byte____remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>This method is used to guard against <strong>timing attacks</strong>.</p>
-<p>When checking untrusted input against a secret,
-using a regular element-by-element equality method
-such as <see cref="!:string.Equals(string)"></see> is insecure.
-For example, suppose you are checking whether an incoming request's signature
-matches what you expect.
-In this case, you hash the request payload with your own private key
-and compare that to the actual signature.
-If the comparison stops at the first unmatched element in the sequence,
-an attacker can time the comparison with a high-resolution timer
-and infer how many elements they guessed correctly.</p>
-<p>This method assumes that the length of the sequences are equal,
-such as two strings processed by a hashing algorithm.
-If the length of the sequence is considered a secret,
-this method should not be used
-as it will leak that information in a timing attack.</p>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Recore_ObjectExtensions_StaticCast__1___0__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is analogous to <code>static_cast</code> in C++.
+In C#, casting is normally an unsafe operation: a failed cast will throw <see cref="!:InvalidCastException"></see>.
+On the other hand, <a class="xref" href="Recore.ObjectExtensions.html#Recore_ObjectExtensions_StaticCast__1___0_">StaticCast&lt;T&gt;(T)</a> will never throw at runtime if it compiles.</p>
 </div>
 </article>
           </div>
@@ -178,10 +175,10 @@ as it will leak that information in a timing attack.</p>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Security_Cryptography_SecureCompare.md&amp;value=---%0Auid%3A%20Recore.Security.Cryptography.SecureCompare%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_ObjectExtensions.md&amp;value=---%0Auid%3A%20Recore.ObjectExtensions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore.Security.Cryptography/SecureCompare.cs/#L8" class="contribution-link">View Source</a>
+                    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/ObjectExtensions.cs/#L8" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

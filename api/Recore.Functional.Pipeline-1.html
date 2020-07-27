@@ -5,12 +5,12 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class Composer&lt;T&gt;
+    <title>Class Pipeline&lt;T&gt;
    | RecoreFX </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class Composer&lt;T&gt;
+    <meta name="title" content="Class Pipeline&lt;T&gt;
    | RecoreFX ">
-    <meta name="generator" content="docfx 2.49.0.0">
+    <meta name="generator" content="docfx 2.56.2.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -78,10 +78,10 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Recore.Functional.Composer`1">
+            <article class="content wrap" id="_content" data-uid="Recore.Functional.Pipeline`1">
   
   
-  <h1 id="Recore_Functional_Composer_1" data-uid="Recore.Functional.Composer`1" class="text-break">Class Composer&lt;T&gt;
+  <h1 id="Recore_Functional_Pipeline_1" data-uid="Recore.Functional.Pipeline`1" class="text-break">Class Pipeline&lt;T&gt;
   </h1>
   <div class="markdown level0 summary"><p>Creates a function pipeline, calling each function or action on the value
 with postfix syntax.</p>
@@ -90,37 +90,13 @@ with postfix syntax.</p>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">Composer&lt;T&gt;</span></div>
-  </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
-    </div>
+    <div class="level1"><span class="xref">Pipeline&lt;T&gt;</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Recore.Functional.html">Recore.Functional</a></h6>
   <h6><strong>Assembly</strong>: Recore.dll</h6>
-  <h5 id="Recore_Functional_Composer_1_syntax">Syntax</h5>
+  <h5 id="Recore_Functional_Pipeline_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class Composer&lt;T&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class Pipeline&lt;T&gt; : object</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -137,14 +113,18 @@ with postfix syntax.</p>
       </tr>
     </tbody>
   </table>
-  <h5 id="Recore_Functional_Composer_1_remarks"><strong>Remarks</strong></h5>
-  <div class="markdown level0 remarks"><p>Functions are called on the value eagerly.</p>
+  <h5 id="Recore_Functional_Pipeline_1_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p><a class="xref" href="Recore.Functional.Pipeline-1.html">Pipeline&lt;T&gt;</a> and <a class="xref" href="Recore.Functional.Composer-2.html">Composer&lt;TValue, TResult&gt;</a> differ
+in that <a class="xref" href="Recore.Functional.Pipeline-1.html">Pipeline&lt;T&gt;</a> invokes its functions eagerly,
+while <a class="xref" href="Recore.Functional.Composer-2.html">Composer&lt;TValue, TResult&gt;</a> invokes its functions lazily.
+<a class="xref" href="Recore.Functional.Pipeline-1.html">Pipeline&lt;T&gt;</a> produces a value as its final result, whereas
+<a class="xref" href="Recore.Functional.Composer-2.html">Composer&lt;TValue, TResult&gt;</a> produces a function.</p>
 </div>
-  <h5 id="Recore_Functional_Composer_1_examples"><strong>Examples</strong></h5>
-  <p>Without <a class="xref" href="Recore.Functional.Composer-1.html">Composer&lt;T&gt;</a>:</p>
+  <h5 id="Recore_Functional_Pipeline_1_examples"><strong>Examples</strong></h5>
+  <p>Without <a class="xref" href="Recore.Functional.Pipeline-1.html">Pipeline&lt;T&gt;</a>:</p>
 <pre><code>var result = Baz(Bar(Foo(value)));</code></pre>
-<p>With <a class="xref" href="Recore.Functional.Composer-1.html">Composer&lt;T&gt;</a>:</p>
-<pre><code>var result = Composer.Of(value)
+<p>With <a class="xref" href="Recore.Functional.Pipeline-1.html">Pipeline&lt;T&gt;</a>:</p>
+<pre><code>var result = Pipeline.Of(value)
     .Then(Foo)
     .Then(Bar)
     .Then(Baz)
@@ -154,19 +134,19 @@ with postfix syntax.</p>
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/recorefx/RecoreFX/new/master/apiSpec/new?filename=Recore_Functional_Composer_1__ctor__0_.md&amp;value=---%0Auid%3A%20Recore.Functional.Composer%601.%23ctor(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Functional_Pipeline_1__ctor__0_.md&amp;value=---%0Auid%3A%20Recore.Functional.Pipeline%601.%23ctor(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/recorefx/RecoreFX/blob/master/src/Recore.Functional/Composer.cs/#L37">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore.Functional/Pipeline.cs/#L41">View Source</a>
   </span>
-  <a id="Recore_Functional_Composer_1__ctor_" data-uid="Recore.Functional.Composer`1.#ctor*"></a>
-  <h4 id="Recore_Functional_Composer_1__ctor__0_" data-uid="Recore.Functional.Composer`1.#ctor(`0)">Composer(T)</h4>
-  <div class="markdown level1 summary"><p>Initializes the <a class="xref" href="Recore.Functional.Composer-1.html">Composer&lt;T&gt;</a> from a value.</p>
+  <a id="Recore_Functional_Pipeline_1__ctor_" data-uid="Recore.Functional.Pipeline`1.#ctor*"></a>
+  <h4 id="Recore_Functional_Pipeline_1__ctor__0_" data-uid="Recore.Functional.Pipeline`1.#ctor(`0)">Pipeline(T)</h4>
+  <div class="markdown level1 summary"><p>Initializes the <a class="xref" href="Recore.Functional.Pipeline-1.html">Pipeline&lt;T&gt;</a> from a value.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Composer(T value)</code></pre>
+    <pre><code class="lang-csharp hljs">public Pipeline(T value)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -189,14 +169,14 @@ with postfix syntax.</p>
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/recorefx/RecoreFX/new/master/apiSpec/new?filename=Recore_Functional_Composer_1_Result.md&amp;value=---%0Auid%3A%20Recore.Functional.Composer%601.Result%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Functional_Pipeline_1_Result.md&amp;value=---%0Auid%3A%20Recore.Functional.Pipeline%601.Result%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/recorefx/RecoreFX/blob/master/src/Recore.Functional/Composer.cs/#L32">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore.Functional/Pipeline.cs/#L36">View Source</a>
   </span>
-  <a id="Recore_Functional_Composer_1_Result_" data-uid="Recore.Functional.Composer`1.Result*"></a>
-  <h4 id="Recore_Functional_Composer_1_Result" data-uid="Recore.Functional.Composer`1.Result">Result</h4>
-  <div class="markdown level1 summary"><p>Gets the result of the <a class="xref" href="Recore.Functional.Composer-1.html">Composer&lt;T&gt;</a>.</p>
+  <a id="Recore_Functional_Pipeline_1_Result_" data-uid="Recore.Functional.Pipeline`1.Result*"></a>
+  <h4 id="Recore_Functional_Pipeline_1_Result" data-uid="Recore.Functional.Pipeline`1.Result">Result</h4>
+  <div class="markdown level1 summary"><p>Gets the result of the <a class="xref" href="Recore.Functional.Pipeline-1.html">Pipeline&lt;T&gt;</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -222,20 +202,20 @@ with postfix syntax.</p>
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/recorefx/RecoreFX/new/master/apiSpec/new?filename=Recore_Functional_Composer_1_Then_System_Action__0__.md&amp;value=---%0Auid%3A%20Recore.Functional.Composer%601.Then(System.Action%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Functional_Pipeline_1_Then_Action__0__.md&amp;value=---%0Auid%3A%20Recore.Functional.Pipeline%601.Then(Action%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/recorefx/RecoreFX/blob/master/src/Recore.Functional/Composer.cs/#L53">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore.Functional/Pipeline.cs/#L57">View Source</a>
   </span>
-  <a id="Recore_Functional_Composer_1_Then_" data-uid="Recore.Functional.Composer`1.Then*"></a>
-  <h4 id="Recore_Functional_Composer_1_Then_System_Action__0__" data-uid="Recore.Functional.Composer`1.Then(System.Action{`0})">Then(Action&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"><p>Invokes an action on the <a class="xref" href="Recore.Functional.Composer-1.html">Composer&lt;T&gt;</a>'s current value
-and passes the value through the <a class="xref" href="Recore.Functional.Composer-1.html">Composer&lt;T&gt;</a>.</p>
+  <a id="Recore_Functional_Pipeline_1_Then_" data-uid="Recore.Functional.Pipeline`1.Then*"></a>
+  <h4 id="Recore_Functional_Pipeline_1_Then_Action__0__" data-uid="Recore.Functional.Pipeline`1.Then(Action{`0})">Then(Action&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Invokes an action on the <a class="xref" href="Recore.Functional.Pipeline-1.html">Pipeline&lt;T&gt;</a>'s current value
+and passes the value through the <a class="xref" href="Recore.Functional.Pipeline-1.html">Pipeline&lt;T&gt;</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Composer&lt;T&gt; Then(Action&lt;T&gt; action)</code></pre>
+    <pre><code class="lang-csharp hljs">public Pipeline&lt;T&gt; Then(Action&lt;T&gt; action)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -248,7 +228,7 @@ and passes the value through the <a class="xref" href="Recore.Functional.Compose
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;T&gt;</td>
+        <td><span class="xref">Action</span>&lt;T&gt;</td>
         <td><span class="parametername">action</span></td>
         <td></td>
       </tr>
@@ -264,27 +244,27 @@ and passes the value through the <a class="xref" href="Recore.Functional.Compose
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Recore.Functional.Composer-1.html">Composer</a>&lt;T&gt;</td>
+        <td><a class="xref" href="Recore.Functional.Pipeline-1.html">Pipeline</a>&lt;T&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/recorefx/RecoreFX/new/master/apiSpec/new?filename=Recore_Functional_Composer_1_Then__1_System_Func__0___0__.md&amp;value=---%0Auid%3A%20Recore.Functional.Composer%601.Then%60%601(System.Func%7B%600%2C%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Functional_Pipeline_1_Then__1_Recore_Func__0___0__.md&amp;value=---%0Auid%3A%20Recore.Functional.Pipeline%601.Then%60%601(Recore.Func%7B%600%2C%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/recorefx/RecoreFX/blob/master/src/Recore.Functional/Composer.cs/#L46">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore.Functional/Pipeline.cs/#L50">View Source</a>
   </span>
-  <a id="Recore_Functional_Composer_1_Then_" data-uid="Recore.Functional.Composer`1.Then*"></a>
-  <h4 id="Recore_Functional_Composer_1_Then__1_System_Func__0___0__" data-uid="Recore.Functional.Composer`1.Then``1(System.Func{`0,``0})">Then&lt;U&gt;(Func&lt;T, U&gt;)</h4>
-  <div class="markdown level1 summary"><p>Invokes a function on the <a class="xref" href="Recore.Functional.Composer-1.html">Composer&lt;T&gt;</a>'s current value
-and passes the result through the <a class="xref" href="Recore.Functional.Composer-1.html">Composer&lt;T&gt;</a>.</p>
+  <a id="Recore_Functional_Pipeline_1_Then_" data-uid="Recore.Functional.Pipeline`1.Then*"></a>
+  <h4 id="Recore_Functional_Pipeline_1_Then__1_Recore_Func__0___0__" data-uid="Recore.Functional.Pipeline`1.Then``1(Recore.Func{`0,``0})">Then&lt;U&gt;(Func&lt;T, U&gt;)</h4>
+  <div class="markdown level1 summary"><p>Invokes a function on the <a class="xref" href="Recore.Functional.Pipeline-1.html">Pipeline&lt;T&gt;</a>'s current value
+and passes the result through the <a class="xref" href="Recore.Functional.Pipeline-1.html">Pipeline&lt;T&gt;</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Composer&lt;U&gt; Then&lt;U&gt;(Func&lt;T, U&gt; func)</code></pre>
+    <pre><code class="lang-csharp hljs">public Pipeline&lt;U&gt; Then&lt;U&gt;(Func&lt;T, U&gt; func)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -297,7 +277,7 @@ and passes the result through the <a class="xref" href="Recore.Functional.Compos
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;T, U&gt;</td>
+        <td><span class="xref">Recore.Func</span>&lt;T, U&gt;</td>
         <td><span class="parametername">func</span></td>
         <td></td>
       </tr>
@@ -313,7 +293,7 @@ and passes the result through the <a class="xref" href="Recore.Functional.Compos
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Recore.Functional.Composer-1.html">Composer</a>&lt;U&gt;</td>
+        <td><a class="xref" href="Recore.Functional.Pipeline-1.html">Pipeline</a>&lt;U&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -333,6 +313,10 @@ and passes the result through the <a class="xref" href="Recore.Functional.Compos
       </tr>
     </tbody>
   </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Recore.ObjectExtensions.html#Recore_ObjectExtensions_StaticCast__1___0_">ObjectExtensions.StaticCast&lt;T&gt;(T)</a>
+  </div>
 </article>
           </div>
           
@@ -341,10 +325,10 @@ and passes the result through the <a class="xref" href="Recore.Functional.Compos
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/recorefx/RecoreFX/new/master/apiSpec/new?filename=Recore_Functional_Composer_1.md&amp;value=---%0Auid%3A%20Recore.Functional.Composer%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Functional_Pipeline_1.md&amp;value=---%0Auid%3A%20Recore.Functional.Pipeline%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/recorefx/RecoreFX/blob/master/src/Recore.Functional/Composer.cs/#L27" class="contribution-link">View Source</a>
+                    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore.Functional/Pipeline.cs/#L31" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
