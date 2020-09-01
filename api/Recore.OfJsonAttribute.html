@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class Pipeline
+    <title>Class OfJsonAttribute
    | RecoreFX </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class Pipeline
+    <meta name="title" content="Class OfJsonAttribute
    | RecoreFX ">
     <meta name="generator" content="docfx 2.56.2.0">
     
@@ -78,42 +78,42 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Recore.Functional.Pipeline">
+            <article class="content wrap" id="_content" data-uid="Recore.OfJsonAttribute">
   
   
-  <h1 id="Recore_Functional_Pipeline" data-uid="Recore.Functional.Pipeline" class="text-break">Class Pipeline
+  <h1 id="Recore_OfJsonAttribute" data-uid="Recore.OfJsonAttribute" class="text-break">Class OfJsonAttribute
   </h1>
-  <div class="markdown level0 summary"><p>Provides additional methods for <a class="xref" href="Recore.Functional.Pipeline-1.html">Pipeline&lt;T&gt;</a>.</p>
+  <div class="markdown level0 summary"><p>Place on an subtype of <a class="xref" href="Recore.Of-1.html">Of&lt;T&gt;</a> to serialize it to JSON as its underlying type.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">Pipeline</span></div>
+    <div class="level1"><span class="xref">OfJsonAttribute</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Recore.Functional.html">Recore.Functional</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Recore.html">Recore</a></h6>
   <h6><strong>Assembly</strong>: Recore.dll</h6>
-  <h5 id="Recore_Functional_Pipeline_syntax">Syntax</h5>
+  <h5 id="Recore_OfJsonAttribute_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class Pipeline : object</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class OfJsonAttribute : JsonConverterAttribute</code></pre>
   </div>
-  <h3 id="methods">Methods
+  <h3 id="constructors">Constructors
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Functional_Pipeline_Of__1___0_.md&amp;value=---%0Auid%3A%20Recore.Functional.Pipeline.Of%60%601(%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_OfJsonAttribute__ctor_Type_Type_.md&amp;value=---%0Auid%3A%20Recore.OfJsonAttribute.%23ctor(Type%2CType)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore.Functional/Pipeline.cs/#L72">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/OfJsonAttribute.cs/#L17">View Source</a>
   </span>
-  <a id="Recore_Functional_Pipeline_Of_" data-uid="Recore.Functional.Pipeline.Of*"></a>
-  <h4 id="Recore_Functional_Pipeline_Of__1___0_" data-uid="Recore.Functional.Pipeline.Of``1(``0)">Of&lt;T&gt;(T)</h4>
-  <div class="markdown level1 summary"><p>Creates a <a class="xref" href="Recore.Functional.Pipeline-1.html">Pipeline&lt;T&gt;</a> from a value.</p>
+  <a id="Recore_OfJsonAttribute__ctor_" data-uid="Recore.OfJsonAttribute.#ctor*"></a>
+  <h4 id="Recore_OfJsonAttribute__ctor_Type_Type_" data-uid="Recore.OfJsonAttribute.#ctor(Type,Type)">OfJsonAttribute(Type, Type)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of <a class="xref" href="Recore.OfJsonAttribute.html">OfJsonAttribute</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Pipeline&lt;T&gt; Of&lt;T&gt;(T value)</code></pre>
+    <pre><code class="lang-csharp hljs">public OfJsonAttribute(Type thisType, Type innerType)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -126,45 +126,21 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">T</span></td>
-        <td><span class="parametername">value</span></td>
+        <td><span class="xref">Type</span></td>
+        <td><span class="parametername">thisType</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">Type</span></td>
+        <td><span class="parametername">innerType</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Recore.Functional.Pipeline-1.html">Pipeline</a>&lt;T&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">T</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="Recore_Functional_Pipeline_Of__1___0__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>This method works the the same as the constructor, but it is useful for type inference.</p>
-</div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Recore.ObjectExtensions.html#Recore_ObjectExtensions_StaticCast__1___0_">ObjectExtensions.StaticCast&lt;T&gt;(T)</a>
+  </div>
 </article>
           </div>
           
@@ -173,10 +149,10 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Functional_Pipeline.md&amp;value=---%0Auid%3A%20Recore.Functional.Pipeline%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_OfJsonAttribute.md&amp;value=---%0Auid%3A%20Recore.OfJsonAttribute%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore.Functional/Pipeline.cs/#L64" class="contribution-link">View Source</a>
+                    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/OfJsonAttribute.cs/#L11" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

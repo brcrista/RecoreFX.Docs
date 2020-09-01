@@ -89,13 +89,12 @@
   <div classs="implements">
     <h5>Implements</h5>
     <div><span class="xref">IEquatable</span>&lt;<a class="xref" href="Recore.Optional-1.html">Optional</a>&lt;T&gt;&gt;</div>
-    <div><span class="xref">IEnumerable</span>&lt;T&gt;</div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Recore.html">Recore</a></h6>
   <h6><strong>Assembly</strong>: Recore.dll</h6>
   <h5 id="Recore_Optional_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public struct Optional&lt;T&gt; : IEquatable&lt;Optional&lt;T&gt;&gt;, IEnumerable&lt;T&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public struct Optional&lt;T&gt; : IEquatable&lt;Optional&lt;T&gt;&gt;</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -119,7 +118,7 @@
     <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Optional_1__ctor__0_.md&amp;value=---%0Auid%3A%20Recore.Optional%601.%23ctor(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Optional.cs/#L30">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Optional.cs/#L32">View Source</a>
   </span>
   <a id="Recore_Optional_1__ctor_" data-uid="Recore.Optional`1.#ctor*"></a>
   <h4 id="Recore_Optional_1__ctor__0_" data-uid="Recore.Optional`1.#ctor(`0)">Optional(T)</h4>
@@ -158,7 +157,7 @@ is considered empty.</p>
     <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Optional_1_Empty.md&amp;value=---%0Auid%3A%20Recore.Optional%601.Empty%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Optional.cs/#L44">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Optional.cs/#L46">View Source</a>
   </span>
   <a id="Recore_Optional_1_Empty_" data-uid="Recore.Optional`1.Empty*"></a>
   <h4 id="Recore_Optional_1_Empty" data-uid="Recore.Optional`1.Empty">Empty</h4>
@@ -194,7 +193,7 @@ or passing <code>null</code> to the constructor,
     <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Optional_1_HasValue.md&amp;value=---%0Auid%3A%20Recore.Optional%601.HasValue%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Optional.cs/#L21">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Optional.cs/#L23">View Source</a>
   </span>
   <a id="Recore_Optional_1_HasValue_" data-uid="Recore.Optional`1.HasValue*"></a>
   <h4 id="Recore_Optional_1_HasValue" data-uid="Recore.Optional`1.HasValue">HasValue</h4>
@@ -224,10 +223,41 @@ or passing <code>null</code> to the constructor,
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Optional_1_AssertValue.md&amp;value=---%0Auid%3A%20Recore.Optional%601.AssertValue%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Optional.cs/#L114">View Source</a>
+  </span>
+  <a id="Recore_Optional_1_AssertValue_" data-uid="Recore.Optional`1.AssertValue*"></a>
+  <h4 id="Recore_Optional_1_AssertValue" data-uid="Recore.Optional`1.AssertValue">AssertValue()</h4>
+  <div class="markdown level1 summary"><p>Extracts the value or throws an <see cref="!:InvalidOperationException"></see> if the <a class="xref" href="Recore.Optional-1.html">Optional&lt;T&gt;</a> is empty.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public T AssertValue()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Optional_1_Equals_Recore_Optional__0__.md&amp;value=---%0Auid%3A%20Recore.Optional%601.Equals(Recore.Optional%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Optional.cs/#L169">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Optional.cs/#L189">View Source</a>
   </span>
   <a id="Recore_Optional_1_Equals_" data-uid="Recore.Optional`1.Equals*"></a>
   <h4 id="Recore_Optional_1_Equals_Recore_Optional__0__" data-uid="Recore.Optional`1.Equals(Recore.Optional{`0})">Equals(Optional&lt;T&gt;)</h4>
@@ -276,7 +306,7 @@ have different values.</p>
     <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Optional_1_Equals_System_Object_.md&amp;value=---%0Auid%3A%20Recore.Optional%601.Equals(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Optional.cs/#L161">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Optional.cs/#L181">View Source</a>
   </span>
   <a id="Recore_Optional_1_Equals_" data-uid="Recore.Optional`1.Equals*"></a>
   <h4 id="Recore_Optional_1_Equals_System_Object_" data-uid="Recore.Optional`1.Equals(System.Object)">Equals(Object)</h4>
@@ -323,42 +353,10 @@ have the same value.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Optional_1_GetEnumerator.md&amp;value=---%0Auid%3A%20Recore.Optional%601.GetEnumerator%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Optional.cs/#L194">View Source</a>
-  </span>
-  <a id="Recore_Optional_1_GetEnumerator_" data-uid="Recore.Optional`1.GetEnumerator*"></a>
-  <h4 id="Recore_Optional_1_GetEnumerator" data-uid="Recore.Optional`1.GetEnumerator">GetEnumerator()</h4>
-  <div class="markdown level1 summary"><p>Returns an object that either yields the underlying value once
-or yields nothing if there is no value.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IEnumerator&lt;T&gt; GetEnumerator()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">IEnumerator</span>&lt;T&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
     <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Optional_1_GetHashCode.md&amp;value=---%0Auid%3A%20Recore.Optional%601.GetHashCode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Optional.cs/#L185">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Optional.cs/#L171">View Source</a>
   </span>
   <a id="Recore_Optional_1_GetHashCode_" data-uid="Recore.Optional`1.GetHashCode*"></a>
   <h4 id="Recore_Optional_1_GetHashCode" data-uid="Recore.Optional`1.GetHashCode">GetHashCode()</h4>
@@ -387,43 +385,10 @@ or zero if there is no value.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Optional_1_IfEmpty_Action_.md&amp;value=---%0Auid%3A%20Recore.Optional%601.IfEmpty(Action)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Optional.cs/#L128">View Source</a>
-  </span>
-  <a id="Recore_Optional_1_IfEmpty_" data-uid="Recore.Optional`1.IfEmpty*"></a>
-  <h4 id="Recore_Optional_1_IfEmpty_Action_" data-uid="Recore.Optional`1.IfEmpty(Action)">IfEmpty(Action)</h4>
-  <div class="markdown level1 summary"><p>Takes an action only if the <a class="xref" href="Recore.Optional-1.html">Optional&lt;T&gt;</a> is empty.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void IfEmpty(Action onEmpty)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Action</span></td>
-        <td><span class="parametername">onEmpty</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
     <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Optional_1_IfValue_Action__0__.md&amp;value=---%0Auid%3A%20Recore.Optional%601.IfValue(Action%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Optional.cs/#L120">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Optional.cs/#L130">View Source</a>
   </span>
   <a id="Recore_Optional_1_IfValue_" data-uid="Recore.Optional`1.IfValue*"></a>
   <h4 id="Recore_Optional_1_IfValue_Action__0__" data-uid="Recore.Optional`1.IfValue(Action{`0})">IfValue(Action&lt;T&gt;)</h4>
@@ -456,7 +421,7 @@ or zero if there is no value.</p>
     <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Optional_1_OnValue__1_Recore_Func__0___0__.md&amp;value=---%0Auid%3A%20Recore.Optional%601.OnValue%60%601(Recore.Func%7B%600%2C%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Optional.cs/#L112">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Optional.cs/#L122">View Source</a>
   </span>
   <a id="Recore_Optional_1_OnValue_" data-uid="Recore.Optional`1.OnValue*"></a>
   <h4 id="Recore_Optional_1_OnValue__1_Recore_Func__0___0__" data-uid="Recore.Optional`1.OnValue``1(Recore.Func{`0,``0})">OnValue&lt;U&gt;(Func&lt;T, U&gt;)</h4>
@@ -519,7 +484,7 @@ or zero if there is no value.</p>
     <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Optional_1_Switch_Action__0__Action_.md&amp;value=---%0Auid%3A%20Recore.Optional%601.Switch(Action%7B%600%7D%2CAction)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Optional.cs/#L79">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Optional.cs/#L81">View Source</a>
   </span>
   <a id="Recore_Optional_1_Switch_" data-uid="Recore.Optional`1.Switch*"></a>
   <h4 id="Recore_Optional_1_Switch_Action__0__Action_" data-uid="Recore.Optional`1.Switch(Action{`0},Action)">Switch(Action&lt;T&gt;, Action)</h4>
@@ -559,7 +524,7 @@ or zero if there is no value.</p>
     <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Optional_1_Switch__1_Recore_Func__0___0__Recore_Func___0__.md&amp;value=---%0Auid%3A%20Recore.Optional%601.Switch%60%601(Recore.Func%7B%600%2C%60%600%7D%2CRecore.Func%7B%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Optional.cs/#L52">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Optional.cs/#L54">View Source</a>
   </span>
   <a id="Recore_Optional_1_Switch_" data-uid="Recore.Optional`1.Switch*"></a>
   <h4 id="Recore_Optional_1_Switch__1_Recore_Func__0___0__Recore_Func___0__" data-uid="Recore.Optional`1.Switch``1(Recore.Func{`0,``0},Recore.Func{``0})">Switch&lt;U&gt;(Func&lt;T, U&gt;, Func&lt;U&gt;)</h4>
@@ -630,7 +595,7 @@ or zero if there is no value.</p>
     <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Optional_1_Then__1_Recore_Func__0_Recore_Optional___0___.md&amp;value=---%0Auid%3A%20Recore.Optional%601.Then%60%601(Recore.Func%7B%600%2CRecore.Optional%7B%60%600%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Optional.cs/#L143">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Optional.cs/#L145">View Source</a>
   </span>
   <a id="Recore_Optional_1_Then_" data-uid="Recore.Optional`1.Then*"></a>
   <h4 id="Recore_Optional_1_Then__1_Recore_Func__0_Recore_Optional___0___" data-uid="Recore.Optional`1.Then``1(Recore.Func{`0,Recore.Optional{``0}})">Then&lt;U&gt;(Func&lt;T, Optional&lt;U&gt;&gt;)</h4>
@@ -697,10 +662,42 @@ type constraint <code>where T : class</code>.)</p>
 </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Optional_1_ToEnumerable.md&amp;value=---%0Auid%3A%20Recore.Optional%601.ToEnumerable%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Optional.cs/#L154">View Source</a>
+  </span>
+  <a id="Recore_Optional_1_ToEnumerable_" data-uid="Recore.Optional`1.ToEnumerable*"></a>
+  <h4 id="Recore_Optional_1_ToEnumerable" data-uid="Recore.Optional`1.ToEnumerable">ToEnumerable()</h4>
+  <div class="markdown level1 summary"><p>Converts an optional value to an enumerable.
+The enumerable will have either zero or one elements.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;T&gt; ToEnumerable()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Optional_1_ToString.md&amp;value=---%0Auid%3A%20Recore.Optional%601.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Optional.cs/#L151">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Optional.cs/#L162">View Source</a>
   </span>
   <a id="Recore_Optional_1_ToString_" data-uid="Recore.Optional`1.ToString*"></a>
   <h4 id="Recore_Optional_1_ToString" data-uid="Recore.Optional`1.ToString">ToString()</h4>
@@ -731,7 +728,7 @@ type constraint <code>where T : class</code>.)</p>
     <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Optional_1_ValueOr__0_.md&amp;value=---%0Auid%3A%20Recore.Optional%601.ValueOr(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Optional.cs/#L104">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Optional.cs/#L106">View Source</a>
   </span>
   <a id="Recore_Optional_1_ValueOr_" data-uid="Recore.Optional`1.ValueOr*"></a>
   <h4 id="Recore_Optional_1_ValueOr__0_" data-uid="Recore.Optional`1.ValueOr(`0)">ValueOr(T)</h4>
@@ -781,7 +778,7 @@ type constraint <code>where T : class</code>.)</p>
     <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Optional_1_op_Equality_Recore_Optional__0__Recore_Optional__0__.md&amp;value=---%0Auid%3A%20Recore.Optional%601.op_Equality(Recore.Optional%7B%600%7D%2CRecore.Optional%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Optional.cs/#L242">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Optional.cs/#L204">View Source</a>
   </span>
   <a id="Recore_Optional_1_op_Equality_" data-uid="Recore.Optional`1.op_Equality*"></a>
   <h4 id="Recore_Optional_1_op_Equality_Recore_Optional__0__Recore_Optional__0__" data-uid="Recore.Optional`1.op_Equality(Recore.Optional{`0},Recore.Optional{`0})">Equality(Optional&lt;T&gt;, Optional&lt;T&gt;)</h4>
@@ -834,7 +831,7 @@ type constraint <code>where T : class</code>.)</p>
     <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Optional_1_op_Explicit_Recore_Optional__0____0.md&amp;value=---%0Auid%3A%20Recore.Optional%601.op_Explicit(Recore.Optional%7B%600%7D)~%600%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Optional.cs/#L258">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Optional.cs/#L220">View Source</a>
   </span>
   <a id="Recore_Optional_1_op_Explicit_" data-uid="Recore.Optional`1.op_Explicit*"></a>
   <h4 id="Recore_Optional_1_op_Explicit_Recore_Optional__0____0" data-uid="Recore.Optional`1.op_Explicit(Recore.Optional{`0})~`0">Explicit(Optional&lt;T&gt; to T)</h4>
@@ -883,7 +880,7 @@ or the default value for the underlying type.</p>
     <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Optional_1_op_Implicit__0__Recore_Optional__0_.md&amp;value=---%0Auid%3A%20Recore.Optional%601.op_Implicit(%600)~Recore.Optional%7B%600%7D%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Optional.cs/#L252">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Optional.cs/#L214">View Source</a>
   </span>
   <a id="Recore_Optional_1_op_Implicit_" data-uid="Recore.Optional`1.op_Implicit*"></a>
   <h4 id="Recore_Optional_1_op_Implicit__0__Recore_Optional__0_" data-uid="Recore.Optional`1.op_Implicit(`0)~Recore.Optional{`0}">Implicit(T to Optional&lt;T&gt;)</h4>
@@ -931,7 +928,7 @@ or the default value for the underlying type.</p>
     <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Optional_1_op_Inequality_Recore_Optional__0__Recore_Optional__0__.md&amp;value=---%0Auid%3A%20Recore.Optional%601.op_Inequality(Recore.Optional%7B%600%7D%2CRecore.Optional%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Optional.cs/#L247">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Optional.cs/#L209">View Source</a>
   </span>
   <a id="Recore_Optional_1_op_Inequality_" data-uid="Recore.Optional`1.op_Inequality*"></a>
   <h4 id="Recore_Optional_1_op_Inequality_Recore_Optional__0__Recore_Optional__0__" data-uid="Recore.Optional`1.op_Inequality(Recore.Optional{`0},Recore.Optional{`0})">Inequality(Optional&lt;T&gt;, Optional&lt;T&gt;)</h4>
@@ -983,9 +980,6 @@ or the default value for the underlying type.</p>
   <div>
       <span class="xref">IEquatable&lt;&gt;</span>
   </div>
-  <div>
-      <span class="xref">IEnumerable&lt;&gt;</span>
-  </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="Recore.ObjectExtensions.html#Recore_ObjectExtensions_StaticCast__1___0_">ObjectExtensions.StaticCast&lt;T&gt;(T)</a>
@@ -1001,7 +995,7 @@ or the default value for the underlying type.</p>
                     <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Optional_1.md&amp;value=---%0Auid%3A%20Recore.Optional%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Optional.cs/#L14" class="contribution-link">View Source</a>
+                    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Optional.cs/#L15" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

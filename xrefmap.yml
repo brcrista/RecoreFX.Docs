@@ -855,6 +855,77 @@ references:
   fullName.vb: Recore.Collections.Generic.MappedEqualityComparer(Of T, U).GetHashCode
   nameWithType: MappedEqualityComparer<T, U>.GetHashCode
   nameWithType.vb: MappedEqualityComparer(Of T, U).GetHashCode
+- uid: Recore.Composer`2
+  name: Composer<TValue, TResult>
+  href: api/Recore.Composer-2.html
+  commentId: T:Recore.Composer`2
+  name.vb: Composer(Of TValue, TResult)
+  fullName: Recore.Composer<TValue, TResult>
+  fullName.vb: Recore.Composer(Of TValue, TResult)
+  nameWithType: Composer<TValue, TResult>
+  nameWithType.vb: Composer(Of TValue, TResult)
+- uid: Recore.Composer`2.#ctor(Recore.Func{`0,`1})
+  name: Composer(Func<TValue, TResult>)
+  href: api/Recore.Composer-2.html#Recore_Composer_2__ctor_Recore_Func__0__1__
+  commentId: M:Recore.Composer`2.#ctor(Recore.Func{`0,`1})
+  name.vb: Composer(Func(Of TValue, TResult))
+  fullName: Recore.Composer<TValue, TResult>.Composer(Recore.Func<TValue, TResult>)
+  fullName.vb: Recore.Composer(Of TValue, TResult).Composer(Recore.Func(Of TValue, TResult))
+  nameWithType: Composer<TValue, TResult>.Composer(Func<TValue, TResult>)
+  nameWithType.vb: Composer(Of TValue, TResult).Composer(Func(Of TValue, TResult))
+- uid: Recore.Composer`2.#ctor*
+  name: Composer
+  href: api/Recore.Composer-2.html#Recore_Composer_2__ctor_
+  commentId: Overload:Recore.Composer`2.#ctor
+  isSpec: "True"
+  fullName: Recore.Composer<TValue, TResult>.Composer
+  fullName.vb: Recore.Composer(Of TValue, TResult).Composer
+  nameWithType: Composer<TValue, TResult>.Composer
+  nameWithType.vb: Composer(Of TValue, TResult).Composer
+- uid: Recore.Composer`2.Func
+  name: Func
+  href: api/Recore.Composer-2.html#Recore_Composer_2_Func
+  commentId: P:Recore.Composer`2.Func
+  fullName: Recore.Composer<TValue, TResult>.Func
+  fullName.vb: Recore.Composer(Of TValue, TResult).Func
+  nameWithType: Composer<TValue, TResult>.Func
+  nameWithType.vb: Composer(Of TValue, TResult).Func
+- uid: Recore.Composer`2.Func*
+  name: Func
+  href: api/Recore.Composer-2.html#Recore_Composer_2_Func_
+  commentId: Overload:Recore.Composer`2.Func
+  isSpec: "True"
+  fullName: Recore.Composer<TValue, TResult>.Func
+  fullName.vb: Recore.Composer(Of TValue, TResult).Func
+  nameWithType: Composer<TValue, TResult>.Func
+  nameWithType.vb: Composer(Of TValue, TResult).Func
+- uid: Recore.Composer`2.Then(Action{`1})
+  name: Then(Action<TResult>)
+  href: api/Recore.Composer-2.html#Recore_Composer_2_Then_Action__1__
+  commentId: M:Recore.Composer`2.Then(Action{`1})
+  name.vb: Then(Action(Of TResult))
+  fullName: Recore.Composer<TValue, TResult>.Then(Action<TResult>)
+  fullName.vb: Recore.Composer(Of TValue, TResult).Then(Action(Of TResult))
+  nameWithType: Composer<TValue, TResult>.Then(Action<TResult>)
+  nameWithType.vb: Composer(Of TValue, TResult).Then(Action(Of TResult))
+- uid: Recore.Composer`2.Then*
+  name: Then
+  href: api/Recore.Composer-2.html#Recore_Composer_2_Then_
+  commentId: Overload:Recore.Composer`2.Then
+  isSpec: "True"
+  fullName: Recore.Composer<TValue, TResult>.Then
+  fullName.vb: Recore.Composer(Of TValue, TResult).Then
+  nameWithType: Composer<TValue, TResult>.Then
+  nameWithType.vb: Composer(Of TValue, TResult).Then
+- uid: Recore.Composer`2.Then``1(Recore.Func{`1,``0})
+  name: Then<TNextResult>(Func<TResult, TNextResult>)
+  href: api/Recore.Composer-2.html#Recore_Composer_2_Then__1_Recore_Func__1___0__
+  commentId: M:Recore.Composer`2.Then``1(Recore.Func{`1,``0})
+  name.vb: Then(Of TNextResult)(Func(Of TResult, TNextResult))
+  fullName: Recore.Composer<TValue, TResult>.Then<TNextResult>(Recore.Func<TResult, TNextResult>)
+  fullName.vb: Recore.Composer(Of TValue, TResult).Then(Of TNextResult)(Recore.Func(Of TResult, TNextResult))
+  nameWithType: Composer<TValue, TResult>.Then<TNextResult>(Func<TResult, TNextResult>)
+  nameWithType.vb: Composer(Of TValue, TResult).Then(Of TNextResult)(Func(Of TResult, TNextResult))
 - uid: Recore.Defer
   name: Defer
   href: api/Recore.Defer.html
@@ -909,6 +980,31 @@ references:
   fullName.vb: Recore.Either.Lefts(Of TLeft, TRight)(IEnumerable(Of Recore.Either(Of TLeft, TRight)))
   nameWithType: Either.Lefts<TLeft, TRight>(IEnumerable<Either<TLeft, TRight>>)
   nameWithType.vb: Either.Lefts(Of TLeft, TRight)(IEnumerable(Of Either(Of TLeft, TRight)))
+- uid: Recore.Either.Lift*
+  name: Lift
+  href: api/Recore.Either.html#Recore_Either_Lift_
+  commentId: Overload:Recore.Either.Lift
+  isSpec: "True"
+  fullName: Recore.Either.Lift
+  nameWithType: Either.Lift
+- uid: Recore.Either.Lift``2(Action{``0},Action{``1})
+  name: Lift<TLeft, TRight>(Action<TLeft>, Action<TRight>)
+  href: api/Recore.Either.html#Recore_Either_Lift__2_Action___0__Action___1__
+  commentId: M:Recore.Either.Lift``2(Action{``0},Action{``1})
+  name.vb: Lift(Of TLeft, TRight)(Action(Of TLeft), Action(Of TRight))
+  fullName: Recore.Either.Lift<TLeft, TRight>(Action<TLeft>, Action<TRight>)
+  fullName.vb: Recore.Either.Lift(Of TLeft, TRight)(Action(Of TLeft), Action(Of TRight))
+  nameWithType: Either.Lift<TLeft, TRight>(Action<TLeft>, Action<TRight>)
+  nameWithType.vb: Either.Lift(Of TLeft, TRight)(Action(Of TLeft), Action(Of TRight))
+- uid: Recore.Either.Lift``3(Recore.Func{``0,``2},Recore.Func{``1,``2})
+  name: Lift<TLeft, TRight, TResult>(Func<TLeft, TResult>, Func<TRight, TResult>)
+  href: api/Recore.Either.html#Recore_Either_Lift__3_Recore_Func___0___2__Recore_Func___1___2__
+  commentId: M:Recore.Either.Lift``3(Recore.Func{``0,``2},Recore.Func{``1,``2})
+  name.vb: Lift(Of TLeft, TRight, TResult)(Func(Of TLeft, TResult), Func(Of TRight, TResult))
+  fullName: Recore.Either.Lift<TLeft, TRight, TResult>(Recore.Func<TLeft, TResult>, Recore.Func<TRight, TResult>)
+  fullName.vb: Recore.Either.Lift(Of TLeft, TRight, TResult)(Recore.Func(Of TLeft, TResult), Recore.Func(Of TRight, TResult))
+  nameWithType: Either.Lift<TLeft, TRight, TResult>(Func<TLeft, TResult>, Func<TRight, TResult>)
+  nameWithType.vb: Either.Lift(Of TLeft, TRight, TResult)(Func(Of TLeft, TResult), Func(Of TRight, TResult))
 - uid: Recore.Either.Rights*
   name: Rights
   href: api/Recore.Either.html#Recore_Either_Rights_
@@ -1452,256 +1548,6 @@ references:
   fullName.vb: Recore.Func.UntupleArgs(Of T1, T2, T3, T4, T5, T6, T7, TResult)(Recore.Func(Of Tuple(Of T1, T2, T3, T4, T5, T6, T7), TResult))
   nameWithType: Func.UntupleArgs<T1, T2, T3, T4, T5, T6, T7, TResult>(Func<Tuple<T1, T2, T3, T4, T5, T6, T7>, TResult>)
   nameWithType.vb: Func.UntupleArgs(Of T1, T2, T3, T4, T5, T6, T7, TResult)(Func(Of Tuple(Of T1, T2, T3, T4, T5, T6, T7), TResult))
-- uid: Recore.Functional
-  name: Recore.Functional
-  href: api/Recore.Functional.html
-  commentId: N:Recore.Functional
-  fullName: Recore.Functional
-  nameWithType: Recore.Functional
-- uid: Recore.Functional.Composer`2
-  name: Composer<TValue, TResult>
-  href: api/Recore.Functional.Composer-2.html
-  commentId: T:Recore.Functional.Composer`2
-  name.vb: Composer(Of TValue, TResult)
-  fullName: Recore.Functional.Composer<TValue, TResult>
-  fullName.vb: Recore.Functional.Composer(Of TValue, TResult)
-  nameWithType: Composer<TValue, TResult>
-  nameWithType.vb: Composer(Of TValue, TResult)
-- uid: Recore.Functional.Composer`2.#ctor(Recore.Func{`0,`1})
-  name: Composer(Func<TValue, TResult>)
-  href: api/Recore.Functional.Composer-2.html#Recore_Functional_Composer_2__ctor_Recore_Func__0__1__
-  commentId: M:Recore.Functional.Composer`2.#ctor(Recore.Func{`0,`1})
-  name.vb: Composer(Func(Of TValue, TResult))
-  fullName: Recore.Functional.Composer<TValue, TResult>.Composer(Recore.Func<TValue, TResult>)
-  fullName.vb: Recore.Functional.Composer(Of TValue, TResult).Composer(Recore.Func(Of TValue, TResult))
-  nameWithType: Composer<TValue, TResult>.Composer(Func<TValue, TResult>)
-  nameWithType.vb: Composer(Of TValue, TResult).Composer(Func(Of TValue, TResult))
-- uid: Recore.Functional.Composer`2.#ctor*
-  name: Composer
-  href: api/Recore.Functional.Composer-2.html#Recore_Functional_Composer_2__ctor_
-  commentId: Overload:Recore.Functional.Composer`2.#ctor
-  isSpec: "True"
-  fullName: Recore.Functional.Composer<TValue, TResult>.Composer
-  fullName.vb: Recore.Functional.Composer(Of TValue, TResult).Composer
-  nameWithType: Composer<TValue, TResult>.Composer
-  nameWithType.vb: Composer(Of TValue, TResult).Composer
-- uid: Recore.Functional.Composer`2.Func
-  name: Func
-  href: api/Recore.Functional.Composer-2.html#Recore_Functional_Composer_2_Func
-  commentId: P:Recore.Functional.Composer`2.Func
-  fullName: Recore.Functional.Composer<TValue, TResult>.Func
-  fullName.vb: Recore.Functional.Composer(Of TValue, TResult).Func
-  nameWithType: Composer<TValue, TResult>.Func
-  nameWithType.vb: Composer(Of TValue, TResult).Func
-- uid: Recore.Functional.Composer`2.Func*
-  name: Func
-  href: api/Recore.Functional.Composer-2.html#Recore_Functional_Composer_2_Func_
-  commentId: Overload:Recore.Functional.Composer`2.Func
-  isSpec: "True"
-  fullName: Recore.Functional.Composer<TValue, TResult>.Func
-  fullName.vb: Recore.Functional.Composer(Of TValue, TResult).Func
-  nameWithType: Composer<TValue, TResult>.Func
-  nameWithType.vb: Composer(Of TValue, TResult).Func
-- uid: Recore.Functional.Composer`2.Then(Action{`1})
-  name: Then(Action<TResult>)
-  href: api/Recore.Functional.Composer-2.html#Recore_Functional_Composer_2_Then_Action__1__
-  commentId: M:Recore.Functional.Composer`2.Then(Action{`1})
-  name.vb: Then(Action(Of TResult))
-  fullName: Recore.Functional.Composer<TValue, TResult>.Then(Action<TResult>)
-  fullName.vb: Recore.Functional.Composer(Of TValue, TResult).Then(Action(Of TResult))
-  nameWithType: Composer<TValue, TResult>.Then(Action<TResult>)
-  nameWithType.vb: Composer(Of TValue, TResult).Then(Action(Of TResult))
-- uid: Recore.Functional.Composer`2.Then*
-  name: Then
-  href: api/Recore.Functional.Composer-2.html#Recore_Functional_Composer_2_Then_
-  commentId: Overload:Recore.Functional.Composer`2.Then
-  isSpec: "True"
-  fullName: Recore.Functional.Composer<TValue, TResult>.Then
-  fullName.vb: Recore.Functional.Composer(Of TValue, TResult).Then
-  nameWithType: Composer<TValue, TResult>.Then
-  nameWithType.vb: Composer(Of TValue, TResult).Then
-- uid: Recore.Functional.Composer`2.Then``1(Recore.Func{`1,``0})
-  name: Then<TNextResult>(Func<TResult, TNextResult>)
-  href: api/Recore.Functional.Composer-2.html#Recore_Functional_Composer_2_Then__1_Recore_Func__1___0__
-  commentId: M:Recore.Functional.Composer`2.Then``1(Recore.Func{`1,``0})
-  name.vb: Then(Of TNextResult)(Func(Of TResult, TNextResult))
-  fullName: Recore.Functional.Composer<TValue, TResult>.Then<TNextResult>(Recore.Func<TResult, TNextResult>)
-  fullName.vb: Recore.Functional.Composer(Of TValue, TResult).Then(Of TNextResult)(Recore.Func(Of TResult, TNextResult))
-  nameWithType: Composer<TValue, TResult>.Then<TNextResult>(Func<TResult, TNextResult>)
-  nameWithType.vb: Composer(Of TValue, TResult).Then(Of TNextResult)(Func(Of TResult, TNextResult))
-- uid: Recore.Functional.Lift
-  name: Lift
-  href: api/Recore.Functional.Lift.html
-  commentId: T:Recore.Functional.Lift
-  fullName: Recore.Functional.Lift
-  nameWithType: Lift
-- uid: Recore.Functional.Lift.OnEither*
-  name: OnEither
-  href: api/Recore.Functional.Lift.html#Recore_Functional_Lift_OnEither_
-  commentId: Overload:Recore.Functional.Lift.OnEither
-  isSpec: "True"
-  fullName: Recore.Functional.Lift.OnEither
-  nameWithType: Lift.OnEither
-- uid: Recore.Functional.Lift.OnEither``2(Action{``0},Action{``1})
-  name: OnEither<TLeft, TRight>(Action<TLeft>, Action<TRight>)
-  href: api/Recore.Functional.Lift.html#Recore_Functional_Lift_OnEither__2_Action___0__Action___1__
-  commentId: M:Recore.Functional.Lift.OnEither``2(Action{``0},Action{``1})
-  name.vb: OnEither(Of TLeft, TRight)(Action(Of TLeft), Action(Of TRight))
-  fullName: Recore.Functional.Lift.OnEither<TLeft, TRight>(Action<TLeft>, Action<TRight>)
-  fullName.vb: Recore.Functional.Lift.OnEither(Of TLeft, TRight)(Action(Of TLeft), Action(Of TRight))
-  nameWithType: Lift.OnEither<TLeft, TRight>(Action<TLeft>, Action<TRight>)
-  nameWithType.vb: Lift.OnEither(Of TLeft, TRight)(Action(Of TLeft), Action(Of TRight))
-- uid: Recore.Functional.Lift.OnEither``3(Recore.Func{``0,``2},Recore.Func{``1,``2})
-  name: OnEither<TLeft, TRight, TResult>(Func<TLeft, TResult>, Func<TRight, TResult>)
-  href: api/Recore.Functional.Lift.html#Recore_Functional_Lift_OnEither__3_Recore_Func___0___2__Recore_Func___1___2__
-  commentId: M:Recore.Functional.Lift.OnEither``3(Recore.Func{``0,``2},Recore.Func{``1,``2})
-  name.vb: OnEither(Of TLeft, TRight, TResult)(Func(Of TLeft, TResult), Func(Of TRight, TResult))
-  fullName: Recore.Functional.Lift.OnEither<TLeft, TRight, TResult>(Recore.Func<TLeft, TResult>, Recore.Func<TRight, TResult>)
-  fullName.vb: Recore.Functional.Lift.OnEither(Of TLeft, TRight, TResult)(Recore.Func(Of TLeft, TResult), Recore.Func(Of TRight, TResult))
-  nameWithType: Lift.OnEither<TLeft, TRight, TResult>(Func<TLeft, TResult>, Func<TRight, TResult>)
-  nameWithType.vb: Lift.OnEither(Of TLeft, TRight, TResult)(Func(Of TLeft, TResult), Func(Of TRight, TResult))
-- uid: Recore.Functional.Lift.OnEnumerable*
-  name: OnEnumerable
-  href: api/Recore.Functional.Lift.html#Recore_Functional_Lift_OnEnumerable_
-  commentId: Overload:Recore.Functional.Lift.OnEnumerable
-  isSpec: "True"
-  fullName: Recore.Functional.Lift.OnEnumerable
-  nameWithType: Lift.OnEnumerable
-- uid: Recore.Functional.Lift.OnEnumerable``1(Action{``0})
-  name: OnEnumerable<T>(Action<T>)
-  href: api/Recore.Functional.Lift.html#Recore_Functional_Lift_OnEnumerable__1_Action___0__
-  commentId: M:Recore.Functional.Lift.OnEnumerable``1(Action{``0})
-  name.vb: OnEnumerable(Of T)(Action(Of T))
-  fullName: Recore.Functional.Lift.OnEnumerable<T>(Action<T>)
-  fullName.vb: Recore.Functional.Lift.OnEnumerable(Of T)(Action(Of T))
-  nameWithType: Lift.OnEnumerable<T>(Action<T>)
-  nameWithType.vb: Lift.OnEnumerable(Of T)(Action(Of T))
-- uid: Recore.Functional.Lift.OnEnumerable``2(Recore.Func{``0,``1})
-  name: OnEnumerable<T, TResult>(Func<T, TResult>)
-  href: api/Recore.Functional.Lift.html#Recore_Functional_Lift_OnEnumerable__2_Recore_Func___0___1__
-  commentId: M:Recore.Functional.Lift.OnEnumerable``2(Recore.Func{``0,``1})
-  name.vb: OnEnumerable(Of T, TResult)(Func(Of T, TResult))
-  fullName: Recore.Functional.Lift.OnEnumerable<T, TResult>(Recore.Func<T, TResult>)
-  fullName.vb: Recore.Functional.Lift.OnEnumerable(Of T, TResult)(Recore.Func(Of T, TResult))
-  nameWithType: Lift.OnEnumerable<T, TResult>(Func<T, TResult>)
-  nameWithType.vb: Lift.OnEnumerable(Of T, TResult)(Func(Of T, TResult))
-- uid: Recore.Functional.Lift.OnOptional*
-  name: OnOptional
-  href: api/Recore.Functional.Lift.html#Recore_Functional_Lift_OnOptional_
-  commentId: Overload:Recore.Functional.Lift.OnOptional
-  isSpec: "True"
-  fullName: Recore.Functional.Lift.OnOptional
-  nameWithType: Lift.OnOptional
-- uid: Recore.Functional.Lift.OnOptional``1(Action{``0})
-  name: OnOptional<T>(Action<T>)
-  href: api/Recore.Functional.Lift.html#Recore_Functional_Lift_OnOptional__1_Action___0__
-  commentId: M:Recore.Functional.Lift.OnOptional``1(Action{``0})
-  name.vb: OnOptional(Of T)(Action(Of T))
-  fullName: Recore.Functional.Lift.OnOptional<T>(Action<T>)
-  fullName.vb: Recore.Functional.Lift.OnOptional(Of T)(Action(Of T))
-  nameWithType: Lift.OnOptional<T>(Action<T>)
-  nameWithType.vb: Lift.OnOptional(Of T)(Action(Of T))
-- uid: Recore.Functional.Lift.OnOptional``2(Recore.Func{``0,``1})
-  name: OnOptional<T, TResult>(Func<T, TResult>)
-  href: api/Recore.Functional.Lift.html#Recore_Functional_Lift_OnOptional__2_Recore_Func___0___1__
-  commentId: M:Recore.Functional.Lift.OnOptional``2(Recore.Func{``0,``1})
-  name.vb: OnOptional(Of T, TResult)(Func(Of T, TResult))
-  fullName: Recore.Functional.Lift.OnOptional<T, TResult>(Recore.Func<T, TResult>)
-  fullName.vb: Recore.Functional.Lift.OnOptional(Of T, TResult)(Recore.Func(Of T, TResult))
-  nameWithType: Lift.OnOptional<T, TResult>(Func<T, TResult>)
-  nameWithType.vb: Lift.OnOptional(Of T, TResult)(Func(Of T, TResult))
-- uid: Recore.Functional.Pipeline
-  name: Pipeline
-  href: api/Recore.Functional.Pipeline.html
-  commentId: T:Recore.Functional.Pipeline
-  fullName: Recore.Functional.Pipeline
-  nameWithType: Pipeline
-- uid: Recore.Functional.Pipeline.Of*
-  name: Of
-  href: api/Recore.Functional.Pipeline.html#Recore_Functional_Pipeline_Of_
-  commentId: Overload:Recore.Functional.Pipeline.Of
-  isSpec: "True"
-  fullName: Recore.Functional.Pipeline.Of
-  nameWithType: Pipeline.Of
-- uid: Recore.Functional.Pipeline.Of``1(``0)
-  name: Of<T>(T)
-  href: api/Recore.Functional.Pipeline.html#Recore_Functional_Pipeline_Of__1___0_
-  commentId: M:Recore.Functional.Pipeline.Of``1(``0)
-  name.vb: Of(Of T)(T)
-  fullName: Recore.Functional.Pipeline.Of<T>(T)
-  fullName.vb: Recore.Functional.Pipeline.Of(Of T)(T)
-  nameWithType: Pipeline.Of<T>(T)
-  nameWithType.vb: Pipeline.Of(Of T)(T)
-- uid: Recore.Functional.Pipeline`1
-  name: Pipeline<T>
-  href: api/Recore.Functional.Pipeline-1.html
-  commentId: T:Recore.Functional.Pipeline`1
-  name.vb: Pipeline(Of T)
-  fullName: Recore.Functional.Pipeline<T>
-  fullName.vb: Recore.Functional.Pipeline(Of T)
-  nameWithType: Pipeline<T>
-  nameWithType.vb: Pipeline(Of T)
-- uid: Recore.Functional.Pipeline`1.#ctor(`0)
-  name: Pipeline(T)
-  href: api/Recore.Functional.Pipeline-1.html#Recore_Functional_Pipeline_1__ctor__0_
-  commentId: M:Recore.Functional.Pipeline`1.#ctor(`0)
-  fullName: Recore.Functional.Pipeline<T>.Pipeline(T)
-  fullName.vb: Recore.Functional.Pipeline(Of T).Pipeline(T)
-  nameWithType: Pipeline<T>.Pipeline(T)
-  nameWithType.vb: Pipeline(Of T).Pipeline(T)
-- uid: Recore.Functional.Pipeline`1.#ctor*
-  name: Pipeline
-  href: api/Recore.Functional.Pipeline-1.html#Recore_Functional_Pipeline_1__ctor_
-  commentId: Overload:Recore.Functional.Pipeline`1.#ctor
-  isSpec: "True"
-  fullName: Recore.Functional.Pipeline<T>.Pipeline
-  fullName.vb: Recore.Functional.Pipeline(Of T).Pipeline
-  nameWithType: Pipeline<T>.Pipeline
-  nameWithType.vb: Pipeline(Of T).Pipeline
-- uid: Recore.Functional.Pipeline`1.Result
-  name: Result
-  href: api/Recore.Functional.Pipeline-1.html#Recore_Functional_Pipeline_1_Result
-  commentId: P:Recore.Functional.Pipeline`1.Result
-  fullName: Recore.Functional.Pipeline<T>.Result
-  fullName.vb: Recore.Functional.Pipeline(Of T).Result
-  nameWithType: Pipeline<T>.Result
-  nameWithType.vb: Pipeline(Of T).Result
-- uid: Recore.Functional.Pipeline`1.Result*
-  name: Result
-  href: api/Recore.Functional.Pipeline-1.html#Recore_Functional_Pipeline_1_Result_
-  commentId: Overload:Recore.Functional.Pipeline`1.Result
-  isSpec: "True"
-  fullName: Recore.Functional.Pipeline<T>.Result
-  fullName.vb: Recore.Functional.Pipeline(Of T).Result
-  nameWithType: Pipeline<T>.Result
-  nameWithType.vb: Pipeline(Of T).Result
-- uid: Recore.Functional.Pipeline`1.Then(Action{`0})
-  name: Then(Action<T>)
-  href: api/Recore.Functional.Pipeline-1.html#Recore_Functional_Pipeline_1_Then_Action__0__
-  commentId: M:Recore.Functional.Pipeline`1.Then(Action{`0})
-  name.vb: Then(Action(Of T))
-  fullName: Recore.Functional.Pipeline<T>.Then(Action<T>)
-  fullName.vb: Recore.Functional.Pipeline(Of T).Then(Action(Of T))
-  nameWithType: Pipeline<T>.Then(Action<T>)
-  nameWithType.vb: Pipeline(Of T).Then(Action(Of T))
-- uid: Recore.Functional.Pipeline`1.Then*
-  name: Then
-  href: api/Recore.Functional.Pipeline-1.html#Recore_Functional_Pipeline_1_Then_
-  commentId: Overload:Recore.Functional.Pipeline`1.Then
-  isSpec: "True"
-  fullName: Recore.Functional.Pipeline<T>.Then
-  fullName.vb: Recore.Functional.Pipeline(Of T).Then
-  nameWithType: Pipeline<T>.Then
-  nameWithType.vb: Pipeline(Of T).Then
-- uid: Recore.Functional.Pipeline`1.Then``1(Recore.Func{`0,``0})
-  name: Then<U>(Func<T, U>)
-  href: api/Recore.Functional.Pipeline-1.html#Recore_Functional_Pipeline_1_Then__1_Recore_Func__0___0__
-  commentId: M:Recore.Functional.Pipeline`1.Then``1(Recore.Func{`0,``0})
-  name.vb: Then(Of U)(Func(Of T, U))
-  fullName: Recore.Functional.Pipeline<T>.Then<U>(Recore.Func<T, U>)
-  fullName.vb: Recore.Functional.Pipeline(Of T).Then(Of U)(Recore.Func(Of T, U))
-  nameWithType: Pipeline<T>.Then<U>(Func<T, U>)
-  nameWithType.vb: Pipeline(Of T).Then(Of U)(Func(Of T, U))
 - uid: Recore.Linq
   name: Recore.Linq
   href: api/Recore.Linq.html
@@ -1794,6 +1640,31 @@ references:
   fullName.vb: Recore.Linq.Renumerable.ForEach(Of TSource)(IEnumerable(Of TSource), Action(Of TSource))
   nameWithType: Renumerable.ForEach<TSource>(IEnumerable<TSource>, Action<TSource>)
   nameWithType.vb: Renumerable.ForEach(Of TSource)(IEnumerable(Of TSource), Action(Of TSource))
+- uid: Recore.Linq.Renumerable.Lift*
+  name: Lift
+  href: api/Recore.Linq.Renumerable.html#Recore_Linq_Renumerable_Lift_
+  commentId: Overload:Recore.Linq.Renumerable.Lift
+  isSpec: "True"
+  fullName: Recore.Linq.Renumerable.Lift
+  nameWithType: Renumerable.Lift
+- uid: Recore.Linq.Renumerable.Lift``1(Action{``0})
+  name: Lift<T>(Action<T>)
+  href: api/Recore.Linq.Renumerable.html#Recore_Linq_Renumerable_Lift__1_Action___0__
+  commentId: M:Recore.Linq.Renumerable.Lift``1(Action{``0})
+  name.vb: Lift(Of T)(Action(Of T))
+  fullName: Recore.Linq.Renumerable.Lift<T>(Action<T>)
+  fullName.vb: Recore.Linq.Renumerable.Lift(Of T)(Action(Of T))
+  nameWithType: Renumerable.Lift<T>(Action<T>)
+  nameWithType.vb: Renumerable.Lift(Of T)(Action(Of T))
+- uid: Recore.Linq.Renumerable.Lift``2(Recore.Func{``0,``1})
+  name: Lift<T, TResult>(Func<T, TResult>)
+  href: api/Recore.Linq.Renumerable.html#Recore_Linq_Renumerable_Lift__2_Recore_Func___0___1__
+  commentId: M:Recore.Linq.Renumerable.Lift``2(Recore.Func{``0,``1})
+  name.vb: Lift(Of T, TResult)(Func(Of T, TResult))
+  fullName: Recore.Linq.Renumerable.Lift<T, TResult>(Recore.Func<T, TResult>)
+  fullName.vb: Recore.Linq.Renumerable.Lift(Of T, TResult)(Recore.Func(Of T, TResult))
+  nameWithType: Renumerable.Lift<T, TResult>(Func<T, TResult>)
+  nameWithType.vb: Renumerable.Lift(Of T, TResult)(Func(Of T, TResult))
 - uid: Recore.Linq.Renumerable.NonNull*
   name: NonNull
   href: api/Recore.Linq.Renumerable.html#Recore_Linq_Renumerable_NonNull_
@@ -2007,6 +1878,25 @@ references:
   fullName.vb: Recore.Of(Of T).Equality
   nameWithType: Of<T>.Equality
   nameWithType.vb: Of(Of T).Equality
+- uid: Recore.Of`1.op_Implicit(Recore.Of{`0})~`0
+  name: Implicit(Of<T> to T)
+  href: api/Recore.Of-1.html#Recore_Of_1_op_Implicit_Recore_Of__0____0
+  commentId: M:Recore.Of`1.op_Implicit(Recore.Of{`0})~`0
+  name.vb: Widening(Of(Of T) to T)
+  fullName: Recore.Of<T>.Implicit(Recore.Of<T> to T)
+  fullName.vb: Recore.Of(Of T).Widening(Recore.Of(Of T) to T)
+  nameWithType: Of<T>.Implicit(Of<T> to T)
+  nameWithType.vb: Of(Of T).Widening(Of(Of T) to T)
+- uid: Recore.Of`1.op_Implicit*
+  name: Implicit
+  href: api/Recore.Of-1.html#Recore_Of_1_op_Implicit_
+  commentId: Overload:Recore.Of`1.op_Implicit
+  isSpec: "True"
+  name.vb: Widening
+  fullName: Recore.Of<T>.Implicit
+  fullName.vb: Recore.Of(Of T).Widening
+  nameWithType: Of<T>.Implicit
+  nameWithType.vb: Of(Of T).Widening
 - uid: Recore.Of`1.op_Inequality(Recore.Of{`0},Recore.Of{`0})
   name: Inequality(Of<T>, Of<T>)
   href: api/Recore.Of-1.html#Recore_Of_1_op_Inequality_Recore_Of__0__Recore_Of__0__
@@ -2025,6 +1915,24 @@ references:
   fullName.vb: Recore.Of(Of T).Inequality
   nameWithType: Of<T>.Inequality
   nameWithType.vb: Of(Of T).Inequality
+- uid: Recore.Of`1.To*
+  name: To
+  href: api/Recore.Of-1.html#Recore_Of_1_To_
+  commentId: Overload:Recore.Of`1.To
+  isSpec: "True"
+  fullName: Recore.Of<T>.To
+  fullName.vb: Recore.Of(Of T).To
+  nameWithType: Of<T>.To
+  nameWithType.vb: Of(Of T).To
+- uid: Recore.Of`1.To``1
+  name: To<TOf>()
+  href: api/Recore.Of-1.html#Recore_Of_1_To__1
+  commentId: M:Recore.Of`1.To``1
+  name.vb: To(Of TOf)()
+  fullName: Recore.Of<T>.To<TOf>()
+  fullName.vb: Recore.Of(Of T).To(Of TOf)()
+  nameWithType: Of<T>.To<TOf>()
+  nameWithType.vb: Of(Of T).To(Of TOf)()
 - uid: Recore.Of`1.ToString
   name: ToString()
   href: api/Recore.Of-1.html#Recore_Of_1_ToString
@@ -2059,6 +1967,25 @@ references:
   fullName.vb: Recore.Of(Of T).Value
   nameWithType: Of<T>.Value
   nameWithType.vb: Of(Of T).Value
+- uid: Recore.OfJsonAttribute
+  name: OfJsonAttribute
+  href: api/Recore.OfJsonAttribute.html
+  commentId: T:Recore.OfJsonAttribute
+  fullName: Recore.OfJsonAttribute
+  nameWithType: OfJsonAttribute
+- uid: Recore.OfJsonAttribute.#ctor(Type,Type)
+  name: OfJsonAttribute(Type, Type)
+  href: api/Recore.OfJsonAttribute.html#Recore_OfJsonAttribute__ctor_Type_Type_
+  commentId: M:Recore.OfJsonAttribute.#ctor(Type,Type)
+  fullName: Recore.OfJsonAttribute.OfJsonAttribute(Type, Type)
+  nameWithType: OfJsonAttribute.OfJsonAttribute(Type, Type)
+- uid: Recore.OfJsonAttribute.#ctor*
+  name: OfJsonAttribute
+  href: api/Recore.OfJsonAttribute.html#Recore_OfJsonAttribute__ctor_
+  commentId: Overload:Recore.OfJsonAttribute.#ctor
+  isSpec: "True"
+  fullName: Recore.OfJsonAttribute.OfJsonAttribute
+  nameWithType: OfJsonAttribute.OfJsonAttribute
 - uid: Recore.Optional
   name: Optional
   href: api/Recore.Optional.html
@@ -2113,6 +2040,40 @@ references:
   fullName.vb: Recore.Optional.If(Of T)(System.Boolean, T)
   nameWithType: Optional.If<T>(Boolean, T)
   nameWithType.vb: Optional.If(Of T)(Boolean, T)
+- uid: Recore.Optional.If``1(System.Boolean,Recore.Func{``0})
+  name: If<T>(Boolean, Func<T>)
+  href: api/Recore.Optional.html#Recore_Optional_If__1_System_Boolean_Recore_Func___0__
+  commentId: M:Recore.Optional.If``1(System.Boolean,Recore.Func{``0})
+  name.vb: If(Of T)(Boolean, Func(Of T))
+  fullName: Recore.Optional.If<T>(System.Boolean, Recore.Func<T>)
+  fullName.vb: Recore.Optional.If(Of T)(System.Boolean, Recore.Func(Of T))
+  nameWithType: Optional.If<T>(Boolean, Func<T>)
+  nameWithType.vb: Optional.If(Of T)(Boolean, Func(Of T))
+- uid: Recore.Optional.Lift*
+  name: Lift
+  href: api/Recore.Optional.html#Recore_Optional_Lift_
+  commentId: Overload:Recore.Optional.Lift
+  isSpec: "True"
+  fullName: Recore.Optional.Lift
+  nameWithType: Optional.Lift
+- uid: Recore.Optional.Lift``1(Action{``0})
+  name: Lift<T>(Action<T>)
+  href: api/Recore.Optional.html#Recore_Optional_Lift__1_Action___0__
+  commentId: M:Recore.Optional.Lift``1(Action{``0})
+  name.vb: Lift(Of T)(Action(Of T))
+  fullName: Recore.Optional.Lift<T>(Action<T>)
+  fullName.vb: Recore.Optional.Lift(Of T)(Action(Of T))
+  nameWithType: Optional.Lift<T>(Action<T>)
+  nameWithType.vb: Optional.Lift(Of T)(Action(Of T))
+- uid: Recore.Optional.Lift``2(Recore.Func{``0,``1})
+  name: Lift<T, TResult>(Func<T, TResult>)
+  href: api/Recore.Optional.html#Recore_Optional_Lift__2_Recore_Func___0___1__
+  commentId: M:Recore.Optional.Lift``2(Recore.Func{``0,``1})
+  name.vb: Lift(Of T, TResult)(Func(Of T, TResult))
+  fullName: Recore.Optional.Lift<T, TResult>(Recore.Func<T, TResult>)
+  fullName.vb: Recore.Optional.Lift(Of T, TResult)(Recore.Func(Of T, TResult))
+  nameWithType: Optional.Lift<T, TResult>(Func<T, TResult>)
+  nameWithType.vb: Optional.Lift(Of T, TResult)(Func(Of T, TResult))
 - uid: Recore.Optional.NonEmpty*
   name: NonEmpty
   href: api/Recore.Optional.html#Recore_Optional_NonEmpty_
@@ -2171,6 +2132,23 @@ references:
   fullName.vb: Recore.Optional(Of T).Optional
   nameWithType: Optional<T>.Optional
   nameWithType.vb: Optional(Of T).Optional
+- uid: Recore.Optional`1.AssertValue
+  name: AssertValue()
+  href: api/Recore.Optional-1.html#Recore_Optional_1_AssertValue
+  commentId: M:Recore.Optional`1.AssertValue
+  fullName: Recore.Optional<T>.AssertValue()
+  fullName.vb: Recore.Optional(Of T).AssertValue()
+  nameWithType: Optional<T>.AssertValue()
+  nameWithType.vb: Optional(Of T).AssertValue()
+- uid: Recore.Optional`1.AssertValue*
+  name: AssertValue
+  href: api/Recore.Optional-1.html#Recore_Optional_1_AssertValue_
+  commentId: Overload:Recore.Optional`1.AssertValue
+  isSpec: "True"
+  fullName: Recore.Optional<T>.AssertValue
+  fullName.vb: Recore.Optional(Of T).AssertValue
+  nameWithType: Optional<T>.AssertValue
+  nameWithType.vb: Optional(Of T).AssertValue
 - uid: Recore.Optional`1.Empty
   name: Empty
   href: api/Recore.Optional-1.html#Recore_Optional_1_Empty
@@ -2214,23 +2192,6 @@ references:
   fullName.vb: Recore.Optional(Of T).Equals
   nameWithType: Optional<T>.Equals
   nameWithType.vb: Optional(Of T).Equals
-- uid: Recore.Optional`1.GetEnumerator
-  name: GetEnumerator()
-  href: api/Recore.Optional-1.html#Recore_Optional_1_GetEnumerator
-  commentId: M:Recore.Optional`1.GetEnumerator
-  fullName: Recore.Optional<T>.GetEnumerator()
-  fullName.vb: Recore.Optional(Of T).GetEnumerator()
-  nameWithType: Optional<T>.GetEnumerator()
-  nameWithType.vb: Optional(Of T).GetEnumerator()
-- uid: Recore.Optional`1.GetEnumerator*
-  name: GetEnumerator
-  href: api/Recore.Optional-1.html#Recore_Optional_1_GetEnumerator_
-  commentId: Overload:Recore.Optional`1.GetEnumerator
-  isSpec: "True"
-  fullName: Recore.Optional<T>.GetEnumerator
-  fullName.vb: Recore.Optional(Of T).GetEnumerator
-  nameWithType: Optional<T>.GetEnumerator
-  nameWithType.vb: Optional(Of T).GetEnumerator
 - uid: Recore.Optional`1.GetHashCode
   name: GetHashCode()
   href: api/Recore.Optional-1.html#Recore_Optional_1_GetHashCode
@@ -2265,23 +2226,6 @@ references:
   fullName.vb: Recore.Optional(Of T).HasValue
   nameWithType: Optional<T>.HasValue
   nameWithType.vb: Optional(Of T).HasValue
-- uid: Recore.Optional`1.IfEmpty(Action)
-  name: IfEmpty(Action)
-  href: api/Recore.Optional-1.html#Recore_Optional_1_IfEmpty_Action_
-  commentId: M:Recore.Optional`1.IfEmpty(Action)
-  fullName: Recore.Optional<T>.IfEmpty(Action)
-  fullName.vb: Recore.Optional(Of T).IfEmpty(Action)
-  nameWithType: Optional<T>.IfEmpty(Action)
-  nameWithType.vb: Optional(Of T).IfEmpty(Action)
-- uid: Recore.Optional`1.IfEmpty*
-  name: IfEmpty
-  href: api/Recore.Optional-1.html#Recore_Optional_1_IfEmpty_
-  commentId: Overload:Recore.Optional`1.IfEmpty
-  isSpec: "True"
-  fullName: Recore.Optional<T>.IfEmpty
-  fullName.vb: Recore.Optional(Of T).IfEmpty
-  nameWithType: Optional<T>.IfEmpty
-  nameWithType.vb: Optional(Of T).IfEmpty
 - uid: Recore.Optional`1.IfValue(Action{`0})
   name: IfValue(Action<T>)
   href: api/Recore.Optional-1.html#Recore_Optional_1_IfValue_Action__0__
@@ -2437,6 +2381,23 @@ references:
   fullName.vb: Recore.Optional(Of T).Then(Of U)(Recore.Func(Of T, Recore.Optional(Of U)))
   nameWithType: Optional<T>.Then<U>(Func<T, Optional<U>>)
   nameWithType.vb: Optional(Of T).Then(Of U)(Func(Of T, Optional(Of U)))
+- uid: Recore.Optional`1.ToEnumerable
+  name: ToEnumerable()
+  href: api/Recore.Optional-1.html#Recore_Optional_1_ToEnumerable
+  commentId: M:Recore.Optional`1.ToEnumerable
+  fullName: Recore.Optional<T>.ToEnumerable()
+  fullName.vb: Recore.Optional(Of T).ToEnumerable()
+  nameWithType: Optional<T>.ToEnumerable()
+  nameWithType.vb: Optional(Of T).ToEnumerable()
+- uid: Recore.Optional`1.ToEnumerable*
+  name: ToEnumerable
+  href: api/Recore.Optional-1.html#Recore_Optional_1_ToEnumerable_
+  commentId: Overload:Recore.Optional`1.ToEnumerable
+  isSpec: "True"
+  fullName: Recore.Optional<T>.ToEnumerable
+  fullName.vb: Recore.Optional(Of T).ToEnumerable
+  nameWithType: Optional<T>.ToEnumerable
+  nameWithType.vb: Optional(Of T).ToEnumerable
 - uid: Recore.Optional`1.ToString
   name: ToString()
   href: api/Recore.Optional-1.html#Recore_Optional_1_ToString
@@ -2471,6 +2432,98 @@ references:
   fullName.vb: Recore.Optional(Of T).ValueOr
   nameWithType: Optional<T>.ValueOr
   nameWithType.vb: Optional(Of T).ValueOr
+- uid: Recore.Pipeline
+  name: Pipeline
+  href: api/Recore.Pipeline.html
+  commentId: T:Recore.Pipeline
+  fullName: Recore.Pipeline
+  nameWithType: Pipeline
+- uid: Recore.Pipeline.Of*
+  name: Of
+  href: api/Recore.Pipeline.html#Recore_Pipeline_Of_
+  commentId: Overload:Recore.Pipeline.Of
+  isSpec: "True"
+  fullName: Recore.Pipeline.Of
+  nameWithType: Pipeline.Of
+- uid: Recore.Pipeline.Of``1(``0)
+  name: Of<T>(T)
+  href: api/Recore.Pipeline.html#Recore_Pipeline_Of__1___0_
+  commentId: M:Recore.Pipeline.Of``1(``0)
+  name.vb: Of(Of T)(T)
+  fullName: Recore.Pipeline.Of<T>(T)
+  fullName.vb: Recore.Pipeline.Of(Of T)(T)
+  nameWithType: Pipeline.Of<T>(T)
+  nameWithType.vb: Pipeline.Of(Of T)(T)
+- uid: Recore.Pipeline`1
+  name: Pipeline<T>
+  href: api/Recore.Pipeline-1.html
+  commentId: T:Recore.Pipeline`1
+  name.vb: Pipeline(Of T)
+  fullName: Recore.Pipeline<T>
+  fullName.vb: Recore.Pipeline(Of T)
+  nameWithType: Pipeline<T>
+  nameWithType.vb: Pipeline(Of T)
+- uid: Recore.Pipeline`1.#ctor(`0)
+  name: Pipeline(T)
+  href: api/Recore.Pipeline-1.html#Recore_Pipeline_1__ctor__0_
+  commentId: M:Recore.Pipeline`1.#ctor(`0)
+  fullName: Recore.Pipeline<T>.Pipeline(T)
+  fullName.vb: Recore.Pipeline(Of T).Pipeline(T)
+  nameWithType: Pipeline<T>.Pipeline(T)
+  nameWithType.vb: Pipeline(Of T).Pipeline(T)
+- uid: Recore.Pipeline`1.#ctor*
+  name: Pipeline
+  href: api/Recore.Pipeline-1.html#Recore_Pipeline_1__ctor_
+  commentId: Overload:Recore.Pipeline`1.#ctor
+  isSpec: "True"
+  fullName: Recore.Pipeline<T>.Pipeline
+  fullName.vb: Recore.Pipeline(Of T).Pipeline
+  nameWithType: Pipeline<T>.Pipeline
+  nameWithType.vb: Pipeline(Of T).Pipeline
+- uid: Recore.Pipeline`1.Result
+  name: Result
+  href: api/Recore.Pipeline-1.html#Recore_Pipeline_1_Result
+  commentId: P:Recore.Pipeline`1.Result
+  fullName: Recore.Pipeline<T>.Result
+  fullName.vb: Recore.Pipeline(Of T).Result
+  nameWithType: Pipeline<T>.Result
+  nameWithType.vb: Pipeline(Of T).Result
+- uid: Recore.Pipeline`1.Result*
+  name: Result
+  href: api/Recore.Pipeline-1.html#Recore_Pipeline_1_Result_
+  commentId: Overload:Recore.Pipeline`1.Result
+  isSpec: "True"
+  fullName: Recore.Pipeline<T>.Result
+  fullName.vb: Recore.Pipeline(Of T).Result
+  nameWithType: Pipeline<T>.Result
+  nameWithType.vb: Pipeline(Of T).Result
+- uid: Recore.Pipeline`1.Then(Action{`0})
+  name: Then(Action<T>)
+  href: api/Recore.Pipeline-1.html#Recore_Pipeline_1_Then_Action__0__
+  commentId: M:Recore.Pipeline`1.Then(Action{`0})
+  name.vb: Then(Action(Of T))
+  fullName: Recore.Pipeline<T>.Then(Action<T>)
+  fullName.vb: Recore.Pipeline(Of T).Then(Action(Of T))
+  nameWithType: Pipeline<T>.Then(Action<T>)
+  nameWithType.vb: Pipeline(Of T).Then(Action(Of T))
+- uid: Recore.Pipeline`1.Then*
+  name: Then
+  href: api/Recore.Pipeline-1.html#Recore_Pipeline_1_Then_
+  commentId: Overload:Recore.Pipeline`1.Then
+  isSpec: "True"
+  fullName: Recore.Pipeline<T>.Then
+  fullName.vb: Recore.Pipeline(Of T).Then
+  nameWithType: Pipeline<T>.Then
+  nameWithType.vb: Pipeline(Of T).Then
+- uid: Recore.Pipeline`1.Then``1(Recore.Func{`0,``0})
+  name: Then<U>(Func<T, U>)
+  href: api/Recore.Pipeline-1.html#Recore_Pipeline_1_Then__1_Recore_Func__0___0__
+  commentId: M:Recore.Pipeline`1.Then``1(Recore.Func{`0,``0})
+  name.vb: Then(Of U)(Func(Of T, U))
+  fullName: Recore.Pipeline<T>.Then<U>(Recore.Func<T, U>)
+  fullName.vb: Recore.Pipeline(Of T).Then(Of U)(Recore.Func(Of T, U))
+  nameWithType: Pipeline<T>.Then<U>(Func<T, U>)
+  nameWithType.vb: Pipeline(Of T).Then(Of U)(Func(Of T, U))
 - uid: Recore.RelativeUri
   name: RelativeUri
   href: api/Recore.RelativeUri.html
@@ -2515,6 +2568,42 @@ references:
   commentId: T:Recore.Result
   fullName: Recore.Result
   nameWithType: Result
+- uid: Recore.Result.AsyncCatcher`1
+  name: Result.AsyncCatcher<TValue>
+  href: api/Recore.Result.AsyncCatcher-1.html
+  commentId: T:Recore.Result.AsyncCatcher`1
+  name.vb: Result.AsyncCatcher(Of TValue)
+  fullName: Recore.Result.AsyncCatcher<TValue>
+  fullName.vb: Recore.Result.AsyncCatcher(Of TValue)
+  nameWithType: Result.AsyncCatcher<TValue>
+  nameWithType.vb: Result.AsyncCatcher(Of TValue)
+- uid: Recore.Result.AsyncCatcher`1.CatchAsync*
+  name: CatchAsync
+  href: api/Recore.Result.AsyncCatcher-1.html#Recore_Result_AsyncCatcher_1_CatchAsync_
+  commentId: Overload:Recore.Result.AsyncCatcher`1.CatchAsync
+  isSpec: "True"
+  fullName: Recore.Result.AsyncCatcher<TValue>.CatchAsync
+  fullName.vb: Recore.Result.AsyncCatcher(Of TValue).CatchAsync
+  nameWithType: Result.AsyncCatcher<TValue>.CatchAsync
+  nameWithType.vb: Result.AsyncCatcher(Of TValue).CatchAsync
+- uid: Recore.Result.AsyncCatcher`1.CatchAsync``1
+  name: CatchAsync<TException>()
+  href: api/Recore.Result.AsyncCatcher-1.html#Recore_Result_AsyncCatcher_1_CatchAsync__1
+  commentId: M:Recore.Result.AsyncCatcher`1.CatchAsync``1
+  name.vb: CatchAsync(Of TException)()
+  fullName: Recore.Result.AsyncCatcher<TValue>.CatchAsync<TException>()
+  fullName.vb: Recore.Result.AsyncCatcher(Of TValue).CatchAsync(Of TException)()
+  nameWithType: Result.AsyncCatcher<TValue>.CatchAsync<TException>()
+  nameWithType.vb: Result.AsyncCatcher(Of TValue).CatchAsync(Of TException)()
+- uid: Recore.Result.AsyncCatcher`1.CatchAsync``2(Recore.AsyncFunc{``0,``1})
+  name: CatchAsync<TException, TResult>(AsyncFunc<TException, TResult>)
+  href: api/Recore.Result.AsyncCatcher-1.html#Recore_Result_AsyncCatcher_1_CatchAsync__2_Recore_AsyncFunc___0___1__
+  commentId: M:Recore.Result.AsyncCatcher`1.CatchAsync``2(Recore.AsyncFunc{``0,``1})
+  name.vb: CatchAsync(Of TException, TResult)(AsyncFunc(Of TException, TResult))
+  fullName: Recore.Result.AsyncCatcher<TValue>.CatchAsync<TException, TResult>(Recore.AsyncFunc<TException, TResult>)
+  fullName.vb: Recore.Result.AsyncCatcher(Of TValue).CatchAsync(Of TException, TResult)(Recore.AsyncFunc(Of TException, TResult))
+  nameWithType: Result.AsyncCatcher<TValue>.CatchAsync<TException, TResult>(AsyncFunc<TException, TResult>)
+  nameWithType.vb: Result.AsyncCatcher(Of TValue).CatchAsync(Of TException, TResult)(AsyncFunc(Of TException, TResult))
 - uid: Recore.Result.Catcher`1
   name: Result.Catcher<TValue>
   href: api/Recore.Result.Catcher-1.html
@@ -2542,31 +2631,15 @@ references:
   fullName.vb: Recore.Result.Catcher(Of TValue).Catch(Of TException)()
   nameWithType: Result.Catcher<TValue>.Catch<TException>()
   nameWithType.vb: Result.Catcher(Of TValue).Catch(Of TException)()
-- uid: Recore.Result.Catcher`1.Catch``1(Recore.Func{``0,System.Boolean})
-  name: Catch<TException>(Func<TException, Boolean>)
-  href: api/Recore.Result.Catcher-1.html#Recore_Result_Catcher_1_Catch__1_Recore_Func___0_System_Boolean__
-  commentId: M:Recore.Result.Catcher`1.Catch``1(Recore.Func{``0,System.Boolean})
-  name.vb: Catch(Of TException)(Func(Of TException, Boolean))
-  fullName: Recore.Result.Catcher<TValue>.Catch<TException>(Recore.Func<TException, System.Boolean>)
-  fullName.vb: Recore.Result.Catcher(Of TValue).Catch(Of TException)(Recore.Func(Of TException, System.Boolean))
-  nameWithType: Result.Catcher<TValue>.Catch<TException>(Func<TException, Boolean>)
-  nameWithType.vb: Result.Catcher(Of TValue).Catch(Of TException)(Func(Of TException, Boolean))
-- uid: Recore.Result.Errors*
-  name: Errors
-  href: api/Recore.Result.html#Recore_Result_Errors_
-  commentId: Overload:Recore.Result.Errors
-  isSpec: "True"
-  fullName: Recore.Result.Errors
-  nameWithType: Result.Errors
-- uid: Recore.Result.Errors``2(IEnumerable{Recore.Result{``0,``1}})
-  name: Errors<TValue, TError>(IEnumerable<Result<TValue, TError>>)
-  href: api/Recore.Result.html#Recore_Result_Errors__2_IEnumerable_Recore_Result___0___1___
-  commentId: M:Recore.Result.Errors``2(IEnumerable{Recore.Result{``0,``1}})
-  name.vb: Errors(Of TValue, TError)(IEnumerable(Of Result(Of TValue, TError)))
-  fullName: Recore.Result.Errors<TValue, TError>(IEnumerable<Recore.Result<TValue, TError>>)
-  fullName.vb: Recore.Result.Errors(Of TValue, TError)(IEnumerable(Of Recore.Result(Of TValue, TError)))
-  nameWithType: Result.Errors<TValue, TError>(IEnumerable<Result<TValue, TError>>)
-  nameWithType.vb: Result.Errors(Of TValue, TError)(IEnumerable(Of Result(Of TValue, TError)))
+- uid: Recore.Result.Catcher`1.Catch``2(Recore.Func{``0,``1})
+  name: Catch<TException, TMapped>(Func<TException, TMapped>)
+  href: api/Recore.Result.Catcher-1.html#Recore_Result_Catcher_1_Catch__2_Recore_Func___0___1__
+  commentId: M:Recore.Result.Catcher`1.Catch``2(Recore.Func{``0,``1})
+  name.vb: Catch(Of TException, TMapped)(Func(Of TException, TMapped))
+  fullName: Recore.Result.Catcher<TValue>.Catch<TException, TMapped>(Recore.Func<TException, TMapped>)
+  fullName.vb: Recore.Result.Catcher(Of TValue).Catch(Of TException, TMapped)(Recore.Func(Of TException, TMapped))
+  nameWithType: Result.Catcher<TValue>.Catch<TException, TMapped>(Func<TException, TMapped>)
+  nameWithType.vb: Result.Catcher(Of TValue).Catch(Of TException, TMapped)(Func(Of TException, TMapped))
 - uid: Recore.Result.Failure*
   name: Failure
   href: api/Recore.Result.html#Recore_Result_Failure_
@@ -2583,6 +2656,22 @@ references:
   fullName.vb: Recore.Result.Failure(Of TValue, TError)(TError)
   nameWithType: Result.Failure<TValue, TError>(TError)
   nameWithType.vb: Result.Failure(Of TValue, TError)(TError)
+- uid: Recore.Result.Failures*
+  name: Failures
+  href: api/Recore.Result.html#Recore_Result_Failures_
+  commentId: Overload:Recore.Result.Failures
+  isSpec: "True"
+  fullName: Recore.Result.Failures
+  nameWithType: Result.Failures
+- uid: Recore.Result.Failures``2(IEnumerable{Recore.Result{``0,``1}})
+  name: Failures<TValue, TError>(IEnumerable<Result<TValue, TError>>)
+  href: api/Recore.Result.html#Recore_Result_Failures__2_IEnumerable_Recore_Result___0___1___
+  commentId: M:Recore.Result.Failures``2(IEnumerable{Recore.Result{``0,``1}})
+  name.vb: Failures(Of TValue, TError)(IEnumerable(Of Result(Of TValue, TError)))
+  fullName: Recore.Result.Failures<TValue, TError>(IEnumerable<Recore.Result<TValue, TError>>)
+  fullName.vb: Recore.Result.Failures(Of TValue, TError)(IEnumerable(Of Recore.Result(Of TValue, TError)))
+  nameWithType: Result.Failures<TValue, TError>(IEnumerable<Result<TValue, TError>>)
+  nameWithType.vb: Result.Failures(Of TValue, TError)(IEnumerable(Of Result(Of TValue, TError)))
 - uid: Recore.Result.Flatten*
   name: Flatten
   href: api/Recore.Result.html#Recore_Result_Flatten_
@@ -2615,6 +2704,22 @@ references:
   fullName.vb: Recore.Result.Success(Of TValue, TError)(TValue)
   nameWithType: Result.Success<TValue, TError>(TValue)
   nameWithType.vb: Result.Success(Of TValue, TError)(TValue)
+- uid: Recore.Result.Successes*
+  name: Successes
+  href: api/Recore.Result.html#Recore_Result_Successes_
+  commentId: Overload:Recore.Result.Successes
+  isSpec: "True"
+  fullName: Recore.Result.Successes
+  nameWithType: Result.Successes
+- uid: Recore.Result.Successes``2(IEnumerable{Recore.Result{``0,``1}})
+  name: Successes<TValue, TError>(IEnumerable<Result<TValue, TError>>)
+  href: api/Recore.Result.html#Recore_Result_Successes__2_IEnumerable_Recore_Result___0___1___
+  commentId: M:Recore.Result.Successes``2(IEnumerable{Recore.Result{``0,``1}})
+  name.vb: Successes(Of TValue, TError)(IEnumerable(Of Result(Of TValue, TError)))
+  fullName: Recore.Result.Successes<TValue, TError>(IEnumerable<Recore.Result<TValue, TError>>)
+  fullName.vb: Recore.Result.Successes(Of TValue, TError)(IEnumerable(Of Recore.Result(Of TValue, TError)))
+  nameWithType: Result.Successes<TValue, TError>(IEnumerable<Result<TValue, TError>>)
+  nameWithType.vb: Result.Successes(Of TValue, TError)(IEnumerable(Of Result(Of TValue, TError)))
 - uid: Recore.Result.Try*
   name: Try
   href: api/Recore.Result.html#Recore_Result_Try_
@@ -2631,22 +2736,22 @@ references:
   fullName.vb: Recore.Result.Try(Of TValue)(Recore.Func(Of TValue))
   nameWithType: Result.Try<TValue>(Func<TValue>)
   nameWithType.vb: Result.Try(Of TValue)(Func(Of TValue))
-- uid: Recore.Result.Values*
-  name: Values
-  href: api/Recore.Result.html#Recore_Result_Values_
-  commentId: Overload:Recore.Result.Values
+- uid: Recore.Result.TryAsync*
+  name: TryAsync
+  href: api/Recore.Result.html#Recore_Result_TryAsync_
+  commentId: Overload:Recore.Result.TryAsync
   isSpec: "True"
-  fullName: Recore.Result.Values
-  nameWithType: Result.Values
-- uid: Recore.Result.Values``2(IEnumerable{Recore.Result{``0,``1}})
-  name: Values<TValue, TError>(IEnumerable<Result<TValue, TError>>)
-  href: api/Recore.Result.html#Recore_Result_Values__2_IEnumerable_Recore_Result___0___1___
-  commentId: M:Recore.Result.Values``2(IEnumerable{Recore.Result{``0,``1}})
-  name.vb: Values(Of TValue, TError)(IEnumerable(Of Result(Of TValue, TError)))
-  fullName: Recore.Result.Values<TValue, TError>(IEnumerable<Recore.Result<TValue, TError>>)
-  fullName.vb: Recore.Result.Values(Of TValue, TError)(IEnumerable(Of Recore.Result(Of TValue, TError)))
-  nameWithType: Result.Values<TValue, TError>(IEnumerable<Result<TValue, TError>>)
-  nameWithType.vb: Result.Values(Of TValue, TError)(IEnumerable(Of Result(Of TValue, TError)))
+  fullName: Recore.Result.TryAsync
+  nameWithType: Result.TryAsync
+- uid: Recore.Result.TryAsync``1(Recore.AsyncFunc{``0})
+  name: TryAsync<TValue>(AsyncFunc<TValue>)
+  href: api/Recore.Result.html#Recore_Result_TryAsync__1_Recore_AsyncFunc___0__
+  commentId: M:Recore.Result.TryAsync``1(Recore.AsyncFunc{``0})
+  name.vb: TryAsync(Of TValue)(AsyncFunc(Of TValue))
+  fullName: Recore.Result.TryAsync<TValue>(Recore.AsyncFunc<TValue>)
+  fullName.vb: Recore.Result.TryAsync(Of TValue)(Recore.AsyncFunc(Of TValue))
+  nameWithType: Result.TryAsync<TValue>(AsyncFunc<TValue>)
+  nameWithType.vb: Result.TryAsync(Of TValue)(AsyncFunc(Of TValue))
 - uid: Recore.Result`2
   name: Result<TValue, TError>
   href: api/Recore.Result-2.html
@@ -3117,37 +3222,138 @@ references:
   isSpec: "True"
   fullName: Recore.StringExtensions.Tokenize
   nameWithType: StringExtensions.Tokenize
-- uid: Recore.StringUtil
-  name: StringUtil
-  href: api/Recore.StringUtil.html
-  commentId: T:Recore.StringUtil
-  fullName: Recore.StringUtil
-  nameWithType: StringUtil
-- uid: Recore.StringUtil.JoinLines(IEnumerable{System.String})
-  name: JoinLines(IEnumerable<String>)
-  href: api/Recore.StringUtil.html#Recore_StringUtil_JoinLines_IEnumerable_System_String__
-  commentId: M:Recore.StringUtil.JoinLines(IEnumerable{System.String})
-  name.vb: JoinLines(IEnumerable(Of String))
-  fullName: Recore.StringUtil.JoinLines(IEnumerable<System.String>)
-  fullName.vb: Recore.StringUtil.JoinLines(IEnumerable(Of System.String))
-  nameWithType: StringUtil.JoinLines(IEnumerable<String>)
-  nameWithType.vb: StringUtil.JoinLines(IEnumerable(Of String))
-- uid: Recore.StringUtil.JoinLines(System.String[])
-  name: JoinLines(String[])
-  href: api/Recore.StringUtil.html#Recore_StringUtil_JoinLines_System_String___
-  commentId: M:Recore.StringUtil.JoinLines(System.String[])
-  name.vb: JoinLines(String())
-  fullName: Recore.StringUtil.JoinLines(System.String[])
-  fullName.vb: Recore.StringUtil.JoinLines(System.String())
-  nameWithType: StringUtil.JoinLines(String[])
-  nameWithType.vb: StringUtil.JoinLines(String())
-- uid: Recore.StringUtil.JoinLines*
-  name: JoinLines
-  href: api/Recore.StringUtil.html#Recore_StringUtil_JoinLines_
-  commentId: Overload:Recore.StringUtil.JoinLines
+- uid: Recore.Text.Json.Serialization.Converters
+  name: Recore.Text.Json.Serialization.Converters
+  href: api/Recore.Text.Json.Serialization.Converters.html
+  commentId: N:Recore.Text.Json.Serialization.Converters
+  fullName: Recore.Text.Json.Serialization.Converters
+  nameWithType: Recore.Text.Json.Serialization.Converters
+- uid: Recore.Text.Json.Serialization.Converters.OverrideEitherConverter`2
+  name: OverrideEitherConverter<TLeft, TRight>
+  href: api/Recore.Text.Json.Serialization.Converters.OverrideEitherConverter-2.html
+  commentId: T:Recore.Text.Json.Serialization.Converters.OverrideEitherConverter`2
+  name.vb: OverrideEitherConverter(Of TLeft, TRight)
+  fullName: Recore.Text.Json.Serialization.Converters.OverrideEitherConverter<TLeft, TRight>
+  fullName.vb: Recore.Text.Json.Serialization.Converters.OverrideEitherConverter(Of TLeft, TRight)
+  nameWithType: OverrideEitherConverter<TLeft, TRight>
+  nameWithType.vb: OverrideEitherConverter(Of TLeft, TRight)
+- uid: Recore.Text.Json.Serialization.Converters.OverrideEitherConverter`2.#ctor(Recore.Func{JsonElement,System.Boolean})
+  name: OverrideEitherConverter(Func<JsonElement, Boolean>)
+  href: api/Recore.Text.Json.Serialization.Converters.OverrideEitherConverter-2.html#Recore_Text_Json_Serialization_Converters_OverrideEitherConverter_2__ctor_Recore_Func_JsonElement_System_Boolean__
+  commentId: M:Recore.Text.Json.Serialization.Converters.OverrideEitherConverter`2.#ctor(Recore.Func{JsonElement,System.Boolean})
+  name.vb: OverrideEitherConverter(Func(Of JsonElement, Boolean))
+  fullName: Recore.Text.Json.Serialization.Converters.OverrideEitherConverter<TLeft, TRight>.OverrideEitherConverter(Recore.Func<JsonElement, System.Boolean>)
+  fullName.vb: Recore.Text.Json.Serialization.Converters.OverrideEitherConverter(Of TLeft, TRight).OverrideEitherConverter(Recore.Func(Of JsonElement, System.Boolean))
+  nameWithType: OverrideEitherConverter<TLeft, TRight>.OverrideEitherConverter(Func<JsonElement, Boolean>)
+  nameWithType.vb: OverrideEitherConverter(Of TLeft, TRight).OverrideEitherConverter(Func(Of JsonElement, Boolean))
+- uid: Recore.Text.Json.Serialization.Converters.OverrideEitherConverter`2.#ctor*
+  name: OverrideEitherConverter
+  href: api/Recore.Text.Json.Serialization.Converters.OverrideEitherConverter-2.html#Recore_Text_Json_Serialization_Converters_OverrideEitherConverter_2__ctor_
+  commentId: Overload:Recore.Text.Json.Serialization.Converters.OverrideEitherConverter`2.#ctor
   isSpec: "True"
-  fullName: Recore.StringUtil.JoinLines
-  nameWithType: StringUtil.JoinLines
+  fullName: Recore.Text.Json.Serialization.Converters.OverrideEitherConverter<TLeft, TRight>.OverrideEitherConverter
+  fullName.vb: Recore.Text.Json.Serialization.Converters.OverrideEitherConverter(Of TLeft, TRight).OverrideEitherConverter
+  nameWithType: OverrideEitherConverter<TLeft, TRight>.OverrideEitherConverter
+  nameWithType.vb: OverrideEitherConverter(Of TLeft, TRight).OverrideEitherConverter
+- uid: Recore.Text.Json.Serialization.Converters.OverrideEitherConverter`2.Read(Utf8JsonReader@,Type,JsonSerializerOptions)
+  name: Read(ref Utf8JsonReader, Type, JsonSerializerOptions)
+  href: api/Recore.Text.Json.Serialization.Converters.OverrideEitherConverter-2.html#Recore_Text_Json_Serialization_Converters_OverrideEitherConverter_2_Read_Utf8JsonReader__Type_JsonSerializerOptions_
+  commentId: M:Recore.Text.Json.Serialization.Converters.OverrideEitherConverter`2.Read(Utf8JsonReader@,Type,JsonSerializerOptions)
+  name.vb: Read(ByRef Utf8JsonReader, Type, JsonSerializerOptions)
+  fullName: Recore.Text.Json.Serialization.Converters.OverrideEitherConverter<TLeft, TRight>.Read(ref Utf8JsonReader, Type, JsonSerializerOptions)
+  fullName.vb: Recore.Text.Json.Serialization.Converters.OverrideEitherConverter(Of TLeft, TRight).Read(ByRef Utf8JsonReader, Type, JsonSerializerOptions)
+  nameWithType: OverrideEitherConverter<TLeft, TRight>.Read(ref Utf8JsonReader, Type, JsonSerializerOptions)
+  nameWithType.vb: OverrideEitherConverter(Of TLeft, TRight).Read(ByRef Utf8JsonReader, Type, JsonSerializerOptions)
+- uid: Recore.Text.Json.Serialization.Converters.OverrideEitherConverter`2.Read*
+  name: Read
+  href: api/Recore.Text.Json.Serialization.Converters.OverrideEitherConverter-2.html#Recore_Text_Json_Serialization_Converters_OverrideEitherConverter_2_Read_
+  commentId: Overload:Recore.Text.Json.Serialization.Converters.OverrideEitherConverter`2.Read
+  isSpec: "True"
+  fullName: Recore.Text.Json.Serialization.Converters.OverrideEitherConverter<TLeft, TRight>.Read
+  fullName.vb: Recore.Text.Json.Serialization.Converters.OverrideEitherConverter(Of TLeft, TRight).Read
+  nameWithType: OverrideEitherConverter<TLeft, TRight>.Read
+  nameWithType.vb: OverrideEitherConverter(Of TLeft, TRight).Read
+- uid: Recore.Text.Json.Serialization.Converters.OverrideEitherConverter`2.Write(Utf8JsonWriter,Recore.Either{`0,`1},JsonSerializerOptions)
+  name: Write(Utf8JsonWriter, Either<TLeft, TRight>, JsonSerializerOptions)
+  href: api/Recore.Text.Json.Serialization.Converters.OverrideEitherConverter-2.html#Recore_Text_Json_Serialization_Converters_OverrideEitherConverter_2_Write_Utf8JsonWriter_Recore_Either__0__1__JsonSerializerOptions_
+  commentId: M:Recore.Text.Json.Serialization.Converters.OverrideEitherConverter`2.Write(Utf8JsonWriter,Recore.Either{`0,`1},JsonSerializerOptions)
+  name.vb: Write(Utf8JsonWriter, Either(Of TLeft, TRight), JsonSerializerOptions)
+  fullName: Recore.Text.Json.Serialization.Converters.OverrideEitherConverter<TLeft, TRight>.Write(Utf8JsonWriter, Recore.Either<TLeft, TRight>, JsonSerializerOptions)
+  fullName.vb: Recore.Text.Json.Serialization.Converters.OverrideEitherConverter(Of TLeft, TRight).Write(Utf8JsonWriter, Recore.Either(Of TLeft, TRight), JsonSerializerOptions)
+  nameWithType: OverrideEitherConverter<TLeft, TRight>.Write(Utf8JsonWriter, Either<TLeft, TRight>, JsonSerializerOptions)
+  nameWithType.vb: OverrideEitherConverter(Of TLeft, TRight).Write(Utf8JsonWriter, Either(Of TLeft, TRight), JsonSerializerOptions)
+- uid: Recore.Text.Json.Serialization.Converters.OverrideEitherConverter`2.Write*
+  name: Write
+  href: api/Recore.Text.Json.Serialization.Converters.OverrideEitherConverter-2.html#Recore_Text_Json_Serialization_Converters_OverrideEitherConverter_2_Write_
+  commentId: Overload:Recore.Text.Json.Serialization.Converters.OverrideEitherConverter`2.Write
+  isSpec: "True"
+  fullName: Recore.Text.Json.Serialization.Converters.OverrideEitherConverter<TLeft, TRight>.Write
+  fullName.vb: Recore.Text.Json.Serialization.Converters.OverrideEitherConverter(Of TLeft, TRight).Write
+  nameWithType: OverrideEitherConverter<TLeft, TRight>.Write
+  nameWithType.vb: OverrideEitherConverter(Of TLeft, TRight).Write
+- uid: Recore.Text.Json.Serialization.Converters.OverrideResultConverter`2
+  name: OverrideResultConverter<TValue, TError>
+  href: api/Recore.Text.Json.Serialization.Converters.OverrideResultConverter-2.html
+  commentId: T:Recore.Text.Json.Serialization.Converters.OverrideResultConverter`2
+  name.vb: OverrideResultConverter(Of TValue, TError)
+  fullName: Recore.Text.Json.Serialization.Converters.OverrideResultConverter<TValue, TError>
+  fullName.vb: Recore.Text.Json.Serialization.Converters.OverrideResultConverter(Of TValue, TError)
+  nameWithType: OverrideResultConverter<TValue, TError>
+  nameWithType.vb: OverrideResultConverter(Of TValue, TError)
+- uid: Recore.Text.Json.Serialization.Converters.OverrideResultConverter`2.#ctor(Recore.Func{JsonElement,System.Boolean})
+  name: OverrideResultConverter(Func<JsonElement, Boolean>)
+  href: api/Recore.Text.Json.Serialization.Converters.OverrideResultConverter-2.html#Recore_Text_Json_Serialization_Converters_OverrideResultConverter_2__ctor_Recore_Func_JsonElement_System_Boolean__
+  commentId: M:Recore.Text.Json.Serialization.Converters.OverrideResultConverter`2.#ctor(Recore.Func{JsonElement,System.Boolean})
+  name.vb: OverrideResultConverter(Func(Of JsonElement, Boolean))
+  fullName: Recore.Text.Json.Serialization.Converters.OverrideResultConverter<TValue, TError>.OverrideResultConverter(Recore.Func<JsonElement, System.Boolean>)
+  fullName.vb: Recore.Text.Json.Serialization.Converters.OverrideResultConverter(Of TValue, TError).OverrideResultConverter(Recore.Func(Of JsonElement, System.Boolean))
+  nameWithType: OverrideResultConverter<TValue, TError>.OverrideResultConverter(Func<JsonElement, Boolean>)
+  nameWithType.vb: OverrideResultConverter(Of TValue, TError).OverrideResultConverter(Func(Of JsonElement, Boolean))
+- uid: Recore.Text.Json.Serialization.Converters.OverrideResultConverter`2.#ctor*
+  name: OverrideResultConverter
+  href: api/Recore.Text.Json.Serialization.Converters.OverrideResultConverter-2.html#Recore_Text_Json_Serialization_Converters_OverrideResultConverter_2__ctor_
+  commentId: Overload:Recore.Text.Json.Serialization.Converters.OverrideResultConverter`2.#ctor
+  isSpec: "True"
+  fullName: Recore.Text.Json.Serialization.Converters.OverrideResultConverter<TValue, TError>.OverrideResultConverter
+  fullName.vb: Recore.Text.Json.Serialization.Converters.OverrideResultConverter(Of TValue, TError).OverrideResultConverter
+  nameWithType: OverrideResultConverter<TValue, TError>.OverrideResultConverter
+  nameWithType.vb: OverrideResultConverter(Of TValue, TError).OverrideResultConverter
+- uid: Recore.Text.Json.Serialization.Converters.OverrideResultConverter`2.Read(Utf8JsonReader@,Type,JsonSerializerOptions)
+  name: Read(ref Utf8JsonReader, Type, JsonSerializerOptions)
+  href: api/Recore.Text.Json.Serialization.Converters.OverrideResultConverter-2.html#Recore_Text_Json_Serialization_Converters_OverrideResultConverter_2_Read_Utf8JsonReader__Type_JsonSerializerOptions_
+  commentId: M:Recore.Text.Json.Serialization.Converters.OverrideResultConverter`2.Read(Utf8JsonReader@,Type,JsonSerializerOptions)
+  name.vb: Read(ByRef Utf8JsonReader, Type, JsonSerializerOptions)
+  fullName: Recore.Text.Json.Serialization.Converters.OverrideResultConverter<TValue, TError>.Read(ref Utf8JsonReader, Type, JsonSerializerOptions)
+  fullName.vb: Recore.Text.Json.Serialization.Converters.OverrideResultConverter(Of TValue, TError).Read(ByRef Utf8JsonReader, Type, JsonSerializerOptions)
+  nameWithType: OverrideResultConverter<TValue, TError>.Read(ref Utf8JsonReader, Type, JsonSerializerOptions)
+  nameWithType.vb: OverrideResultConverter(Of TValue, TError).Read(ByRef Utf8JsonReader, Type, JsonSerializerOptions)
+- uid: Recore.Text.Json.Serialization.Converters.OverrideResultConverter`2.Read*
+  name: Read
+  href: api/Recore.Text.Json.Serialization.Converters.OverrideResultConverter-2.html#Recore_Text_Json_Serialization_Converters_OverrideResultConverter_2_Read_
+  commentId: Overload:Recore.Text.Json.Serialization.Converters.OverrideResultConverter`2.Read
+  isSpec: "True"
+  fullName: Recore.Text.Json.Serialization.Converters.OverrideResultConverter<TValue, TError>.Read
+  fullName.vb: Recore.Text.Json.Serialization.Converters.OverrideResultConverter(Of TValue, TError).Read
+  nameWithType: OverrideResultConverter<TValue, TError>.Read
+  nameWithType.vb: OverrideResultConverter(Of TValue, TError).Read
+- uid: Recore.Text.Json.Serialization.Converters.OverrideResultConverter`2.Write(Utf8JsonWriter,Recore.Result{`0,`1},JsonSerializerOptions)
+  name: Write(Utf8JsonWriter, Result<TValue, TError>, JsonSerializerOptions)
+  href: api/Recore.Text.Json.Serialization.Converters.OverrideResultConverter-2.html#Recore_Text_Json_Serialization_Converters_OverrideResultConverter_2_Write_Utf8JsonWriter_Recore_Result__0__1__JsonSerializerOptions_
+  commentId: M:Recore.Text.Json.Serialization.Converters.OverrideResultConverter`2.Write(Utf8JsonWriter,Recore.Result{`0,`1},JsonSerializerOptions)
+  name.vb: Write(Utf8JsonWriter, Result(Of TValue, TError), JsonSerializerOptions)
+  fullName: Recore.Text.Json.Serialization.Converters.OverrideResultConverter<TValue, TError>.Write(Utf8JsonWriter, Recore.Result<TValue, TError>, JsonSerializerOptions)
+  fullName.vb: Recore.Text.Json.Serialization.Converters.OverrideResultConverter(Of TValue, TError).Write(Utf8JsonWriter, Recore.Result(Of TValue, TError), JsonSerializerOptions)
+  nameWithType: OverrideResultConverter<TValue, TError>.Write(Utf8JsonWriter, Result<TValue, TError>, JsonSerializerOptions)
+  nameWithType.vb: OverrideResultConverter(Of TValue, TError).Write(Utf8JsonWriter, Result(Of TValue, TError), JsonSerializerOptions)
+- uid: Recore.Text.Json.Serialization.Converters.OverrideResultConverter`2.Write*
+  name: Write
+  href: api/Recore.Text.Json.Serialization.Converters.OverrideResultConverter-2.html#Recore_Text_Json_Serialization_Converters_OverrideResultConverter_2_Write_
+  commentId: Overload:Recore.Text.Json.Serialization.Converters.OverrideResultConverter`2.Write
+  isSpec: "True"
+  fullName: Recore.Text.Json.Serialization.Converters.OverrideResultConverter<TValue, TError>.Write
+  fullName.vb: Recore.Text.Json.Serialization.Converters.OverrideResultConverter(Of TValue, TError).Write
+  nameWithType: OverrideResultConverter<TValue, TError>.Write
+  nameWithType.vb: OverrideResultConverter(Of TValue, TError).Write
 - uid: Recore.Threading.Tasks
   name: Recore.Threading.Tasks
   href: api/Recore.Threading.Tasks.html

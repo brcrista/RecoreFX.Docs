@@ -116,6 +116,43 @@
       </tr>
     </tbody>
   </table>
+  <h5 id="Recore_Result_2_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>When working with <code>System.Text.Json</code>, deserializing into <a class="xref" href="Recore.Result-2.html">Result&lt;TValue, TError&gt;</a>
+can be ambiguous.
+The default deserialization behavior will try first to deserialize
+as <code data-dev-comment-type="typeparamref" class="typeparamref">TValue</code>, and then as <code data-dev-comment-type="typeparamref" class="typeparamref">TError</code>.
+But, this may return the unintended type if the value deserializer can successfully deserialize the JSON
+representation of the error.</p>
+<p>A common case is when both <code data-dev-comment-type="typeparamref" class="typeparamref">TValue</code> and <code data-dev-comment-type="typeparamref" class="typeparamref">TError</code> are POCOs.
+In that case, <a class="xref" href="Recore.Result-2.html">Result&lt;TValue, TError&gt;</a> will always deserialize as <code data-dev-comment-type="typeparamref" class="typeparamref">TValue</code>,
+filling in default values for any missing properties.
+For example:</p>
+<pre><code>&lt;code>
+class Person
+{
+    public string Name { get; set; }
+    public int Age { get; set; }
+}
+
+class Address
+{
+    public string Street { get; set; }
+    public string Zip { get; set; }
+}
+
+// Deserializes as a `Person`!
+JsonSerializer.Deserialize&lt;Result&lt;Person, Address>>(&quot;{\&quot;Street\&quot;:\&quot;123 Main St\&quot;,\&quot;Zip\&quot;:\&quot;12345\&quot;}&quot;)</code></pre>
+<p>You can use <a class="xref" href="Recore.Text.Json.Serialization.Converters.OverrideResultConverter-2.html">OverrideResultConverter&lt;TValue, TError&gt;</a> to specify
+how to choose between <code data-dev-comment-type="typeparamref" class="typeparamref">TValue</code> and <code data-dev-comment-type="typeparamref" class="typeparamref">TError</code>
+based on the properties in the JSON:</p>
+<pre><code>// Look at the JSON to decide which type we have
+options.Converters.Add(new OverrideResultConverter&lt;Person, Address>(
+    deserializeAsLeft: json => json.TryGetProperty(&quot;Street&quot;, out JsonElement _)));
+
+// Deserializes correctly
+JsonSerializer.Deserialize&lt;Result&lt;Person, Address>>(&quot;{\&quot;Street\&quot;:\&quot;123 Main St\&quot;,\&quot;Zip\&quot;:\&quot;12345\&quot;}&quot;, options)
+&lt;/code></code></pre>
+</div>
   <h3 id="constructors">Constructors
   </h3>
   <span class="small pull-right mobile-hide">
@@ -123,7 +160,7 @@
     <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Result_2__ctor__0_.md&amp;value=---%0Auid%3A%20Recore.Result%602.%23ctor(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Result.cs/#L22">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Result.cs/#L71">View Source</a>
   </span>
   <a id="Recore_Result_2__ctor_" data-uid="Recore.Result`2.#ctor*"></a>
   <h4 id="Recore_Result_2__ctor__0_" data-uid="Recore.Result`2.#ctor(`0)">Result(TValue)</h4>
@@ -156,7 +193,7 @@
     <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Result_2__ctor__1_.md&amp;value=---%0Auid%3A%20Recore.Result%602.%23ctor(%601)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Result.cs/#L35">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Result.cs/#L84">View Source</a>
   </span>
   <a id="Recore_Result_2__ctor_" data-uid="Recore.Result`2.#ctor*"></a>
   <h4 id="Recore_Result_2__ctor__1_" data-uid="Recore.Result`2.#ctor(`1)">Result(TError)</h4>
@@ -191,7 +228,7 @@
     <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Result_2_IsSuccessful.md&amp;value=---%0Auid%3A%20Recore.Result%602.IsSuccessful%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Result.cs/#L17">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Result.cs/#L66">View Source</a>
   </span>
   <a id="Recore_Result_2_IsSuccessful_" data-uid="Recore.Result`2.IsSuccessful*"></a>
   <h4 id="Recore_Result_2_IsSuccessful" data-uid="Recore.Result`2.IsSuccessful">IsSuccessful</h4>
@@ -224,7 +261,7 @@
     <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Result_2_Equals_Recore_Result__0__1__.md&amp;value=---%0Auid%3A%20Recore.Result%602.Equals(Recore.Result%7B%600%2C%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Result.cs/#L138">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Result.cs/#L187">View Source</a>
   </span>
   <a id="Recore_Result_2_Equals_" data-uid="Recore.Result`2.Equals*"></a>
   <h4 id="Recore_Result_2_Equals_Recore_Result__0__1__" data-uid="Recore.Result`2.Equals(Recore.Result{`0,`1})">Equals(Result&lt;TValue, TError&gt;)</h4>
@@ -276,7 +313,7 @@ for equality.</p>
     <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Result_2_Equals_System_Object_.md&amp;value=---%0Auid%3A%20Recore.Result%602.Equals(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Result.cs/#L127">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Result.cs/#L176">View Source</a>
   </span>
   <a id="Recore_Result_2_Equals_" data-uid="Recore.Result`2.Equals*"></a>
   <h4 id="Recore_Result_2_Equals_System_Object_" data-uid="Recore.Result`2.Equals(System.Object)">Equals(Object)</h4>
@@ -330,7 +367,7 @@ will always be nonequal.</p>
     <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Result_2_GetError.md&amp;value=---%0Auid%3A%20Recore.Result%602.GetError%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Result.cs/#L68">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Result.cs/#L117">View Source</a>
   </span>
   <a id="Recore_Result_2_GetError_" data-uid="Recore.Result`2.GetError*"></a>
   <h4 id="Recore_Result_2_GetError" data-uid="Recore.Result`2.GetError">GetError()</h4>
@@ -362,7 +399,7 @@ to <code>Optional&lt;TError&gt;</code></p>
     <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Result_2_GetHashCode.md&amp;value=---%0Auid%3A%20Recore.Result%602.GetHashCode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Result.cs/#L145">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Result.cs/#L194">View Source</a>
   </span>
   <a id="Recore_Result_2_GetHashCode_" data-uid="Recore.Result`2.GetHashCode*"></a>
   <h4 id="Recore_Result_2_GetHashCode" data-uid="Recore.Result`2.GetHashCode">GetHashCode()</h4>
@@ -393,7 +430,7 @@ to <code>Optional&lt;TError&gt;</code></p>
     <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Result_2_GetValue.md&amp;value=---%0Auid%3A%20Recore.Result%602.GetValue%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Result.cs/#L61">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Result.cs/#L110">View Source</a>
   </span>
   <a id="Recore_Result_2_GetValue_" data-uid="Recore.Result`2.GetValue*"></a>
   <h4 id="Recore_Result_2_GetValue" data-uid="Recore.Result`2.GetValue">GetValue()</h4>
@@ -425,7 +462,7 @@ to <code>Optional&lt;TValue&gt;</code></p>
     <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Result_2_IfError_Action__1__.md&amp;value=---%0Auid%3A%20Recore.Result%602.IfError(Action%7B%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Result.cs/#L96">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Result.cs/#L145">View Source</a>
   </span>
   <a id="Recore_Result_2_IfError_" data-uid="Recore.Result`2.IfError*"></a>
   <h4 id="Recore_Result_2_IfError_Action__1__" data-uid="Recore.Result`2.IfError(Action{`1})">IfError(Action&lt;TError&gt;)</h4>
@@ -458,7 +495,7 @@ to <code>Optional&lt;TValue&gt;</code></p>
     <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Result_2_IfValue_Action__0__.md&amp;value=---%0Auid%3A%20Recore.Result%602.IfValue(Action%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Result.cs/#L90">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Result.cs/#L139">View Source</a>
   </span>
   <a id="Recore_Result_2_IfValue_" data-uid="Recore.Result`2.IfValue*"></a>
   <h4 id="Recore_Result_2_IfValue_Action__0__" data-uid="Recore.Result`2.IfValue(Action{`0})">IfValue(Action&lt;TValue&gt;)</h4>
@@ -491,7 +528,7 @@ to <code>Optional&lt;TValue&gt;</code></p>
     <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Result_2_OnError__1_Recore_Func__1___0__.md&amp;value=---%0Auid%3A%20Recore.Result%602.OnError%60%601(Recore.Func%7B%601%2C%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Result.cs/#L82">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Result.cs/#L131">View Source</a>
   </span>
   <a id="Recore_Result_2_OnError_" data-uid="Recore.Result`2.OnError*"></a>
   <h4 id="Recore_Result_2_OnError__1_Recore_Func__1___0__" data-uid="Recore.Result`2.OnError``1(Recore.Func{`1,``0})">OnError&lt;TResult&gt;(Func&lt;TError, TResult&gt;)</h4>
@@ -554,7 +591,7 @@ to <code>Optional&lt;TValue&gt;</code></p>
     <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Result_2_OnValue__1_Recore_Func__0___0__.md&amp;value=---%0Auid%3A%20Recore.Result%602.OnValue%60%601(Recore.Func%7B%600%2C%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Result.cs/#L74">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Result.cs/#L123">View Source</a>
   </span>
   <a id="Recore_Result_2_OnValue_" data-uid="Recore.Result`2.OnValue*"></a>
   <h4 id="Recore_Result_2_OnValue__1_Recore_Func__0___0__" data-uid="Recore.Result`2.OnValue``1(Recore.Func{`0,``0})">OnValue&lt;TResult&gt;(Func&lt;TValue, TResult&gt;)</h4>
@@ -617,7 +654,7 @@ to <code>Optional&lt;TValue&gt;</code></p>
     <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Result_2_Switch_Action__0__Action__1__.md&amp;value=---%0Auid%3A%20Recore.Result%602.Switch(Action%7B%600%7D%2CAction%7B%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Result.cs/#L54">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Result.cs/#L103">View Source</a>
   </span>
   <a id="Recore_Result_2_Switch_" data-uid="Recore.Result`2.Switch*"></a>
   <h4 id="Recore_Result_2_Switch_Action__0__Action__1__" data-uid="Recore.Result`2.Switch(Action{`0},Action{`1})">Switch(Action&lt;TValue&gt;, Action&lt;TError&gt;)</h4>
@@ -655,7 +692,7 @@ to <code>Optional&lt;TValue&gt;</code></p>
     <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Result_2_Switch__1_Recore_Func__0___0__Recore_Func__1___0__.md&amp;value=---%0Auid%3A%20Recore.Result%602.Switch%60%601(Recore.Func%7B%600%2C%60%600%7D%2CRecore.Func%7B%601%2C%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Result.cs/#L48">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Result.cs/#L97">View Source</a>
   </span>
   <a id="Recore_Result_2_Switch_" data-uid="Recore.Result`2.Switch*"></a>
   <h4 id="Recore_Result_2_Switch__1_Recore_Func__0___0__Recore_Func__1___0__" data-uid="Recore.Result`2.Switch``1(Recore.Func{`0,``0},Recore.Func{`1,``0})">Switch&lt;T&gt;(Func&lt;TValue, T&gt;, Func&lt;TError, T&gt;)</h4>
@@ -723,7 +760,7 @@ to <code>Optional&lt;TValue&gt;</code></p>
     <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Result_2_Then__1_Recore_Func__0_Recore_Result___0__1___.md&amp;value=---%0Auid%3A%20Recore.Result%602.Then%60%601(Recore.Func%7B%600%2CRecore.Result%7B%60%600%2C%601%7D%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Result.cs/#L107">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Result.cs/#L156">View Source</a>
   </span>
   <a id="Recore_Result_2_Then_" data-uid="Recore.Result`2.Then*"></a>
   <h4 id="Recore_Result_2_Then__1_Recore_Func__0_Recore_Result___0__1___" data-uid="Recore.Result`2.Then``1(Recore.Func{`0,Recore.Result{``0,`1}})">Then&lt;TResult&gt;(Func&lt;TValue, Result&lt;TResult, TError&gt;&gt;)</h4>
@@ -791,7 +828,7 @@ and then &quot;flattening&quot; the result.</p>
     <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Result_2_ToString.md&amp;value=---%0Auid%3A%20Recore.Result%602.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Result.cs/#L115">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Result.cs/#L164">View Source</a>
   </span>
   <a id="Recore_Result_2_ToString_" data-uid="Recore.Result`2.ToString*"></a>
   <h4 id="Recore_Result_2_ToString" data-uid="Recore.Result`2.ToString">ToString()</h4>
@@ -824,7 +861,7 @@ and then &quot;flattening&quot; the result.</p>
     <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Result_2_op_Equality_Recore_Result__0__1__Recore_Result__0__1__.md&amp;value=---%0Auid%3A%20Recore.Result%602.op_Equality(Recore.Result%7B%600%2C%601%7D%2CRecore.Result%7B%600%2C%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Result.cs/#L152">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Result.cs/#L201">View Source</a>
   </span>
   <a id="Recore_Result_2_op_Equality_" data-uid="Recore.Result`2.op_Equality*"></a>
   <h4 id="Recore_Result_2_op_Equality_Recore_Result__0__1__Recore_Result__0__1__" data-uid="Recore.Result`2.op_Equality(Recore.Result{`0,`1},Recore.Result{`0,`1})">Equality(Result&lt;TValue, TError&gt;, Result&lt;TValue, TError&gt;)</h4>
@@ -878,7 +915,7 @@ have the same value.</p>
     <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Result_2_op_Implicit__0__Recore_Result__0__1_.md&amp;value=---%0Auid%3A%20Recore.Result%602.op_Implicit(%600)~Recore.Result%7B%600%2C%601%7D%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Result.cs/#L163">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Result.cs/#L212">View Source</a>
   </span>
   <a id="Recore_Result_2_op_Implicit_" data-uid="Recore.Result`2.op_Implicit*"></a>
   <h4 id="Recore_Result_2_op_Implicit__0__Recore_Result__0__1_" data-uid="Recore.Result`2.op_Implicit(`0)~Recore.Result{`0,`1}">Implicit(TValue to Result&lt;TValue, TError&gt;)</h4>
@@ -926,7 +963,7 @@ have the same value.</p>
     <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Result_2_op_Implicit__1__Recore_Result__0__1_.md&amp;value=---%0Auid%3A%20Recore.Result%602.op_Implicit(%601)~Recore.Result%7B%600%2C%601%7D%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Result.cs/#L168">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Result.cs/#L217">View Source</a>
   </span>
   <a id="Recore_Result_2_op_Implicit_" data-uid="Recore.Result`2.op_Implicit*"></a>
   <h4 id="Recore_Result_2_op_Implicit__1__Recore_Result__0__1_" data-uid="Recore.Result`2.op_Implicit(`1)~Recore.Result{`0,`1}">Implicit(TError to Result&lt;TValue, TError&gt;)</h4>
@@ -974,7 +1011,7 @@ have the same value.</p>
     <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Result_2_op_Inequality_Recore_Result__0__1__Recore_Result__0__1__.md&amp;value=---%0Auid%3A%20Recore.Result%602.op_Inequality(Recore.Result%7B%600%2C%601%7D%2CRecore.Result%7B%600%2C%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Result.cs/#L158">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Result.cs/#L207">View Source</a>
   </span>
   <a id="Recore_Result_2_op_Inequality_" data-uid="Recore.Result`2.op_Inequality*"></a>
   <h4 id="Recore_Result_2_op_Inequality_Recore_Result__0__1__Recore_Result__0__1__" data-uid="Recore.Result`2.op_Inequality(Recore.Result{`0,`1},Recore.Result{`0,`1})">Inequality(Result&lt;TValue, TError&gt;, Result&lt;TValue, TError&gt;)</h4>
@@ -1038,7 +1075,7 @@ have different values.</p>
                     <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Result_2.md&amp;value=---%0Auid%3A%20Recore.Result%602%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Result.cs/#L10" class="contribution-link">View Source</a>
+                    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Result.cs/#L58" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

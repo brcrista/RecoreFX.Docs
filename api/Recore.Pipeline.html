@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Namespace Recore.Functional
+    <title>Class Pipeline
    | RecoreFX </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Namespace Recore.Functional
+    <meta name="title" content="Class Pipeline
    | RecoreFX ">
     <meta name="generator" content="docfx 2.56.2.0">
     
@@ -78,28 +78,93 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Recore.Functional">
+            <article class="content wrap" id="_content" data-uid="Recore.Pipeline">
   
-  <h1 id="Recore_Functional" data-uid="Recore.Functional" class="text-break">Namespace Recore.Functional
+  
+  <h1 id="Recore_Pipeline" data-uid="Recore.Pipeline" class="text-break">Class Pipeline
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Provides additional methods for <a class="xref" href="Recore.Pipeline-1.html">Pipeline&lt;T&gt;</a>.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
-  <div class="markdown level0 remarks"></div>
-    <h3 id="classes">Classes
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
+    <div class="level1"><span class="xref">Pipeline</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Recore.html">Recore</a></h6>
+  <h6><strong>Assembly</strong>: Recore.dll</h6>
+  <h5 id="Recore_Pipeline_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class Pipeline : object</code></pre>
+  </div>
+  <h3 id="methods">Methods
   </h3>
-      <h4><a class="xref" href="Recore.Functional.Composer-2.html">Composer&lt;TValue, TResult&gt;</a></h4>
-      <section><p>Composes many functions or actions into a single function.</p>
-</section>
-      <h4><a class="xref" href="Recore.Functional.Lift.html">Lift</a></h4>
-      <section><p>Adapts functions to operate on functors.</p>
-</section>
-      <h4><a class="xref" href="Recore.Functional.Pipeline.html">Pipeline</a></h4>
-      <section><p>Provides additional methods for <a class="xref" href="Recore.Functional.Pipeline-1.html">Pipeline&lt;T&gt;</a>.</p>
-</section>
-      <h4><a class="xref" href="Recore.Functional.Pipeline-1.html">Pipeline&lt;T&gt;</a></h4>
-      <section><p>Creates a function pipeline, calling each function or action on the value
-with postfix syntax.</p>
-</section>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Pipeline_Of__1___0_.md&amp;value=---%0Auid%3A%20Recore.Pipeline.Of%60%601(%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Pipeline.cs/#L72">View Source</a>
+  </span>
+  <a id="Recore_Pipeline_Of_" data-uid="Recore.Pipeline.Of*"></a>
+  <h4 id="Recore_Pipeline_Of__1___0_" data-uid="Recore.Pipeline.Of``1(``0)">Of&lt;T&gt;(T)</h4>
+  <div class="markdown level1 summary"><p>Creates a <a class="xref" href="Recore.Pipeline-1.html">Pipeline&lt;T&gt;</a> from a value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Pipeline&lt;T&gt; Of&lt;T&gt;(T value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Recore.Pipeline-1.html">Pipeline</a>&lt;T&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Recore_Pipeline_Of__1___0__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method works the the same as the constructor, but it is useful for type inference.</p>
+</div>
 </article>
           </div>
           
@@ -107,6 +172,12 @@ with postfix syntax.</p>
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Pipeline.md&amp;value=---%0Auid%3A%20Recore.Pipeline%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Pipeline.cs/#L64" class="contribution-link">View Source</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

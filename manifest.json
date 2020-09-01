@@ -590,6 +590,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/Recore.Composer-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recore.Composer-2.html",
+          "hash": "GjEXXIi2/Qks+RNC0sv+/g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/Recore.Defer.yml",
       "output": {
         ".html": {
@@ -606,7 +618,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Either-2.html",
-          "hash": "DQ56cJgNE3wJg6fxn3spvQ=="
+          "hash": "+avP0JnvNFJ2PNLRLYYxdw=="
         }
       },
       "is_incremental": false,
@@ -618,7 +630,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Either.html",
-          "hash": "1Hm8qU/My4hpJpT7A32rRQ=="
+          "hash": "gQKJR//BJaV3i1D1tMnAzQ=="
         }
       },
       "is_incremental": false,
@@ -638,71 +650,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/Recore.Functional.Composer-2.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Recore.Functional.Composer-2.html",
-          "hash": "+1lVE6F1j9Rt4268MzmNcA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Recore.Functional.Lift.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Recore.Functional.Lift.html",
-          "hash": "J7xpj0wnPfGSZ0AKWQVSSA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Recore.Functional.Pipeline-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Recore.Functional.Pipeline-1.html",
-          "hash": "0ZTQ9tlnD0OA5hTEO3PTYA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Recore.Functional.Pipeline.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Recore.Functional.Pipeline.html",
-          "hash": "u7Ioek+jHvXfMAWTf1Km2g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "obj/Recore.Functional.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Recore.Functional.html",
-          "hash": "hYAS6rnF18+NUJoGJYBB5g=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "obj/Recore.Linq.Renumerable.yml",
       "output": {
         ".html": {
           "relative_path": "api/Recore.Linq.Renumerable.html",
-          "hash": "/dqPd/b5oqklvxa6+0Ue3w=="
+          "hash": "Yn/nlvILzDj3Yjro8EgcmQ=="
         }
       },
       "is_incremental": false,
@@ -738,7 +690,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Of-1.html",
-          "hash": "M5YJ/SjCQYc7mn9UaRJnEA=="
+          "hash": "gIUsH39eulJ4EwoFSf2fKg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Recore.OfJsonAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recore.OfJsonAttribute.html",
+          "hash": "jL6o306E172FIG1LMJaBPg=="
         }
       },
       "is_incremental": false,
@@ -750,7 +714,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Optional-1.html",
-          "hash": "itaMKhGOh03vffPTCQ4Q2A=="
+          "hash": "hpBm7om4G2jehm3w6JH/lA=="
         }
       },
       "is_incremental": false,
@@ -762,7 +726,31 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Optional.html",
-          "hash": "sY5S46LapagpP6/Z5Somdw=="
+          "hash": "Ae/ijDHpgPK0+NcG41b/5A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Recore.Pipeline-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recore.Pipeline-1.html",
+          "hash": "j0+cLMxWXO4yP4oj/U92RA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Recore.Pipeline.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recore.Pipeline.html",
+          "hash": "wOBismSJGbmtB3mKAk9q2g=="
         }
       },
       "is_incremental": false,
@@ -786,7 +774,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Result-2.html",
-          "hash": "PnNRWwqV0G6LB+TDMffqeg=="
+          "hash": "8ZXMqzZ+VMLzsDvwR2n2/A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Recore.Result.AsyncCatcher-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recore.Result.AsyncCatcher-1.html",
+          "hash": "L6IX2muJYUt8UB7vPXz76A=="
         }
       },
       "is_incremental": false,
@@ -798,7 +798,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Result.Catcher-1.html",
-          "hash": "cLQtTLRbDlOruVHGwn37Pg=="
+          "hash": "1LWm78eGFBchN2FWXXflFg=="
         }
       },
       "is_incremental": false,
@@ -810,7 +810,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Result.html",
-          "hash": "eWa+gFu83Tds90cz4VrpnA=="
+          "hash": "2u+6mfAvhUzSVmPT63M6gA=="
         }
       },
       "is_incremental": false,
@@ -822,7 +822,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Security.Cryptography.Ciphertext-1.html",
-          "hash": "46stAWJgSJiqZcEMEHtJpw=="
+          "hash": "Ah2muWsWPFnU4UKyJKl9Hg=="
         }
       },
       "is_incremental": false,
@@ -834,7 +834,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Security.Cryptography.Ciphertext.html",
-          "hash": "QyaEyF0A1IZpgDb/qr9FFw=="
+          "hash": "i0yGMdK2EyHM6tzDtFZ2yw=="
         }
       },
       "is_incremental": false,
@@ -878,11 +878,35 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "obj/Recore.StringUtil.yml",
+      "source_relative_path": "obj/Recore.Text.Json.Serialization.Converters.OverrideEitherConverter-2.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Recore.StringUtil.html",
-          "hash": "8vIEXoNyS0haclJz1r8J/w=="
+          "relative_path": "api/Recore.Text.Json.Serialization.Converters.OverrideEitherConverter-2.html",
+          "hash": "TC3aBXlb5uF+GkhfBDhEHA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Recore.Text.Json.Serialization.Converters.OverrideResultConverter-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recore.Text.Json.Serialization.Converters.OverrideResultConverter-2.html",
+          "hash": "aP18UAXgyX2oVdJG3+ypkg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/Recore.Text.Json.Serialization.Converters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Recore.Text.Json.Serialization.Converters.html",
+          "hash": "3RswN5uvU4vZqpNuJRRz/g=="
         }
       },
       "is_incremental": false,
@@ -918,7 +942,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Token.html",
-          "hash": "KqNSuSX15g7vFq37B+OKYg=="
+          "hash": "TrvYsr0Z59S18A9xDqfVlg=="
         }
       },
       "is_incremental": false,
@@ -954,7 +978,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.html",
-          "hash": "DorT8bpcQYCtvKsCcElhSg=="
+          "hash": "KAP/d8uVWE81e+ADhibYYQ=="
         }
       },
       "is_incremental": false,
@@ -966,7 +990,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "/Hk8vMRdrCLmk78AYhqhDA=="
+          "hash": "AFo+/YxN61jsPMCyit1lKg=="
         }
       },
       "is_incremental": false,
@@ -1005,7 +1029,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 78,
+          "total_file_count": 80,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
