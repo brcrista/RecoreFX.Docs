@@ -83,7 +83,7 @@
   
   <h1 id="Recore_Collections_Generic_IIterator_1" data-uid="Recore.Collections.Generic.IIterator`1" class="text-break">Interface IIterator&lt;T&gt;
   </h1>
-  <div class="markdown level0 summary"><p>An alternative interface to <see cref="!:IEnumerator&lt;T>"></see> that provides access to a sequence of elements.</p>
+  <div class="markdown level0 summary"><p>An alternative interface to <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1">IEnumerator&lt;T&gt;</a> that provides access to a sequence of elements.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Recore.Collections.Generic.html">Recore.Collections.Generic</a></h6>
@@ -109,13 +109,13 @@
   </table>
   <h5 id="Recore_Collections_Generic_IIterator_1_remarks"><strong>Remarks</strong></h5>
   <div class="markdown level0 remarks"><p>This interface is meant to resemble Java's concept of an iterator.
-While using <see cref="!:IEnumerator&lt;T>"></see> usually provides safer access to a collection than, say,
+While using <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1">IEnumerator&lt;T&gt;</a> usually provides safer access to a collection than, say,
 manipulating indices directly in a list, there are times where it is clumsy to use.</p>
 </div>
   <h5 id="Recore_Collections_Generic_IIterator_1_examples"><strong>Examples</strong></h5>
   <p>A common case is calling an API that needs to tell its caller whether it should be called again.
-In order to do this with <see cref="!:IEnumerator&lt;T>"></see>, the API must look ahead to the next element
-with <see cref="!:IEnumerator.MoveNext()"></see> before returning and then maintain this state between calls.</p>
+In order to do this with <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1">IEnumerator&lt;T&gt;</a>, the API must look ahead to the next element
+with <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.ienumerator.movenext#System_Collections_IEnumerator_MoveNext">MoveNext()</a> before returning and then maintain this state between calls.</p>
 <p>For example, consider this type that gets status information on a customer's order from some external source:</p>
 <pre><code>using System.Collections.Generic;
 

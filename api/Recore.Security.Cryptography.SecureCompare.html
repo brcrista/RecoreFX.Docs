@@ -91,11 +91,35 @@
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
     <div class="level1"><span class="xref">SecureCompare</span></div>
   </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
+    </div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Recore.Security.Cryptography.html">Recore.Security.Cryptography</a></h6>
   <h6><strong>Assembly</strong>: Recore.dll</h6>
   <h5 id="Recore_Security_Cryptography_SecureCompare_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class SecureCompare : object</code></pre>
+    <pre><code class="lang-csharp hljs">public static class SecureCompare</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
@@ -156,7 +180,7 @@
   <div class="markdown level1 remarks"><p>This method is used to guard against <strong>timing attacks</strong>.</p>
 <p>When checking untrusted input against a secret,
 using a regular element-by-element equality method
-such as <see cref="!:string.Equals(string)"></see> is insecure.
+such as <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string.equals#System_String_Equals_System_String_">Equals(String)</a> is insecure.
 For example, suppose you are checking whether an incoming request's signature
 matches what you expect.
 In this case, you hash the request payload with your own private key

@@ -91,11 +91,31 @@
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
     <div class="level1"><span class="xref">Either&lt;TLeft, TRight&gt;</span></div>
   </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Recore.Either-2.html">Either</a>&lt;TLeft, TRight&gt;&gt;</div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+    </div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Recore.html">Recore</a></h6>
   <h6><strong>Assembly</strong>: Recore.dll</h6>
   <h5 id="Recore_Either_2_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class Either&lt;TLeft, TRight&gt; : IEquatable&lt;Either&lt;TLeft, TRight&gt;&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">[JsonConverter(typeof(EitherConverter))]
+public sealed class Either&lt;TLeft, TRight&gt; : IEquatable&lt;Either&lt;TLeft, TRight&gt;&gt;</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -391,6 +411,8 @@ to another object for equality.</p>
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a></div>
   <h5 id="Recore_Either_2_Equals_System_Object__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>Two <a class="xref" href="Recore.Either-2.html">Either&lt;TLeft, TRight&gt;</a>s are equal only if they have the same type parameters in the same order.
 For example, an <code>Either&lt;int, string&gt;</code> and an <code>Either&lt;string, int&gt;</code>
@@ -427,6 +449,8 @@ will always be nonequal.</p>
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Either_2_GetLeft.md&amp;value=---%0Auid%3A%20Recore.Either%602.GetLeft%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
@@ -491,13 +515,13 @@ will always be nonequal.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Either_2_IfLeft_Action__0__.md&amp;value=---%0Auid%3A%20Recore.Either%602.IfLeft(Action%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Either_2_IfLeft_System_Action__0__.md&amp;value=---%0Auid%3A%20Recore.Either%602.IfLeft(System.Action%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Either.cs/#L187">View Source</a>
   </span>
   <a id="Recore_Either_2_IfLeft_" data-uid="Recore.Either`2.IfLeft*"></a>
-  <h4 id="Recore_Either_2_IfLeft_Action__0__" data-uid="Recore.Either`2.IfLeft(Action{`0})">IfLeft(Action&lt;TLeft&gt;)</h4>
+  <h4 id="Recore_Either_2_IfLeft_System_Action__0__" data-uid="Recore.Either`2.IfLeft(System.Action{`0})">IfLeft(Action&lt;TLeft&gt;)</h4>
   <div class="markdown level1 summary"><p>Takes an action only if the value is an instance of <code data-dev-comment-type="typeparamref" class="typeparamref">TLeft</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -516,7 +540,7 @@ will always be nonequal.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Action</span>&lt;TLeft&gt;</td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;TLeft&gt;</td>
         <td><span class="parametername">onLeft</span></td>
         <td></td>
       </tr>
@@ -524,13 +548,13 @@ will always be nonequal.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Either_2_IfRight_Action__1__.md&amp;value=---%0Auid%3A%20Recore.Either%602.IfRight(Action%7B%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Either_2_IfRight_System_Action__1__.md&amp;value=---%0Auid%3A%20Recore.Either%602.IfRight(System.Action%7B%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Either.cs/#L195">View Source</a>
   </span>
   <a id="Recore_Either_2_IfRight_" data-uid="Recore.Either`2.IfRight*"></a>
-  <h4 id="Recore_Either_2_IfRight_Action__1__" data-uid="Recore.Either`2.IfRight(Action{`1})">IfRight(Action&lt;TRight&gt;)</h4>
+  <h4 id="Recore_Either_2_IfRight_System_Action__1__" data-uid="Recore.Either`2.IfRight(System.Action{`1})">IfRight(Action&lt;TRight&gt;)</h4>
   <div class="markdown level1 summary"><p>Takes an action only if the value is an instance of <code data-dev-comment-type="typeparamref" class="typeparamref">TRight</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -549,7 +573,7 @@ will always be nonequal.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Action</span>&lt;TRight&gt;</td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;TRight&gt;</td>
         <td><span class="parametername">onRight</span></td>
         <td></td>
       </tr>
@@ -557,13 +581,13 @@ will always be nonequal.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Either_2_OnLeft__1_Recore_Func__0___0__.md&amp;value=---%0Auid%3A%20Recore.Either%602.OnLeft%60%601(Recore.Func%7B%600%2C%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Either_2_OnLeft__1_System_Func__0___0__.md&amp;value=---%0Auid%3A%20Recore.Either%602.OnLeft%60%601(System.Func%7B%600%2C%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Either.cs/#L171">View Source</a>
   </span>
   <a id="Recore_Either_2_OnLeft_" data-uid="Recore.Either`2.OnLeft*"></a>
-  <h4 id="Recore_Either_2_OnLeft__1_Recore_Func__0___0__" data-uid="Recore.Either`2.OnLeft``1(Recore.Func{`0,``0})">OnLeft&lt;TResult&gt;(Func&lt;TLeft, TResult&gt;)</h4>
+  <h4 id="Recore_Either_2_OnLeft__1_System_Func__0___0__" data-uid="Recore.Either`2.OnLeft``1(System.Func{`0,``0})">OnLeft&lt;TResult&gt;(Func&lt;TLeft, TResult&gt;)</h4>
   <div class="markdown level1 summary"><p>Maps a function over the <a class="xref" href="Recore.Either-2.html">Either&lt;TLeft, TRight&gt;</a> only if the value is an instance of <code data-dev-comment-type="typeparamref" class="typeparamref">TLeft</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -582,7 +606,7 @@ will always be nonequal.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Recore.Func</span>&lt;TLeft, TResult&gt;</td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TLeft, TResult&gt;</td>
         <td><span class="parametername">onLeft</span></td>
         <td></td>
       </tr>
@@ -620,13 +644,13 @@ will always be nonequal.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Either_2_OnRight__1_Recore_Func__1___0__.md&amp;value=---%0Auid%3A%20Recore.Either%602.OnRight%60%601(Recore.Func%7B%601%2C%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Either_2_OnRight__1_System_Func__1___0__.md&amp;value=---%0Auid%3A%20Recore.Either%602.OnRight%60%601(System.Func%7B%601%2C%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Either.cs/#L179">View Source</a>
   </span>
   <a id="Recore_Either_2_OnRight_" data-uid="Recore.Either`2.OnRight*"></a>
-  <h4 id="Recore_Either_2_OnRight__1_Recore_Func__1___0__" data-uid="Recore.Either`2.OnRight``1(Recore.Func{`1,``0})">OnRight&lt;TResult&gt;(Func&lt;TRight, TResult&gt;)</h4>
+  <h4 id="Recore_Either_2_OnRight__1_System_Func__1___0__" data-uid="Recore.Either`2.OnRight``1(System.Func{`1,``0})">OnRight&lt;TResult&gt;(Func&lt;TRight, TResult&gt;)</h4>
   <div class="markdown level1 summary"><p>Maps a function over the <a class="xref" href="Recore.Either-2.html">Either&lt;TLeft, TRight&gt;</a> only if the value is an instance of <code data-dev-comment-type="typeparamref" class="typeparamref">TRight</code>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -645,7 +669,7 @@ will always be nonequal.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Recore.Func</span>&lt;TRight, TResult&gt;</td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TRight, TResult&gt;</td>
         <td><span class="parametername">onRight</span></td>
         <td></td>
       </tr>
@@ -715,13 +739,13 @@ to an <code>Either&lt;TRight, TLeft&gt;</code></p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Either_2_Switch_Action__0__Action__1__.md&amp;value=---%0Auid%3A%20Recore.Either%602.Switch(Action%7B%600%7D%2CAction%7B%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Either_2_Switch_System_Action__0__System_Action__1__.md&amp;value=---%0Auid%3A%20Recore.Either%602.Switch(System.Action%7B%600%7D%2CSystem.Action%7B%601%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Either.cs/#L131">View Source</a>
   </span>
   <a id="Recore_Either_2_Switch_" data-uid="Recore.Either`2.Switch*"></a>
-  <h4 id="Recore_Either_2_Switch_Action__0__Action__1__" data-uid="Recore.Either`2.Switch(Action{`0},Action{`1})">Switch(Action&lt;TLeft&gt;, Action&lt;TRight&gt;)</h4>
+  <h4 id="Recore_Either_2_Switch_System_Action__0__System_Action__1__" data-uid="Recore.Either`2.Switch(System.Action{`0},System.Action{`1})">Switch(Action&lt;TLeft&gt;, Action&lt;TRight&gt;)</h4>
   <div class="markdown level1 summary"><p>Takes one of two actions depending on the underlying value.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -740,12 +764,12 @@ to an <code>Either&lt;TRight, TLeft&gt;</code></p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Action</span>&lt;TLeft&gt;</td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;TLeft&gt;</td>
         <td><span class="parametername">onLeft</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">Action</span>&lt;TRight&gt;</td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.action-1">Action</a>&lt;TRight&gt;</td>
         <td><span class="parametername">onRight</span></td>
         <td></td>
       </tr>
@@ -753,13 +777,13 @@ to an <code>Either&lt;TRight, TLeft&gt;</code></p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Either_2_Switch__1_Recore_Func__0___0__Recore_Func__1___0__.md&amp;value=---%0Auid%3A%20Recore.Either%602.Switch%60%601(Recore.Func%7B%600%2C%60%600%7D%2CRecore.Func%7B%601%2C%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Either_2_Switch__1_System_Func__0___0__System_Func__1___0__.md&amp;value=---%0Auid%3A%20Recore.Either%602.Switch%60%601(System.Func%7B%600%2C%60%600%7D%2CSystem.Func%7B%601%2C%60%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Either.cs/#L107">View Source</a>
   </span>
   <a id="Recore_Either_2_Switch_" data-uid="Recore.Either`2.Switch*"></a>
-  <h4 id="Recore_Either_2_Switch__1_Recore_Func__0___0__Recore_Func__1___0__" data-uid="Recore.Either`2.Switch``1(Recore.Func{`0,``0},Recore.Func{`1,``0})">Switch&lt;T&gt;(Func&lt;TLeft, T&gt;, Func&lt;TRight, T&gt;)</h4>
+  <h4 id="Recore_Either_2_Switch__1_System_Func__0___0__System_Func__1___0__" data-uid="Recore.Either`2.Switch``1(System.Func{`0,``0},System.Func{`1,``0})">Switch&lt;T&gt;(Func&lt;TLeft, T&gt;, Func&lt;TRight, T&gt;)</h4>
   <div class="markdown level1 summary"><p>Calls one of two functions depending on the underlying value.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -778,12 +802,12 @@ to an <code>Either&lt;TRight, TLeft&gt;</code></p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Recore.Func</span>&lt;TLeft, T&gt;</td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TLeft, T&gt;</td>
         <td><span class="parametername">onLeft</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">Recore.Func</span>&lt;TRight, T&gt;</td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;TRight, T&gt;</td>
         <td><span class="parametername">onRight</span></td>
         <td></td>
       </tr>
@@ -850,6 +874,8 @@ to an <code>Either&lt;TRight, TLeft&gt;</code></p>
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a></div>
   <h3 id="operators">Operators
   </h3>
   <span class="small pull-right mobile-hide">
@@ -1056,6 +1082,10 @@ have different values.</p>
       </tr>
     </tbody>
   </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iequatable-1">System.IEquatable&lt;T&gt;</a>
+  </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="Recore.ObjectExtensions.html#Recore_ObjectExtensions_StaticCast__1___0_">ObjectExtensions.StaticCast&lt;T&gt;(T)</a>

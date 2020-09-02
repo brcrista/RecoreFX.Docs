@@ -94,7 +94,8 @@
   </div>
   <div classs="implements">
     <h5>Implements</h5>
-    <div><span class="xref">IComparable</span>&lt;<a class="xref" href="Recore.Of-1.html">Of</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;&gt;</div>
+    <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iequatable-1">IEquatable</a>&lt;<a class="xref" href="Recore.Of-1.html">Of</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;&gt;</div>
+    <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.icomparable-1">IComparable</a>&lt;<a class="xref" href="Recore.Of-1.html">Of</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a>&gt;&gt;</div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -116,15 +117,27 @@
     <div>
       <a class="xref" href="Recore.Of-1.html#Recore_Of_1_GetHashCode">Of&lt;String&gt;.GetHashCode()</a>
     </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Recore.html">Recore</a></h6>
   <h6><strong>Assembly</strong>: Recore.dll</h6>
   <h5 id="Recore_Token_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class Token : Of&lt;string&gt;, IComparable&lt;Of&lt;string&gt;&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class Token : Of&lt;string&gt;, IEquatable&lt;Of&lt;string&gt;&gt;, IComparable&lt;Of&lt;string&gt;&gt;</code></pre>
   </div>
   <h5 id="Recore_Token_remarks"><strong>Remarks</strong></h5>
-  <div class="markdown level0 remarks"><p>This type implements <see cref="!:IComparable&lt;T>"></see> with <code>Of&lt;String&gt;</code>
+  <div class="markdown level0 remarks"><p>This type implements <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.icomparable-1">IComparable&lt;T&gt;</a> with <code>Of&lt;String&gt;</code>
 instead of <code>Of&lt;Token&gt;</code>.
 This is for parity with its inherited implementation of <code>IEquatable&lt;Of&lt;String&gt;&gt;</code>.</p>
 </div>
@@ -217,13 +230,13 @@ in the sort order as the specified object.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Token_Equals_Recore_Of_System_String__StringComparison_.md&amp;value=---%0Auid%3A%20Recore.Token.Equals(Recore.Of%7BSystem.String%7D%2CStringComparison)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Token_Equals_Recore_Of_System_String__System_StringComparison_.md&amp;value=---%0Auid%3A%20Recore.Token.Equals(Recore.Of%7BSystem.String%7D%2CSystem.StringComparison)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Token.cs/#L48">View Source</a>
   </span>
   <a id="Recore_Token_Equals_" data-uid="Recore.Token.Equals*"></a>
-  <h4 id="Recore_Token_Equals_Recore_Of_System_String__StringComparison_" data-uid="Recore.Token.Equals(Recore.Of{System.String},StringComparison)">Equals(Of&lt;String&gt;, StringComparison)</h4>
+  <h4 id="Recore_Token_Equals_Recore_Of_System_String__System_StringComparison_" data-uid="Recore.Token.Equals(Recore.Of{System.String},System.StringComparison)">Equals(Of&lt;String&gt;, StringComparison)</h4>
   <div class="markdown level1 summary"><p>Determines whether this instance and another <a class="xref" href="Recore.Token.html">Token</a>
 have the same value.
 A parameter specifies the culture, case, and sort rules used in the comparison.</p>
@@ -249,7 +262,7 @@ A parameter specifies the culture, case, and sort rules used in the comparison.<
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">StringComparison</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.stringcomparison">StringComparison</a></td>
         <td><span class="parametername">comparisonType</span></td>
         <td></td>
       </tr>
@@ -272,7 +285,10 @@ A parameter specifies the culture, case, and sort rules used in the comparison.<
   </table>
   <h3 id="implements">Implements</h3>
   <div>
-      <span class="xref">IComparable&lt;&gt;</span>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iequatable-1">System.IEquatable&lt;T&gt;</a>
+  </div>
+  <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.icomparable-1">System.IComparable&lt;T&gt;</a>
   </div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>

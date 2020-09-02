@@ -90,7 +90,45 @@ Register this converter to override the default deserialization behavior.</p>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">OverrideEitherConverter&lt;TLeft, TRight&gt;</span></div>
+    <div class="level1"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.text.json.serialization.jsonconverter">JsonConverter</a></div>
+    <div class="level2"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.text.json.serialization.jsonconverter-1">JsonConverter</a>&lt;<a class="xref" href="Recore.Either-2.html">Either</a>&lt;TLeft, TRight&gt;&gt;</div>
+    <div class="level3"><span class="xref">OverrideEitherConverter&lt;TLeft, TRight&gt;</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.text.json.serialization.jsonconverter-1.canconvert#System_Text_Json_Serialization_JsonConverter_1_CanConvert_System_Type_">JsonConverter&lt;Either&lt;TLeft, TRight&gt;&gt;.CanConvert(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.text.json.serialization.jsonconverter-1.read#System_Text_Json_Serialization_JsonConverter_1_Read_System_Text_Json_Utf8JsonReader__System_Type_System_Text_Json_JsonSerializerOptions_">JsonConverter&lt;Either&lt;TLeft, TRight&gt;&gt;.Read(Utf8JsonReader, Type, JsonSerializerOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.text.json.serialization.jsonconverter-1.write#System_Text_Json_Serialization_JsonConverter_1_Write_System_Text_Json_Utf8JsonWriter__0_System_Text_Json_JsonSerializerOptions_">JsonConverter&lt;Either&lt;TLeft, TRight&gt;&gt;.Write(Utf8JsonWriter, Either&lt;TLeft, TRight&gt;, JsonSerializerOptions)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.text.json.serialization.jsonconverter.canconvert#System_Text_Json_Serialization_JsonConverter_CanConvert_System_Type_">JsonConverter.CanConvert(Type)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Recore.Text.Json.Serialization.Converters.html">Recore.Text.Json.Serialization.Converters</a></h6>
   <h6><strong>Assembly</strong>: Recore.dll</h6>
@@ -118,20 +156,20 @@ Register this converter to override the default deserialization behavior.</p>
     </tbody>
   </table>
   <h5 id="Recore_Text_Json_Serialization_Converters_OverrideEitherConverter_2_remarks"><strong>Remarks</strong></h5>
-  <div class="markdown level0 remarks"><p>This converter is made to be used with a closed type and registered through <seealso cref="!:JsonSerializerOptions.Converters"></seealso>.
-It is not returned by <span class="xref">Recore.Text.Json.Serialization.Converters.EitherConverter.CreateConverter(Type,JsonSerializerOptions)</span>.</p>
+  <div class="markdown level0 remarks"><p>This converter is made to be used with a closed type and registered through <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.text.json.jsonserializeroptions.converters#System_Text_Json_JsonSerializerOptions_Converters">Converters</a>.
+It is not returned by <span class="xref">Recore.Text.Json.Serialization.Converters.EitherConverter.CreateConverter(System.Type,System.Text.Json.JsonSerializerOptions)</span>.</p>
 </div>
   <h3 id="constructors">Constructors
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Text_Json_Serialization_Converters_OverrideEitherConverter_2__ctor_Recore_Func_JsonElement_System_Boolean__.md&amp;value=---%0Auid%3A%20Recore.Text.Json.Serialization.Converters.OverrideEitherConverter%602.%23ctor(Recore.Func%7BJsonElement%2CSystem.Boolean%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Text_Json_Serialization_Converters_OverrideEitherConverter_2__ctor_System_Func_System_Text_Json_JsonElement_System_Boolean__.md&amp;value=---%0Auid%3A%20Recore.Text.Json.Serialization.Converters.OverrideEitherConverter%602.%23ctor(System.Func%7BSystem.Text.Json.JsonElement%2CSystem.Boolean%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore.Text.Json.Serialization.Converters/EitherConverter.cs/#L86">View Source</a>
   </span>
   <a id="Recore_Text_Json_Serialization_Converters_OverrideEitherConverter_2__ctor_" data-uid="Recore.Text.Json.Serialization.Converters.OverrideEitherConverter`2.#ctor*"></a>
-  <h4 id="Recore_Text_Json_Serialization_Converters_OverrideEitherConverter_2__ctor_Recore_Func_JsonElement_System_Boolean__" data-uid="Recore.Text.Json.Serialization.Converters.OverrideEitherConverter`2.#ctor(Recore.Func{JsonElement,System.Boolean})">OverrideEitherConverter(Func&lt;JsonElement, Boolean&gt;)</h4>
+  <h4 id="Recore_Text_Json_Serialization_Converters_OverrideEitherConverter_2__ctor_System_Func_System_Text_Json_JsonElement_System_Boolean__" data-uid="Recore.Text.Json.Serialization.Converters.OverrideEitherConverter`2.#ctor(System.Func{System.Text.Json.JsonElement,System.Boolean})">OverrideEitherConverter(Func&lt;JsonElement, Boolean&gt;)</h4>
   <div class="markdown level1 summary"><p>Initializes an instance of <a class="xref" href="Recore.Text.Json.Serialization.Converters.OverrideEitherConverter-2.html">OverrideEitherConverter&lt;TLeft, TRight&gt;</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -150,9 +188,9 @@ It is not returned by <span class="xref">Recore.Text.Json.Serialization.Converte
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Recore.Func</span>&lt;<span class="xref">JsonElement</span>, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>&gt;</td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="https://docs.microsoft.com/dotnet/api/system.text.json.jsonelement">JsonElement</a>, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>&gt;</td>
         <td><span class="parametername">deserializeAsLeft</span></td>
-        <td><p>A delegate that takes a <seealso cref="!:JsonElement"></seealso> representing some JSON and returns
+        <td><p>A delegate that takes a <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.text.json.jsonelement">JsonElement</a> representing some JSON and returns
 whether it should be deserialized as <code data-dev-comment-type="typeparamref" class="typeparamref">TLeft</code> or <code data-dev-comment-type="typeparamref" class="typeparamref">TRight</code>.
 It should return <code>true</code> for <code data-dev-comment-type="typeparamref" class="typeparamref">TLeft</code> and <code>false</code> for <code data-dev-comment-type="typeparamref" class="typeparamref">TRight</code>.</p>
 </td>
@@ -163,13 +201,13 @@ It should return <code>true</code> for <code data-dev-comment-type="typeparamref
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Text_Json_Serialization_Converters_OverrideEitherConverter_2_Read_Utf8JsonReader__Type_JsonSerializerOptions_.md&amp;value=---%0Auid%3A%20Recore.Text.Json.Serialization.Converters.OverrideEitherConverter%602.Read(Utf8JsonReader%40%2CType%2CJsonSerializerOptions)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Text_Json_Serialization_Converters_OverrideEitherConverter_2_Read_System_Text_Json_Utf8JsonReader__System_Type_System_Text_Json_JsonSerializerOptions_.md&amp;value=---%0Auid%3A%20Recore.Text.Json.Serialization.Converters.OverrideEitherConverter%602.Read(System.Text.Json.Utf8JsonReader%40%2CSystem.Type%2CSystem.Text.Json.JsonSerializerOptions)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore.Text.Json.Serialization.Converters/EitherConverter.cs/#L96">View Source</a>
   </span>
   <a id="Recore_Text_Json_Serialization_Converters_OverrideEitherConverter_2_Read_" data-uid="Recore.Text.Json.Serialization.Converters.OverrideEitherConverter`2.Read*"></a>
-  <h4 id="Recore_Text_Json_Serialization_Converters_OverrideEitherConverter_2_Read_Utf8JsonReader__Type_JsonSerializerOptions_" data-uid="Recore.Text.Json.Serialization.Converters.OverrideEitherConverter`2.Read(Utf8JsonReader@,Type,JsonSerializerOptions)">Read(ref Utf8JsonReader, Type, JsonSerializerOptions)</h4>
+  <h4 id="Recore_Text_Json_Serialization_Converters_OverrideEitherConverter_2_Read_System_Text_Json_Utf8JsonReader__System_Type_System_Text_Json_JsonSerializerOptions_" data-uid="Recore.Text.Json.Serialization.Converters.OverrideEitherConverter`2.Read(System.Text.Json.Utf8JsonReader@,System.Type,System.Text.Json.JsonSerializerOptions)">Read(ref Utf8JsonReader, Type, JsonSerializerOptions)</h4>
   <div class="markdown level1 summary"><p>Deserializes JSON into <a class="xref" href="Recore.Either-2.html">Either&lt;TLeft, TRight&gt;</a>.
 This method will call the delegate passed to the constructor to determine how to deserialize the JSON.</p>
 </div>
@@ -189,17 +227,17 @@ This method will call the delegate passed to the constructor to determine how to
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Utf8JsonReader</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.text.json.utf8jsonreader">Utf8JsonReader</a></td>
         <td><span class="parametername">reader</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">Type</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.type">Type</a></td>
         <td><span class="parametername">typeToConvert</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">JsonSerializerOptions</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.text.json.jsonserializeroptions">JsonSerializerOptions</a></td>
         <td><span class="parametername">options</span></td>
         <td></td>
       </tr>
@@ -220,15 +258,17 @@ This method will call the delegate passed to the constructor to determine how to
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Text.Json.Serialization.JsonConverter&lt;Recore.Either&lt;TLeft, TRight&gt;&gt;.Read(System.Text.Json.Utf8JsonReader, System.Type, System.Text.Json.JsonSerializerOptions)</span></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Text_Json_Serialization_Converters_OverrideEitherConverter_2_Write_Utf8JsonWriter_Recore_Either__0__1__JsonSerializerOptions_.md&amp;value=---%0Auid%3A%20Recore.Text.Json.Serialization.Converters.OverrideEitherConverter%602.Write(Utf8JsonWriter%2CRecore.Either%7B%600%2C%601%7D%2CJsonSerializerOptions)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_Text_Json_Serialization_Converters_OverrideEitherConverter_2_Write_System_Text_Json_Utf8JsonWriter_Recore_Either__0__1__System_Text_Json_JsonSerializerOptions_.md&amp;value=---%0Auid%3A%20Recore.Text.Json.Serialization.Converters.OverrideEitherConverter%602.Write(System.Text.Json.Utf8JsonWriter%2CRecore.Either%7B%600%2C%601%7D%2CSystem.Text.Json.JsonSerializerOptions)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
     <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore.Text.Json.Serialization.Converters/EitherConverter.cs/#L121">View Source</a>
   </span>
   <a id="Recore_Text_Json_Serialization_Converters_OverrideEitherConverter_2_Write_" data-uid="Recore.Text.Json.Serialization.Converters.OverrideEitherConverter`2.Write*"></a>
-  <h4 id="Recore_Text_Json_Serialization_Converters_OverrideEitherConverter_2_Write_Utf8JsonWriter_Recore_Either__0__1__JsonSerializerOptions_" data-uid="Recore.Text.Json.Serialization.Converters.OverrideEitherConverter`2.Write(Utf8JsonWriter,Recore.Either{`0,`1},JsonSerializerOptions)">Write(Utf8JsonWriter, Either&lt;TLeft, TRight&gt;, JsonSerializerOptions)</h4>
+  <h4 id="Recore_Text_Json_Serialization_Converters_OverrideEitherConverter_2_Write_System_Text_Json_Utf8JsonWriter_Recore_Either__0__1__System_Text_Json_JsonSerializerOptions_" data-uid="Recore.Text.Json.Serialization.Converters.OverrideEitherConverter`2.Write(System.Text.Json.Utf8JsonWriter,Recore.Either{`0,`1},System.Text.Json.JsonSerializerOptions)">Write(Utf8JsonWriter, Either&lt;TLeft, TRight&gt;, JsonSerializerOptions)</h4>
   <div class="markdown level1 summary"><p>Serializes <a class="xref" href="Recore.Either-2.html">Either&lt;TLeft, TRight&gt;</a> as JSON.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -247,7 +287,7 @@ This method will call the delegate passed to the constructor to determine how to
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Utf8JsonWriter</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.text.json.utf8jsonwriter">Utf8JsonWriter</a></td>
         <td><span class="parametername">writer</span></td>
         <td></td>
       </tr>
@@ -257,12 +297,14 @@ This method will call the delegate passed to the constructor to determine how to
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">JsonSerializerOptions</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.text.json.jsonserializeroptions">JsonSerializerOptions</a></td>
         <td><span class="parametername">options</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Text.Json.Serialization.JsonConverter&lt;Recore.Either&lt;TLeft, TRight&gt;&gt;.Write(System.Text.Json.Utf8JsonWriter, Recore.Either&lt;TLeft, TRight&gt;, System.Text.Json.JsonSerializerOptions)</span></div>
   <h3 id="extensionmethods">Extension Methods</h3>
   <div>
       <a class="xref" href="Recore.ObjectExtensions.html#Recore_ObjectExtensions_StaticCast__1___0_">ObjectExtensions.StaticCast&lt;T&gt;(T)</a>
