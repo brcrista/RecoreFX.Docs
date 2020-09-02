@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "C:/Users/Brian/Code/GitHub/recorefx/RecoreFX/docs/docfx",
+  "source_base_path": "D:/a/1/s/docs/docfx",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -654,7 +654,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Linq.Renumerable.html",
-          "hash": "vQBKXAJULtIhOX5SkW8IMw=="
+          "hash": "kURVkXCscx8ksJ0BnpQiJw=="
         }
       },
       "is_incremental": false,
@@ -690,7 +690,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Of-1.html",
-          "hash": "f4OLhAyYK7IbbUrpbxVEEA=="
+          "hash": "iAygxK8QDhRUy2y8e/Rd/Q=="
         }
       },
       "is_incremental": false,
@@ -786,7 +786,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Result.AsyncCatcher-1.html",
-          "hash": "kBjMcw9VqGK0ADSMoS+haw=="
+          "hash": "3M1C5Yc9wQf8hhNCs7WdmQ=="
         }
       },
       "is_incremental": false,
@@ -798,7 +798,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Result.Catcher-1.html",
-          "hash": "8hI+kw1Izblo2sJqyfWvwg=="
+          "hash": "+xw447sqSgRiKsHbc8UpJw=="
         }
       },
       "is_incremental": false,
@@ -834,7 +834,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Recore.Security.Cryptography.Ciphertext.html",
-          "hash": "3/pfKPjl4gWSWDruIQD8pg=="
+          "hash": "BqU02h7ME8NEv9htnzDawg=="
         }
       },
       "is_incremental": false,
@@ -1012,23 +1012,25 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": true,
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 1,
-          "skipped_file_count": 1
+          "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
+          "can_incremental": false,
           "incrementalPhase": "build",
           "total_file_count": 80,
-          "skipped_file_count": 59
+          "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
           "can_incremental": false,
