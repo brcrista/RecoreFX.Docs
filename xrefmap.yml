@@ -553,31 +553,31 @@ references:
   fullName.vb: Recore.Collections.Generic.IDictionaryExtensions.GetOrAdd(Of TKey, TValue)(System.Collections.Generic.IDictionary(Of TKey, TValue), TKey, TValue)
   nameWithType: IDictionaryExtensions.GetOrAdd<TKey, TValue>(IDictionary<TKey, TValue>, TKey, TValue)
   nameWithType.vb: IDictionaryExtensions.GetOrAdd(Of TKey, TValue)(IDictionary(Of TKey, TValue), TKey, TValue)
-- uid: Recore.Collections.Generic.IDictionaryExtensions.ValueOrDefault*
-  name: ValueOrDefault
-  href: api/Recore.Collections.Generic.IDictionaryExtensions.html#Recore_Collections_Generic_IDictionaryExtensions_ValueOrDefault_
-  commentId: Overload:Recore.Collections.Generic.IDictionaryExtensions.ValueOrDefault
+- uid: Recore.Collections.Generic.IDictionaryExtensions.GetValueOrDefault*
+  name: GetValueOrDefault
+  href: api/Recore.Collections.Generic.IDictionaryExtensions.html#Recore_Collections_Generic_IDictionaryExtensions_GetValueOrDefault_
+  commentId: Overload:Recore.Collections.Generic.IDictionaryExtensions.GetValueOrDefault
   isSpec: "True"
-  fullName: Recore.Collections.Generic.IDictionaryExtensions.ValueOrDefault
-  nameWithType: IDictionaryExtensions.ValueOrDefault
-- uid: Recore.Collections.Generic.IDictionaryExtensions.ValueOrDefault``2(System.Collections.Generic.Dictionary{``0,``1},``0)
-  name: ValueOrDefault<TKey, TValue>(Dictionary<TKey, TValue>, TKey)
-  href: api/Recore.Collections.Generic.IDictionaryExtensions.html#Recore_Collections_Generic_IDictionaryExtensions_ValueOrDefault__2_System_Collections_Generic_Dictionary___0___1____0_
-  commentId: M:Recore.Collections.Generic.IDictionaryExtensions.ValueOrDefault``2(System.Collections.Generic.Dictionary{``0,``1},``0)
-  name.vb: ValueOrDefault(Of TKey, TValue)(Dictionary(Of TKey, TValue), TKey)
-  fullName: Recore.Collections.Generic.IDictionaryExtensions.ValueOrDefault<TKey, TValue>(System.Collections.Generic.Dictionary<TKey, TValue>, TKey)
-  fullName.vb: Recore.Collections.Generic.IDictionaryExtensions.ValueOrDefault(Of TKey, TValue)(System.Collections.Generic.Dictionary(Of TKey, TValue), TKey)
-  nameWithType: IDictionaryExtensions.ValueOrDefault<TKey, TValue>(Dictionary<TKey, TValue>, TKey)
-  nameWithType.vb: IDictionaryExtensions.ValueOrDefault(Of TKey, TValue)(Dictionary(Of TKey, TValue), TKey)
-- uid: Recore.Collections.Generic.IDictionaryExtensions.ValueOrDefault``2(System.Collections.Generic.IDictionary{``0,``1},``0)
-  name: ValueOrDefault<TKey, TValue>(IDictionary<TKey, TValue>, TKey)
-  href: api/Recore.Collections.Generic.IDictionaryExtensions.html#Recore_Collections_Generic_IDictionaryExtensions_ValueOrDefault__2_System_Collections_Generic_IDictionary___0___1____0_
-  commentId: M:Recore.Collections.Generic.IDictionaryExtensions.ValueOrDefault``2(System.Collections.Generic.IDictionary{``0,``1},``0)
-  name.vb: ValueOrDefault(Of TKey, TValue)(IDictionary(Of TKey, TValue), TKey)
-  fullName: Recore.Collections.Generic.IDictionaryExtensions.ValueOrDefault<TKey, TValue>(System.Collections.Generic.IDictionary<TKey, TValue>, TKey)
-  fullName.vb: Recore.Collections.Generic.IDictionaryExtensions.ValueOrDefault(Of TKey, TValue)(System.Collections.Generic.IDictionary(Of TKey, TValue), TKey)
-  nameWithType: IDictionaryExtensions.ValueOrDefault<TKey, TValue>(IDictionary<TKey, TValue>, TKey)
-  nameWithType.vb: IDictionaryExtensions.ValueOrDefault(Of TKey, TValue)(IDictionary(Of TKey, TValue), TKey)
+  fullName: Recore.Collections.Generic.IDictionaryExtensions.GetValueOrDefault
+  nameWithType: IDictionaryExtensions.GetValueOrDefault
+- uid: Recore.Collections.Generic.IDictionaryExtensions.GetValueOrDefault``2(System.Collections.Generic.Dictionary{``0,``1},``0)
+  name: GetValueOrDefault<TKey, TValue>(Dictionary<TKey, TValue>, TKey)
+  href: api/Recore.Collections.Generic.IDictionaryExtensions.html#Recore_Collections_Generic_IDictionaryExtensions_GetValueOrDefault__2_System_Collections_Generic_Dictionary___0___1____0_
+  commentId: M:Recore.Collections.Generic.IDictionaryExtensions.GetValueOrDefault``2(System.Collections.Generic.Dictionary{``0,``1},``0)
+  name.vb: GetValueOrDefault(Of TKey, TValue)(Dictionary(Of TKey, TValue), TKey)
+  fullName: Recore.Collections.Generic.IDictionaryExtensions.GetValueOrDefault<TKey, TValue>(System.Collections.Generic.Dictionary<TKey, TValue>, TKey)
+  fullName.vb: Recore.Collections.Generic.IDictionaryExtensions.GetValueOrDefault(Of TKey, TValue)(System.Collections.Generic.Dictionary(Of TKey, TValue), TKey)
+  nameWithType: IDictionaryExtensions.GetValueOrDefault<TKey, TValue>(Dictionary<TKey, TValue>, TKey)
+  nameWithType.vb: IDictionaryExtensions.GetValueOrDefault(Of TKey, TValue)(Dictionary(Of TKey, TValue), TKey)
+- uid: Recore.Collections.Generic.IDictionaryExtensions.GetValueOrDefault``2(System.Collections.Generic.IDictionary{``0,``1},``0)
+  name: GetValueOrDefault<TKey, TValue>(IDictionary<TKey, TValue>, TKey)
+  href: api/Recore.Collections.Generic.IDictionaryExtensions.html#Recore_Collections_Generic_IDictionaryExtensions_GetValueOrDefault__2_System_Collections_Generic_IDictionary___0___1____0_
+  commentId: M:Recore.Collections.Generic.IDictionaryExtensions.GetValueOrDefault``2(System.Collections.Generic.IDictionary{``0,``1},``0)
+  name.vb: GetValueOrDefault(Of TKey, TValue)(IDictionary(Of TKey, TValue), TKey)
+  fullName: Recore.Collections.Generic.IDictionaryExtensions.GetValueOrDefault<TKey, TValue>(System.Collections.Generic.IDictionary<TKey, TValue>, TKey)
+  fullName.vb: Recore.Collections.Generic.IDictionaryExtensions.GetValueOrDefault(Of TKey, TValue)(System.Collections.Generic.IDictionary(Of TKey, TValue), TKey)
+  nameWithType: IDictionaryExtensions.GetValueOrDefault<TKey, TValue>(IDictionary<TKey, TValue>, TKey)
+  nameWithType.vb: IDictionaryExtensions.GetValueOrDefault(Of TKey, TValue)(IDictionary(Of TKey, TValue), TKey)
 - uid: Recore.Collections.Generic.IIterator`1
   name: IIterator<T>
   href: api/Recore.Collections.Generic.IIterator-1.html
@@ -627,31 +627,31 @@ references:
   commentId: T:Recore.Collections.Generic.IReadOnlyDictionaryExtensions
   fullName: Recore.Collections.Generic.IReadOnlyDictionaryExtensions
   nameWithType: IReadOnlyDictionaryExtensions
-- uid: Recore.Collections.Generic.IReadOnlyDictionaryExtensions.ValueOrDefault*
-  name: ValueOrDefault
-  href: api/Recore.Collections.Generic.IReadOnlyDictionaryExtensions.html#Recore_Collections_Generic_IReadOnlyDictionaryExtensions_ValueOrDefault_
-  commentId: Overload:Recore.Collections.Generic.IReadOnlyDictionaryExtensions.ValueOrDefault
+- uid: Recore.Collections.Generic.IReadOnlyDictionaryExtensions.GetValueOrDefault*
+  name: GetValueOrDefault
+  href: api/Recore.Collections.Generic.IReadOnlyDictionaryExtensions.html#Recore_Collections_Generic_IReadOnlyDictionaryExtensions_GetValueOrDefault_
+  commentId: Overload:Recore.Collections.Generic.IReadOnlyDictionaryExtensions.GetValueOrDefault
   isSpec: "True"
-  fullName: Recore.Collections.Generic.IReadOnlyDictionaryExtensions.ValueOrDefault
-  nameWithType: IReadOnlyDictionaryExtensions.ValueOrDefault
-- uid: Recore.Collections.Generic.IReadOnlyDictionaryExtensions.ValueOrDefault``2(System.Collections.Generic.IReadOnlyDictionary{``0,``1},``0)
-  name: ValueOrDefault<TKey, TValue>(IReadOnlyDictionary<TKey, TValue>, TKey)
-  href: api/Recore.Collections.Generic.IReadOnlyDictionaryExtensions.html#Recore_Collections_Generic_IReadOnlyDictionaryExtensions_ValueOrDefault__2_System_Collections_Generic_IReadOnlyDictionary___0___1____0_
-  commentId: M:Recore.Collections.Generic.IReadOnlyDictionaryExtensions.ValueOrDefault``2(System.Collections.Generic.IReadOnlyDictionary{``0,``1},``0)
-  name.vb: ValueOrDefault(Of TKey, TValue)(IReadOnlyDictionary(Of TKey, TValue), TKey)
-  fullName: Recore.Collections.Generic.IReadOnlyDictionaryExtensions.ValueOrDefault<TKey, TValue>(System.Collections.Generic.IReadOnlyDictionary<TKey, TValue>, TKey)
-  fullName.vb: Recore.Collections.Generic.IReadOnlyDictionaryExtensions.ValueOrDefault(Of TKey, TValue)(System.Collections.Generic.IReadOnlyDictionary(Of TKey, TValue), TKey)
-  nameWithType: IReadOnlyDictionaryExtensions.ValueOrDefault<TKey, TValue>(IReadOnlyDictionary<TKey, TValue>, TKey)
-  nameWithType.vb: IReadOnlyDictionaryExtensions.ValueOrDefault(Of TKey, TValue)(IReadOnlyDictionary(Of TKey, TValue), TKey)
-- uid: Recore.Collections.Generic.IReadOnlyDictionaryExtensions.ValueOrDefault``2(System.Collections.ObjectModel.ReadOnlyDictionary{``0,``1},``0)
-  name: ValueOrDefault<TKey, TValue>(ReadOnlyDictionary<TKey, TValue>, TKey)
-  href: api/Recore.Collections.Generic.IReadOnlyDictionaryExtensions.html#Recore_Collections_Generic_IReadOnlyDictionaryExtensions_ValueOrDefault__2_System_Collections_ObjectModel_ReadOnlyDictionary___0___1____0_
-  commentId: M:Recore.Collections.Generic.IReadOnlyDictionaryExtensions.ValueOrDefault``2(System.Collections.ObjectModel.ReadOnlyDictionary{``0,``1},``0)
-  name.vb: ValueOrDefault(Of TKey, TValue)(ReadOnlyDictionary(Of TKey, TValue), TKey)
-  fullName: Recore.Collections.Generic.IReadOnlyDictionaryExtensions.ValueOrDefault<TKey, TValue>(System.Collections.ObjectModel.ReadOnlyDictionary<TKey, TValue>, TKey)
-  fullName.vb: Recore.Collections.Generic.IReadOnlyDictionaryExtensions.ValueOrDefault(Of TKey, TValue)(System.Collections.ObjectModel.ReadOnlyDictionary(Of TKey, TValue), TKey)
-  nameWithType: IReadOnlyDictionaryExtensions.ValueOrDefault<TKey, TValue>(ReadOnlyDictionary<TKey, TValue>, TKey)
-  nameWithType.vb: IReadOnlyDictionaryExtensions.ValueOrDefault(Of TKey, TValue)(ReadOnlyDictionary(Of TKey, TValue), TKey)
+  fullName: Recore.Collections.Generic.IReadOnlyDictionaryExtensions.GetValueOrDefault
+  nameWithType: IReadOnlyDictionaryExtensions.GetValueOrDefault
+- uid: Recore.Collections.Generic.IReadOnlyDictionaryExtensions.GetValueOrDefault``2(System.Collections.Generic.IReadOnlyDictionary{``0,``1},``0)
+  name: GetValueOrDefault<TKey, TValue>(IReadOnlyDictionary<TKey, TValue>, TKey)
+  href: api/Recore.Collections.Generic.IReadOnlyDictionaryExtensions.html#Recore_Collections_Generic_IReadOnlyDictionaryExtensions_GetValueOrDefault__2_System_Collections_Generic_IReadOnlyDictionary___0___1____0_
+  commentId: M:Recore.Collections.Generic.IReadOnlyDictionaryExtensions.GetValueOrDefault``2(System.Collections.Generic.IReadOnlyDictionary{``0,``1},``0)
+  name.vb: GetValueOrDefault(Of TKey, TValue)(IReadOnlyDictionary(Of TKey, TValue), TKey)
+  fullName: Recore.Collections.Generic.IReadOnlyDictionaryExtensions.GetValueOrDefault<TKey, TValue>(System.Collections.Generic.IReadOnlyDictionary<TKey, TValue>, TKey)
+  fullName.vb: Recore.Collections.Generic.IReadOnlyDictionaryExtensions.GetValueOrDefault(Of TKey, TValue)(System.Collections.Generic.IReadOnlyDictionary(Of TKey, TValue), TKey)
+  nameWithType: IReadOnlyDictionaryExtensions.GetValueOrDefault<TKey, TValue>(IReadOnlyDictionary<TKey, TValue>, TKey)
+  nameWithType.vb: IReadOnlyDictionaryExtensions.GetValueOrDefault(Of TKey, TValue)(IReadOnlyDictionary(Of TKey, TValue), TKey)
+- uid: Recore.Collections.Generic.IReadOnlyDictionaryExtensions.GetValueOrDefault``2(System.Collections.ObjectModel.ReadOnlyDictionary{``0,``1},``0)
+  name: GetValueOrDefault<TKey, TValue>(ReadOnlyDictionary<TKey, TValue>, TKey)
+  href: api/Recore.Collections.Generic.IReadOnlyDictionaryExtensions.html#Recore_Collections_Generic_IReadOnlyDictionaryExtensions_GetValueOrDefault__2_System_Collections_ObjectModel_ReadOnlyDictionary___0___1____0_
+  commentId: M:Recore.Collections.Generic.IReadOnlyDictionaryExtensions.GetValueOrDefault``2(System.Collections.ObjectModel.ReadOnlyDictionary{``0,``1},``0)
+  name.vb: GetValueOrDefault(Of TKey, TValue)(ReadOnlyDictionary(Of TKey, TValue), TKey)
+  fullName: Recore.Collections.Generic.IReadOnlyDictionaryExtensions.GetValueOrDefault<TKey, TValue>(System.Collections.ObjectModel.ReadOnlyDictionary<TKey, TValue>, TKey)
+  fullName.vb: Recore.Collections.Generic.IReadOnlyDictionaryExtensions.GetValueOrDefault(Of TKey, TValue)(System.Collections.ObjectModel.ReadOnlyDictionary(Of TKey, TValue), TKey)
+  nameWithType: IReadOnlyDictionaryExtensions.GetValueOrDefault<TKey, TValue>(ReadOnlyDictionary<TKey, TValue>, TKey)
+  nameWithType.vb: IReadOnlyDictionaryExtensions.GetValueOrDefault(Of TKey, TValue)(ReadOnlyDictionary(Of TKey, TValue), TKey)
 - uid: Recore.Collections.Generic.Iterator
   name: Iterator
   href: api/Recore.Collections.Generic.Iterator.html
