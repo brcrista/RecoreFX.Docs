@@ -19,24 +19,6 @@ references:
   commentId: M:Recore.AbsoluteUri.#ctor(System.String)
   fullName: Recore.AbsoluteUri.AbsoluteUri(System.String)
   nameWithType: AbsoluteUri.AbsoluteUri(String)
-- uid: Recore.AbsoluteUri.#ctor(System.Uri,Recore.RelativeUri)
-  name: AbsoluteUri(Uri, RelativeUri)
-  href: api/Recore.AbsoluteUri.html#Recore_AbsoluteUri__ctor_System_Uri_Recore_RelativeUri_
-  commentId: M:Recore.AbsoluteUri.#ctor(System.Uri,Recore.RelativeUri)
-  fullName: Recore.AbsoluteUri.AbsoluteUri(System.Uri, Recore.RelativeUri)
-  nameWithType: AbsoluteUri.AbsoluteUri(Uri, RelativeUri)
-- uid: Recore.AbsoluteUri.#ctor(System.Uri,System.String)
-  name: AbsoluteUri(Uri, String)
-  href: api/Recore.AbsoluteUri.html#Recore_AbsoluteUri__ctor_System_Uri_System_String_
-  commentId: M:Recore.AbsoluteUri.#ctor(System.Uri,System.String)
-  fullName: Recore.AbsoluteUri.AbsoluteUri(System.Uri, System.String)
-  nameWithType: AbsoluteUri.AbsoluteUri(Uri, String)
-- uid: Recore.AbsoluteUri.#ctor(System.Uri,System.Uri)
-  name: AbsoluteUri(Uri, Uri)
-  href: api/Recore.AbsoluteUri.html#Recore_AbsoluteUri__ctor_System_Uri_System_Uri_
-  commentId: M:Recore.AbsoluteUri.#ctor(System.Uri,System.Uri)
-  fullName: Recore.AbsoluteUri.AbsoluteUri(System.Uri, System.Uri)
-  nameWithType: AbsoluteUri.AbsoluteUri(Uri, Uri)
 - uid: Recore.AbsoluteUri.#ctor*
   name: AbsoluteUri
   href: api/Recore.AbsoluteUri.html#Recore_AbsoluteUri__ctor_
@@ -63,6 +45,22 @@ references:
   isSpec: "True"
   fullName: Recore.AbsoluteUri.Combine
   nameWithType: AbsoluteUri.Combine
+- uid: Recore.AbsoluteUri.TryCreate(System.String,Recore.AbsoluteUri@)
+  name: TryCreate(String, out AbsoluteUri)
+  href: api/Recore.AbsoluteUri.html#Recore_AbsoluteUri_TryCreate_System_String_Recore_AbsoluteUri__
+  commentId: M:Recore.AbsoluteUri.TryCreate(System.String,Recore.AbsoluteUri@)
+  name.vb: TryCreate(String, ByRef AbsoluteUri)
+  fullName: Recore.AbsoluteUri.TryCreate(System.String, out Recore.AbsoluteUri)
+  fullName.vb: Recore.AbsoluteUri.TryCreate(System.String, ByRef Recore.AbsoluteUri)
+  nameWithType: AbsoluteUri.TryCreate(String, out AbsoluteUri)
+  nameWithType.vb: AbsoluteUri.TryCreate(String, ByRef AbsoluteUri)
+- uid: Recore.AbsoluteUri.TryCreate*
+  name: TryCreate
+  href: api/Recore.AbsoluteUri.html#Recore_AbsoluteUri_TryCreate_
+  commentId: Overload:Recore.AbsoluteUri.TryCreate
+  isSpec: "True"
+  fullName: Recore.AbsoluteUri.TryCreate
+  nameWithType: AbsoluteUri.TryCreate
 - uid: Recore.AsyncAction
   name: AsyncAction
   href: api/Recore.AsyncAction.html
@@ -372,50 +370,6 @@ references:
   commentId: N:Recore.Collections.Generic
   fullName: Recore.Collections.Generic
   nameWithType: Recore.Collections.Generic
-- uid: Recore.Collections.Generic.AnonymousComparer`1
-  name: AnonymousComparer<T>
-  href: api/Recore.Collections.Generic.AnonymousComparer-1.html
-  commentId: T:Recore.Collections.Generic.AnonymousComparer`1
-  name.vb: AnonymousComparer(Of T)
-  fullName: Recore.Collections.Generic.AnonymousComparer<T>
-  fullName.vb: Recore.Collections.Generic.AnonymousComparer(Of T)
-  nameWithType: AnonymousComparer<T>
-  nameWithType.vb: AnonymousComparer(Of T)
-- uid: Recore.Collections.Generic.AnonymousComparer`1.#ctor(System.Func{`0,`0,System.Int32})
-  name: AnonymousComparer(Func<T, T, Int32>)
-  href: api/Recore.Collections.Generic.AnonymousComparer-1.html#Recore_Collections_Generic_AnonymousComparer_1__ctor_System_Func__0__0_System_Int32__
-  commentId: M:Recore.Collections.Generic.AnonymousComparer`1.#ctor(System.Func{`0,`0,System.Int32})
-  name.vb: AnonymousComparer(Func(Of T, T, Int32))
-  fullName: Recore.Collections.Generic.AnonymousComparer<T>.AnonymousComparer(System.Func<T, T, System.Int32>)
-  fullName.vb: Recore.Collections.Generic.AnonymousComparer(Of T).AnonymousComparer(System.Func(Of T, T, System.Int32))
-  nameWithType: AnonymousComparer<T>.AnonymousComparer(Func<T, T, Int32>)
-  nameWithType.vb: AnonymousComparer(Of T).AnonymousComparer(Func(Of T, T, Int32))
-- uid: Recore.Collections.Generic.AnonymousComparer`1.#ctor*
-  name: AnonymousComparer
-  href: api/Recore.Collections.Generic.AnonymousComparer-1.html#Recore_Collections_Generic_AnonymousComparer_1__ctor_
-  commentId: Overload:Recore.Collections.Generic.AnonymousComparer`1.#ctor
-  isSpec: "True"
-  fullName: Recore.Collections.Generic.AnonymousComparer<T>.AnonymousComparer
-  fullName.vb: Recore.Collections.Generic.AnonymousComparer(Of T).AnonymousComparer
-  nameWithType: AnonymousComparer<T>.AnonymousComparer
-  nameWithType.vb: AnonymousComparer(Of T).AnonymousComparer
-- uid: Recore.Collections.Generic.AnonymousComparer`1.Compare(`0,`0)
-  name: Compare(T, T)
-  href: api/Recore.Collections.Generic.AnonymousComparer-1.html#Recore_Collections_Generic_AnonymousComparer_1_Compare__0__0_
-  commentId: M:Recore.Collections.Generic.AnonymousComparer`1.Compare(`0,`0)
-  fullName: Recore.Collections.Generic.AnonymousComparer<T>.Compare(T, T)
-  fullName.vb: Recore.Collections.Generic.AnonymousComparer(Of T).Compare(T, T)
-  nameWithType: AnonymousComparer<T>.Compare(T, T)
-  nameWithType.vb: AnonymousComparer(Of T).Compare(T, T)
-- uid: Recore.Collections.Generic.AnonymousComparer`1.Compare*
-  name: Compare
-  href: api/Recore.Collections.Generic.AnonymousComparer-1.html#Recore_Collections_Generic_AnonymousComparer_1_Compare_
-  commentId: Overload:Recore.Collections.Generic.AnonymousComparer`1.Compare
-  isSpec: "True"
-  fullName: Recore.Collections.Generic.AnonymousComparer<T>.Compare
-  fullName.vb: Recore.Collections.Generic.AnonymousComparer(Of T).Compare
-  nameWithType: AnonymousComparer<T>.Compare
-  nameWithType.vb: AnonymousComparer(Of T).Compare
 - uid: Recore.Collections.Generic.AnonymousEqualityComparer`1
   name: AnonymousEqualityComparer<T>
   href: api/Recore.Collections.Generic.AnonymousEqualityComparer-1.html
@@ -712,22 +666,6 @@ references:
   fullName.vb: Recore.Collections.Generic.LinkedListExtensions.Add(Of T)(System.Collections.Generic.LinkedList(Of T), T)
   nameWithType: LinkedListExtensions.Add<T>(LinkedList<T>, T)
   nameWithType.vb: LinkedListExtensions.Add(Of T)(LinkedList(Of T), T)
-- uid: Recore.Collections.Generic.LinkedListExtensions.Append*
-  name: Append
-  href: api/Recore.Collections.Generic.LinkedListExtensions.html#Recore_Collections_Generic_LinkedListExtensions_Append_
-  commentId: Overload:Recore.Collections.Generic.LinkedListExtensions.Append
-  isSpec: "True"
-  fullName: Recore.Collections.Generic.LinkedListExtensions.Append
-  nameWithType: LinkedListExtensions.Append
-- uid: Recore.Collections.Generic.LinkedListExtensions.Append``1(System.Collections.Generic.LinkedList{``0},``0)
-  name: Append<T>(LinkedList<T>, T)
-  href: api/Recore.Collections.Generic.LinkedListExtensions.html#Recore_Collections_Generic_LinkedListExtensions_Append__1_System_Collections_Generic_LinkedList___0____0_
-  commentId: M:Recore.Collections.Generic.LinkedListExtensions.Append``1(System.Collections.Generic.LinkedList{``0},``0)
-  name.vb: Append(Of T)(LinkedList(Of T), T)
-  fullName: Recore.Collections.Generic.LinkedListExtensions.Append<T>(System.Collections.Generic.LinkedList<T>, T)
-  fullName.vb: Recore.Collections.Generic.LinkedListExtensions.Append(Of T)(System.Collections.Generic.LinkedList(Of T), T)
-  nameWithType: LinkedListExtensions.Append<T>(LinkedList<T>, T)
-  nameWithType.vb: LinkedListExtensions.Append(Of T)(LinkedList(Of T), T)
 - uid: Recore.Collections.Generic.ListExtensions
   name: ListExtensions
   href: api/Recore.Collections.Generic.ListExtensions.html
@@ -1401,153 +1339,6 @@ references:
   fullName.vb: Recore.Func.Invoke(Of T)(System.Func(Of T))
   nameWithType: Func.Invoke<T>(Func<T>)
   nameWithType.vb: Func.Invoke(Of T)(Func(Of T))
-- uid: Recore.Func.Memoize*
-  name: Memoize
-  href: api/Recore.Func.html#Recore_Func_Memoize_
-  commentId: Overload:Recore.Func.Memoize
-  isSpec: "True"
-  fullName: Recore.Func.Memoize
-  nameWithType: Func.Memoize
-- uid: Recore.Func.Memoize``2(System.Func{``0,``1})
-  name: Memoize<TSource, TResult>(Func<TSource, TResult>)
-  href: api/Recore.Func.html#Recore_Func_Memoize__2_System_Func___0___1__
-  commentId: M:Recore.Func.Memoize``2(System.Func{``0,``1})
-  name.vb: Memoize(Of TSource, TResult)(Func(Of TSource, TResult))
-  fullName: Recore.Func.Memoize<TSource, TResult>(System.Func<TSource, TResult>)
-  fullName.vb: Recore.Func.Memoize(Of TSource, TResult)(System.Func(Of TSource, TResult))
-  nameWithType: Func.Memoize<TSource, TResult>(Func<TSource, TResult>)
-  nameWithType.vb: Func.Memoize(Of TSource, TResult)(Func(Of TSource, TResult))
-- uid: Recore.Func.Memoize``2(System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``0})
-  name: Memoize<TSource, TResult>(Func<TSource, TResult>, IEqualityComparer<TSource>)
-  href: api/Recore.Func.html#Recore_Func_Memoize__2_System_Func___0___1__System_Collections_Generic_IEqualityComparer___0__
-  commentId: M:Recore.Func.Memoize``2(System.Func{``0,``1},System.Collections.Generic.IEqualityComparer{``0})
-  name.vb: Memoize(Of TSource, TResult)(Func(Of TSource, TResult), IEqualityComparer(Of TSource))
-  fullName: Recore.Func.Memoize<TSource, TResult>(System.Func<TSource, TResult>, System.Collections.Generic.IEqualityComparer<TSource>)
-  fullName.vb: Recore.Func.Memoize(Of TSource, TResult)(System.Func(Of TSource, TResult), System.Collections.Generic.IEqualityComparer(Of TSource))
-  nameWithType: Func.Memoize<TSource, TResult>(Func<TSource, TResult>, IEqualityComparer<TSource>)
-  nameWithType.vb: Func.Memoize(Of TSource, TResult)(Func(Of TSource, TResult), IEqualityComparer(Of TSource))
-- uid: Recore.Func.TupleArgs*
-  name: TupleArgs
-  href: api/Recore.Func.html#Recore_Func_TupleArgs_
-  commentId: Overload:Recore.Func.TupleArgs
-  isSpec: "True"
-  fullName: Recore.Func.TupleArgs
-  nameWithType: Func.TupleArgs
-- uid: Recore.Func.TupleArgs``3(System.Func{``0,``1,``2})
-  name: TupleArgs<T1, T2, TResult>(Func<T1, T2, TResult>)
-  href: api/Recore.Func.html#Recore_Func_TupleArgs__3_System_Func___0___1___2__
-  commentId: M:Recore.Func.TupleArgs``3(System.Func{``0,``1,``2})
-  name.vb: TupleArgs(Of T1, T2, TResult)(Func(Of T1, T2, TResult))
-  fullName: Recore.Func.TupleArgs<T1, T2, TResult>(System.Func<T1, T2, TResult>)
-  fullName.vb: Recore.Func.TupleArgs(Of T1, T2, TResult)(System.Func(Of T1, T2, TResult))
-  nameWithType: Func.TupleArgs<T1, T2, TResult>(Func<T1, T2, TResult>)
-  nameWithType.vb: Func.TupleArgs(Of T1, T2, TResult)(Func(Of T1, T2, TResult))
-- uid: Recore.Func.TupleArgs``4(System.Func{``0,``1,``2,``3})
-  name: TupleArgs<T1, T2, T3, TResult>(Func<T1, T2, T3, TResult>)
-  href: api/Recore.Func.html#Recore_Func_TupleArgs__4_System_Func___0___1___2___3__
-  commentId: M:Recore.Func.TupleArgs``4(System.Func{``0,``1,``2,``3})
-  name.vb: TupleArgs(Of T1, T2, T3, TResult)(Func(Of T1, T2, T3, TResult))
-  fullName: Recore.Func.TupleArgs<T1, T2, T3, TResult>(System.Func<T1, T2, T3, TResult>)
-  fullName.vb: Recore.Func.TupleArgs(Of T1, T2, T3, TResult)(System.Func(Of T1, T2, T3, TResult))
-  nameWithType: Func.TupleArgs<T1, T2, T3, TResult>(Func<T1, T2, T3, TResult>)
-  nameWithType.vb: Func.TupleArgs(Of T1, T2, T3, TResult)(Func(Of T1, T2, T3, TResult))
-- uid: Recore.Func.TupleArgs``5(System.Func{``0,``1,``2,``3,``4})
-  name: TupleArgs<T1, T2, T3, T4, TResult>(Func<T1, T2, T3, T4, TResult>)
-  href: api/Recore.Func.html#Recore_Func_TupleArgs__5_System_Func___0___1___2___3___4__
-  commentId: M:Recore.Func.TupleArgs``5(System.Func{``0,``1,``2,``3,``4})
-  name.vb: TupleArgs(Of T1, T2, T3, T4, TResult)(Func(Of T1, T2, T3, T4, TResult))
-  fullName: Recore.Func.TupleArgs<T1, T2, T3, T4, TResult>(System.Func<T1, T2, T3, T4, TResult>)
-  fullName.vb: Recore.Func.TupleArgs(Of T1, T2, T3, T4, TResult)(System.Func(Of T1, T2, T3, T4, TResult))
-  nameWithType: Func.TupleArgs<T1, T2, T3, T4, TResult>(Func<T1, T2, T3, T4, TResult>)
-  nameWithType.vb: Func.TupleArgs(Of T1, T2, T3, T4, TResult)(Func(Of T1, T2, T3, T4, TResult))
-- uid: Recore.Func.TupleArgs``6(System.Func{``0,``1,``2,``3,``4,``5})
-  name: TupleArgs<T1, T2, T3, T4, T5, TResult>(Func<T1, T2, T3, T4, T5, TResult>)
-  href: api/Recore.Func.html#Recore_Func_TupleArgs__6_System_Func___0___1___2___3___4___5__
-  commentId: M:Recore.Func.TupleArgs``6(System.Func{``0,``1,``2,``3,``4,``5})
-  name.vb: TupleArgs(Of T1, T2, T3, T4, T5, TResult)(Func(Of T1, T2, T3, T4, T5, TResult))
-  fullName: Recore.Func.TupleArgs<T1, T2, T3, T4, T5, TResult>(System.Func<T1, T2, T3, T4, T5, TResult>)
-  fullName.vb: Recore.Func.TupleArgs(Of T1, T2, T3, T4, T5, TResult)(System.Func(Of T1, T2, T3, T4, T5, TResult))
-  nameWithType: Func.TupleArgs<T1, T2, T3, T4, T5, TResult>(Func<T1, T2, T3, T4, T5, TResult>)
-  nameWithType.vb: Func.TupleArgs(Of T1, T2, T3, T4, T5, TResult)(Func(Of T1, T2, T3, T4, T5, TResult))
-- uid: Recore.Func.TupleArgs``7(System.Func{``0,``1,``2,``3,``4,``5,``6})
-  name: TupleArgs<T1, T2, T3, T4, T5, T6, TResult>(Func<T1, T2, T3, T4, T5, T6, TResult>)
-  href: api/Recore.Func.html#Recore_Func_TupleArgs__7_System_Func___0___1___2___3___4___5___6__
-  commentId: M:Recore.Func.TupleArgs``7(System.Func{``0,``1,``2,``3,``4,``5,``6})
-  name.vb: TupleArgs(Of T1, T2, T3, T4, T5, T6, TResult)(Func(Of T1, T2, T3, T4, T5, T6, TResult))
-  fullName: Recore.Func.TupleArgs<T1, T2, T3, T4, T5, T6, TResult>(System.Func<T1, T2, T3, T4, T5, T6, TResult>)
-  fullName.vb: Recore.Func.TupleArgs(Of T1, T2, T3, T4, T5, T6, TResult)(System.Func(Of T1, T2, T3, T4, T5, T6, TResult))
-  nameWithType: Func.TupleArgs<T1, T2, T3, T4, T5, T6, TResult>(Func<T1, T2, T3, T4, T5, T6, TResult>)
-  nameWithType.vb: Func.TupleArgs(Of T1, T2, T3, T4, T5, T6, TResult)(Func(Of T1, T2, T3, T4, T5, T6, TResult))
-- uid: Recore.Func.TupleArgs``8(System.Func{``0,``1,``2,``3,``4,``5,``6,``7})
-  name: TupleArgs<T1, T2, T3, T4, T5, T6, T7, TResult>(Func<T1, T2, T3, T4, T5, T6, T7, TResult>)
-  href: api/Recore.Func.html#Recore_Func_TupleArgs__8_System_Func___0___1___2___3___4___5___6___7__
-  commentId: M:Recore.Func.TupleArgs``8(System.Func{``0,``1,``2,``3,``4,``5,``6,``7})
-  name.vb: TupleArgs(Of T1, T2, T3, T4, T5, T6, T7, TResult)(Func(Of T1, T2, T3, T4, T5, T6, T7, TResult))
-  fullName: Recore.Func.TupleArgs<T1, T2, T3, T4, T5, T6, T7, TResult>(System.Func<T1, T2, T3, T4, T5, T6, T7, TResult>)
-  fullName.vb: Recore.Func.TupleArgs(Of T1, T2, T3, T4, T5, T6, T7, TResult)(System.Func(Of T1, T2, T3, T4, T5, T6, T7, TResult))
-  nameWithType: Func.TupleArgs<T1, T2, T3, T4, T5, T6, T7, TResult>(Func<T1, T2, T3, T4, T5, T6, T7, TResult>)
-  nameWithType.vb: Func.TupleArgs(Of T1, T2, T3, T4, T5, T6, T7, TResult)(Func(Of T1, T2, T3, T4, T5, T6, T7, TResult))
-- uid: Recore.Func.UntupleArgs*
-  name: UntupleArgs
-  href: api/Recore.Func.html#Recore_Func_UntupleArgs_
-  commentId: Overload:Recore.Func.UntupleArgs
-  isSpec: "True"
-  fullName: Recore.Func.UntupleArgs
-  nameWithType: Func.UntupleArgs
-- uid: Recore.Func.UntupleArgs``3(System.Func{System.Tuple{``0,``1},``2})
-  name: UntupleArgs<T1, T2, TResult>(Func<Tuple<T1, T2>, TResult>)
-  href: api/Recore.Func.html#Recore_Func_UntupleArgs__3_System_Func_System_Tuple___0___1____2__
-  commentId: M:Recore.Func.UntupleArgs``3(System.Func{System.Tuple{``0,``1},``2})
-  name.vb: UntupleArgs(Of T1, T2, TResult)(Func(Of Tuple(Of T1, T2), TResult))
-  fullName: Recore.Func.UntupleArgs<T1, T2, TResult>(System.Func<System.Tuple<T1, T2>, TResult>)
-  fullName.vb: Recore.Func.UntupleArgs(Of T1, T2, TResult)(System.Func(Of System.Tuple(Of T1, T2), TResult))
-  nameWithType: Func.UntupleArgs<T1, T2, TResult>(Func<Tuple<T1, T2>, TResult>)
-  nameWithType.vb: Func.UntupleArgs(Of T1, T2, TResult)(Func(Of Tuple(Of T1, T2), TResult))
-- uid: Recore.Func.UntupleArgs``4(System.Func{System.Tuple{``0,``1,``2},``3})
-  name: UntupleArgs<T1, T2, T3, TResult>(Func<Tuple<T1, T2, T3>, TResult>)
-  href: api/Recore.Func.html#Recore_Func_UntupleArgs__4_System_Func_System_Tuple___0___1___2____3__
-  commentId: M:Recore.Func.UntupleArgs``4(System.Func{System.Tuple{``0,``1,``2},``3})
-  name.vb: UntupleArgs(Of T1, T2, T3, TResult)(Func(Of Tuple(Of T1, T2, T3), TResult))
-  fullName: Recore.Func.UntupleArgs<T1, T2, T3, TResult>(System.Func<System.Tuple<T1, T2, T3>, TResult>)
-  fullName.vb: Recore.Func.UntupleArgs(Of T1, T2, T3, TResult)(System.Func(Of System.Tuple(Of T1, T2, T3), TResult))
-  nameWithType: Func.UntupleArgs<T1, T2, T3, TResult>(Func<Tuple<T1, T2, T3>, TResult>)
-  nameWithType.vb: Func.UntupleArgs(Of T1, T2, T3, TResult)(Func(Of Tuple(Of T1, T2, T3), TResult))
-- uid: Recore.Func.UntupleArgs``5(System.Func{System.Tuple{``0,``1,``2,``3},``4})
-  name: UntupleArgs<T1, T2, T3, T4, TResult>(Func<Tuple<T1, T2, T3, T4>, TResult>)
-  href: api/Recore.Func.html#Recore_Func_UntupleArgs__5_System_Func_System_Tuple___0___1___2___3____4__
-  commentId: M:Recore.Func.UntupleArgs``5(System.Func{System.Tuple{``0,``1,``2,``3},``4})
-  name.vb: UntupleArgs(Of T1, T2, T3, T4, TResult)(Func(Of Tuple(Of T1, T2, T3, T4), TResult))
-  fullName: Recore.Func.UntupleArgs<T1, T2, T3, T4, TResult>(System.Func<System.Tuple<T1, T2, T3, T4>, TResult>)
-  fullName.vb: Recore.Func.UntupleArgs(Of T1, T2, T3, T4, TResult)(System.Func(Of System.Tuple(Of T1, T2, T3, T4), TResult))
-  nameWithType: Func.UntupleArgs<T1, T2, T3, T4, TResult>(Func<Tuple<T1, T2, T3, T4>, TResult>)
-  nameWithType.vb: Func.UntupleArgs(Of T1, T2, T3, T4, TResult)(Func(Of Tuple(Of T1, T2, T3, T4), TResult))
-- uid: Recore.Func.UntupleArgs``6(System.Func{System.Tuple{``0,``1,``2,``3,``4},``5})
-  name: UntupleArgs<T1, T2, T3, T4, T5, TResult>(Func<Tuple<T1, T2, T3, T4, T5>, TResult>)
-  href: api/Recore.Func.html#Recore_Func_UntupleArgs__6_System_Func_System_Tuple___0___1___2___3___4____5__
-  commentId: M:Recore.Func.UntupleArgs``6(System.Func{System.Tuple{``0,``1,``2,``3,``4},``5})
-  name.vb: UntupleArgs(Of T1, T2, T3, T4, T5, TResult)(Func(Of Tuple(Of T1, T2, T3, T4, T5), TResult))
-  fullName: Recore.Func.UntupleArgs<T1, T2, T3, T4, T5, TResult>(System.Func<System.Tuple<T1, T2, T3, T4, T5>, TResult>)
-  fullName.vb: Recore.Func.UntupleArgs(Of T1, T2, T3, T4, T5, TResult)(System.Func(Of System.Tuple(Of T1, T2, T3, T4, T5), TResult))
-  nameWithType: Func.UntupleArgs<T1, T2, T3, T4, T5, TResult>(Func<Tuple<T1, T2, T3, T4, T5>, TResult>)
-  nameWithType.vb: Func.UntupleArgs(Of T1, T2, T3, T4, T5, TResult)(Func(Of Tuple(Of T1, T2, T3, T4, T5), TResult))
-- uid: Recore.Func.UntupleArgs``7(System.Func{System.Tuple{``0,``1,``2,``3,``4,``5},``6})
-  name: UntupleArgs<T1, T2, T3, T4, T5, T6, TResult>(Func<Tuple<T1, T2, T3, T4, T5, T6>, TResult>)
-  href: api/Recore.Func.html#Recore_Func_UntupleArgs__7_System_Func_System_Tuple___0___1___2___3___4___5____6__
-  commentId: M:Recore.Func.UntupleArgs``7(System.Func{System.Tuple{``0,``1,``2,``3,``4,``5},``6})
-  name.vb: UntupleArgs(Of T1, T2, T3, T4, T5, T6, TResult)(Func(Of Tuple(Of T1, T2, T3, T4, T5, T6), TResult))
-  fullName: Recore.Func.UntupleArgs<T1, T2, T3, T4, T5, T6, TResult>(System.Func<System.Tuple<T1, T2, T3, T4, T5, T6>, TResult>)
-  fullName.vb: Recore.Func.UntupleArgs(Of T1, T2, T3, T4, T5, T6, TResult)(System.Func(Of System.Tuple(Of T1, T2, T3, T4, T5, T6), TResult))
-  nameWithType: Func.UntupleArgs<T1, T2, T3, T4, T5, T6, TResult>(Func<Tuple<T1, T2, T3, T4, T5, T6>, TResult>)
-  nameWithType.vb: Func.UntupleArgs(Of T1, T2, T3, T4, T5, T6, TResult)(Func(Of Tuple(Of T1, T2, T3, T4, T5, T6), TResult))
-- uid: Recore.Func.UntupleArgs``8(System.Func{System.Tuple{``0,``1,``2,``3,``4,``5,``6},``7})
-  name: UntupleArgs<T1, T2, T3, T4, T5, T6, T7, TResult>(Func<Tuple<T1, T2, T3, T4, T5, T6, T7>, TResult>)
-  href: api/Recore.Func.html#Recore_Func_UntupleArgs__8_System_Func_System_Tuple___0___1___2___3___4___5___6____7__
-  commentId: M:Recore.Func.UntupleArgs``8(System.Func{System.Tuple{``0,``1,``2,``3,``4,``5,``6},``7})
-  name.vb: UntupleArgs(Of T1, T2, T3, T4, T5, T6, T7, TResult)(Func(Of Tuple(Of T1, T2, T3, T4, T5, T6, T7), TResult))
-  fullName: Recore.Func.UntupleArgs<T1, T2, T3, T4, T5, T6, T7, TResult>(System.Func<System.Tuple<T1, T2, T3, T4, T5, T6, T7>, TResult>)
-  fullName.vb: Recore.Func.UntupleArgs(Of T1, T2, T3, T4, T5, T6, T7, TResult)(System.Func(Of System.Tuple(Of T1, T2, T3, T4, T5, T6, T7), TResult))
-  nameWithType: Func.UntupleArgs<T1, T2, T3, T4, T5, T6, T7, TResult>(Func<Tuple<T1, T2, T3, T4, T5, T6, T7>, TResult>)
-  nameWithType.vb: Func.UntupleArgs(Of T1, T2, T3, T4, T5, T6, T7, TResult)(Func(Of Tuple(Of T1, T2, T3, T4, T5, T6, T7), TResult))
 - uid: Recore.Linq
   name: Recore.Linq
   href: api/Recore.Linq.html
@@ -2543,25 +2334,22 @@ references:
   isSpec: "True"
   fullName: Recore.RelativeUri.RelativeUri
   nameWithType: RelativeUri.RelativeUri
-- uid: Recore.RelativeUri.Combine(Recore.RelativeUri)
-  name: Combine(RelativeUri)
-  href: api/Recore.RelativeUri.html#Recore_RelativeUri_Combine_Recore_RelativeUri_
-  commentId: M:Recore.RelativeUri.Combine(Recore.RelativeUri)
-  fullName: Recore.RelativeUri.Combine(Recore.RelativeUri)
-  nameWithType: RelativeUri.Combine(RelativeUri)
-- uid: Recore.RelativeUri.Combine(System.String)
-  name: Combine(String)
-  href: api/Recore.RelativeUri.html#Recore_RelativeUri_Combine_System_String_
-  commentId: M:Recore.RelativeUri.Combine(System.String)
-  fullName: Recore.RelativeUri.Combine(System.String)
-  nameWithType: RelativeUri.Combine(String)
-- uid: Recore.RelativeUri.Combine*
-  name: Combine
-  href: api/Recore.RelativeUri.html#Recore_RelativeUri_Combine_
-  commentId: Overload:Recore.RelativeUri.Combine
+- uid: Recore.RelativeUri.TryCreate(System.String,Recore.RelativeUri@)
+  name: TryCreate(String, out RelativeUri)
+  href: api/Recore.RelativeUri.html#Recore_RelativeUri_TryCreate_System_String_Recore_RelativeUri__
+  commentId: M:Recore.RelativeUri.TryCreate(System.String,Recore.RelativeUri@)
+  name.vb: TryCreate(String, ByRef RelativeUri)
+  fullName: Recore.RelativeUri.TryCreate(System.String, out Recore.RelativeUri)
+  fullName.vb: Recore.RelativeUri.TryCreate(System.String, ByRef Recore.RelativeUri)
+  nameWithType: RelativeUri.TryCreate(String, out RelativeUri)
+  nameWithType.vb: RelativeUri.TryCreate(String, ByRef RelativeUri)
+- uid: Recore.RelativeUri.TryCreate*
+  name: TryCreate
+  href: api/Recore.RelativeUri.html#Recore_RelativeUri_TryCreate_
+  commentId: Overload:Recore.RelativeUri.TryCreate
   isSpec: "True"
-  fullName: Recore.RelativeUri.Combine
-  nameWithType: RelativeUri.Combine
+  fullName: Recore.RelativeUri.TryCreate
+  nameWithType: RelativeUri.TryCreate
 - uid: Recore.Result
   name: Result
   href: api/Recore.Result.html
@@ -3561,3 +3349,16 @@ references:
   isSpec: "True"
   fullName: Recore.UriExtensions.AsAbsoluteUri
   nameWithType: UriExtensions.AsAbsoluteUri
+- uid: Recore.UriExtensions.AsRelativeUri(System.Uri)
+  name: AsRelativeUri(Uri)
+  href: api/Recore.UriExtensions.html#Recore_UriExtensions_AsRelativeUri_System_Uri_
+  commentId: M:Recore.UriExtensions.AsRelativeUri(System.Uri)
+  fullName: Recore.UriExtensions.AsRelativeUri(System.Uri)
+  nameWithType: UriExtensions.AsRelativeUri(Uri)
+- uid: Recore.UriExtensions.AsRelativeUri*
+  name: AsRelativeUri
+  href: api/Recore.UriExtensions.html#Recore_UriExtensions_AsRelativeUri_
+  commentId: Overload:Recore.UriExtensions.AsRelativeUri
+  isSpec: "True"
+  fullName: Recore.UriExtensions.AsRelativeUri
+  nameWithType: UriExtensions.AsRelativeUri

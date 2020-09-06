@@ -85,120 +85,6 @@
 <p>Install from <a href="https://www.nuget.org/packages/RecoreFX/">NuGet</a>:</p>
 <pre><code>dotnet add package RecoreFX
 </code></pre>
-<h2 id="example">Example</h2>
-<p>Say you want to download a bunch of &quot;blobs&quot; and then print out a summary of what succeeded and what failed.
-To add a dose of reality, you can also choose whether you want to overwrite existing blobs you already have locally.</p>
-<p>Say the blob interface looks like this:</p>
-<pre><code class="lang-cs">interface IBlob
-{
-    string Name { get; }
-    byte[] GetContents();
-}
-</code></pre>
-<h3 id="with-recore">With Recore</h3>
-<p>Here's how the implementation looks using types from RecoreFX:</p>
-<pre><code class="lang-cs">async Task DownloadBlobsAsync(IEnumerable&lt;IBlob&gt; blobs, bool overwrite)
-{
-    // Check `overwrite` to see which blobs to download
-    var compareOnName = new MappedEqualityComparer&lt;IBlob, string&gt;(x =&gt; x.Name);
-    IEnumerable&lt;IBlob&gt; existingBlobs = await GetLocalBlobsAsync();
-
-    IEnumerable&lt;IBlob&gt; blobsToWrite = Func.Invoke(() =&gt;
-    {
-        if (overwrite)
-        {
-            return blobs;
-        }
-        else
-        {
-            return blobs.Except(existingBlobs, compareOnName);
-        }
-    });
-
-    // Write blobs
-    Result&lt;IBlob, IBlob&gt;[] results = await Task.WhenAll(blobsToWrite.Select(blob =&gt;
-        Result.TryAsync(async () =&gt;
-        {
-            await WriteBlobAsync(blob);
-            return blob;
-        })
-        .CatchAsync((Exception e) =&gt;
-        {
-            Console.Error.WriteLine(e);
-            return Task.FromResult(blob);
-        })));
-    
-    // Print summary
-    List&lt;IBlob&gt; successes = results.Successes().ToList();
-    List&lt;IBlob&gt; failures = results.Failures().ToList();
-
-    Console.WriteLine($&quot;Downloaded {successes.Except(existingBlobs, compareOnName).Count()} new blob(s)&quot;);
-    Console.WriteLine($&quot;Overwrote {successes.Intersect(existingBlobs, compareOnName).Count()} existing blob(s)&quot;);
-    Console.WriteLine($&quot;Failed to download {failures.Count} blob(s):&quot;);
-    failures.ForEach(x =&gt; Console.WriteLine(&quot;  &quot; + x.Name));
-}
-</code></pre>
-<h3 id="without-recore">Without Recore</h3>
-<p>Here's how I would write this code in plain C#:</p>
-<pre><code class="lang-cs">async Task DownloadBlobsAsync(IEnumerable&lt;IBlob&gt; blobs, bool overwrite)
-{
-    // Check `overwrite` to see which blobs to download
-    IEnumerable&lt;IBlob&gt; existingBlobs = await GetLocalBlobsAsync();
-    IEnumerable&lt;string&gt; existingBlobNames = existingBlobs.Select(x =&gt; x.Name);
-
-    List&lt;IBlob&gt; blobsToWrite;
-    if (overwrite)
-    {
-        blobsToWrite = blobs.ToList();
-    }
-    else
-    {
-        blobsToWrite = new List&lt;IBlob&gt;();
-        foreach (var blob in blobs)
-        {
-            if (!existingBlobNames.Contains(blob.Name))
-            {
-                blobsToWrite.Add(blob);
-            }
-        }
-    }
-
-    // Write blobs
-    var successes = new List&lt;IBlob&gt;();
-    var failures = new List&lt;IBlob&gt;();
-
-    foreach (var blob in blobsToWrite)
-    {
-        try
-        {
-            await WriteBlobAsync(blob);
-            successes.Add(blob);
-        }
-        catch (Exception e)
-        {
-            Console.Error.WriteLine(e);
-            failures.Add(blob);
-        }
-    }
-    
-    // Print summary
-    int numNewBlobs = successes
-        .Select(x =&gt; x.Name)
-        .Except(existingBlobNames)
-        .Count();
-
-    int numOverwrittenBlobs = successes
-        .Select(x =&gt; x.Name)
-        .Intersect(existingBlobNames)
-        .Count();
-
-    Console.WriteLine($&quot;Downloaded {numNewBlobs} new blob(s)&quot;);
-    Console.WriteLine($&quot;Overwrote {numOverwrittenBlobs} existing blob(s)&quot;);
-    Console.WriteLine($&quot;Failed to download {failures.Count} blob(s):&quot;);
-    failures.ForEach(x =&gt; Console.WriteLine(&quot;  &quot; + x.Name));
-}
-</code></pre>
-<p>You can see, build, and run this example <a href="https://github.com/recorefx/RecoreFX/blob/main/docs/ReadmeExample">here</a>.</p>
 <h2 id="why-use-it">Why use it?</h2>
 <h3 id="convenience-methods">Convenience methods</h3>
 <p>If you're like me, there's a bunch of useful methods that you write for every project you work on. Some are simple, such as <a href="https://recorefx.github.io/api/Recore.Collections.Generic.IDictionaryExtensions.html#Recore_Collections_Generic_IDictionaryExtensions_GetOrAdd__2_IDictionary___0___1____0___1_"><code>IDictionary.GetOrAdd()</code></a>. Others are more subtle, such as <a href="https://recorefx.github.io/api/Recore.Security.Cryptography.SecureCompare.html#Recore_Security_Cryptography_SecureCompare_TimeInvariantEquals_System_Byte___System_Byte___"><code>SecureCompare.TimeInvariantEquals()</code></a>.</p>
@@ -206,13 +92,123 @@ To add a dose of reality, you can also choose whether you want to overwrite exis
 <p>All of this starts to add up, though. That's why I put it all together into a single installable, unit-tested package.</p>
 <h3 id="new-stuff">New stuff</h3>
 <p>There are some other goodies here that are farther reaching:</p>
-<ul>
-<li><a href="https://recorefx.github.io/api/Recore.Either-2.html"><code>Either&lt;TLeft, TRight&gt;</code></a> gives you a type-safe union type that will be familiar to TypeScript users.</li>
-<li><a href="https://recorefx.github.io/api/Recore.Optional-1.html"><code>Optional&lt;T&gt;</code></a> gives you compiler-checked null safety if you don't have nullable references enabled (or if you're on .NET Framework).</li>
-<li><a href="https://recorefx.github.io/api/Recore.Result.html"><code>Result&lt;TValue, TError&gt;</code></a> gives you a way to handle errors besides immediately terminating execution of a method or going <code>Try*</code> everywhere. Instead, you can build up an error context as you go along.</li>
-<li><a href="https://recorefx.github.io/api/Recore.Of-1.html"><code>Of&lt;T&gt;</code></a> takes the boilerplate out of definining simple types. Want to replace <code>string</code> with <code>Email</code>? Now you can.</li>
-<li><a href="https://recorefx.github.io/api/Recore.Unit.html"><code>Unit</code></a> fixes the <code>Task</code> / <code>Task&lt;T&gt;</code> problem of having to duplicate your generic types for void-returning operations.</li>
-</ul>
+<h3 id="optionalt"><code>Optional&lt;T&gt;</code></h3>
+<p><a href="https://recorefx.github.io/api/Recore.Optional-1.html"><code>Optional&lt;T&gt;</code></a> gives you compiler-checked null safety if you don't have nullable references enabled (or if you're on .NET Framework):</p>
+<pre><code class="lang-cs">Optional&lt;string&gt; opt = &quot;hello&quot;;
+Optional&lt;string&gt; empty = Optional&lt;string&gt;.Empty;
+
+opt.Switch(
+    x =&gt; Console.WriteLine(&quot;Message: &quot; + x),
+    () =&gt; Console.WriteLine(&quot;No message&quot;));
+
+Optional&lt;int&gt; messageLength = opt.OnValue(x =&gt; x.Length);
+string message = opt.ValueOr(default);
+</code></pre>
+<h3 id="eithertleft-tright"><code>Either&lt;TLeft, TRight&gt;</code></h3>
+<p><a href="https://recorefx.github.io/api/Recore.Either-2.html"><code>Either&lt;TLeft, TRight&gt;</code></a> gives you a type-safe union type that will be familiar to TypeScript users:</p>
+<pre><code class="lang-cs">Either&lt;string, int&gt; either = &quot;hello&quot;;
+
+var message = either.Switch(
+    l =&gt; $&quot;Value is a string: {l}&quot;,
+    r =&gt; $&quot;Value is an int: {r}&quot;);
+</code></pre>
+<h3 id="resulttvalue-terror"><code>Result&lt;TValue, TError&gt;</code></h3>
+<p><a href="https://recorefx.github.io/api/Recore.Result.html"><code>Result&lt;TValue, TError&gt;</code></a> gives you a way to handle &quot;expected&quot; errors. You can think of it as a nicer version of the <code>TryParse</code> pattern:</p>
+<pre><code class="lang-cs">async Task&lt;Result&lt;Person, HttpStatusCode&gt;&gt; GetPersonAsync(int id)
+{
+    var response = await httpClient.GetAsync($&quot;/api/v1/person/{id}&quot;);
+    if (response.IsSuccessStatusCode)
+    {
+        var json = await response.Content.ReadAsStringAsync();
+        var person = JsonSerializer.Deserialize&lt;Person&gt;(json);
+        return Result.Success&lt;Person, HttpStatusCode&gt;(person);
+    }
+    else
+    {
+        return Result.Failure&lt;Person, HttpStatusCode&gt;(response.StatusCode);
+    }
+}
+</code></pre>
+<p>It also makes it easy to build up an error context as you go along rather than terminating immediately:</p>
+<pre><code class="lang-cs">Result&lt;IBlob, IBlob&gt;[] results = await Task.WhenAll(blobsToWrite.Select(blob =&gt;
+    Result.TryAsync(async () =&gt;
+    {
+        await WriteBlobAsync(blob);
+        return blob;
+    })
+    .CatchAsync((Exception e) =&gt;
+    {
+        Console.Error.WriteLine(e);
+        return Task.FromResult(blob);
+    })));
+
+List&lt;IBlob&gt; successes = results.Successes().ToList();
+List&lt;IBlob&gt; failures = results.Failures().ToList();
+</code></pre>
+<h3 id="oft"><code>Of&lt;T&gt;</code></h3>
+<p><a href="https://recorefx.github.io/api/Recore.Of-1.html"><code>Of&lt;T&gt;</code></a> makes it easy to define &quot;type aliases.&quot;</p>
+<p>Consider a method with the signature:</p>
+<pre><code class="lang-cs">void AddRecord(string address, string firstName, string lastName)
+</code></pre>
+<p>It's easy to make mistakes like this:</p>
+<pre><code class="lang-cs">AddRecord(&quot;Jane&quot;, &quot;Doe&quot;, &quot;1 Microsoft Way&quot;); // oops!
+</code></pre>
+<p>You can prevent this with strong typing:</p>
+<pre><code class="lang-cs">class Address : Of&lt;string&gt; {}
+
+void AddRecord(Address address, string firstName, string lastName) {}
+
+AddRecord(&quot;Jane&quot;, &quot;Doe&quot;, &quot;1 Microsoft Way&quot;); // compiler error
+</code></pre>
+<p>While defining a new type that behaves the same way <code>string</code> does usually takes a lot of boilerplate, <code>Of&lt;T&gt;</code> handles this automatically:</p>
+<pre><code class="lang-cs">var address = new Address { Value = &quot;1 Microsoft Way&quot; };
+Console.WriteLine(address); // prints &quot;1 Microsoft Way&quot;
+
+var address2 = new Address { Value = &quot;1 Microsoft Way&quot; };
+Console.WriteLine(address == address2); // prints &quot;true&quot;
+</code></pre>
+<h3 id="pipelinet"><code>Pipeline&lt;T&gt;</code></h3>
+<p><code>Pipeline&lt;T&gt;</code> gives you a way to call any method with postfix syntax:</p>
+<pre><code class="lang-cs">var result = Pipeline.Of(value)
+    .Then(Foo)
+    .Then(Bar)
+    .Then(Baz)
+    .Result;
+</code></pre>
+<h3 id="defer"><code>Defer</code></h3>
+<p><code>Defer</code> is analogous to Golang's <code>defer</code> statement. It lets you do some kind of cleanup before exiting a method.</p>
+<p>The classic way to do this in C# is with <code>try-finally</code>:</p>
+<pre><code class="lang-cs">try
+{
+    Console.WriteLine(&quot;Doing stuff&quot;);
+}
+finally
+{
+    Console.WriteLine(&quot;Running cleanup&quot;);
+}
+</code></pre>
+<p>With <code>Defer</code> and C# 8's new <code>using</code> declarations, we can do it more simply:</p>
+<pre><code class="lang-cs">using var cleanup = new Defer(() =&gt; Console.WriteLine(&quot;Running cleanup&quot;));
+Console.WriteLine(&quot;Doing stuff&quot;);
+</code></pre>
+<h3 id="unit"><code>Unit</code></h3>
+<p><a href="https://recorefx.github.io/api/Recore.Unit.html"><code>Unit</code></a> is a type with only one value (like how <code>Void</code> is a type with no values).</p>
+<p>Imagine a type <code>ApiResult&lt;T&gt;</code> that wraps the deserialized JSON response from a REST API.
+Without <code>Unit</code>, you'd have to define a separate, non-generic <code>ApiResult</code> type for when the response doesn't have a body:</p>
+<pre><code class="lang-cs">ApiResult postResult = await PostPersonAsync(person);
+ApiResult&lt;Person&gt; getResult = await GetPersonAsync(id);
+</code></pre>
+<p>With <code>Unit</code>, you can just reuse the same type:</p>
+<pre><code class="lang-cs">ApiResult&lt;Unit&gt; postResult = await PostPersonAsync(person);
+ApiResult&lt;Person&gt; getResult = await GetPersonAsync(id);
+</code></pre>
+<p>In the definition of <code>PostPersonAsync()</code>, just return <code>Unit.Value</code>:</p>
+<pre><code class="lang-cs">ApiResult&lt;Unit&gt; PostPersonAsync(Person person)
+{
+    // ...
+    return new ApiResult&lt;Unit&gt;(Unit.Value);
+}
+</code></pre>
 <p>These are all borrowed from functional programming, but the goal here isn't to turn C# into F#.
 RecoreFX is meant to encourage more expressive, type-safe code that's still idiomatic C#.</p>
 <h2 id="whats-in-it">What's in it?</h2>
@@ -230,7 +226,6 @@ RecoreFX is meant to encourage more expressive, type-safe code that's still idio
 </ul>
 <h4 id="recorecollectionsgeneric">Recore.Collections.Generic</h4>
 <ul>
-<li><a href="https://recorefx.github.io/api/Recore.Collections.Generic.AnonymousComparer-1.html"><code>AnonymousComparer&lt;T&gt;</code></a></li>
 <li><a href="https://recorefx.github.io/api/Recore.Collections.Generic.AnonymousEqualityComparer-1.html"><code>AnonymousEqualityComparer&lt;T&gt;</code></a></li>
 <li><a href="https://recorefx.github.io/api/Recore.Collections.Generic.MappedComparer-2.html"><code>MappedComparer&lt;T, U&gt;</code></a></li>
 <li><a href="https://recorefx.github.io/api/Recore.Collections.Generic.MappedEqualityComparer-2.html"><code>MappedEqualityComparer&lt;T, U&gt;</code></a></li>
@@ -269,9 +264,9 @@ RecoreFX is meant to encourage more expressive, type-safe code that's still idio
 <li><a href="https://recorefx.github.io/api/Recore.Threading.Tasks.TaskExtensions.html#Recore_Threading_Tasks_TaskExtensions_Synchronize_Task_"><code>Task.Synchronize()</code></a></li>
 <li><a href="https://recorefx.github.io/api/Recore.Threading.Tasks.TaskExtensions.html#Recore_Threading_Tasks_TaskExtensions_Synchronize__1_Task___0__"><code>Task&lt;T&gt;.Synchronize()</code></a></li>
 </ul>
+<h2 id="contributing">Contributing</h2>
+<p>Have a look at the <a href="https://github.com/recorefx/RecoreFX/blob/main/docs/CONTRIBUTING.md">contributor's guide</a>.</p>
 <h2 id="faqs">FAQs</h2>
-<h3 id="do-you-accept-contributions">Do you accept contributions?</h3>
-<p>Yes! Start with the <a href="https://github.com/recorefx/RecoreFX/blob/main/docs/CONTRIBUTING.md">contributor's guide</a>.</p>
 <h3 id="why-doesnt-this-have-type-or-method">Why doesn't this have <code>$TYPE</code> or <code>$METHOD</code>?</h3>
 <p>If it's generally useful (as opposed to oriented towards a specific application) and fills a common need in C# programming, then there's no reason why not! Feel free to open an issue or submit a PR for discussion.</p>
 <h3 id="how-does-this-compare-to-library">How does this compare to <code>$LIBRARY</code>?</h3>
@@ -302,7 +297,7 @@ RecoreFX is meant to encourage more expressive, type-safe code that's still idio
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/recorefx/RecoreFX/blob/main/docs/docfx/index.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/recorefx/RecoreFX/blob/v0.11.0/docs/docfx/index.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

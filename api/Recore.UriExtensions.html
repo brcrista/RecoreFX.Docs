@@ -268,9 +268,6 @@
                         
                         <ul class="nav level2">
                           <li class="">
-                            <a href="Recore.Collections.Generic.AnonymousComparer-1.html" title="AnonymousComparer&lt;T&gt;" class="">AnonymousComparer&lt;T&gt;</a>
-                          </li>
-                          <li class="">
                             <a href="Recore.Collections.Generic.AnonymousEqualityComparer-1.html" title="AnonymousEqualityComparer&lt;T&gt;" class="">AnonymousEqualityComparer&lt;T&gt;</a>
                           </li>
                           <li class="">
@@ -400,10 +397,10 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_UriExtensions_AsAbsoluteUri_System_Uri_.md&amp;value=---%0Auid%3A%20Recore.UriExtensions.AsAbsoluteUri(System.Uri)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/recorefx/RecoreFX/new/v0.11.0/apiSpec/new?filename=Recore_UriExtensions_AsAbsoluteUri_System_Uri_.md&amp;value=---%0Auid%3A%20Recore.UriExtensions.AsAbsoluteUri(System.Uri)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Uri.cs/#L132">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/v0.11.0/src/Recore/Uri.cs/#L93">View Source</a>
   </span>
   <a id="Recore_UriExtensions_AsAbsoluteUri_" data-uid="Recore.UriExtensions.AsAbsoluteUri*"></a>
   <h4 id="Recore_UriExtensions_AsAbsoluteUri_System_Uri_" data-uid="Recore.UriExtensions.AsAbsoluteUri(System.Uri)">AsAbsoluteUri(Uri)</h4>
@@ -453,6 +450,60 @@ patterns like <code>(AbsoluteUri)uri</code> or <code>uri as AbsoluteUri</code> c
 <a class="xref" href="Recore.UriExtensions.html#Recore_UriExtensions_AsAbsoluteUri_System_Uri_">AsAbsoluteUri(Uri)</a> works as <code>uri as AbsoluteUri</code> would if <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uri">Uri</a> were an abstract base class.
 It complements <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uri.isabsoluteuri#System_Uri_IsAbsoluteUri">IsAbsoluteUri</a> in this regard.</p>
 </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/recorefx/RecoreFX/new/v0.11.0/apiSpec/new?filename=Recore_UriExtensions_AsRelativeUri_System_Uri_.md&amp;value=---%0Auid%3A%20Recore.UriExtensions.AsRelativeUri(System.Uri)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/recorefx/RecoreFX/blob/v0.11.0/src/Recore/Uri.cs/#L114">View Source</a>
+  </span>
+  <a id="Recore_UriExtensions_AsRelativeUri_" data-uid="Recore.UriExtensions.AsRelativeUri*"></a>
+  <h4 id="Recore_UriExtensions_AsRelativeUri_System_Uri_" data-uid="Recore.UriExtensions.AsRelativeUri(System.Uri)">AsRelativeUri(Uri)</h4>
+  <div class="markdown level1 summary"><p>Returns an instance of <a class="xref" href="Recore.AbsoluteUri.html">AbsoluteUri</a> with the same value as <code data-dev-comment-type="paramref" class="paramref">uri</code>
+if it is absolute, or null if it is relative.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static RelativeUri AsRelativeUri(this Uri uri)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uri">Uri</a></td>
+        <td><span class="parametername">uri</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Recore.RelativeUri.html">RelativeUri</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Recore_UriExtensions_AsRelativeUri_System_Uri__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Because an instance of <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uri">Uri</a> may be neither <a class="xref" href="Recore.AbsoluteUri.html">AbsoluteUri</a> nor <a class="xref" href="Recore.RelativeUri.html">RelativeUri</a>,
+patterns like <code>(AbsoluteUri)uri</code> or <code>uri as AbsoluteUri</code> cannot be used reliably.
+<a class="xref" href="Recore.UriExtensions.html#Recore_UriExtensions_AsRelativeUri_System_Uri_">AsRelativeUri(Uri)</a> works as <code>uri as RelativeUri</code> would if <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.uri">Uri</a> were an abstract base class.</p>
+</div>
 </article>
           </div>
           
@@ -461,10 +512,10 @@ It complements <a class="xref" href="https://docs.microsoft.com/dotnet/api/syste
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/recorefx/RecoreFX/new/main/apiSpec/new?filename=Recore_UriExtensions.md&amp;value=---%0Auid%3A%20Recore.UriExtensions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/recorefx/RecoreFX/new/v0.11.0/apiSpec/new?filename=Recore_UriExtensions.md&amp;value=---%0Auid%3A%20Recore.UriExtensions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/recorefx/RecoreFX/blob/main/src/Recore/Uri.cs/#L120" class="contribution-link">View Source</a>
+                    <a href="https://github.com/recorefx/RecoreFX/blob/v0.11.0/src/Recore/Uri.cs/#L81" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
