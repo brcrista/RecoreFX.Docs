@@ -902,6 +902,22 @@ references:
   commentId: T:Recore.Either
   fullName: Recore.Either
   nameWithType: Either
+- uid: Recore.Either.Collapse*
+  name: Collapse
+  href: api/Recore.Either.html#Recore_Either_Collapse_
+  commentId: Overload:Recore.Either.Collapse
+  isSpec: "True"
+  fullName: Recore.Either.Collapse
+  nameWithType: Either.Collapse
+- uid: Recore.Either.Collapse``1(Recore.Either{``0,``0})
+  name: Collapse<T>(Either<T, T>)
+  href: api/Recore.Either.html#Recore_Either_Collapse__1_Recore_Either___0___0__
+  commentId: M:Recore.Either.Collapse``1(Recore.Either{``0,``0})
+  name.vb: Collapse(Of T)(Either(Of T, T))
+  fullName: Recore.Either.Collapse<T>(Recore.Either<T, T>)
+  fullName.vb: Recore.Either.Collapse(Of T)(Recore.Either(Of T, T))
+  nameWithType: Either.Collapse<T>(Either<T, T>)
+  nameWithType.vb: Either.Collapse(Of T)(Either(Of T, T))
 - uid: Recore.Either.Lefts*
   name: Lefts
   href: api/Recore.Either.html#Recore_Either_Lefts_
@@ -1351,6 +1367,96 @@ references:
   commentId: T:Recore.Linq.Renumerable
   fullName: Recore.Linq.Renumerable
   nameWithType: Renumerable
+- uid: Recore.Linq.Renumerable.Argmax(System.Collections.Generic.IEnumerable{System.Decimal})
+  name: Argmax(IEnumerable<Decimal>)
+  href: api/Recore.Linq.Renumerable.html#Recore_Linq_Renumerable_Argmax_System_Collections_Generic_IEnumerable_System_Decimal__
+  commentId: M:Recore.Linq.Renumerable.Argmax(System.Collections.Generic.IEnumerable{System.Decimal})
+  name.vb: Argmax(IEnumerable(Of Decimal))
+  fullName: Recore.Linq.Renumerable.Argmax(System.Collections.Generic.IEnumerable<System.Decimal>)
+  fullName.vb: Recore.Linq.Renumerable.Argmax(System.Collections.Generic.IEnumerable(Of System.Decimal))
+  nameWithType: Renumerable.Argmax(IEnumerable<Decimal>)
+  nameWithType.vb: Renumerable.Argmax(IEnumerable(Of Decimal))
+- uid: Recore.Linq.Renumerable.Argmax(System.Collections.Generic.IEnumerable{System.Double})
+  name: Argmax(IEnumerable<Double>)
+  href: api/Recore.Linq.Renumerable.html#Recore_Linq_Renumerable_Argmax_System_Collections_Generic_IEnumerable_System_Double__
+  commentId: M:Recore.Linq.Renumerable.Argmax(System.Collections.Generic.IEnumerable{System.Double})
+  name.vb: Argmax(IEnumerable(Of Double))
+  fullName: Recore.Linq.Renumerable.Argmax(System.Collections.Generic.IEnumerable<System.Double>)
+  fullName.vb: Recore.Linq.Renumerable.Argmax(System.Collections.Generic.IEnumerable(Of System.Double))
+  nameWithType: Renumerable.Argmax(IEnumerable<Double>)
+  nameWithType.vb: Renumerable.Argmax(IEnumerable(Of Double))
+- uid: Recore.Linq.Renumerable.Argmax(System.Collections.Generic.IEnumerable{System.Int32})
+  name: Argmax(IEnumerable<Int32>)
+  href: api/Recore.Linq.Renumerable.html#Recore_Linq_Renumerable_Argmax_System_Collections_Generic_IEnumerable_System_Int32__
+  commentId: M:Recore.Linq.Renumerable.Argmax(System.Collections.Generic.IEnumerable{System.Int32})
+  name.vb: Argmax(IEnumerable(Of Int32))
+  fullName: Recore.Linq.Renumerable.Argmax(System.Collections.Generic.IEnumerable<System.Int32>)
+  fullName.vb: Recore.Linq.Renumerable.Argmax(System.Collections.Generic.IEnumerable(Of System.Int32))
+  nameWithType: Renumerable.Argmax(IEnumerable<Int32>)
+  nameWithType.vb: Renumerable.Argmax(IEnumerable(Of Int32))
+- uid: Recore.Linq.Renumerable.Argmax(System.Collections.Generic.IEnumerable{System.Int64})
+  name: Argmax(IEnumerable<Int64>)
+  href: api/Recore.Linq.Renumerable.html#Recore_Linq_Renumerable_Argmax_System_Collections_Generic_IEnumerable_System_Int64__
+  commentId: M:Recore.Linq.Renumerable.Argmax(System.Collections.Generic.IEnumerable{System.Int64})
+  name.vb: Argmax(IEnumerable(Of Int64))
+  fullName: Recore.Linq.Renumerable.Argmax(System.Collections.Generic.IEnumerable<System.Int64>)
+  fullName.vb: Recore.Linq.Renumerable.Argmax(System.Collections.Generic.IEnumerable(Of System.Int64))
+  nameWithType: Renumerable.Argmax(IEnumerable<Int64>)
+  nameWithType.vb: Renumerable.Argmax(IEnumerable(Of Int64))
+- uid: Recore.Linq.Renumerable.Argmax(System.Collections.Generic.IEnumerable{System.Nullable{System.Decimal}})
+  name: Argmax(IEnumerable<Nullable<Decimal>>)
+  href: api/Recore.Linq.Renumerable.html#Recore_Linq_Renumerable_Argmax_System_Collections_Generic_IEnumerable_System_Nullable_System_Decimal___
+  commentId: M:Recore.Linq.Renumerable.Argmax(System.Collections.Generic.IEnumerable{System.Nullable{System.Decimal}})
+  name.vb: Argmax(IEnumerable(Of Nullable(Of Decimal)))
+  fullName: Recore.Linq.Renumerable.Argmax(System.Collections.Generic.IEnumerable<System.Nullable<System.Decimal>>)
+  fullName.vb: Recore.Linq.Renumerable.Argmax(System.Collections.Generic.IEnumerable(Of System.Nullable(Of System.Decimal)))
+  nameWithType: Renumerable.Argmax(IEnumerable<Nullable<Decimal>>)
+  nameWithType.vb: Renumerable.Argmax(IEnumerable(Of Nullable(Of Decimal)))
+- uid: Recore.Linq.Renumerable.Argmax(System.Collections.Generic.IEnumerable{System.Nullable{System.Double}})
+  name: Argmax(IEnumerable<Nullable<Double>>)
+  href: api/Recore.Linq.Renumerable.html#Recore_Linq_Renumerable_Argmax_System_Collections_Generic_IEnumerable_System_Nullable_System_Double___
+  commentId: M:Recore.Linq.Renumerable.Argmax(System.Collections.Generic.IEnumerable{System.Nullable{System.Double}})
+  name.vb: Argmax(IEnumerable(Of Nullable(Of Double)))
+  fullName: Recore.Linq.Renumerable.Argmax(System.Collections.Generic.IEnumerable<System.Nullable<System.Double>>)
+  fullName.vb: Recore.Linq.Renumerable.Argmax(System.Collections.Generic.IEnumerable(Of System.Nullable(Of System.Double)))
+  nameWithType: Renumerable.Argmax(IEnumerable<Nullable<Double>>)
+  nameWithType.vb: Renumerable.Argmax(IEnumerable(Of Nullable(Of Double)))
+- uid: Recore.Linq.Renumerable.Argmax(System.Collections.Generic.IEnumerable{System.Nullable{System.Int32}})
+  name: Argmax(IEnumerable<Nullable<Int32>>)
+  href: api/Recore.Linq.Renumerable.html#Recore_Linq_Renumerable_Argmax_System_Collections_Generic_IEnumerable_System_Nullable_System_Int32___
+  commentId: M:Recore.Linq.Renumerable.Argmax(System.Collections.Generic.IEnumerable{System.Nullable{System.Int32}})
+  name.vb: Argmax(IEnumerable(Of Nullable(Of Int32)))
+  fullName: Recore.Linq.Renumerable.Argmax(System.Collections.Generic.IEnumerable<System.Nullable<System.Int32>>)
+  fullName.vb: Recore.Linq.Renumerable.Argmax(System.Collections.Generic.IEnumerable(Of System.Nullable(Of System.Int32)))
+  nameWithType: Renumerable.Argmax(IEnumerable<Nullable<Int32>>)
+  nameWithType.vb: Renumerable.Argmax(IEnumerable(Of Nullable(Of Int32)))
+- uid: Recore.Linq.Renumerable.Argmax(System.Collections.Generic.IEnumerable{System.Nullable{System.Int64}})
+  name: Argmax(IEnumerable<Nullable<Int64>>)
+  href: api/Recore.Linq.Renumerable.html#Recore_Linq_Renumerable_Argmax_System_Collections_Generic_IEnumerable_System_Nullable_System_Int64___
+  commentId: M:Recore.Linq.Renumerable.Argmax(System.Collections.Generic.IEnumerable{System.Nullable{System.Int64}})
+  name.vb: Argmax(IEnumerable(Of Nullable(Of Int64)))
+  fullName: Recore.Linq.Renumerable.Argmax(System.Collections.Generic.IEnumerable<System.Nullable<System.Int64>>)
+  fullName.vb: Recore.Linq.Renumerable.Argmax(System.Collections.Generic.IEnumerable(Of System.Nullable(Of System.Int64)))
+  nameWithType: Renumerable.Argmax(IEnumerable<Nullable<Int64>>)
+  nameWithType.vb: Renumerable.Argmax(IEnumerable(Of Nullable(Of Int64)))
+- uid: Recore.Linq.Renumerable.Argmax(System.Collections.Generic.IEnumerable{System.Nullable{System.Single}})
+  name: Argmax(IEnumerable<Nullable<Single>>)
+  href: api/Recore.Linq.Renumerable.html#Recore_Linq_Renumerable_Argmax_System_Collections_Generic_IEnumerable_System_Nullable_System_Single___
+  commentId: M:Recore.Linq.Renumerable.Argmax(System.Collections.Generic.IEnumerable{System.Nullable{System.Single}})
+  name.vb: Argmax(IEnumerable(Of Nullable(Of Single)))
+  fullName: Recore.Linq.Renumerable.Argmax(System.Collections.Generic.IEnumerable<System.Nullable<System.Single>>)
+  fullName.vb: Recore.Linq.Renumerable.Argmax(System.Collections.Generic.IEnumerable(Of System.Nullable(Of System.Single)))
+  nameWithType: Renumerable.Argmax(IEnumerable<Nullable<Single>>)
+  nameWithType.vb: Renumerable.Argmax(IEnumerable(Of Nullable(Of Single)))
+- uid: Recore.Linq.Renumerable.Argmax(System.Collections.Generic.IEnumerable{System.Single})
+  name: Argmax(IEnumerable<Single>)
+  href: api/Recore.Linq.Renumerable.html#Recore_Linq_Renumerable_Argmax_System_Collections_Generic_IEnumerable_System_Single__
+  commentId: M:Recore.Linq.Renumerable.Argmax(System.Collections.Generic.IEnumerable{System.Single})
+  name.vb: Argmax(IEnumerable(Of Single))
+  fullName: Recore.Linq.Renumerable.Argmax(System.Collections.Generic.IEnumerable<System.Single>)
+  fullName.vb: Recore.Linq.Renumerable.Argmax(System.Collections.Generic.IEnumerable(Of System.Single))
+  nameWithType: Renumerable.Argmax(IEnumerable<Single>)
+  nameWithType.vb: Renumerable.Argmax(IEnumerable(Of Single))
 - uid: Recore.Linq.Renumerable.Argmax*
   name: Argmax
   href: api/Recore.Linq.Renumerable.html#Recore_Linq_Renumerable_Argmax_
@@ -1358,6 +1464,105 @@ references:
   isSpec: "True"
   fullName: Recore.Linq.Renumerable.Argmax
   nameWithType: Renumerable.Argmax
+- uid: Recore.Linq.Renumerable.Argmax``1(System.Collections.Generic.IEnumerable{``0})
+  name: Argmax<TSource>(IEnumerable<TSource>)
+  href: api/Recore.Linq.Renumerable.html#Recore_Linq_Renumerable_Argmax__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:Recore.Linq.Renumerable.Argmax``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: Argmax(Of TSource)(IEnumerable(Of TSource))
+  fullName: Recore.Linq.Renumerable.Argmax<TSource>(System.Collections.Generic.IEnumerable<TSource>)
+  fullName.vb: Recore.Linq.Renumerable.Argmax(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource))
+  nameWithType: Renumerable.Argmax<TSource>(IEnumerable<TSource>)
+  nameWithType.vb: Renumerable.Argmax(Of TSource)(IEnumerable(Of TSource))
+- uid: Recore.Linq.Renumerable.Argmax``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Decimal})
+  name: Argmax<TSource>(IEnumerable<TSource>, Func<TSource, Decimal>)
+  href: api/Recore.Linq.Renumerable.html#Recore_Linq_Renumerable_Argmax__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Decimal__
+  commentId: M:Recore.Linq.Renumerable.Argmax``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Decimal})
+  name.vb: Argmax(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Decimal))
+  fullName: Recore.Linq.Renumerable.Argmax<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, System.Decimal>)
+  fullName.vb: Recore.Linq.Renumerable.Argmax(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, System.Decimal))
+  nameWithType: Renumerable.Argmax<TSource>(IEnumerable<TSource>, Func<TSource, Decimal>)
+  nameWithType.vb: Renumerable.Argmax(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Decimal))
+- uid: Recore.Linq.Renumerable.Argmax``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Double})
+  name: Argmax<TSource>(IEnumerable<TSource>, Func<TSource, Double>)
+  href: api/Recore.Linq.Renumerable.html#Recore_Linq_Renumerable_Argmax__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Double__
+  commentId: M:Recore.Linq.Renumerable.Argmax``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Double})
+  name.vb: Argmax(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Double))
+  fullName: Recore.Linq.Renumerable.Argmax<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, System.Double>)
+  fullName.vb: Recore.Linq.Renumerable.Argmax(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, System.Double))
+  nameWithType: Renumerable.Argmax<TSource>(IEnumerable<TSource>, Func<TSource, Double>)
+  nameWithType.vb: Renumerable.Argmax(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Double))
+- uid: Recore.Linq.Renumerable.Argmax``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int32})
+  name: Argmax<TSource>(IEnumerable<TSource>, Func<TSource, Int32>)
+  href: api/Recore.Linq.Renumerable.html#Recore_Linq_Renumerable_Argmax__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Int32__
+  commentId: M:Recore.Linq.Renumerable.Argmax``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int32})
+  name.vb: Argmax(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Int32))
+  fullName: Recore.Linq.Renumerable.Argmax<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, System.Int32>)
+  fullName.vb: Recore.Linq.Renumerable.Argmax(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, System.Int32))
+  nameWithType: Renumerable.Argmax<TSource>(IEnumerable<TSource>, Func<TSource, Int32>)
+  nameWithType.vb: Renumerable.Argmax(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Int32))
+- uid: Recore.Linq.Renumerable.Argmax``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int64})
+  name: Argmax<TSource>(IEnumerable<TSource>, Func<TSource, Int64>)
+  href: api/Recore.Linq.Renumerable.html#Recore_Linq_Renumerable_Argmax__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Int64__
+  commentId: M:Recore.Linq.Renumerable.Argmax``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int64})
+  name.vb: Argmax(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Int64))
+  fullName: Recore.Linq.Renumerable.Argmax<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, System.Int64>)
+  fullName.vb: Recore.Linq.Renumerable.Argmax(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, System.Int64))
+  nameWithType: Renumerable.Argmax<TSource>(IEnumerable<TSource>, Func<TSource, Int64>)
+  nameWithType.vb: Renumerable.Argmax(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Int64))
+- uid: Recore.Linq.Renumerable.Argmax``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Decimal}})
+  name: Argmax<TSource>(IEnumerable<TSource>, Func<TSource, Nullable<Decimal>>)
+  href: api/Recore.Linq.Renumerable.html#Recore_Linq_Renumerable_Argmax__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Nullable_System_Decimal___
+  commentId: M:Recore.Linq.Renumerable.Argmax``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Decimal}})
+  name.vb: Argmax(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Nullable(Of Decimal)))
+  fullName: Recore.Linq.Renumerable.Argmax<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, System.Nullable<System.Decimal>>)
+  fullName.vb: Recore.Linq.Renumerable.Argmax(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, System.Nullable(Of System.Decimal)))
+  nameWithType: Renumerable.Argmax<TSource>(IEnumerable<TSource>, Func<TSource, Nullable<Decimal>>)
+  nameWithType.vb: Renumerable.Argmax(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Nullable(Of Decimal)))
+- uid: Recore.Linq.Renumerable.Argmax``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Double}})
+  name: Argmax<TSource>(IEnumerable<TSource>, Func<TSource, Nullable<Double>>)
+  href: api/Recore.Linq.Renumerable.html#Recore_Linq_Renumerable_Argmax__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Nullable_System_Double___
+  commentId: M:Recore.Linq.Renumerable.Argmax``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Double}})
+  name.vb: Argmax(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Nullable(Of Double)))
+  fullName: Recore.Linq.Renumerable.Argmax<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, System.Nullable<System.Double>>)
+  fullName.vb: Recore.Linq.Renumerable.Argmax(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, System.Nullable(Of System.Double)))
+  nameWithType: Renumerable.Argmax<TSource>(IEnumerable<TSource>, Func<TSource, Nullable<Double>>)
+  nameWithType.vb: Renumerable.Argmax(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Nullable(Of Double)))
+- uid: Recore.Linq.Renumerable.Argmax``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Int32}})
+  name: Argmax<TSource>(IEnumerable<TSource>, Func<TSource, Nullable<Int32>>)
+  href: api/Recore.Linq.Renumerable.html#Recore_Linq_Renumerable_Argmax__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Nullable_System_Int32___
+  commentId: M:Recore.Linq.Renumerable.Argmax``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Int32}})
+  name.vb: Argmax(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Nullable(Of Int32)))
+  fullName: Recore.Linq.Renumerable.Argmax<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, System.Nullable<System.Int32>>)
+  fullName.vb: Recore.Linq.Renumerable.Argmax(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, System.Nullable(Of System.Int32)))
+  nameWithType: Renumerable.Argmax<TSource>(IEnumerable<TSource>, Func<TSource, Nullable<Int32>>)
+  nameWithType.vb: Renumerable.Argmax(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Nullable(Of Int32)))
+- uid: Recore.Linq.Renumerable.Argmax``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Int64}})
+  name: Argmax<TSource>(IEnumerable<TSource>, Func<TSource, Nullable<Int64>>)
+  href: api/Recore.Linq.Renumerable.html#Recore_Linq_Renumerable_Argmax__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Nullable_System_Int64___
+  commentId: M:Recore.Linq.Renumerable.Argmax``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Int64}})
+  name.vb: Argmax(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Nullable(Of Int64)))
+  fullName: Recore.Linq.Renumerable.Argmax<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, System.Nullable<System.Int64>>)
+  fullName.vb: Recore.Linq.Renumerable.Argmax(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, System.Nullable(Of System.Int64)))
+  nameWithType: Renumerable.Argmax<TSource>(IEnumerable<TSource>, Func<TSource, Nullable<Int64>>)
+  nameWithType.vb: Renumerable.Argmax(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Nullable(Of Int64)))
+- uid: Recore.Linq.Renumerable.Argmax``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Single}})
+  name: Argmax<TSource>(IEnumerable<TSource>, Func<TSource, Nullable<Single>>)
+  href: api/Recore.Linq.Renumerable.html#Recore_Linq_Renumerable_Argmax__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Nullable_System_Single___
+  commentId: M:Recore.Linq.Renumerable.Argmax``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Single}})
+  name.vb: Argmax(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Nullable(Of Single)))
+  fullName: Recore.Linq.Renumerable.Argmax<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, System.Nullable<System.Single>>)
+  fullName.vb: Recore.Linq.Renumerable.Argmax(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, System.Nullable(Of System.Single)))
+  nameWithType: Renumerable.Argmax<TSource>(IEnumerable<TSource>, Func<TSource, Nullable<Single>>)
+  nameWithType.vb: Renumerable.Argmax(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Nullable(Of Single)))
+- uid: Recore.Linq.Renumerable.Argmax``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Single})
+  name: Argmax<TSource>(IEnumerable<TSource>, Func<TSource, Single>)
+  href: api/Recore.Linq.Renumerable.html#Recore_Linq_Renumerable_Argmax__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Single__
+  commentId: M:Recore.Linq.Renumerable.Argmax``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Single})
+  name.vb: Argmax(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Single))
+  fullName: Recore.Linq.Renumerable.Argmax<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, System.Single>)
+  fullName.vb: Recore.Linq.Renumerable.Argmax(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, System.Single))
+  nameWithType: Renumerable.Argmax<TSource>(IEnumerable<TSource>, Func<TSource, Single>)
+  nameWithType.vb: Renumerable.Argmax(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Single))
 - uid: Recore.Linq.Renumerable.Argmax``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
   name: Argmax<TSource, TResult>(IEnumerable<TSource>, Func<TSource, TResult>)
   href: api/Recore.Linq.Renumerable.html#Recore_Linq_Renumerable_Argmax__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__
@@ -1367,6 +1572,96 @@ references:
   fullName.vb: Recore.Linq.Renumerable.Argmax(Of TSource, TResult)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, TResult))
   nameWithType: Renumerable.Argmax<TSource, TResult>(IEnumerable<TSource>, Func<TSource, TResult>)
   nameWithType.vb: Renumerable.Argmax(Of TSource, TResult)(IEnumerable(Of TSource), Func(Of TSource, TResult))
+- uid: Recore.Linq.Renumerable.Argmin(System.Collections.Generic.IEnumerable{System.Decimal})
+  name: Argmin(IEnumerable<Decimal>)
+  href: api/Recore.Linq.Renumerable.html#Recore_Linq_Renumerable_Argmin_System_Collections_Generic_IEnumerable_System_Decimal__
+  commentId: M:Recore.Linq.Renumerable.Argmin(System.Collections.Generic.IEnumerable{System.Decimal})
+  name.vb: Argmin(IEnumerable(Of Decimal))
+  fullName: Recore.Linq.Renumerable.Argmin(System.Collections.Generic.IEnumerable<System.Decimal>)
+  fullName.vb: Recore.Linq.Renumerable.Argmin(System.Collections.Generic.IEnumerable(Of System.Decimal))
+  nameWithType: Renumerable.Argmin(IEnumerable<Decimal>)
+  nameWithType.vb: Renumerable.Argmin(IEnumerable(Of Decimal))
+- uid: Recore.Linq.Renumerable.Argmin(System.Collections.Generic.IEnumerable{System.Double})
+  name: Argmin(IEnumerable<Double>)
+  href: api/Recore.Linq.Renumerable.html#Recore_Linq_Renumerable_Argmin_System_Collections_Generic_IEnumerable_System_Double__
+  commentId: M:Recore.Linq.Renumerable.Argmin(System.Collections.Generic.IEnumerable{System.Double})
+  name.vb: Argmin(IEnumerable(Of Double))
+  fullName: Recore.Linq.Renumerable.Argmin(System.Collections.Generic.IEnumerable<System.Double>)
+  fullName.vb: Recore.Linq.Renumerable.Argmin(System.Collections.Generic.IEnumerable(Of System.Double))
+  nameWithType: Renumerable.Argmin(IEnumerable<Double>)
+  nameWithType.vb: Renumerable.Argmin(IEnumerable(Of Double))
+- uid: Recore.Linq.Renumerable.Argmin(System.Collections.Generic.IEnumerable{System.Int32})
+  name: Argmin(IEnumerable<Int32>)
+  href: api/Recore.Linq.Renumerable.html#Recore_Linq_Renumerable_Argmin_System_Collections_Generic_IEnumerable_System_Int32__
+  commentId: M:Recore.Linq.Renumerable.Argmin(System.Collections.Generic.IEnumerable{System.Int32})
+  name.vb: Argmin(IEnumerable(Of Int32))
+  fullName: Recore.Linq.Renumerable.Argmin(System.Collections.Generic.IEnumerable<System.Int32>)
+  fullName.vb: Recore.Linq.Renumerable.Argmin(System.Collections.Generic.IEnumerable(Of System.Int32))
+  nameWithType: Renumerable.Argmin(IEnumerable<Int32>)
+  nameWithType.vb: Renumerable.Argmin(IEnumerable(Of Int32))
+- uid: Recore.Linq.Renumerable.Argmin(System.Collections.Generic.IEnumerable{System.Int64})
+  name: Argmin(IEnumerable<Int64>)
+  href: api/Recore.Linq.Renumerable.html#Recore_Linq_Renumerable_Argmin_System_Collections_Generic_IEnumerable_System_Int64__
+  commentId: M:Recore.Linq.Renumerable.Argmin(System.Collections.Generic.IEnumerable{System.Int64})
+  name.vb: Argmin(IEnumerable(Of Int64))
+  fullName: Recore.Linq.Renumerable.Argmin(System.Collections.Generic.IEnumerable<System.Int64>)
+  fullName.vb: Recore.Linq.Renumerable.Argmin(System.Collections.Generic.IEnumerable(Of System.Int64))
+  nameWithType: Renumerable.Argmin(IEnumerable<Int64>)
+  nameWithType.vb: Renumerable.Argmin(IEnumerable(Of Int64))
+- uid: Recore.Linq.Renumerable.Argmin(System.Collections.Generic.IEnumerable{System.Nullable{System.Decimal}})
+  name: Argmin(IEnumerable<Nullable<Decimal>>)
+  href: api/Recore.Linq.Renumerable.html#Recore_Linq_Renumerable_Argmin_System_Collections_Generic_IEnumerable_System_Nullable_System_Decimal___
+  commentId: M:Recore.Linq.Renumerable.Argmin(System.Collections.Generic.IEnumerable{System.Nullable{System.Decimal}})
+  name.vb: Argmin(IEnumerable(Of Nullable(Of Decimal)))
+  fullName: Recore.Linq.Renumerable.Argmin(System.Collections.Generic.IEnumerable<System.Nullable<System.Decimal>>)
+  fullName.vb: Recore.Linq.Renumerable.Argmin(System.Collections.Generic.IEnumerable(Of System.Nullable(Of System.Decimal)))
+  nameWithType: Renumerable.Argmin(IEnumerable<Nullable<Decimal>>)
+  nameWithType.vb: Renumerable.Argmin(IEnumerable(Of Nullable(Of Decimal)))
+- uid: Recore.Linq.Renumerable.Argmin(System.Collections.Generic.IEnumerable{System.Nullable{System.Double}})
+  name: Argmin(IEnumerable<Nullable<Double>>)
+  href: api/Recore.Linq.Renumerable.html#Recore_Linq_Renumerable_Argmin_System_Collections_Generic_IEnumerable_System_Nullable_System_Double___
+  commentId: M:Recore.Linq.Renumerable.Argmin(System.Collections.Generic.IEnumerable{System.Nullable{System.Double}})
+  name.vb: Argmin(IEnumerable(Of Nullable(Of Double)))
+  fullName: Recore.Linq.Renumerable.Argmin(System.Collections.Generic.IEnumerable<System.Nullable<System.Double>>)
+  fullName.vb: Recore.Linq.Renumerable.Argmin(System.Collections.Generic.IEnumerable(Of System.Nullable(Of System.Double)))
+  nameWithType: Renumerable.Argmin(IEnumerable<Nullable<Double>>)
+  nameWithType.vb: Renumerable.Argmin(IEnumerable(Of Nullable(Of Double)))
+- uid: Recore.Linq.Renumerable.Argmin(System.Collections.Generic.IEnumerable{System.Nullable{System.Int32}})
+  name: Argmin(IEnumerable<Nullable<Int32>>)
+  href: api/Recore.Linq.Renumerable.html#Recore_Linq_Renumerable_Argmin_System_Collections_Generic_IEnumerable_System_Nullable_System_Int32___
+  commentId: M:Recore.Linq.Renumerable.Argmin(System.Collections.Generic.IEnumerable{System.Nullable{System.Int32}})
+  name.vb: Argmin(IEnumerable(Of Nullable(Of Int32)))
+  fullName: Recore.Linq.Renumerable.Argmin(System.Collections.Generic.IEnumerable<System.Nullable<System.Int32>>)
+  fullName.vb: Recore.Linq.Renumerable.Argmin(System.Collections.Generic.IEnumerable(Of System.Nullable(Of System.Int32)))
+  nameWithType: Renumerable.Argmin(IEnumerable<Nullable<Int32>>)
+  nameWithType.vb: Renumerable.Argmin(IEnumerable(Of Nullable(Of Int32)))
+- uid: Recore.Linq.Renumerable.Argmin(System.Collections.Generic.IEnumerable{System.Nullable{System.Int64}})
+  name: Argmin(IEnumerable<Nullable<Int64>>)
+  href: api/Recore.Linq.Renumerable.html#Recore_Linq_Renumerable_Argmin_System_Collections_Generic_IEnumerable_System_Nullable_System_Int64___
+  commentId: M:Recore.Linq.Renumerable.Argmin(System.Collections.Generic.IEnumerable{System.Nullable{System.Int64}})
+  name.vb: Argmin(IEnumerable(Of Nullable(Of Int64)))
+  fullName: Recore.Linq.Renumerable.Argmin(System.Collections.Generic.IEnumerable<System.Nullable<System.Int64>>)
+  fullName.vb: Recore.Linq.Renumerable.Argmin(System.Collections.Generic.IEnumerable(Of System.Nullable(Of System.Int64)))
+  nameWithType: Renumerable.Argmin(IEnumerable<Nullable<Int64>>)
+  nameWithType.vb: Renumerable.Argmin(IEnumerable(Of Nullable(Of Int64)))
+- uid: Recore.Linq.Renumerable.Argmin(System.Collections.Generic.IEnumerable{System.Nullable{System.Single}})
+  name: Argmin(IEnumerable<Nullable<Single>>)
+  href: api/Recore.Linq.Renumerable.html#Recore_Linq_Renumerable_Argmin_System_Collections_Generic_IEnumerable_System_Nullable_System_Single___
+  commentId: M:Recore.Linq.Renumerable.Argmin(System.Collections.Generic.IEnumerable{System.Nullable{System.Single}})
+  name.vb: Argmin(IEnumerable(Of Nullable(Of Single)))
+  fullName: Recore.Linq.Renumerable.Argmin(System.Collections.Generic.IEnumerable<System.Nullable<System.Single>>)
+  fullName.vb: Recore.Linq.Renumerable.Argmin(System.Collections.Generic.IEnumerable(Of System.Nullable(Of System.Single)))
+  nameWithType: Renumerable.Argmin(IEnumerable<Nullable<Single>>)
+  nameWithType.vb: Renumerable.Argmin(IEnumerable(Of Nullable(Of Single)))
+- uid: Recore.Linq.Renumerable.Argmin(System.Collections.Generic.IEnumerable{System.Single})
+  name: Argmin(IEnumerable<Single>)
+  href: api/Recore.Linq.Renumerable.html#Recore_Linq_Renumerable_Argmin_System_Collections_Generic_IEnumerable_System_Single__
+  commentId: M:Recore.Linq.Renumerable.Argmin(System.Collections.Generic.IEnumerable{System.Single})
+  name.vb: Argmin(IEnumerable(Of Single))
+  fullName: Recore.Linq.Renumerable.Argmin(System.Collections.Generic.IEnumerable<System.Single>)
+  fullName.vb: Recore.Linq.Renumerable.Argmin(System.Collections.Generic.IEnumerable(Of System.Single))
+  nameWithType: Renumerable.Argmin(IEnumerable<Single>)
+  nameWithType.vb: Renumerable.Argmin(IEnumerable(Of Single))
 - uid: Recore.Linq.Renumerable.Argmin*
   name: Argmin
   href: api/Recore.Linq.Renumerable.html#Recore_Linq_Renumerable_Argmin_
@@ -1374,6 +1669,105 @@ references:
   isSpec: "True"
   fullName: Recore.Linq.Renumerable.Argmin
   nameWithType: Renumerable.Argmin
+- uid: Recore.Linq.Renumerable.Argmin``1(System.Collections.Generic.IEnumerable{``0})
+  name: Argmin<TSource>(IEnumerable<TSource>)
+  href: api/Recore.Linq.Renumerable.html#Recore_Linq_Renumerable_Argmin__1_System_Collections_Generic_IEnumerable___0__
+  commentId: M:Recore.Linq.Renumerable.Argmin``1(System.Collections.Generic.IEnumerable{``0})
+  name.vb: Argmin(Of TSource)(IEnumerable(Of TSource))
+  fullName: Recore.Linq.Renumerable.Argmin<TSource>(System.Collections.Generic.IEnumerable<TSource>)
+  fullName.vb: Recore.Linq.Renumerable.Argmin(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource))
+  nameWithType: Renumerable.Argmin<TSource>(IEnumerable<TSource>)
+  nameWithType.vb: Renumerable.Argmin(Of TSource)(IEnumerable(Of TSource))
+- uid: Recore.Linq.Renumerable.Argmin``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Decimal})
+  name: Argmin<TSource>(IEnumerable<TSource>, Func<TSource, Decimal>)
+  href: api/Recore.Linq.Renumerable.html#Recore_Linq_Renumerable_Argmin__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Decimal__
+  commentId: M:Recore.Linq.Renumerable.Argmin``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Decimal})
+  name.vb: Argmin(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Decimal))
+  fullName: Recore.Linq.Renumerable.Argmin<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, System.Decimal>)
+  fullName.vb: Recore.Linq.Renumerable.Argmin(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, System.Decimal))
+  nameWithType: Renumerable.Argmin<TSource>(IEnumerable<TSource>, Func<TSource, Decimal>)
+  nameWithType.vb: Renumerable.Argmin(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Decimal))
+- uid: Recore.Linq.Renumerable.Argmin``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Double})
+  name: Argmin<TSource>(IEnumerable<TSource>, Func<TSource, Double>)
+  href: api/Recore.Linq.Renumerable.html#Recore_Linq_Renumerable_Argmin__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Double__
+  commentId: M:Recore.Linq.Renumerable.Argmin``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Double})
+  name.vb: Argmin(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Double))
+  fullName: Recore.Linq.Renumerable.Argmin<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, System.Double>)
+  fullName.vb: Recore.Linq.Renumerable.Argmin(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, System.Double))
+  nameWithType: Renumerable.Argmin<TSource>(IEnumerable<TSource>, Func<TSource, Double>)
+  nameWithType.vb: Renumerable.Argmin(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Double))
+- uid: Recore.Linq.Renumerable.Argmin``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int32})
+  name: Argmin<TSource>(IEnumerable<TSource>, Func<TSource, Int32>)
+  href: api/Recore.Linq.Renumerable.html#Recore_Linq_Renumerable_Argmin__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Int32__
+  commentId: M:Recore.Linq.Renumerable.Argmin``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int32})
+  name.vb: Argmin(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Int32))
+  fullName: Recore.Linq.Renumerable.Argmin<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, System.Int32>)
+  fullName.vb: Recore.Linq.Renumerable.Argmin(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, System.Int32))
+  nameWithType: Renumerable.Argmin<TSource>(IEnumerable<TSource>, Func<TSource, Int32>)
+  nameWithType.vb: Renumerable.Argmin(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Int32))
+- uid: Recore.Linq.Renumerable.Argmin``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int64})
+  name: Argmin<TSource>(IEnumerable<TSource>, Func<TSource, Int64>)
+  href: api/Recore.Linq.Renumerable.html#Recore_Linq_Renumerable_Argmin__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Int64__
+  commentId: M:Recore.Linq.Renumerable.Argmin``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Int64})
+  name.vb: Argmin(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Int64))
+  fullName: Recore.Linq.Renumerable.Argmin<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, System.Int64>)
+  fullName.vb: Recore.Linq.Renumerable.Argmin(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, System.Int64))
+  nameWithType: Renumerable.Argmin<TSource>(IEnumerable<TSource>, Func<TSource, Int64>)
+  nameWithType.vb: Renumerable.Argmin(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Int64))
+- uid: Recore.Linq.Renumerable.Argmin``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Decimal}})
+  name: Argmin<TSource>(IEnumerable<TSource>, Func<TSource, Nullable<Decimal>>)
+  href: api/Recore.Linq.Renumerable.html#Recore_Linq_Renumerable_Argmin__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Nullable_System_Decimal___
+  commentId: M:Recore.Linq.Renumerable.Argmin``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Decimal}})
+  name.vb: Argmin(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Nullable(Of Decimal)))
+  fullName: Recore.Linq.Renumerable.Argmin<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, System.Nullable<System.Decimal>>)
+  fullName.vb: Recore.Linq.Renumerable.Argmin(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, System.Nullable(Of System.Decimal)))
+  nameWithType: Renumerable.Argmin<TSource>(IEnumerable<TSource>, Func<TSource, Nullable<Decimal>>)
+  nameWithType.vb: Renumerable.Argmin(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Nullable(Of Decimal)))
+- uid: Recore.Linq.Renumerable.Argmin``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Double}})
+  name: Argmin<TSource>(IEnumerable<TSource>, Func<TSource, Nullable<Double>>)
+  href: api/Recore.Linq.Renumerable.html#Recore_Linq_Renumerable_Argmin__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Nullable_System_Double___
+  commentId: M:Recore.Linq.Renumerable.Argmin``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Double}})
+  name.vb: Argmin(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Nullable(Of Double)))
+  fullName: Recore.Linq.Renumerable.Argmin<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, System.Nullable<System.Double>>)
+  fullName.vb: Recore.Linq.Renumerable.Argmin(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, System.Nullable(Of System.Double)))
+  nameWithType: Renumerable.Argmin<TSource>(IEnumerable<TSource>, Func<TSource, Nullable<Double>>)
+  nameWithType.vb: Renumerable.Argmin(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Nullable(Of Double)))
+- uid: Recore.Linq.Renumerable.Argmin``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Int32}})
+  name: Argmin<TSource>(IEnumerable<TSource>, Func<TSource, Nullable<Int32>>)
+  href: api/Recore.Linq.Renumerable.html#Recore_Linq_Renumerable_Argmin__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Nullable_System_Int32___
+  commentId: M:Recore.Linq.Renumerable.Argmin``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Int32}})
+  name.vb: Argmin(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Nullable(Of Int32)))
+  fullName: Recore.Linq.Renumerable.Argmin<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, System.Nullable<System.Int32>>)
+  fullName.vb: Recore.Linq.Renumerable.Argmin(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, System.Nullable(Of System.Int32)))
+  nameWithType: Renumerable.Argmin<TSource>(IEnumerable<TSource>, Func<TSource, Nullable<Int32>>)
+  nameWithType.vb: Renumerable.Argmin(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Nullable(Of Int32)))
+- uid: Recore.Linq.Renumerable.Argmin``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Int64}})
+  name: Argmin<TSource>(IEnumerable<TSource>, Func<TSource, Nullable<Int64>>)
+  href: api/Recore.Linq.Renumerable.html#Recore_Linq_Renumerable_Argmin__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Nullable_System_Int64___
+  commentId: M:Recore.Linq.Renumerable.Argmin``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Int64}})
+  name.vb: Argmin(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Nullable(Of Int64)))
+  fullName: Recore.Linq.Renumerable.Argmin<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, System.Nullable<System.Int64>>)
+  fullName.vb: Recore.Linq.Renumerable.Argmin(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, System.Nullable(Of System.Int64)))
+  nameWithType: Renumerable.Argmin<TSource>(IEnumerable<TSource>, Func<TSource, Nullable<Int64>>)
+  nameWithType.vb: Renumerable.Argmin(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Nullable(Of Int64)))
+- uid: Recore.Linq.Renumerable.Argmin``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Single}})
+  name: Argmin<TSource>(IEnumerable<TSource>, Func<TSource, Nullable<Single>>)
+  href: api/Recore.Linq.Renumerable.html#Recore_Linq_Renumerable_Argmin__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Nullable_System_Single___
+  commentId: M:Recore.Linq.Renumerable.Argmin``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Nullable{System.Single}})
+  name.vb: Argmin(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Nullable(Of Single)))
+  fullName: Recore.Linq.Renumerable.Argmin<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, System.Nullable<System.Single>>)
+  fullName.vb: Recore.Linq.Renumerable.Argmin(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, System.Nullable(Of System.Single)))
+  nameWithType: Renumerable.Argmin<TSource>(IEnumerable<TSource>, Func<TSource, Nullable<Single>>)
+  nameWithType.vb: Renumerable.Argmin(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Nullable(Of Single)))
+- uid: Recore.Linq.Renumerable.Argmin``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Single})
+  name: Argmin<TSource>(IEnumerable<TSource>, Func<TSource, Single>)
+  href: api/Recore.Linq.Renumerable.html#Recore_Linq_Renumerable_Argmin__1_System_Collections_Generic_IEnumerable___0__System_Func___0_System_Single__
+  commentId: M:Recore.Linq.Renumerable.Argmin``1(System.Collections.Generic.IEnumerable{``0},System.Func{``0,System.Single})
+  name.vb: Argmin(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Single))
+  fullName: Recore.Linq.Renumerable.Argmin<TSource>(System.Collections.Generic.IEnumerable<TSource>, System.Func<TSource, System.Single>)
+  fullName.vb: Recore.Linq.Renumerable.Argmin(Of TSource)(System.Collections.Generic.IEnumerable(Of TSource), System.Func(Of TSource, System.Single))
+  nameWithType: Renumerable.Argmin<TSource>(IEnumerable<TSource>, Func<TSource, Single>)
+  nameWithType.vb: Renumerable.Argmin(Of TSource)(IEnumerable(Of TSource), Func(Of TSource, Single))
 - uid: Recore.Linq.Renumerable.Argmin``2(System.Collections.Generic.IEnumerable{``0},System.Func{``0,``1})
   name: Argmin<TSource, TResult>(IEnumerable<TSource>, Func<TSource, TResult>)
   href: api/Recore.Linq.Renumerable.html#Recore_Linq_Renumerable_Argmin__2_System_Collections_Generic_IEnumerable___0__System_Func___0___1__
@@ -1815,6 +2209,15 @@ references:
   fullName.vb: Recore.Optional.Flatten(Of T)(Recore.Optional(Of Recore.Optional(Of T)))
   nameWithType: Optional.Flatten<T>(Optional<Optional<T>>)
   nameWithType.vb: Optional.Flatten(Of T)(Optional(Of Optional(Of T)))
+- uid: Recore.Optional.Flatten``1(Recore.Optional{System.Nullable{``0}})
+  name: Flatten<T>(Optional<Nullable<T>>)
+  href: api/Recore.Optional.html#Recore_Optional_Flatten__1_Recore_Optional_System_Nullable___0___
+  commentId: M:Recore.Optional.Flatten``1(Recore.Optional{System.Nullable{``0}})
+  name.vb: Flatten(Of T)(Optional(Of Nullable(Of T)))
+  fullName: Recore.Optional.Flatten<T>(Recore.Optional<System.Nullable<T>>)
+  fullName.vb: Recore.Optional.Flatten(Of T)(Recore.Optional(Of System.Nullable(Of T)))
+  nameWithType: Optional.Flatten<T>(Optional<Nullable<T>>)
+  nameWithType.vb: Optional.Flatten(Of T)(Optional(Of Nullable(Of T)))
 - uid: Recore.Optional.If*
   name: If
   href: api/Recore.Optional.html#Recore_Optional_If_
@@ -1897,6 +2300,15 @@ references:
   fullName.vb: Recore.Optional.Of(Of T)(T)
   nameWithType: Optional.Of<T>(T)
   nameWithType.vb: Optional.Of(Of T)(T)
+- uid: Recore.Optional.Of``1(System.Nullable{``0})
+  name: Of<T>(Nullable<T>)
+  href: api/Recore.Optional.html#Recore_Optional_Of__1_System_Nullable___0__
+  commentId: M:Recore.Optional.Of``1(System.Nullable{``0})
+  name.vb: Of(Of T)(Nullable(Of T))
+  fullName: Recore.Optional.Of<T>(System.Nullable<T>)
+  fullName.vb: Recore.Optional.Of(Of T)(System.Nullable(Of T))
+  nameWithType: Optional.Of<T>(Nullable<T>)
+  nameWithType.vb: Optional.Of(Of T)(Nullable(Of T))
 - uid: Recore.Optional`1
   name: Optional<T>
   href: api/Recore.Optional-1.html
@@ -2428,6 +2840,22 @@ references:
   fullName.vb: Recore.Result.Catcher(Of TValue).Catch(Of TException, TMapped)(System.Func(Of TException, TMapped))
   nameWithType: Result.Catcher<TValue>.Catch<TException, TMapped>(Func<TException, TMapped>)
   nameWithType.vb: Result.Catcher(Of TValue).Catch(Of TException, TMapped)(Func(Of TException, TMapped))
+- uid: Recore.Result.Collapse*
+  name: Collapse
+  href: api/Recore.Result.html#Recore_Result_Collapse_
+  commentId: Overload:Recore.Result.Collapse
+  isSpec: "True"
+  fullName: Recore.Result.Collapse
+  nameWithType: Result.Collapse
+- uid: Recore.Result.Collapse``1(Recore.Result{``0,``0})
+  name: Collapse<T>(Result<T, T>)
+  href: api/Recore.Result.html#Recore_Result_Collapse__1_Recore_Result___0___0__
+  commentId: M:Recore.Result.Collapse``1(Recore.Result{``0,``0})
+  name.vb: Collapse(Of T)(Result(Of T, T))
+  fullName: Recore.Result.Collapse<T>(Recore.Result<T, T>)
+  fullName.vb: Recore.Result.Collapse(Of T)(Recore.Result(Of T, T))
+  nameWithType: Result.Collapse<T>(Result<T, T>)
+  nameWithType.vb: Result.Collapse(Of T)(Result(Of T, T))
 - uid: Recore.Result.Failure*
   name: Failure
   href: api/Recore.Result.html#Recore_Result_Failure_
