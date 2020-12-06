@@ -148,6 +148,9 @@
                             <a href="Recore.AsyncAction-2.html" title="AsyncAction&lt;T1, T2&gt;" class="">AsyncAction&lt;T1, T2&gt;</a>
                           </li>
                           <li class="">
+                            <a href="Recore.AsyncDefer.html" title="AsyncDefer" class="">AsyncDefer</a>
+                          </li>
+                          <li class="">
                             <a href="Recore.AsyncFunc-2.html" title="AsyncFunc&lt;T, TResult&gt;" class="">AsyncFunc&lt;T, TResult&gt;</a>
                           </li>
                           <li class="">
@@ -199,9 +202,6 @@
                             <a href="Recore.AsyncFunc-1.html" title="AsyncFunc&lt;TResult&gt;" class="">AsyncFunc&lt;TResult&gt;</a>
                           </li>
                           <li class="">
-                            <a href="Recore.Composer-2.html" title="Composer&lt;TValue, TResult&gt;" class="">Composer&lt;TValue, TResult&gt;</a>
-                          </li>
-                          <li class="">
                             <a href="Recore.Defer.html" title="Defer" class="">Defer</a>
                           </li>
                           <li class="">
@@ -229,12 +229,6 @@
                             <a href="Recore.Optional-1.html" title="Optional&lt;T&gt;" class="">Optional&lt;T&gt;</a>
                           </li>
                           <li class="">
-                            <a href="Recore.Pipeline.html" title="Pipeline" class="">Pipeline</a>
-                          </li>
-                          <li class="">
-                            <a href="Recore.Pipeline-1.html" title="Pipeline&lt;T&gt;" class="">Pipeline&lt;T&gt;</a>
-                          </li>
-                          <li class="">
                             <a href="Recore.RelativeUri.html" title="RelativeUri" class="">RelativeUri</a>
                           </li>
                           <li class="">
@@ -248,12 +242,6 @@
                           </li>
                           <li class="">
                             <a href="Recore.Result-2.html" title="Result&lt;TValue, TError&gt;" class="">Result&lt;TValue, TError&gt;</a>
-                          </li>
-                          <li class="">
-                            <a href="Recore.StringExtensions.html" title="StringExtensions" class="">StringExtensions</a>
-                          </li>
-                          <li class="">
-                            <a href="Recore.Token.html" title="Token" class="">Token</a>
                           </li>
                           <li class="">
                             <a href="Recore.Unit.html" title="Unit" class="">Unit</a>
@@ -280,9 +268,6 @@
                             <a href="Recore.Collections.Generic.IIterator-1.html" title="IIterator&lt;T&gt;" class="">IIterator&lt;T&gt;</a>
                           </li>
                           <li class="">
-                            <a href="Recore.Collections.Generic.IReadOnlyDictionaryExtensions.html" title="IReadOnlyDictionaryExtensions" class="">IReadOnlyDictionaryExtensions</a>
-                          </li>
-                          <li class="">
                             <a href="Recore.Collections.Generic.Iterator.html" title="Iterator" class="">Iterator</a>
                           </li>
                           <li class="">
@@ -292,10 +277,10 @@
                             <a href="Recore.Collections.Generic.ListExtensions.html" title="ListExtensions" class="">ListExtensions</a>
                           </li>
                           <li class="">
-                            <a href="Recore.Collections.Generic.MappedComparer-2.html" title="MappedComparer&lt;T, U&gt;" class="">MappedComparer&lt;T, U&gt;</a>
+                            <a href="Recore.Collections.Generic.MappedComparer-2.html" title="MappedComparer&lt;T, TMapped&gt;" class="">MappedComparer&lt;T, TMapped&gt;</a>
                           </li>
                           <li class="">
-                            <a href="Recore.Collections.Generic.MappedEqualityComparer-2.html" title="MappedEqualityComparer&lt;T, U&gt;" class="">MappedEqualityComparer&lt;T, U&gt;</a>
+                            <a href="Recore.Collections.Generic.MappedEqualityComparer-2.html" title="MappedEqualityComparer&lt;T, TMapped&gt;" class="">MappedEqualityComparer&lt;T, TMapped&gt;</a>
                           </li>
                         </ul>  </li>
                     <li class="">
@@ -312,12 +297,6 @@
                       <a href="Recore.Security.Cryptography.html" title="Recore.Security.Cryptography" class="">Recore.Security.Cryptography</a>
                         
                         <ul class="nav level2">
-                          <li class="">
-                            <a href="Recore.Security.Cryptography.Ciphertext.html" title="Ciphertext" class="">Ciphertext</a>
-                          </li>
-                          <li class="">
-                            <a href="Recore.Security.Cryptography.Ciphertext-1.html" title="Ciphertext&lt;THash&gt;" class="">Ciphertext&lt;THash&gt;</a>
-                          </li>
                           <li class="">
                             <a href="Recore.Security.Cryptography.SecureCompare.html" title="SecureCompare" class="">SecureCompare</a>
                           </li>
@@ -362,8 +341,6 @@
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
     <div class="level1"><span class="xref">Of&lt;T&gt;</span></div>
-      <div class="level2"><a class="xref" href="Recore.Security.Cryptography.Ciphertext-1.html">Ciphertext&lt;THash&gt;</a></div>
-      <div class="level2"><a class="xref" href="Recore.Token.html">Token</a></div>
   </div>
   <div classs="implements">
     <h5>Implements</h5>
@@ -422,6 +399,11 @@ class Person
 }
 
 var person = new Person(22, &quot;Alice&quot;, &quot;1 Microsoft Way&quot;); // oops!</code></pre>
+<p>Note: as of C# 9, you can replace many use cases for <a class="xref" href="Recore.Of-1.html">Of&lt;T&gt;</a> with record types:</p>
+<pre><code>record Address(string Value);
+record Name(string Value);</code></pre>
+<p><a class="xref" href="Recore.Of-1.html">Of&lt;T&gt;</a> is not marked with <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.obsoleteattribute">ObsoleteAttribute</a> because records have some limitations that classes do not have.
+Also, <a class="xref" href="Recore.Of-1.html">Of&lt;T&gt;</a> provides easy JSON serialization and implicit conversion to its wrapped type, which records do not provide.</p>
 </div>
   <h5 id="Recore_Of_1_examples"><strong>Examples</strong></h5>
   
@@ -449,10 +431,10 @@ Console.WriteLine(JsonSerializer.Serialize(jsonAddress)); // &quot;1 Microsoft W
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/recorefx/RecoreFX/new/v1.0.0/apiSpec/new?filename=Recore_Of_1_Value.md&amp;value=---%0Auid%3A%20Recore.Of%601.Value%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/recorefx/RecoreFX/new/v2.0.0/apiSpec/new?filename=Recore_Of_1_Value.md&amp;value=---%0Auid%3A%20Recore.Of%601.Value%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/recorefx/RecoreFX/blob/v1.0.0/src/Recore/Of.cs/#L37">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/v2.0.0/src/Recore/Of.cs/#L46">View Source</a>
   </span>
   <a id="Recore_Of_1_Value_" data-uid="Recore.Of`1.Value*"></a>
   <h4 id="Recore_Of_1_Value" data-uid="Recore.Of`1.Value">Value</h4>
@@ -461,7 +443,7 @@ Console.WriteLine(JsonSerializer.Serialize(jsonAddress)); // &quot;1 Microsoft W
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public T Value { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public T Value { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -482,10 +464,10 @@ Console.WriteLine(JsonSerializer.Serialize(jsonAddress)); // &quot;1 Microsoft W
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/recorefx/RecoreFX/new/v1.0.0/apiSpec/new?filename=Recore_Of_1_Equals_Recore_Of__0__.md&amp;value=---%0Auid%3A%20Recore.Of%601.Equals(Recore.Of%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/recorefx/RecoreFX/new/v2.0.0/apiSpec/new?filename=Recore_Of_1_Equals_Recore_Of__0__.md&amp;value=---%0Auid%3A%20Recore.Of%601.Equals(Recore.Of%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/recorefx/RecoreFX/blob/v1.0.0/src/Recore/Of.cs/#L64">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/v2.0.0/src/Recore/Of.cs/#L85">View Source</a>
   </span>
   <a id="Recore_Of_1_Equals_" data-uid="Recore.Of`1.Equals*"></a>
   <h4 id="Recore_Of_1_Equals_Recore_Of__0__" data-uid="Recore.Of`1.Equals(Recore.Of{`0})">Equals(Of&lt;T&gt;)</h4>
@@ -534,10 +516,10 @@ will compare equal to each other if their values are the same type and are equal
 </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/recorefx/RecoreFX/new/v1.0.0/apiSpec/new?filename=Recore_Of_1_Equals_System_Object_.md&amp;value=---%0Auid%3A%20Recore.Of%601.Equals(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/recorefx/RecoreFX/new/v2.0.0/apiSpec/new?filename=Recore_Of_1_Equals_System_Object_.md&amp;value=---%0Auid%3A%20Recore.Of%601.Equals(System.Object)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/recorefx/RecoreFX/blob/v1.0.0/src/Recore/Of.cs/#L54">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/v2.0.0/src/Recore/Of.cs/#L75">View Source</a>
   </span>
   <a id="Recore_Of_1_Equals_" data-uid="Recore.Of`1.Equals*"></a>
   <h4 id="Recore_Of_1_Equals_System_Object_" data-uid="Recore.Of`1.Equals(System.Object)">Equals(Object)</h4>
@@ -584,10 +566,10 @@ will compare equal to each other if their values are the same type and are equal
   <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/recorefx/RecoreFX/new/v1.0.0/apiSpec/new?filename=Recore_Of_1_GetHashCode.md&amp;value=---%0Auid%3A%20Recore.Of%601.GetHashCode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/recorefx/RecoreFX/new/v2.0.0/apiSpec/new?filename=Recore_Of_1_GetHashCode.md&amp;value=---%0Auid%3A%20Recore.Of%601.GetHashCode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/recorefx/RecoreFX/blob/v1.0.0/src/Recore/Of.cs/#L71">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/v2.0.0/src/Recore/Of.cs/#L92">View Source</a>
   </span>
   <a id="Recore_Of_1_GetHashCode_" data-uid="Recore.Of`1.GetHashCode*"></a>
   <h4 id="Recore_Of_1_GetHashCode" data-uid="Recore.Of`1.GetHashCode">GetHashCode()</h4>
@@ -617,10 +599,10 @@ will compare equal to each other if their values are the same type and are equal
   <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a></div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/recorefx/RecoreFX/new/v1.0.0/apiSpec/new?filename=Recore_Of_1_To__1.md&amp;value=---%0Auid%3A%20Recore.Of%601.To%60%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/recorefx/RecoreFX/new/v2.0.0/apiSpec/new?filename=Recore_Of_1_To__1.md&amp;value=---%0Auid%3A%20Recore.Of%601.To%60%601%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/recorefx/RecoreFX/blob/v1.0.0/src/Recore/Of.cs/#L43">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/v2.0.0/src/Recore/Of.cs/#L52">View Source</a>
   </span>
   <a id="Recore_Of_1_To_" data-uid="Recore.Of`1.To*"></a>
   <h4 id="Recore_Of_1_To__1" data-uid="Recore.Of`1.To``1">To&lt;TOf&gt;()</h4>
@@ -665,10 +647,10 @@ with the same value of <code data-dev-comment-type="typeparamref" class="typepar
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/recorefx/RecoreFX/new/v1.0.0/apiSpec/new?filename=Recore_Of_1_ToString.md&amp;value=---%0Auid%3A%20Recore.Of%601.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/recorefx/RecoreFX/new/v2.0.0/apiSpec/new?filename=Recore_Of_1_ToString.md&amp;value=---%0Auid%3A%20Recore.Of%601.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/recorefx/RecoreFX/blob/v1.0.0/src/Recore/Of.cs/#L49">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/v2.0.0/src/Recore/Of.cs/#L59">View Source</a>
   </span>
   <a id="Recore_Of_1_ToString_" data-uid="Recore.Of`1.ToString*"></a>
   <h4 id="Recore_Of_1_ToString" data-uid="Recore.Of`1.ToString">ToString()</h4>
@@ -700,10 +682,10 @@ with the same value of <code data-dev-comment-type="typeparamref" class="typepar
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/recorefx/RecoreFX/new/v1.0.0/apiSpec/new?filename=Recore_Of_1_op_Equality_Recore_Of__0__Recore_Of__0__.md&amp;value=---%0Auid%3A%20Recore.Of%601.op_Equality(Recore.Of%7B%600%7D%2CRecore.Of%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/recorefx/RecoreFX/new/v2.0.0/apiSpec/new?filename=Recore_Of_1_op_Equality_Recore_Of__0__Recore_Of__0__.md&amp;value=---%0Auid%3A%20Recore.Of%601.op_Equality(Recore.Of%7B%600%7D%2CRecore.Of%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/recorefx/RecoreFX/blob/v1.0.0/src/Recore/Of.cs/#L76">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/v2.0.0/src/Recore/Of.cs/#L97">View Source</a>
   </span>
   <a id="Recore_Of_1_op_Equality_" data-uid="Recore.Of`1.op_Equality*"></a>
   <h4 id="Recore_Of_1_op_Equality_Recore_Of__0__Recore_Of__0__" data-uid="Recore.Of`1.op_Equality(Recore.Of{`0},Recore.Of{`0})">Equality(Of&lt;T&gt;, Of&lt;T&gt;)</h4>
@@ -753,10 +735,10 @@ with the same value of <code data-dev-comment-type="typeparamref" class="typepar
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/recorefx/RecoreFX/new/v1.0.0/apiSpec/new?filename=Recore_Of_1_op_Implicit_Recore_Of__0____0.md&amp;value=---%0Auid%3A%20Recore.Of%601.op_Implicit(Recore.Of%7B%600%7D)~%600%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/recorefx/RecoreFX/new/v2.0.0/apiSpec/new?filename=Recore_Of_1_op_Implicit_Recore_Of__0____0.md&amp;value=---%0Auid%3A%20Recore.Of%601.op_Implicit(Recore.Of%7B%600%7D)~%600%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/recorefx/RecoreFX/blob/v1.0.0/src/Recore/Of.cs/#L92">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/v2.0.0/src/Recore/Of.cs/#L113">View Source</a>
   </span>
   <a id="Recore_Of_1_op_Implicit_" data-uid="Recore.Of`1.op_Implicit*"></a>
   <h4 id="Recore_Of_1_op_Implicit_Recore_Of__0____0" data-uid="Recore.Of`1.op_Implicit(Recore.Of{`0})~`0">Implicit(Of&lt;T&gt; to T)</h4>
@@ -805,10 +787,10 @@ This conversion allows instances of <a class="xref" href="Recore.Of-1.html">Of&l
 </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/recorefx/RecoreFX/new/v1.0.0/apiSpec/new?filename=Recore_Of_1_op_Inequality_Recore_Of__0__Recore_Of__0__.md&amp;value=---%0Auid%3A%20Recore.Of%601.op_Inequality(Recore.Of%7B%600%7D%2CRecore.Of%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/recorefx/RecoreFX/new/v2.0.0/apiSpec/new?filename=Recore_Of_1_op_Inequality_Recore_Of__0__Recore_Of__0__.md&amp;value=---%0Auid%3A%20Recore.Of%601.op_Inequality(Recore.Of%7B%600%7D%2CRecore.Of%7B%600%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/recorefx/RecoreFX/blob/v1.0.0/src/Recore/Of.cs/#L82">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/v2.0.0/src/Recore/Of.cs/#L103">View Source</a>
   </span>
   <a id="Recore_Of_1_op_Inequality_" data-uid="Recore.Of`1.op_Inequality*"></a>
   <h4 id="Recore_Of_1_op_Inequality_Recore_Of__0__Recore_Of__0__" data-uid="Recore.Of`1.op_Inequality(Recore.Of{`0},Recore.Of{`0})">Inequality(Of&lt;T&gt;, Of&lt;T&gt;)</h4>
@@ -864,6 +846,12 @@ This conversion allows instances of <a class="xref" href="Recore.Of-1.html">Of&l
   <div>
       <a class="xref" href="Recore.ObjectExtensions.html#Recore_ObjectExtensions_StaticCast__1___0_">ObjectExtensions.StaticCast&lt;T&gt;(T)</a>
   </div>
+  <div>
+      <a class="xref" href="Recore.ObjectExtensions.html#Recore_ObjectExtensions_Apply__2___0_System_Func___0___1__">ObjectExtensions.Apply&lt;T, TResult&gt;(T, Func&lt;T, TResult&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Recore.ObjectExtensions.html#Recore_ObjectExtensions_Apply__1___0_System_Action___0__">ObjectExtensions.Apply&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
 </article>
           </div>
           
@@ -872,10 +860,10 @@ This conversion allows instances of <a class="xref" href="Recore.Of-1.html">Of&l
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/recorefx/RecoreFX/blob/v1.0.0/docs/docfx/overwrite/Recore/Of.md/#L2" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/recorefx/RecoreFX/blob/v2.0.0/docs/docfx/overwrite/Recore/Of.md/#L2" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/recorefx/RecoreFX/blob/v1.0.0/src/Recore/Of.cs/#L31" class="contribution-link">View Source</a>
+                    <a href="https://github.com/recorefx/RecoreFX/blob/v2.0.0/src/Recore/Of.cs/#L40" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>

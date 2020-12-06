@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class IReadOnlyDictionaryExtensions
+    <title>Class AsyncDefer
    | RecoreFX </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class IReadOnlyDictionaryExtensions
+    <meta name="title" content="Class AsyncDefer
    | RecoreFX ">
     <meta name="generator" content="docfx 2.56.2.0">
     
@@ -147,6 +147,9 @@
                           <li class="">
                             <a href="Recore.AsyncAction-2.html" title="AsyncAction&lt;T1, T2&gt;" class="">AsyncAction&lt;T1, T2&gt;</a>
                           </li>
+                          <li class="active">
+                            <a href="Recore.AsyncDefer.html" title="AsyncDefer" class="active">AsyncDefer</a>
+                          </li>
                           <li class="">
                             <a href="Recore.AsyncFunc-2.html" title="AsyncFunc&lt;T, TResult&gt;" class="">AsyncFunc&lt;T, TResult&gt;</a>
                           </li>
@@ -199,9 +202,6 @@
                             <a href="Recore.AsyncFunc-1.html" title="AsyncFunc&lt;TResult&gt;" class="">AsyncFunc&lt;TResult&gt;</a>
                           </li>
                           <li class="">
-                            <a href="Recore.Composer-2.html" title="Composer&lt;TValue, TResult&gt;" class="">Composer&lt;TValue, TResult&gt;</a>
-                          </li>
-                          <li class="">
                             <a href="Recore.Defer.html" title="Defer" class="">Defer</a>
                           </li>
                           <li class="">
@@ -229,12 +229,6 @@
                             <a href="Recore.Optional-1.html" title="Optional&lt;T&gt;" class="">Optional&lt;T&gt;</a>
                           </li>
                           <li class="">
-                            <a href="Recore.Pipeline.html" title="Pipeline" class="">Pipeline</a>
-                          </li>
-                          <li class="">
-                            <a href="Recore.Pipeline-1.html" title="Pipeline&lt;T&gt;" class="">Pipeline&lt;T&gt;</a>
-                          </li>
-                          <li class="">
                             <a href="Recore.RelativeUri.html" title="RelativeUri" class="">RelativeUri</a>
                           </li>
                           <li class="">
@@ -248,12 +242,6 @@
                           </li>
                           <li class="">
                             <a href="Recore.Result-2.html" title="Result&lt;TValue, TError&gt;" class="">Result&lt;TValue, TError&gt;</a>
-                          </li>
-                          <li class="">
-                            <a href="Recore.StringExtensions.html" title="StringExtensions" class="">StringExtensions</a>
-                          </li>
-                          <li class="">
-                            <a href="Recore.Token.html" title="Token" class="">Token</a>
                           </li>
                           <li class="">
                             <a href="Recore.Unit.html" title="Unit" class="">Unit</a>
@@ -279,9 +267,6 @@
                           <li class="">
                             <a href="Recore.Collections.Generic.IIterator-1.html" title="IIterator&lt;T&gt;" class="">IIterator&lt;T&gt;</a>
                           </li>
-                          <li class="active">
-                            <a href="Recore.Collections.Generic.IReadOnlyDictionaryExtensions.html" title="IReadOnlyDictionaryExtensions" class="active">IReadOnlyDictionaryExtensions</a>
-                          </li>
                           <li class="">
                             <a href="Recore.Collections.Generic.Iterator.html" title="Iterator" class="">Iterator</a>
                           </li>
@@ -292,10 +277,10 @@
                             <a href="Recore.Collections.Generic.ListExtensions.html" title="ListExtensions" class="">ListExtensions</a>
                           </li>
                           <li class="">
-                            <a href="Recore.Collections.Generic.MappedComparer-2.html" title="MappedComparer&lt;T, U&gt;" class="">MappedComparer&lt;T, U&gt;</a>
+                            <a href="Recore.Collections.Generic.MappedComparer-2.html" title="MappedComparer&lt;T, TMapped&gt;" class="">MappedComparer&lt;T, TMapped&gt;</a>
                           </li>
                           <li class="">
-                            <a href="Recore.Collections.Generic.MappedEqualityComparer-2.html" title="MappedEqualityComparer&lt;T, U&gt;" class="">MappedEqualityComparer&lt;T, U&gt;</a>
+                            <a href="Recore.Collections.Generic.MappedEqualityComparer-2.html" title="MappedEqualityComparer&lt;T, TMapped&gt;" class="">MappedEqualityComparer&lt;T, TMapped&gt;</a>
                           </li>
                         </ul>  </li>
                     <li class="">
@@ -312,12 +297,6 @@
                       <a href="Recore.Security.Cryptography.html" title="Recore.Security.Cryptography" class="">Recore.Security.Cryptography</a>
                         
                         <ul class="nav level2">
-                          <li class="">
-                            <a href="Recore.Security.Cryptography.Ciphertext.html" title="Ciphertext" class="">Ciphertext</a>
-                          </li>
-                          <li class="">
-                            <a href="Recore.Security.Cryptography.Ciphertext-1.html" title="Ciphertext&lt;THash&gt;" class="">Ciphertext&lt;THash&gt;</a>
-                          </li>
                           <li class="">
                             <a href="Recore.Security.Cryptography.SecureCompare.html" title="SecureCompare" class="">SecureCompare</a>
                           </li>
@@ -350,18 +329,22 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Recore.Collections.Generic.IReadOnlyDictionaryExtensions">
+            <article class="content wrap" id="_content" data-uid="Recore.AsyncDefer">
   
   
-  <h1 id="Recore_Collections_Generic_IReadOnlyDictionaryExtensions" data-uid="Recore.Collections.Generic.IReadOnlyDictionaryExtensions" class="text-break">Class IReadOnlyDictionaryExtensions
+  <h1 id="Recore_AsyncDefer" data-uid="Recore.AsyncDefer" class="text-break">Class AsyncDefer
   </h1>
-  <div class="markdown level0 summary"><p>Provides additional methods for working with <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2">IReadOnlyDictionary&lt;TKey,TValue&gt;</a>.</p>
+  <div class="markdown level0 summary"><p>Invokes an asynchronous action when disposed.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">IReadOnlyDictionaryExtensions</span></div>
+    <div class="level1"><span class="xref">AsyncDefer</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iasyncdisposable">IAsyncDisposable</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -387,52 +370,73 @@
       <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Recore.Collections.Generic.html">Recore.Collections.Generic</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Recore.html">Recore</a></h6>
   <h6><strong>Assembly</strong>: Recore.dll</h6>
-  <h5 id="Recore_Collections_Generic_IReadOnlyDictionaryExtensions_syntax">Syntax</h5>
+  <h5 id="Recore_AsyncDefer_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static class IReadOnlyDictionaryExtensions</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class AsyncDefer : IAsyncDisposable</code></pre>
   </div>
+  <h5 id="Recore_AsyncDefer_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p>Not thread-safe.
+Concurrent calls to dispose the object may result in the action being invoked
+multiple times.
+However, sequential calls to <a class="xref" href="Recore.AsyncDefer.html#Recore_AsyncDefer_DisposeAsync">DisposeAsync()</a> are idempotent.
+If an instance of this type is created and never disposed, the callback will not be called.
+By design, the callback is not called from the finalizer, which would happen non-determinstically.</p>
+</div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/recorefx/RecoreFX/new/v2.0.0/apiSpec/new?filename=Recore_AsyncDefer__ctor_Recore_AsyncAction_.md&amp;value=---%0Auid%3A%20Recore.AsyncDefer.%23ctor(Recore.AsyncAction)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/recorefx/RecoreFX/blob/v2.0.0/src/Recore/Defer.cs/#L69">View Source</a>
+  </span>
+  <a id="Recore_AsyncDefer__ctor_" data-uid="Recore.AsyncDefer.#ctor*"></a>
+  <h4 id="Recore_AsyncDefer__ctor_Recore_AsyncAction_" data-uid="Recore.AsyncDefer.#ctor(Recore.AsyncAction)">AsyncDefer(AsyncAction)</h4>
+  <div class="markdown level1 summary"><p>Initializes an object with an action to invoke when the object is disposed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public AsyncDefer(AsyncAction action)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Recore.AsyncAction.html">AsyncAction</a></td>
+        <td><span class="parametername">action</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="methods">Methods
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/recorefx/RecoreFX/new/v1.0.0/apiSpec/new?filename=Recore_Collections_Generic_IReadOnlyDictionaryExtensions_GetValueOrDefault__2_System_Collections_Generic_IReadOnlyDictionary___0___1____0_.md&amp;value=---%0Auid%3A%20Recore.Collections.Generic.IReadOnlyDictionaryExtensions.GetValueOrDefault%60%602(System.Collections.Generic.IReadOnlyDictionary%7B%60%600%2C%60%601%7D%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/recorefx/RecoreFX/new/v2.0.0/apiSpec/new?filename=Recore_AsyncDefer_DisposeAsync.md&amp;value=---%0Auid%3A%20Recore.AsyncDefer.DisposeAsync%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/recorefx/RecoreFX/blob/v1.0.0/src/Recore.Collections.Generic/IReadOnlyDictionaryExtensions.cs/#L14">View Source</a>
+    <a href="https://github.com/recorefx/RecoreFX/blob/v2.0.0/src/Recore/Defer.cs/#L82">View Source</a>
   </span>
-  <a id="Recore_Collections_Generic_IReadOnlyDictionaryExtensions_GetValueOrDefault_" data-uid="Recore.Collections.Generic.IReadOnlyDictionaryExtensions.GetValueOrDefault*"></a>
-  <h4 id="Recore_Collections_Generic_IReadOnlyDictionaryExtensions_GetValueOrDefault__2_System_Collections_Generic_IReadOnlyDictionary___0___1____0_" data-uid="Recore.Collections.Generic.IReadOnlyDictionaryExtensions.GetValueOrDefault``2(System.Collections.Generic.IReadOnlyDictionary{``0,``1},``0)">GetValueOrDefault&lt;TKey, TValue&gt;(IReadOnlyDictionary&lt;TKey, TValue&gt;, TKey)</h4>
-  <div class="markdown level1 summary"><p>Gets the value that is associated with the specific key or the default value for the type <code data-dev-comment-type="typeparamref" class="typeparamref">TValue</code>.</p>
+  <a id="Recore_AsyncDefer_DisposeAsync_" data-uid="Recore.AsyncDefer.DisposeAsync*"></a>
+  <h4 id="Recore_AsyncDefer_DisposeAsync" data-uid="Recore.AsyncDefer.DisposeAsync">DisposeAsync()</h4>
+  <div class="markdown level1 summary"><p>Invokes the callback registered with the object and marks the object as disposed.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static TValue GetValueOrDefault&lt;TKey, TValue&gt;(this IReadOnlyDictionary&lt;TKey, TValue&gt; dict, TKey key)</code></pre>
+    <pre><code class="lang-csharp hljs">public ValueTask DisposeAsync()</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ireadonlydictionary-2">IReadOnlyDictionary</a>&lt;TKey, TValue&gt;</td>
-        <td><span class="parametername">dict</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">TKey</span></td>
-        <td><span class="parametername">key</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -443,107 +447,25 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">TValue</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.valuetask">ValueTask</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">TKey</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="parametername">TValue</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/recorefx/RecoreFX/new/v1.0.0/apiSpec/new?filename=Recore_Collections_Generic_IReadOnlyDictionaryExtensions_GetValueOrDefault__2_System_Collections_ObjectModel_ReadOnlyDictionary___0___1____0_.md&amp;value=---%0Auid%3A%20Recore.Collections.Generic.IReadOnlyDictionaryExtensions.GetValueOrDefault%60%602(System.Collections.ObjectModel.ReadOnlyDictionary%7B%60%600%2C%60%601%7D%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/recorefx/RecoreFX/blob/v1.0.0/src/Recore.Collections.Generic/IReadOnlyDictionaryExtensions.cs/#L34">View Source</a>
-  </span>
-  <a id="Recore_Collections_Generic_IReadOnlyDictionaryExtensions_GetValueOrDefault_" data-uid="Recore.Collections.Generic.IReadOnlyDictionaryExtensions.GetValueOrDefault*"></a>
-  <h4 id="Recore_Collections_Generic_IReadOnlyDictionaryExtensions_GetValueOrDefault__2_System_Collections_ObjectModel_ReadOnlyDictionary___0___1____0_" data-uid="Recore.Collections.Generic.IReadOnlyDictionaryExtensions.GetValueOrDefault``2(System.Collections.ObjectModel.ReadOnlyDictionary{``0,``1},``0)">GetValueOrDefault&lt;TKey, TValue&gt;(ReadOnlyDictionary&lt;TKey, TValue&gt;, TKey)</h4>
-  <div class="markdown level1 summary"><p>Gets the value that is associated with the specific key or the default value for the type <code data-dev-comment-type="typeparamref" class="typeparamref">TValue</code>.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static TValue GetValueOrDefault&lt;TKey, TValue&gt;(this ReadOnlyDictionary&lt;TKey, TValue&gt; dict, TKey key)</code></pre>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.iasyncdisposable">System.IAsyncDisposable</a>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.objectmodel.readonlydictionary-2">ReadOnlyDictionary</a>&lt;TKey, TValue&gt;</td>
-        <td><span class="parametername">dict</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">TKey</span></td>
-        <td><span class="parametername">key</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">TValue</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="typeParameters">Type Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="parametername">TKey</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="parametername">TValue</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="Recore_Collections_Generic_IReadOnlyDictionaryExtensions_GetValueOrDefault__2_System_Collections_ObjectModel_ReadOnlyDictionary___0___1____0__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>This is duplicated from <a class="xref" href="Recore.Collections.Generic.IReadOnlyDictionaryExtensions.html#Recore_Collections_Generic_IReadOnlyDictionaryExtensions_GetValueOrDefault__2_System_Collections_Generic_IReadOnlyDictionary___0___1____0_">GetValueOrDefault&lt;TKey, TValue&gt;(IReadOnlyDictionary&lt;TKey, TValue&gt;, TKey)</a>
-in order to resolve the compile-time ambiguity between that method and <a class="xref" href="Recore.Collections.Generic.IDictionaryExtensions.html#Recore_Collections_Generic_IDictionaryExtensions_GetValueOrDefault__2_System_Collections_Generic_IDictionary___0___1____0_">GetValueOrDefault&lt;TKey, TValue&gt;(IDictionary&lt;TKey, TValue&gt;, TKey)</a>
-for instances of <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.objectmodel.readonlydictionary-2">ReadOnlyDictionary&lt;TKey,TValue&gt;</a>.</p>
-</div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="Recore.ObjectExtensions.html#Recore_ObjectExtensions_StaticCast__1___0_">ObjectExtensions.StaticCast&lt;T&gt;(T)</a>
+  </div>
+  <div>
+      <a class="xref" href="Recore.ObjectExtensions.html#Recore_ObjectExtensions_Apply__2___0_System_Func___0___1__">ObjectExtensions.Apply&lt;T, TResult&gt;(T, Func&lt;T, TResult&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="Recore.ObjectExtensions.html#Recore_ObjectExtensions_Apply__1___0_System_Action___0__">ObjectExtensions.Apply&lt;T&gt;(T, Action&lt;T&gt;)</a>
+  </div>
 </article>
           </div>
           
@@ -552,10 +474,10 @@ for instances of <a class="xref" href="https://docs.microsoft.com/dotnet/api/sys
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/recorefx/RecoreFX/new/v1.0.0/apiSpec/new?filename=Recore_Collections_Generic_IReadOnlyDictionaryExtensions.md&amp;value=---%0Auid%3A%20Recore.Collections.Generic.IReadOnlyDictionaryExtensions%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/recorefx/RecoreFX/new/v2.0.0/apiSpec/new?filename=Recore_AsyncDefer.md&amp;value=---%0Auid%3A%20Recore.AsyncDefer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
                   </li>
                   <li>
-                    <a href="https://github.com/recorefx/RecoreFX/blob/v1.0.0/src/Recore.Collections.Generic/IReadOnlyDictionaryExtensions.cs/#L9" class="contribution-link">View Source</a>
+                    <a href="https://github.com/recorefx/RecoreFX/blob/v2.0.0/src/Recore/Defer.cs/#L61" class="contribution-link">View Source</a>
                   </li>
                 </ul>
               </div>
